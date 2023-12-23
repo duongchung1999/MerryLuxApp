@@ -11,15 +11,32 @@ namespace HanOpticSens_V1
     internal class ControlHanOptic
     {
 
-        SerialPort sp;
+        static SerialPort sp;
 
-        public string SendHanOpti(string ComPort, string cmd, int Channel, double AddNumber, double Coefficient = 1)
+        public string SendHanOpti(string ComPort, string cmd, int Channel, string AddNumber, double Coefficient = 1)
         {
             string ReturnValue = ResponseHanOpti(ComPort, cmd);
             if (ReturnValue.Contains("False")) return ReturnValue;
             string[] ReturnValues = ReturnValue.Split('=');
             string[] Result = ReturnValues[1].Split(',');
-            double DoubleValue = Math.Round(double.Parse(Result[Channel - 1]) * Coefficient, 2) + AddNumber;
+            string value = Result[Channel - 1];
+            double DoubleValue = double.Parse(Result[Channel - 1]);
+            double DoubleAddNumber = 0;
+            if (AddNumber.Contains('%'))
+            {
+                double.TryParse(AddNumber.Replace("%", ""), out DoubleAddNumber);
+                if (DoubleAddNumber <= 0) DoubleAddNumber = 100;
+                double a = (DoubleAddNumber / 100);
+                double b = Math.Round(DoubleValue * Coefficient, 2);
+                DoubleValue = b * a;
+            }
+            else
+            {
+                double.TryParse(AddNumber, out DoubleAddNumber);
+
+                DoubleValue = Math.Round(DoubleValue * Coefficient, 2) + DoubleAddNumber;
+            }
+
             return DoubleValue.ToString();
         }
         public string ResponseHanOpti(string ComPort, string cmd)

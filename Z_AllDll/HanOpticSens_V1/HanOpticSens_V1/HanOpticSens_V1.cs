@@ -17,16 +17,18 @@ namespace MerryDllFramework
         Dictionary<string, object> Config;
         Dictionary<string, object> OnceConfig = new Dictionary<string, object>();
         ControlHanOptic hanOptic = new ControlHanOptic();
-        double AddNumber;
+        string AddNumber;
 
         public string[] GetDllInfo()
         {
             string dllname = "DLL 名称       ：HanOpticSens_V1";
             string dllfunction = "Dll功能说明 ：光学测试仪器控制";
             string dllHistoryVersion = "历史Dll版本：    ";
-            string dllVersion = "当前Dll版本：22.12.24.0";
+            string dllVersion = "当前Dll版本：23.6.29.0";
             string dllChangeInfo = "Dll改动信息：";
             string dllChangeInfo1 = "22.12.24.0：重构方法 可以上传项目到后台";
+            string dllChangeInfo2 = "23.6.29.0：重构方法增加常规百分比补偿";
+
             string[] info = { dllname, dllfunction,
                 dllHistoryVersion,
                 dllVersion,
@@ -53,23 +55,32 @@ namespace MerryDllFramework
                     case "ColorCoordinateX": return ColorCoordinateX(cmd[2], int.Parse(cmd[3]));
                     case "ColorCoordinateY": return ColorCoordinateY(cmd[2], int.Parse(cmd[3]));
                     #endregion
-
-
+                    case "WhiteWaveLength":
                     case "SwictTargetWhite": return SwictTargetWhite(cmd[2]);
+                    case "WhiteCCT":
                     case "SwictTargetWhiteCCT": return SwictTargetWhiteCCT(cmd[2]);
+                    case "MixtureWaveLength":
                     case "SwictTargetSingleOYC": return SwictTargetSingleOYC(cmd[2]);
+                    case "RGB_WaveLength":
                     case "SwictTargetSingleRGB": return SwictTargetSingleRGB(cmd[2]);
+                    case "RedWaveLength":
                     case "SwictTargetSingleR": return SwictTargetSingleR(cmd[2]);
+                    case "lux":
                     case "r_chromaLux": return r_chromaLux(cmd[2], int.Parse(cmd[3]));
+                    case "X":
                     case "r_chromaX": return r_chromaX(cmd[2], int.Parse(cmd[3]));
+                    case "Y":
                     case "r_chromaY": return r_chromaY(cmd[2], int.Parse(cmd[3]));
+                    case "dowave":
                     case "r_chromaDowave": return r_chromaDowave(cmd[2], int.Parse(cmd[3]));
+                    case "duty":
                     case "r_chromaDuty": return r_chromaDuty(cmd[2], int.Parse(cmd[3]));
+                    case "cct":
                     case "r_chromaCCT": return r_chromaCCT(cmd[2], int.Parse(cmd[3]));
                     case "r_chroma_cd_mm": return r_chroma_cd_mm(cmd[2], int.Parse(cmd[3]), double.Parse(cmd[4]));
 
                 }
-                return "Command Error Fasle";
+                return "Command Error False";
 
             }
 
@@ -98,11 +109,11 @@ namespace MerryDllFramework
             if (OnceConfig.ContainsKey("SN"))
             {
                 string TestID = OnceConfig["TestID"].ToString();
-                double.TryParse(WindowsAPI.GetValue($"{TestID}#HanOpticSens", TestName, ".\\AllDLL\\MenuStrip\\MoreAddDeploy.ini"), out AddNumber);
+                AddNumber = WindowsAPI.GetValue($"{TestID}#HanOpticSens", TestName, ".\\AllDLL\\MenuStrip\\MoreAddDeploy.ini");
             }
             else
             {
-                double.TryParse(WindowsAPI.GetValue("HanOpticSens", $"{TestName}"), out AddNumber);
+                AddNumber = WindowsAPI.GetValue("HanOpticSens", $"{TestName}");
 
             }
             CMD = listCMD.ToArray();
@@ -146,7 +157,7 @@ namespace MerryDllFramework
 
             return hanOptic.SendHanOpti(Port, $":001r_xy{cn}-{cn}\\n", 1, AddNumber);
         }
-            
+
         /// <summary isPublicTestItem="true">
         /// 常规 读取色坐标 Y r_xy
         /// </summary>
@@ -288,7 +299,7 @@ namespace MerryDllFramework
         /// <param name="Channel">通道</param>
         /// <param name="Coefficient">*的比率</param>
         /// <returns></returns>
-        public string r_chroma_cd_mm(string Port, int Channel,double Coefficient)
+        public string r_chroma_cd_mm(string Port, int Channel, double Coefficient)
         {
             string cn = Channel.ToString().PadLeft(2, '0');
             return hanOptic.SendHanOpti(Port, $":001r_chroma{cn}-{cn}\\n", 1, AddNumber, Coefficient);
