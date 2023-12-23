@@ -1,4 +1,5 @@
 ﻿using Common_V1;
+using MerryTestFramework.testitem.Headset;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -18,7 +19,7 @@ using System.Windows.Interop;
 namespace MerryDllFramework
 {
     /// <summary dllName="Common_V1">
-    /// 通用测试类
+    /// 通用测试类 Common_V1
     /// </summary>
     public class MerryDll : IMerryAllDll
     {
@@ -29,13 +30,14 @@ namespace MerryDllFramework
         Dictionary<string, object> OnceConfig = new Dictionary<string, object>();
         Dictionary<string, object> Config;
         _image img = new _image();
+        ButtonTest buttonTest;
         public object Interface(Dictionary<string, object> Config) => this.Config = img.Config = Config;
 
         public string[] GetDllInfo()
         {
             string dllname = "DLL 名称       ：Common_V1";
             string dllfunction = "Dll功能说明 ：弹出窗体，串口调试";
-            string dllVersion = "当前Dll版本：23.11.03.0";
+            string dllVersion = "当前Dll版本：23.12.11.0";
             string dllChangeInfo = "Dll改动信息：";
             string dllChangeInfo1 = "22.11.24：增加启用和禁用USB设备，增加处理电脑字符集不一样导致抓取返回值失败";
             string dllChangeInfo2 = "23.3.24：增加获取虚拟SN入口";
@@ -43,15 +45,9 @@ namespace MerryDllFramework
             string dllChangeInfo4 = "23.8.3.0：修改提示弹框的大小";
             string dllChangeInfo5 = "23.10.25.0：连板模式的弹框优化，分开好位置和确认按键";
             string dllChangeInfo6 = "23.11.01.0：MessageBox优化弹窗，连板模式的窗体显示的时候，程序自动寻找MoreTest界面";
-
-
-
-
             string[] info = { dllname, dllfunction,
                 dllVersion, dllChangeInfo,dllChangeInfo1
             };
-
-
             return info;
         }
         #endregion
@@ -63,21 +59,21 @@ namespace MerryDllFramework
             switch (cmd[1])
             {
                 case "MessageBox": return MessageBox(cmd[2]).ToString();
-
                 case "Sleep": return Sleep(cmd[2]);
-
+                case "Close_Box": return Close_Box(cmd[2]);
                 case "LockSleep": return LockSleep(cmd[2]);
-
                 case "WriteTextSerialPort":
                     return WriteTextSerialPort
                         (OnceConfig.ContainsKey("ComPort") ? (string)OnceConfig["ComPort"] : cmd[2],
                        int.Parse(cmd[3]), cmd[4]);
-
+                case "SerialPort_Write":
+                    return SerialPort_Write
+                        (OnceConfig.ContainsKey("ComPort") ? (string)OnceConfig["ComPort"] : cmd[2],
+                       int.Parse(cmd[3]), cmd[4]);
                 case "WriteHexSerialPort":
                     return WriteHexSerialPort
                         (OnceConfig.ContainsKey("ComPort") ? (string)OnceConfig["ComPort"] : cmd[2],
                        int.Parse(cmd[3]), cmd[4]);
-
                 case "ResponseSerialPort":
                     return ResponseSerialPort
                         (OnceConfig.ContainsKey("ComPort") ? (string)OnceConfig["ComPort"] : cmd[2],
@@ -85,7 +81,6 @@ namespace MerryDllFramework
                 case "PowerFrequency":
                     return PowerFrequency(OnceConfig.ContainsKey("ComPort") ? (string)OnceConfig["ComPort"] : cmd[2],
                      bool.Parse(cmd[3]), bool.Parse(cmd[4]), int.Parse(cmd[5]));
-
                 case "LockItem":
                     return LockItem(cmd[2]);
 
@@ -124,11 +119,8 @@ namespace MerryDllFramework
                     return AwaitThread();
                 default:
                     return "Connend Error False";
-
             }
         }
-
-
         void SplitCMD(object[] Command, out string[] CMD)
         {
             List<string> listCMD = new List<string>();
@@ -156,7 +148,7 @@ namespace MerryDllFramework
         }
 
         /// <summary isPublicTestItem="true">
-        /// 串口下字符串指令
+        /// 串口下字符串指令 SerialPort_WriteLine
         /// </summary>
         /// <param name="PortName">串口号 比如COM1 连扳可填Null 连扳字段ComPort</param>
         /// <param name="Baudrate">波特率 比如9600</param>
@@ -192,6 +184,41 @@ namespace MerryDllFramework
         }
 
         /// <summary isPublicTestItem="true">
+        /// 串口下字符串指令 SerialPort_Write
+        /// </summary>
+        /// <param name="PortName">串口号 比如COM1 连扳可填Null 连扳字段ComPort</param>
+        /// <param name="Baudrate">波特率 比如9600</param>
+        /// <param name="Command"> 指令 可输入\r 或 \n 程序会对应转译</param>
+        /// <returns>info</returns>
+        public string SerialPort_Write(string PortName, int Baudrate, string Command)
+        {
+            using (SerialPort Comport = new SerialPort())
+            {
+                try
+                {
+                    Comport.PortName = PortName;
+                    Comport.BaudRate = Baudrate;
+                    Comport.DataBits = 8;
+                    Comport.Parity = Parity.None;
+                    Comport.StopBits = StopBits.One;
+                    Command = Command.Replace(@"\r", "\r").Replace(@"\n", "\n");
+                    Comport.Open();
+                    Comport.Write(Command);
+                    if (Comport.IsOpen) Comport.Close();
+                    return true.ToString();
+                }
+                catch (Exception ex)
+                {
+                    return $"{PortName} {ex.Message} False";
+                }
+                finally
+                {
+                    Comport.Dispose();
+                }
+            }
+
+        }
+        /// <summary isPublicTestItem="true">
         /// 串口下十六进制指令
         /// </summary>
         /// <param name="PortName">串口号 比如COM1 连扳可填Null 连扳字段ComPort</param>
@@ -217,11 +244,11 @@ namespace MerryDllFramework
                     Comport.Open();
                     Comport.Write(hexCMD.ToArray(), 0, hexCMD.Count);
                     if (Comport.IsOpen) Comport.Close();
-                    return $"{PortName} True";
+                    return true.ToString();
                 }
                 catch (Exception ex)
                 {
-                    return $"{PortName} {ex.Message} Error";
+                    return $"{PortName} {ex.Message} False";
                 }
                 finally
                 {
@@ -472,10 +499,6 @@ namespace MerryDllFramework
             ProcessLog.Clear();
             return Result;
         }
-
-
-
-
         /// <summary isPublicTestItem="true">
         /// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 线程区 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         /// </summary>
@@ -511,10 +534,37 @@ namespace MerryDllFramework
             else
             {
                 Thread.Sleep(I);
-
             }
-
             return "True";
+        }
+        /// <summary isPublicTestItem="true">
+        /// 等待关箱
+        /// </summary>
+        /// <param name="ComPort">PortName</param>
+        /// <returns>True or False</returns>
+        public string Close_Box(string ComPort)
+        {
+            string key = "close\r";
+            string tip = " Vui lòng đóng nắp thùng\n请关箱测试 ";
+            SerialPort serialPort = new SerialPort(ComPort, 9600, Parity.None, 8, StopBits.One);
+            serialPort.Open();
+            byte[] commandBytes = Encoding.ASCII.GetBytes("status\r");
+            serialPort.Write(commandBytes, 0, commandBytes.Length);
+            Thread.Sleep(500);
+            string status = serialPort.ReadExisting();
+            if (status.Contains("close"))
+            {
+                serialPort.Close();
+                return true.ToString();
+            }
+            buttonTest = new ButtonTest();
+            var result = buttonTest.Buttontest(() => {
+               
+                var btnKey = serialPort.ReadExisting();
+                return key.Equals(btnKey);
+            }, tip);
+            serialPort.Close();
+            return result.ToString();
         }
         /// <summary isPublicTestItem="true">
         /// 线程排队延时
@@ -530,7 +580,6 @@ namespace MerryDllFramework
             }
 
         }
-
         /// <summary isPublicTestItem="true">
         /// 项目锁 用于需要排队测试的项目
         /// </summary>
@@ -567,10 +616,7 @@ namespace MerryDllFramework
                 }
             }
             return DicLock[number].AwaitThread(this.OnceConfig);
-
         }
-
-
         /// <summary isPublicTestItem="true">
         /// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 辅助区 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         /// </summary>
@@ -605,10 +651,7 @@ namespace MerryDllFramework
                 default:
                     return $"Save CMD Error {false}";
             }
-
-
         }
-
         /// <summary isPublicTestItem="true">
         /// 获取时间进制21码SN
         /// </summary>

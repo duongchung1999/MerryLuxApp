@@ -330,7 +330,7 @@
         </member>
         <member name="T:MerryDllFramework.MerryDll">
             <summary dllName="Common_V1">
-            通用测试类
+            通用测试类 Common_V1
             </summary>
         </member>
         <member name="M:MerryDllFramework.MerryDll.Cut_OffRule____">
@@ -341,7 +341,16 @@
         </member>
         <member name="M:MerryDllFramework.MerryDll.WriteTextSerialPort(System.String,System.Int32,System.String)">
             <summary isPublicTestItem="true">
-            串口下字符串指令
+            串口下字符串指令 SerialPort_WriteLine
+            </summary>
+            <param name="PortName">串口号 比如COM1 连扳可填Null 连扳字段ComPort</param>
+            <param name="Baudrate">波特率 比如9600</param>
+            <param name="Command"> 指令 可输入\r 或 \n 程序会对应转译</param>
+            <returns>info</returns>
+        </member>
+        <member name="M:MerryDllFramework.MerryDll.SerialPort_Write(System.String,System.Int32,System.String)">
+            <summary isPublicTestItem="true">
+            串口下字符串指令 SerialPort_Write
             </summary>
             <param name="PortName">串口号 比如COM1 连扳可填Null 连扳字段ComPort</param>
             <param name="Baudrate">波特率 比如9600</param>
@@ -420,6 +429,13 @@
             </summary>
             <param name="millisecond">毫秒 千分之一秒</param>
             <returns> True </returns>
+        </member>
+        <member name="M:MerryDllFramework.MerryDll.Close_Box(System.String)">
+            <summary isPublicTestItem="true">
+            等待关箱
+            </summary>
+            <param name="ComPort">PortName</param>
+            <returns>True or False</returns>
         </member>
         <member name="M:MerryDllFramework.MerryDll.LockSleep(System.String)">
             <summary isPublicTestItem="true">

@@ -36,3 +36,17 @@ E:\2. MEVNSW\1_SourceCode\8_MerryApplication\MECH\MerryTest 2023.07.15\Z_AllDll\
 E:\2. MEVNSW\1_SourceCode\8_MerryApplication\MECH\MerryTest 2023.07.15\Z_AllDll\Common_V1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
 E:\2. MEVNSW\1_SourceCode\8_MerryApplication\MECH\MerryTest 2023.07.15\Z_AllDll\Common_V1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
 E:\2. MEVNSW\1_SourceCode\8_MerryApplication\MECH\MerryTest 2023.07.15\Z_AllDll\Common_V1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+D:\Fuzhang\DU AN\COMMON_V1\Common_V1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\Fuzhang\DU AN\COMMON_V1\Common_V1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+D:\Fuzhang\DU AN\COMMON_V1\Common_V1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+D:\Fuzhang\DU AN\COMMON_V1\Common_V1\ConsoleApp1\bin\Debug\Common_V1.dll
+D:\Fuzhang\DU AN\COMMON_V1\Common_V1\ConsoleApp1\bin\Debug\MySql.Data.dll
+D:\Fuzhang\DU AN\COMMON_V1\Common_V1\ConsoleApp1\bin\Debug\SWDevelopKit_v250-rc.dll
+D:\Fuzhang\DU AN\COMMON_V1\Common_V1\ConsoleApp1\bin\Debug\Common_V1.pdb
+D:\Fuzhang\DU AN\COMMON_V1\Common_V1\ConsoleApp1\bin\Debug\Common_V1.xml
+D:\Fuzhang\DU AN\COMMON_V1\Common_V1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+D:\Fuzhang\DU AN\COMMON_V1\Common_V1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.SuggestedBindingRedirects.cache
+D:\Fuzhang\DU AN\COMMON_V1\Common_V1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\Fuzhang\DU AN\COMMON_V1\Common_V1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
+D:\Fuzhang\DU AN\COMMON_V1\Common_V1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\Fuzhang\DU AN\COMMON_V1\Common_V1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

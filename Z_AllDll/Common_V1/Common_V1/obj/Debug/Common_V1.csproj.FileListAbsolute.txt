@@ -35,3 +35,29 @@ E:\2. MEVNSW\1_SourceCode\8_MerryApplication\MECH\MerryTest 2023.07.15\Z_AllDll\
 E:\2. MEVNSW\1_SourceCode\8_MerryApplication\MECH\MerryTest 2023.07.15\Z_AllDll\Common_V1\Common_V1\obj\Debug\Common_V1.pdb
 E:\2. MEVNSW\1_SourceCode\8_MerryApplication\MECH\MerryTest 2023.07.15\Z_AllDll\Common_V1\Common_V1\bin\Debug\System.Memory.dll
 E:\2. MEVNSW\1_SourceCode\8_MerryApplication\MECH\MerryTest 2023.07.15\Z_AllDll\Common_V1\Common_V1\obj\Debug\Common_V1.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\New folder\New folder\Common_V1\Common_V1\obj\Debug\Common_V1.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\New folder\New folder\Common_V1\Common_V1\obj\Debug\Common_V1.Box.resources
+C:\Users\Administrator\Desktop\New folder\New folder\Common_V1\Common_V1\obj\Debug\Common_V1.MessageBoxs.resources
+C:\Users\Administrator\Desktop\New folder\New folder\Common_V1\Common_V1\obj\Debug\Common_V1.ProgressBars.resources
+C:\Users\Administrator\Desktop\New folder\New folder\Common_V1\Common_V1\obj\Debug\Common_V1.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\New folder\New folder\Common_V1\Common_V1\obj\Debug\Common_V1.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\New folder\New folder\Common_V1\Common_V1\obj\Debug\Common_V1.dll
+C:\Users\Administrator\Desktop\New folder\New folder\Common_V1\Common_V1\obj\Debug\Common_V1.pdb
+C:\Users\Administrator\Desktop\New folder\New folder\Common_V1\Common_V1\bin\Debug\Common_V1.xml
+C:\Users\Administrator\Desktop\New folder\New folder\Common_V1\Common_V1\bin\Debug\Common_V1.dll
+C:\Users\Administrator\Desktop\New folder\New folder\Common_V1\Common_V1\bin\Debug\Common_V1.pdb
+C:\Users\Administrator\Desktop\New folder\New folder\Common_V1\Common_V1\bin\Debug\SWDevelopKit_v250-rc.dll
+C:\Users\Administrator\Desktop\New folder\New folder\Common_V1\Common_V1\obj\Debug\Common_V1.csproj.CopyComplete
+D:\Fuzhang\DU AN\COMMON_V1\Common_V1\Common_V1\bin\Debug\Common_V1.xml
+D:\Fuzhang\DU AN\COMMON_V1\Common_V1\Common_V1\bin\Debug\Common_V1.dll
+D:\Fuzhang\DU AN\COMMON_V1\Common_V1\Common_V1\bin\Debug\Common_V1.pdb
+D:\Fuzhang\DU AN\COMMON_V1\Common_V1\Common_V1\obj\Debug\Common_V1.csproj.AssemblyReference.cache
+D:\Fuzhang\DU AN\COMMON_V1\Common_V1\Common_V1\obj\Debug\Common_V1.Box.resources
+D:\Fuzhang\DU AN\COMMON_V1\Common_V1\Common_V1\obj\Debug\Common_V1.MessageBoxs.resources
+D:\Fuzhang\DU AN\COMMON_V1\Common_V1\Common_V1\obj\Debug\Common_V1.ProgressBars.resources
+D:\Fuzhang\DU AN\COMMON_V1\Common_V1\Common_V1\obj\Debug\Common_V1.csproj.GenerateResource.cache
+D:\Fuzhang\DU AN\COMMON_V1\Common_V1\Common_V1\obj\Debug\Common_V1.csproj.CoreCompileInputs.cache
+D:\Fuzhang\DU AN\COMMON_V1\Common_V1\Common_V1\obj\Debug\Common_V1.csproj.CopyComplete
+D:\Fuzhang\DU AN\COMMON_V1\Common_V1\Common_V1\obj\Debug\Common_V1.dll
+D:\Fuzhang\DU AN\COMMON_V1\Common_V1\Common_V1\obj\Debug\Common_V1.pdb
+D:\Fuzhang\DU AN\COMMON_V1\Common_V1\Common_V1\obj\Debug\MerryTestFramework.testitem.Forms.ProgressBars1.resources
