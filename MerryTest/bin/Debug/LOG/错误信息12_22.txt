@@ -1,0 +1,24 @@
+﻿12/22/2023 10:17:46 AM
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at HanOpticSens_V1.ControlHanOptic.SendHanOpti(String ComPort, String cmd, Int32 Channel, Double AddNumber, Double Coefficient)
+   at MerryDllFramework.MerryDll.r_chromaLux(String Port, Int32 Channel)
+   at MerryDllFramework.MerryDll.Run(Object[] Command)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at MerryTest.SingleTestAPI.API.AllDLL.CallMethod(String TKey, String method, Object[] parameter, Boolean& isError, String& error) in E:\2. MEVNSW\1_SourceCode\8_MerryApplication\MECH\MerryAppGithub\MerryTest\SingleTestAPI\AllDLL.cs:line 157
+HanOpticSens_V1|Run
+12/22/2023 10:22:38 AM
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at HanOpticSens_V1.ControlHanOptic.SendHanOpti(String ComPort, String cmd, Int32 Channel, Double AddNumber, Double Coefficient)
+   at MerryDllFramework.MerryDll.r_chromaLux(String Port, Int32 Channel)
+   at MerryDllFramework.MerryDll.Run(Object[] Command)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at MerryTest.SingleTestAPI.API.AllDLL.CallMethod(String TKey, String method, Object[] parameter, Boolean& isError, String& error) in E:\2. MEVNSW\1_SourceCode\8_MerryApplication\MECH\MerryAppGithub\MerryTest\SingleTestAPI\AllDLL.cs:line 157
+HanOpticSens_V1|Run

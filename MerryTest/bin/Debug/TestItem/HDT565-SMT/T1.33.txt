@@ -1,0 +1,25 @@
+﻿0,-2s,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=2000
+0,-Close,N/A,N/A,N/A,6,dllname=Common_V1&method=WriteTextSerialPort&串口=COM1&Baudrate=9600&CMD=CLOSE
+0,-2s,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=2000
+0,-2s,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=2000
+1,检查 Headset Slave Flag 2,N/A,2,3,2,ReadHeadsetSlaveFlag
+2,检查 Headset Slave PCBA SN,N/A,N/A,N/A,3,Headset_Check_Slave_PCBSN
+0,-1S,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=1000
+3,读取 Slave Crystal Trim,N/A,N/A,N/A,3,ReadSlaveCrystalTrim
+4,Headset Slave 进入 DUT 模式,N/A,N/A,N/A,3,SlaveEnterDUT
+5,DUT Test,N/A,N/A,N/A,6,dllname=RT550_V1&method=DUT_Test&ConnectSleepTime=1&TimeOut=16&TXP=-40&ExtraLoss=0&ManualFlag=False
+0,-+Headset Slave 退出 DUT 模式,N/A,N/A,N/A,3,SlaveExitDUT
+6,Headset Out Put Power 2402,dBm,11,15,5,dllname=RT550_V1&method=DUT_Out_Put_Power_Low
+7,Headset Out Put Power 2440,dBm,11,15,5,dllname=RT550_V1&method=DUT_Out_Put_Power_Middle
+8,Headset Out Put Power 2480,dBm,11,15,5,dllname=RT550_V1&method=DUT_Out_Put_Power_High
+9,Headset Carrier Drift 2440,kHz,-40,40,5,dllname=RT550_V1&method=DUT_Carrier_Drift_Middle
+10,Headset Sensitivity 2440,%,0,0.1,5,dllname=RT550_V1&method=DUT_Sensitivity_Middle
+11,Headset  Modulation Index 2440,kHz,140,175,5,dllname=RT550_V1&method=DUT_Optional_Modulation_Index_Middle&index=F2_Average&units=/1000_Khz
+0,-2s,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=2000
+0,-2s,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=2000
+12,写 Headset Slave Flag 3,N/A,N/A,N/A,3,WriteHeadsetSlaveFlag-3
+13,检查 Headset Slave Flag 3,N/A,3,3,2,ReadHeadsetSlaveFlag
+0,-USBComPort_1,N/A,N/A,N/A,3,USBComPort_1-COM14
+0,-1S,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=1000
+0,+-USBComPort_0,N/A,N/A,N/A,3,USBComPort_0-COM14
+0,-+OPEN,N/A,N/A,N/A,6,dllname=Common&method=send_read&串口=COM1&写入字符串=OPEN

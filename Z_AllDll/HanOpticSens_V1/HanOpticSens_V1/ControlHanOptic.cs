@@ -21,6 +21,7 @@ namespace HanOpticSens_V1
             string[] Result = ReturnValues[1].Split(',');
             string value = Result[Channel - 1];
             double DoubleValue = double.Parse(Result[Channel - 1]);
+            //double DoubleValue = 5;
             double DoubleAddNumber = 0;
             if (AddNumber.Contains('%'))
             {

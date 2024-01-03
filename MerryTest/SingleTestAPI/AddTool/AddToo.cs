@@ -7,6 +7,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using static MerryTest.SingleTestAPI.SingleTestAddTool.INIOperationClass;
 
 namespace MerryTest.SingleTestAPI.SingleTestAddTool
@@ -51,7 +52,17 @@ namespace MerryTest.SingleTestAPI.SingleTestAddTool
             //根据测试项目读取已经存在的值跟键
             foreach (var item in testitem)
             {
-                
+                bool flag = false;
+                foreach (var item2 in addvalue)
+                {
+                    var a2 = item2.ToString().Split('[', '&')[1];
+                    if (item2.ToString().Contains(item[1]))
+                    {
+                       flag = true;
+                        break;
+                    }
+                }
+                if (flag) continue;
                 if (item[6].Contains(SectionN9320b))
                 {
                     writekey.Add($"{item[1]}&{SectionN9320b}");
@@ -71,6 +82,7 @@ namespace MerryTest.SingleTestAPI.SingleTestAddTool
                 {
                     writekey.Add($"{item[1]}&{SectionRT550}");
                     if (!key.Contains(item[1])) continue;
+                    var a1 = INIGetStringValue(_path, SectionRT550, item[1], "");
                     addvalue.Add($"{item[1]}&{SectionRT550}", INIGetStringValue(_path, SectionRT550, item[1], ""));
                 }
 

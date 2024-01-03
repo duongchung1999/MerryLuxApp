@@ -1,0 +1,18 @@
+﻿1,检查 Headset Master Flag 2,N/A,2,3,2,ReadHeadsetMasterFlag
+2,检查Headset Master FW 版本,N/A,0.3.14,0.3.14,3,GetMasterFW
+3,检查 Headset Master PCBA SN,N/A,N/A,N/A,3,Headset_Check_Master_PCBSN
+4,读取 Master Crystal Trim,N/A,N/A,N/A,3,ReadMasterCrystalTrim
+5,Headset Master 进入 DUT 模式,N/A,N/A,N/A,3,MasterEnterDUT
+6,DUT Test,N/A,N/A,N/A,6,dllname=RT550_V1&method=DUT_Test&ConnectSleepTime=1&TimeOut=16&TXP=-40&ExtraLoss=0&ManualFlag=False
+0,-+Headset Master 退出 DUT 模式,N/A,N/A,N/A,3,MasterExitDUT
+7,Headset Out Put Power 2402,dBm,11,15,5,dllname=RT550_V1&method=DUT_Out_Put_Power_Low
+8,Headset Out Put Power 2440,dBm,11,15,5,dllname=RT550_V1&method=DUT_Out_Put_Power_Middle
+9,Headset Out Put Power 2480,dBm,11,15,5,dllname=RT550_V1&method=DUT_Out_Put_Power_High
+10,Headset Carrier Drift 2440,kHz,-40,40,5,dllname=RT550_V1&method=DUT_Carrier_Drift_Middle
+11,Headset Sensitivity 2440,%,0,0.1,5,dllname=RT550_V1&method=DUT_Sensitivity_Middle
+12,Headset  Modulation Index 2440,kHz,140,175,5,dllname=RT550_V1&method=DUT_Optional_Modulation_Index_Middle&index=F2_Average&units=/1000_Khz
+0,-2s,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=2000
+13,写 Headset Master Flag 3,N/A,N/A,N/A,3,WriteHeadsetMasterFlag-3
+0,-2s,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=2000
+14,检查 Headset Master Flag 3,N/A,3,3,2,ReadHeadsetMasterFlag
+0,-+OPEN,N/A,N/A,N/A,6,dllname=Common&method=send_read&串口=COM1&写入字符串=OPEN

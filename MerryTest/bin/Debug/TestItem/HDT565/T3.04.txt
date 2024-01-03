@@ -1,0 +1,43 @@
+﻿1,检查 Headset Master Flag 5,N/A,3,11,2,ReadHeadsetMasterFlag
+2,检查耳机右耳 SN,N/A,N/A,N/A,3,Headset_Check_Master_SN
+3,写 Headset Master BD,N/A,N/A,N/A,3,Headset_Master_Write_Time_BD
+4,Get MES BD,N/A,N/A,N/A,6,dllname=MES&method=AllotMasterBDAddress
+5,写 Headset Slave BD From MES,N/A,N/A,N/A,3,Headset_Slave_Write_BD
+0,-ATTOUSBHIDMode,N/A,N/A,N/A,3,ATTOUSBHIDMode
+0,-StandBy,N/A,N/A,N/A,3,StandBy
+0,-1S,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=1000
+6,Headset Master 进入 DUT 模式,N/A,N/A,N/A,3,MasterEnterDUT
+0,-4s,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=4000
+7,检查 Headset Slave BD,N/A,N/A,N/A,3,Headset_Slave_Check_BD
+8,读 Headset Master BD,N/A,N/A,N/A,3,Headset_Master_Read_BD
+9,DUT Test,N/A,N/A,N/A,6,dllname=RT550_V1&method=DUT_Test&ConnectSleepTime=1&TimeOut=16&TXP=-40&ExtraLoss=0&ManualFlag=True
+0,-+Headset Master 退出 DUT 模式,N/A,N/A,N/A,3,MasterExitDUT
+10,Headset R OutPut Power 2402,dB,7,15,5,dllname=RT550_V1&method=DUT_Out_Put_Power_Low
+11,Headset R Out Put Power 2440,dB,7,15,5,dllname=RT550_V1&method=DUT_Out_Put_Power_Middle
+12,Headset R Out Put Power 2480,dB,7,15,5,dllname=RT550_V1&method=DUT_Out_Put_Power_High
+13,Headset R Sensitivity 2440,%,0,0.1,5,dllname=RT550_V1&method=DUT_Sensitivity_Middle
+14,Headset R Carrier Drift 2440,kHz,-40,40,5,dllname=RT550_V1&method=DUT_Carrier_Drift_Middle
+15,Headset R Modulation Index 2440,,0.8,>,5,dllname=RT550_V1&method=DUT_Optional_Modulation_Index_Middle&index=F2_Avg/Flavg&units=default
+0,-2s,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=2000
+16,启动 BT,N/A,N/A,N/A,3,StartBT
+0,-1S,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=1000
+17,Headset Slave 进入 DUT 模式,N/A,N/A,N/A,3,SlaveEnterDUT
+0,-4s,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=4000
+18,启动 BT,N/A,N/A,N/A,3,StartBT
+19,读 Headset Slave BD,N/A,N/A,N/A,3,Headset_Slave_Read_BD
+0,-1S,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=1000
+0,-2s,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=2000
+20,DUT Test,N/A,N/A,N/A,6,dllname=RT550_V1&method=DUT_Test&ConnectSleepTime=1&TimeOut=16&TXP=-40&ExtraLoss=0&ManualFlag=True
+0,-+Headset Slave 退出 DUT 模式,N/A,N/A,N/A,3,SlaveExitDUT
+0,-4s,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=4000
+21,Headset L Out Put Power 2402,dB,7,15,5,dllname=RT550_V1&method=DUT_Out_Put_Power_Low
+22,Headset L Out Put Power 2440,dB,7,15,5,dllname=RT550_V1&method=DUT_Out_Put_Power_Middle
+23,Headset L Out Put Power 2480,dB,7,15,5,dllname=RT550_V1&method=DUT_Out_Put_Power_High
+24,Headset L Sensitivity 2440,%,0,0.1,5,dllname=RT550_V1&method=DUT_Sensitivity_Middle
+25,Headset L Carrier Drift 2440,kHz,-40,40,5,dllname=RT550_V1&method=DUT_Carrier_Drift_Middle
+26,Headset L Modulation Index 2440,,0.8,>,5,dllname=RT550_V1&method=DUT_Optional_Modulation_Index_Middle&index=F2_Avg/Flavg&units=default
+0,-1S,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=1000
+27,写 Headset Master Flag 6,N/A,N/A,N/A,3,WriteHeadsetMasterFlag-6
+28,检查 Headset Master Flag 6,N/A,6,11,2,ReadHeadsetMasterFlag
+29,+Headset Master Factory Reset,N/A,N/A,N/A,3,HeadsetMasterFactoryReset
+0,-+开箱,N/A,N/A,N/A,6,dllname=Common_V1&method=WriteTextSerialPort&PortName=COM1&Baudrate=9600&Command=open1

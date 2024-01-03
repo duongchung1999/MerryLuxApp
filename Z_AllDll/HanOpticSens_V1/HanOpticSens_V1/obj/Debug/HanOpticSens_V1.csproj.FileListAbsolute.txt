@@ -15,7 +15,7 @@ D:\Data\repos\MerryTest\Z_AllDll\HanOpticSens_V1\HanOpticSens_V1\obj\Debug\HanOp
 E:\2. MEVNSW\1_SourceCode\8_MerryApplication\MECH\MerryAppGithub\Z_AllDll\HanOpticSens_V1\HanOpticSens_V1\bin\Debug\HanOpticSens_V1.xml
 E:\2. MEVNSW\1_SourceCode\8_MerryApplication\MECH\MerryAppGithub\Z_AllDll\HanOpticSens_V1\HanOpticSens_V1\bin\Debug\HanOpticSens_V1.dll
 E:\2. MEVNSW\1_SourceCode\8_MerryApplication\MECH\MerryAppGithub\Z_AllDll\HanOpticSens_V1\HanOpticSens_V1\bin\Debug\HanOpticSens_V1.pdb
-E:\2. MEVNSW\1_SourceCode\8_MerryApplication\MECH\MerryAppGithub\Z_AllDll\HanOpticSens_V1\HanOpticSens_V1\obj\Debug\HanOpticSens_V1.csproj.AssemblyReference.cache
 E:\2. MEVNSW\1_SourceCode\8_MerryApplication\MECH\MerryAppGithub\Z_AllDll\HanOpticSens_V1\HanOpticSens_V1\obj\Debug\HanOpticSens_V1.csproj.CoreCompileInputs.cache
 E:\2. MEVNSW\1_SourceCode\8_MerryApplication\MECH\MerryAppGithub\Z_AllDll\HanOpticSens_V1\HanOpticSens_V1\obj\Debug\HanOpticSens_V1.dll
 E:\2. MEVNSW\1_SourceCode\8_MerryApplication\MECH\MerryAppGithub\Z_AllDll\HanOpticSens_V1\HanOpticSens_V1\obj\Debug\HanOpticSens_V1.pdb
+E:\2. MEVNSW\1_SourceCode\8_MerryApplication\MECH\MerryAppGithub\Z_AllDll\HanOpticSens_V1\HanOpticSens_V1\obj\Debug\HanOpticSens_V1.csproj.AssemblyReference.cache

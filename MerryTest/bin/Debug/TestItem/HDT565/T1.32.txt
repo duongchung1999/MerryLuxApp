@@ -1,0 +1,91 @@
+﻿0,-切换500mA档,N/A,N/A,N/A,6,dllname=_8342_V1&method=A_DC&NewRange=0.5&Count=1
+0,-1S,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=1000
+1,power  on current LMB|6000|5.7.9,mA,5,35,5,dllname=_8342_V1&method=A_DC&NewRange=0.5&Count=1
+0,-1S,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=1000
+2,off mode current LMB|6000|5.7,uA,80,160,5,dllname=_8342_V1&method=A_DC&NewRange=0.0005&Count=1
+0,-LMB连接USB,N/A,N/A,N/A,6,dllname=Switch&继电器跳转=1.8.9
+0,-2s,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=2000
+0,-2s,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=2000
+3,检查 Headset Slave FW,N/A,0.3.14,0.3.14,3,GetSlaveFW
+4,写 Headset Slave PCBA SN,N/A,N/A,N/A,3,Headset_Write_Slave_PCBSN
+5,检查 Headset Slave PCBA SN,N/A,N/A,N/A,3,Headset_Check_Slave_PCBSN
+6,BOOM LED R TP420 LMB|1000|1.8.9.6.16,V,2.7,3,5,dllname=_8342_V1&method=V_DC&NewRange=5&Count=1
+7,BOOM  LED G TP419 LMB|1000|1.8.9.6.17,V,2.15,2.45,5,dllname=_8342_V1&method=V_DC&NewRange=5&Count=1
+8,BOOM LED B TP418 LMB|1000|1.8.9.6.18,V,2,2.3,5,dllname=_8342_V1&method=V_DC&NewRange=5&Count=1
+9,BOOM LED W TP421 LMB|1000|1.8.9.6.19,V,2.7,3,5,dllname=_8342_V1&method=V_DC&NewRange=5&Count=1
+10,开 Headset 红色 LED,N/A,N/A,N/A,3,HeadsetREDLEDOpen
+0,-2s,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=2000
+11,R LED 1 Lux,N/A,N/A,N/A,6,dllname=HanOpticSens_V1&method=r_chromaLux&Port=COM16&Channel=1
+12,R LED 2 Lux,N/A,N/A,N/A,6,dllname=HanOpticSens_V1&method=r_chromaLux&Port=COM16&Channel=2
+13,R LED 3 Lux,N/A,N/A,N/A,6,dllname=HanOpticSens_V1&method=r_chromaLux&Port=COM16&Channel=3
+14,R LED 4 Lux,N/A,N/A,N/A,6,dllname=HanOpticSens_V1&method=r_chromaLux&Port=COM16&Channel=4
+15,R LED 5 Lux,N/A,N/A,N/A,6,dllname=HanOpticSens_V1&method=r_chromaLux&Port=COM16&Channel=5
+16,R LED 6 Lux,N/A,N/A,N/A,6,dllname=HanOpticSens_V1&method=r_chromaLux&Port=COM16&Channel=6
+0,-1S,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=1000
+17,开 Headset 绿色 LED,N/A,N/A,N/A,3,HeadsetGreenLEDOpen
+0,-2s,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=2000
+18,G LED 1 Lux,N/A,N/A,N/A,6,dllname=HanOpticSens_V1&method=r_chromaLux&Port=COM16&Channel=1
+19,G LED 2 Lux,N/A,N/A,N/A,6,dllname=HanOpticSens_V1&method=r_chromaLux&Port=COM16&Channel=2
+20,G LED 3 Lux,N/A,N/A,N/A,6,dllname=HanOpticSens_V1&method=r_chromaLux&Port=COM16&Channel=3
+21,G LED 4 Lux,N/A,N/A,N/A,6,dllname=HanOpticSens_V1&method=r_chromaLux&Port=COM16&Channel=4
+22,G LED 5 Lux,N/A,N/A,N/A,6,dllname=HanOpticSens_V1&method=r_chromaLux&Port=COM16&Channel=5
+23,G LED 6 Lux,N/A,N/A,N/A,6,dllname=HanOpticSens_V1&method=r_chromaLux&Port=COM16&Channel=6
+0,-1S,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=1000
+24,开 Headset 蓝色 LED,N/A,N/A,N/A,3,HeadsetBlueLEDOpen
+0,-2s,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=2000
+25,B LED 1 Lux,N/A,N/A,N/A,6,dllname=HanOpticSens_V1&method=r_chromaLux&Port=COM16&Channel=1
+26,B LED 2 Lux,N/A,N/A,N/A,6,dllname=HanOpticSens_V1&method=r_chromaLux&Port=COM16&Channel=2
+27,B LED 3 Lux,N/A,N/A,N/A,6,dllname=HanOpticSens_V1&method=r_chromaLux&Port=COM16&Channel=3
+28,B LED 4 Lux,N/A,N/A,N/A,6,dllname=HanOpticSens_V1&method=r_chromaLux&Port=COM16&Channel=4
+29,B LED 5 Lux,N/A,N/A,N/A,6,dllname=HanOpticSens_V1&method=r_chromaLux&Port=COM16&Channel=5
+30,B LED 6 Lux,N/A,N/A,N/A,6,dllname=HanOpticSens_V1&method=r_chromaLux&Port=COM16&Channel=6
+0,-1S,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=1000
+31,开 Headset 白色 LED,N/A,N/A,N/A,3,HeadsetWhiteLEDOpen
+0,-2s,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=2000
+32,W LED 1 Lux,N/A,N/A,N/A,6,dllname=HanOpticSens_V1&method=r_chromaLux&Port=COM16&Channel=1
+33,W LED 2 Lux,N/A,N/A,N/A,6,dllname=HanOpticSens_V1&method=r_chromaLux&Port=COM16&Channel=2
+34,W LED 3 Lux,N/A,N/A,N/A,6,dllname=HanOpticSens_V1&method=r_chromaLux&Port=COM16&Channel=3
+35,W LED 4 Lux,N/A,N/A,N/A,6,dllname=HanOpticSens_V1&method=r_chromaLux&Port=COM16&Channel=4
+36,W LED 5 Lux,N/A,N/A,N/A,6,dllname=HanOpticSens_V1&method=r_chromaLux&Port=COM16&Channel=5
+37,W LED 6 Lux,N/A,N/A,N/A,6,dllname=HanOpticSens_V1&method=r_chromaLux&Port=COM16&Channel=6
+0,-1S,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=1000
+0,-打开 Slave Boom Loopback,N/A,N/A,N/A,3,SlaveBoomLoopback
+38,MISBIAS0 TP403 LMB|1000|1.8.9.6.27,V,-0.1,2.8,5,dllname=_8342_V1&method=V_DC&NewRange=5&Count=1
+39,MICBIAS1 TP405 LMB|1000|1.8.9.6.28,V,-0.1,2.8,5,dllname=_8342_V1&method=V_DC&NewRange=5&Count=1
+40,MISBIAS2 TP232 LMB|1000|1.8.9.6.31,V,-0.1,2.8,5,dllname=_8342_V1&method=V_DC&NewRange=5&Count=1
+0,-+关闭 Slave Loopback,N/A,N/A,N/A,3,SlaveCloseLoopback
+0,-LMB 跳Switch2 6.7.8.9,N/A,N/A,N/A,6,dllname=Switch&method继电器跳转=6.7.8.9&继电器编号=2
+0,-2s,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=2000
+41,VDC TP231 LMB|1000|6.12,V,4.75,5.25,5,dllname=_8342_V1&method=V_DC&NewRange=5&Count=1
+42,继电器2 复位,N/A,N/A,N/A,6,dllname=Switch&method继电器跳转=0&继电器编号=2
+0,-+LMB RESET SW|500|0,N/A,N/A,N/A,6,dllname=Switch&继电器跳转=0&继电器编号=2
+0,-1S,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=1000
+0,-LMB 连接VBAT,N/A,N/A,N/A,6,dllname=Switch&继电器跳转=8.9
+0,-3s,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=3000
+43,VSYS L TP202 LMB|1000|8.9.6.11,V,3.7,3.9,5,dllname=_8342_V1&method=V_DC&NewRange=5&Count=1
+44,REGEN TP201 LMB|1000|8.9.6.13,V,3.7,3.9,5,dllname=_8342_V1&method=V_DC&NewRange=5&Count=1
+45,SYSRSTB TP204 LMB|1000|8.9.6.14,V,1.62,1.98,5,dllname=_8342_V1&method=V_DC&NewRange=5&Count=1
+46,VDD31 TP212 LMB|1000|8.9.6.15,V,3,3.3,5,dllname=_8342_V1&method=V_DC&NewRange=5&Count=1
+0,-+LMB RESET SW|500|0,N/A,N/A,N/A,6,dllname=Switch&继电器跳转=0&继电器编号=2
+0,-LMB连接USB,N/A,N/A,N/A,6,dllname=Switch&继电器跳转=1.8.9
+0,-跳Switch2 1.2,N/A,N/A,N/A,6,dllname=Switch&继电器跳转=1.2&继电器编号=2
+0,-2s,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=2000
+0,-1S,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=1000
+0,-2s,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=2000
+0,-打开 Slave Boom Loopback,N/A,N/A,N/A,3,SlaveBoomLoopback
+47,Boom mic Loopback LMB|2000|1.8.9.29.30,mV,0,100,5,dllname=_8342_V1&method=V_AC&NewRange=0.0005&Count=1
+0,-+关闭 Slave Loopback,N/A,N/A,N/A,3,SlaveCloseLoopback
+48,继电器2 复位,N/A,N/A,N/A,6,dllname=Switch&method继电器跳转=0&继电器编号=2
+0,-跳继电器2 3.5,N/A,N/A,N/A,6,dllname=Switch&继电器跳转=3.5&继电器编号=2
+0,-打开 Slave FF Loopback,N/A,N/A,N/A,3,SlaveFFLoopback
+49,LMB FB MIC Loopback |1500|1.8.9.29.30,mV,0,100,5,dllname=_8342_V1&method=V_AC&NewRange=0.0005&Count=1
+0,-+关闭 Slave Loopback,N/A,N/A,N/A,3,SlaveCloseLoopback
+50,继电器2 复位,N/A,N/A,N/A,6,dllname=Switch&method继电器跳转=0&继电器编号=2
+0,-跳继电器2 4.5,N/A,N/A,N/A,6,dllname=Switch&继电器跳转=4.5&继电器编号=2
+0,-打开 Slave FB Loopback,N/A,N/A,N/A,3,SlaveFBLoopback
+51,LMB FF MIC loopback |500|1.8.9.29.30,mV,0,100,5,dllname=_8342_V1&method=V_AC&NewRange=0.0005&Count=1
+0,-+关闭 Slave Loopback,N/A,N/A,N/A,3,SlaveCloseLoopback
+52,写 Headset Slave Flag 2,N/A,N/A,N/A,3,WriteHeadsetSlaveFlag-2
+53,检查 Headset Slave Flag 2,N/A,2,3,2,ReadHeadsetSlaveFlag
+0,-+LMB RESET SW|500|0,N/A,N/A,N/A,6,dllname=Switch&继电器跳转=0&继电器编号=2
+54,继电器2 复位,N/A,N/A,N/A,6,dllname=Switch&method继电器跳转=0&继电器编号=2

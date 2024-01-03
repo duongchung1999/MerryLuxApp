@@ -1,0 +1,204 @@
+2023 12 23 08 14 14	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2023 12 23 08 14 14	Writedata:{
+  "model": "HDT565-SMT",
+  "station": "T1.42",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "0",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2023 12 23 08 14 16	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2023 12 23 08 14 16	1、False
+2023 12 23 08 16 49	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2023 12 23 08 16 49	Writedata:{
+  "model": "HDT565-SMT",
+  "station": "T1.42",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "0",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2023 12 23 08 16 51	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2023 12 23 08 16 51	1、False
+2023 12 23 08 17 50	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2023 12 23 08 17 50	Writedata:{
+  "model": "HDT565-SMT",
+  "station": "T1.42",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "0",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2023 12 23 08 17 52	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2023 12 23 08 17 52	1、False
+2023 12 23 08 47 49	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2023 12 23 08 47 49	Writedata:{
+  "model": "HDT565-SMT",
+  "station": "T1.42",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "0",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2023 12 23 08 47 51	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2023 12 23 08 47 51	1、False
+2023 12 23 08 49 56	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2023 12 23 08 50 01	Writedata:{
+  "model": "HDT565-SMT",
+  "station": "T1.42",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "0",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2023 12 23 08 50 13	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2023 12 23 08 50 13	2、False
+2023 12 23 08 52 17	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2023 12 23 08 52 19	Writedata:{
+  "model": "HDT565-SMT",
+  "station": "T1.42",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "0",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2023 12 23 08 52 21	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2023 12 23 08 52 21	3、False
+2023 12 23 08 54 21	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2023 12 23 08 54 21	Writedata:{
+  "model": "HDT565-SMT",
+  "station": "T1.42",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "0",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2023 12 23 08 54 23	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2023 12 23 08 54 23	4、False
+2023 12 23 08 56 23	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2023 12 23 08 56 23	Writedata:{
+  "model": "HDT565-SMT",
+  "station": "T1.42",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "0",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2023 12 23 08 56 25	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2023 12 23 08 56 25	5、False
+2023 12 23 08 57 30	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2023 12 23 08 57 30	Writedata:{
+  "model": "HDT565-SMT",
+  "station": "T1.42",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "0",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2023 12 23 08 57 33	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2023 12 23 08 57 33	1、False
+2023 12 23 08 58 25	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2023 12 23 08 58 25	Writedata:{
+  "model": "HDT565-SMT",
+  "station": "T1.42",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "0",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2023 12 23 08 58 27	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2023 12 23 08 58 27	6、False
+2023 12 23 08 59 33	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2023 12 23 08 59 33	Writedata:{
+  "model": "HDT565-SMT",
+  "station": "T1.42",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "0",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2023 12 23 08 59 35	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2023 12 23 08 59 35	2、False
+2023 12 23 09 00 27	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2023 12 23 09 00 27	Writedata:{
+  "model": "HDT565-SMT",
+  "station": "T1.42",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "0",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2023 12 23 09 00 29	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2023 12 23 09 00 29	7、False

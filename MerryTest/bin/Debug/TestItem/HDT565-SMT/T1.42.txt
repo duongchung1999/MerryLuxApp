@@ -1,0 +1,77 @@
+﻿0,-+RESET SW,N/A,N/A,N/A,6,dllname=Switch&继电器跳转=0
+0,Set2303 3.3V-,N/A,N/A,N/A,6,dllname=_2303&Volt=3.3&Chanel=1&Current=1
+0,切换UA档RMB-|1|4.2.12,N/A,N/A,N/A,6,dllname=_8342_V1&method=A_DC&NewRange=0.0005&Count=1
+1,off mode current RMB|6000|4.2.12,uA,1,10,5,dllname=_8342_V1&method=A_DC&NewRange=0.0005&Count=1
+0,切换500mA档-|500|4.2.5.12.7,N/A,N/A,N/A,6,dllname=_8342_V1&method=A_DC&NewRange=0.5&Count=1
+2,power  on current RMB|10000|4.2.5.12,mA,5,35,5,dllname=_8342_V1&method=A_DC&NewRange=0.5&Count=1
+3,Fast Charge current RMB|10000|2.4.5.12.7,mA,-450,-300,5,dllname=_8342_V1&method=A_DC&NewRange=0.5&Count=1
+0,-Await Device-PC,N/A,N/A,N/A,6,dllname=Common_V1&method=AwaitDevice&VID=1B1C&PID=2A00&TimeOut=45&MSG=等待装置识别
+4,检查Headset Master FW 版本,N/A,0.14.85,0.14.85,1,GetMasterFW
+5,写 Headset Master PCBA SN,N/A,N/A,N/A,3,Headset_Write_Master_PCBSN
+6,检查 Headset Master PCBA SN,N/A,N/A,N/A,3,Headset_Check_Master_PCBSN
+0,Set2303 4.2V-,N/A,N/A,N/A,6,dllname=_2303&Volt=4.2&Chanel=1&Current=1
+7,Termination Charge RMB|5000|2.4.5.12.7,mA,-1,1,5,dllname=_8342_V1&method=A_DC&NewRange=5&Count=1
+0,Set2303 3.8V-|1|1.3.5.12.17.7,N/A,N/A,N/A,6,dllname=_2303&Volt=3.8&Chanel=1&Current=1
+8,VSYS85R TP202 RMB|1000|1.3.5.12.17,V,3.7,3.9,5,dllname=_8342_V1&method=_V_DC&NewRange=5&Count=1&Rount=4
+9,REGEN TP201 RMB|1000|1.3.5.12.18,V,3.7,3.9,5,dllname=_8342_V1&method=_V_DC&NewRange=5&Count=1&Rount=4
+10,SYSRSTB TP204 RMB|1000|1.3.5.12.19,V,1.62,1.98,5,dllname=_8342_V1&method=_V_DC&NewRange=5&Count=1&Rount=4
+11,VSYS OUT TP512 RMB|1000|1.3.5.12.20,V,3.7,3.9,5,dllname=_8342_V1&method=_V_DC&NewRange=5&Count=1&Rount=4
+0,2sRMB-|1|1.3.5.12.7.21,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=2000
+0,-Await Device-PC,N/A,N/A,N/A,6,dllname=Common_V1&method=AwaitDevice&VID=1B1C&PID=2A00&TimeOut=45&MSG=等待装置识别
+0,-打开 Master Boom Loopback,N/A,N/A,N/A,3,MasterBoomLoopback
+12,MICBIAS1 TP521 RMB|1000|1.3.5.12.7.21,V,2.65,2.85,5,dllname=_8342_V1&method=_V_DC&NewRange=5&Count=1&Rount=4
+13,MISBIAS0 TP517 RMB|1000|1.3.5.12.7.22,V,2.65,2.85,5,dllname=_8342_V1&method=_V_DC&NewRange=5&Count=1&Rount=4
+0,-+关闭 Master Loopback,N/A,N/A,N/A,3,MasterCloseLoopback
+0,-1S,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=1000
+14,开 Headset 红色 LED,N/A,N/A,N/A,3,HeadsetREDLEDOpen
+0,-2s,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=2000
+15,RMB R LED 1 Lux,mcd@2mA,35.5,71,5,dllname=HanOpticSens_V1&method=r_chromaLux&Port=COM16&Channel=1
+16,RMB R LED 2 Lux,mcd@2mA,35.5,71,5,dllname=HanOpticSens_V1&method=r_chromaLux&Port=COM16&Channel=2
+17,RMB R LED 3 Lux,mcd@2mA,35.5,71,5,dllname=HanOpticSens_V1&method=r_chromaLux&Port=COM16&Channel=3
+18,RMB R LED 4  Lux,mcd@2mA,35.5,71,5,dllname=HanOpticSens_V1&method=r_chromaLux&Port=COM16&Channel=4
+19,RMB R LED 5 Lux,mcd@2mA,35.5,71,5,dllname=HanOpticSens_V1&method=r_chromaLux&Port=COM16&Channel=5
+20,RMB R LED 6 Lux,mcd@2mA,35.5,71,5,dllname=HanOpticSens_V1&method=r_chromaLux&Port=COM16&Channel=6
+21,开 Headset 绿色 LED,N/A,N/A,N/A,3,HeadsetGreenLEDOpen
+0,-2s,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=2000
+22,RMB G LED 1 Lux,mcd@2mA,140,360,5,dllname=HanOpticSens_V1&method=r_chromaLux&Port=COM16&Channel=1
+23,RMB G LED 2 Lux,mcd@2mA,140,360,5,dllname=HanOpticSens_V1&method=r_chromaLux&Port=COM16&Channel=2
+24,RMB G LED 3 Lux,mcd@2mA,140,360,5,dllname=HanOpticSens_V1&method=r_chromaLux&Port=COM16&Channel=3
+25,RMB G LED 4 Lux,mcd@2mA,140,360,5,dllname=HanOpticSens_V1&method=r_chromaLux&Port=COM16&Channel=4
+26,RMB G LED 5 Lux,mcd@2mA,140,360,5,dllname=HanOpticSens_V1&method=r_chromaLux&Port=COM16&Channel=5
+27,RMB G LED 6 Lux,mcd@2mA,140,360,5,dllname=HanOpticSens_V1&method=r_chromaLux&Port=COM16&Channel=6
+28,开 Headset 蓝色 LED,N/A,N/A,N/A,3,HeadsetBlueLEDOpen
+0,-2s,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=2000
+29,RMB B LED 1 Lux,mcd@2mA,35.5,71,5,dllname=HanOpticSens_V1&method=r_chromaLux&Port=COM20&Channel=1
+30,RMB B LED 2 Lux,mcd@2mA,35.5,71,5,dllname=HanOpticSens_V1&method=r_chromaLux&Port=COM16&Channel=2
+31,RMB B LED 3 Lux,mcd@2mA,35.5,71,5,dllname=HanOpticSens_V1&method=r_chromaLux&Port=COM16&Channel=3
+32,RMB B LED 4 Lux,mcd@2mA,35.5,71,5,dllname=HanOpticSens_V1&method=r_chromaLux&Port=COM16&Channel=4
+33,RMB B LED 5 Lux,mcd@2mA,35.5,71,5,dllname=HanOpticSens_V1&method=r_chromaLux&Port=COM16&Channel=5
+34,RMB B LED 6 Lux,mcd@2mA,35.5,71,5,dllname=HanOpticSens_V1&method=r_chromaLux&Port=COM16&Channel=6
+35,开 Headset 白色 LED,N/A,N/A,N/A,3,HeadsetWhiteLEDOpen
+0,-2s,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=2000
+36,RMB W LED 1 Lux,mcd@2mA,140,360,5,dllname=HanOpticSens_V1&method=r_chromaLux&Port=COM16&Channel=1
+37,RMB W LED 2 Lux,mcd@2mA,140,360,5,dllname=HanOpticSens_V1&method=r_chromaLux&Port=COM16&Channel=2
+38,RMB W LED 3 Lux,mcd@2mA,140,360,5,dllname=HanOpticSens_V1&method=r_chromaLux&Port=COM16&Channel=3
+39,RMB W LED 4 Lux,mcd@2mA,140,360,5,dllname=HanOpticSens_V1&method=r_chromaLux&Port=COM16&Channel=4
+40,RMB W LED 5 Lux,mcd@2mA,140,360,5,dllname=HanOpticSens_V1&method=r_chromaLux&Port=COM16&Channel=5
+41,RMB W LED 6 Lux,mcd@2mA,140,360,5,dllname=HanOpticSens_V1&method=r_chromaLux&Port=COM16&Channel=6
+0,RESET SW-+|1|0,N/A,N/A,N/A,6,dllname=Switch&继电器跳转=0
+42,VDC TP402 RMB|1000|7.1.23,V,4.75,5.25,5,dllname=_8342_V1&method=_V_DC&NewRange=50&Count=1&Rount=4
+43,OCP RMB|5000|7.13.1.23,V,-1,1,5,dllname=_8342_V1&method=_V_DC&NewRange=50&Count=1&Rount=4
+44,OVP RMB|3000|10.1.9.23,V,-1,1,5,dllname=_8342_V1&method=_V_DC&NewRange=50&Count=1&Rount=4
+0,-+RESET SW,N/A,N/A,N/A,6,dllname=Switch&继电器跳转=0
+0,连接USB RMB-|4000|3.5.12.7,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=3000
+0,-Await Device-PC,N/A,N/A,N/A,6,dllname=Common_V1&method=AwaitDevice&VID=1B1C&PID=2A00&TimeOut=45&MSG=等待装置识别
+0,BOOM MIC SW RMB-|500|3.5.12.7.24.25.26.27,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=1000
+0,打开 Master Boom Loopback-|1500,N/A,N/A,N/A,3,MasterBoomLoopback
+45,Boom mic Loopback RMB|500,mV,20,100,5,dllname=_8342_V1&method=_V_AC&NewRange=0.0005&Count=1&Rount=4
+0,关闭 Master Loopback RMB-+|500|3.5.12.7.24.25.28.30,N/A,N/A,N/A,3,MasterCloseLoopback
+0,打开 Master FB Loopback-|500,N/A,N/A,N/A,3,MasterFBLoopback
+46,FB MIC Loopback RMB|1000,mV,20,100,5,dllname=_8342_V1&method=_V_AC&NewRange=0.0005&Count=1&Rount=4
+0,关闭 Master Loopback RMB-+|500|3.5.12.7.24.25.29.31,N/A,N/A,N/A,3,MasterCloseLoopback
+0,打开 Master FF Loopback RMB-|500|3.5.12.7.24.25.29.31,N/A,N/A,N/A,3,MasterFFLoopback
+47,FF MIC loopback RMB|500,mV,20,100,5,dllname=_8342_V1&method=_V_AC&NewRange=0.0005&Count=1&Rount=4
+0,关闭 Master Loopback-+|500,N/A,N/A,N/A,3,MasterCloseLoopback
+48,写 Headset Master Flag 2,N/A,N/A,N/A,3,WriteHeadsetMasterFlag-2
+0,RESET 治具RMB-,N/A,N/A,N/A,6,dllname=Switch&继电器跳转=16
+0,-+RESET SW,N/A,N/A,N/A,6,dllname=Switch&继电器跳转=0
