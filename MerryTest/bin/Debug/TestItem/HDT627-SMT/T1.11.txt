@@ -1,0 +1,105 @@
+1,UID,N/A,N/A,N/A,6,dllname=MES&method=UID_Master&SMT_Flag=True&PN_Name=NULL
+2,ScanBinCode,N/A,N/A,N/A,6,dllname=MES&method=BarCodeWindow&Length=10&Forms=请扫描Bincode/Vui lòng quét mã Bincode
+0,+-V1 AwaitThread 1,N/A,N/A,N/A,6,dllname=Common_V1&method=AwaitThreads&number=1
+0,-弹框提示按回车,N/A,N/A,N/A,6,dllname=Common&method=forms&显示信息=请双击回车键/Vui lòng nhấn phím "Enter"  2 lần
+0,-SetVbat4.2V,NA,NA,NA,6,dllname=MB1205C_V1&method=SetVoltage&address=0003&VoltSet=4200
+0,-切换5A电流,N/A,N/A,N/A,6,dllname=_8342_V1&method=A_DC&NewRange=5&Count=1
+0,-ConnectVbatTestElectricCurrent|200|14.11.8.4.6,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=10
+0,-1S,N/A,N/A,N/A,6,dllname=Common&method=Sleep&时间=1000
+0,-ConnectVbatTestVbatElectricCurrent|200|14.11.8.32.4.6,N/A,N/A,N/A,6,dllname=Switch&继电器跳转=14.11.8.4.6
+3,PowerOnCurrentLM|1500|14.11.8,mA,1,25,5,dllname=_8342_V1&method=A_DC&NewRange=5&Count=1
+0,aconnectUSB&Vbat-|2000|4.6.14.11.8.16,N/A,N/A,N/A,6,dllname=Common&method=Sleep&时间=2000
+0,-1S,N/A,N/A,N/A,6,dllname=Common&method=Sleep&时间=1000
+0,-1S,N/A,N/A,N/A,6,dllname=Common&method=Sleep&时间=1000
+0,-1S,N/A,N/A,N/A,6,dllname=Common&method=Sleep&时间=1000
+0,-2S,N/A,N/A,N/A,6,dllname=Common&method=Sleep&时间=2000
+0,-V1 Lock 1,N/A,N/A,N/A,6,dllname=Common_V1&method=LockItem&number=1
+4,getFwByHeadset,N/A,V2.0.6,V2.0.6,1,getFwByHeadset
+0,-LedAllOnByHeadset,N/A,N/A,N/A,3,SetLEDAllOnByHeadset
+0,-+V1 unlock 1,N/A,N/A,N/A,6,dllname=Common_V1&method=UnlockItem&number=1
+0,-1S,N/A,N/A,N/A,6,dllname=Common&method=Sleep&时间=1000
+5,Light_Bar_On_CurrentLM|500|14.11.8,mA,15,35,5,dllname=_8342_V1&method=A_DC&NewRange=5&Count=1
+0,aconnectUSB&Vbat-|2000|4.6.14.11.8.16,N/A,N/A,N/A,6,dllname=Common&method=Sleep&时间=2000
+0,-1S,N/A,N/A,N/A,6,dllname=Common&method=Sleep&时间=1000
+0,-0.3s,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=300
+0,-1S,N/A,N/A,N/A,6,dllname=Common&method=Sleep&时间=1000
+0,-1S,N/A,N/A,N/A,6,dllname=Common&method=Sleep&时间=1000
+0,-V1 Lock 2,N/A,N/A,N/A,6,dllname=Common_V1&method=LockItem&number=2
+0,-LedAllOffByHeadset,N/A,N/A,N/A,3,SetLEDAllOffByHeadset
+0,-+V1 unlock 2,N/A,N/A,N/A,6,dllname=Common_V1&method=UnlockItem&number=2
+0,-1S,N/A,N/A,N/A,6,dllname=Common&method=Sleep&时间=1000
+6,All_led_off_CurrentLM|500|14.11.8,mA,1,6,5,dllname=_8342_V1&method=A_DC&NewRange=5&Count=1
+0,+-resetSW,NA,NA,NA,6,dllname=Switch&继电器跳转=0
+0,-切换测电压,N/A,N/A,N/A,6,dllname=_8342_V1&method=V_DC&NewRange=5&Count=1
+7,VsysLmTP202|1150|4.6.10.17,V,4.37,4.83,5,dllname=_8342_V1&method=V_DC&NewRange=5&Count=1
+8,ResetLmTP72|1500|4.6.10.19,V,1.62,1.98,5,dllname=_8342_V1&method=V_DC&NewRange=5&Count=1
+0,+-resetSW,NA,NA,NA,6,dllname=Switch&继电器跳转=0
+0,-SET4.75V,N/A,N/A,N/A,6,dllname=MB1205C_V1&method=SetVoltage&address=0003&VoltSet=4750
+9,VdcLmTP73|500|15.7.18.10,V,4.5,5,5,dllname=_8342_V1&method=V_DC&NewRange=15&Count=1
+0,+-resetSW,NA,NA,NA,6,dllname=Switch&继电器跳转=0
+0,-0.3s,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=300
+0,-set4.25V,N/A,N/A,N/A,6,dllname=MB1205C_V1&method=SetVoltage&address=0003&VoltSet=4250
+0,-ConnectVbatTestVoltageForPowerOn|200|4.6.12.8.10.21.16.32,N/A,N/A,N/A,6,dllname=Switch&继电器跳转=4.6.12.8.10.21.16
+0,-0.3s,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=300
+0,-2S,N/A,N/A,N/A,6,dllname=Common&method=Sleep&时间=2000
+0,-4S,N/A,N/A,N/A,6,dllname=Common&method=Sleep&时间=4000
+0,-2S,N/A,N/A,N/A,6,dllname=Common&method=Sleep&时间=2000
+0,-1S,N/A,N/A,N/A,6,dllname=Common&method=Sleep&时间=1000
+0,-+V1 AwaitThread 2,N/A,N/A,N/A,6,dllname=Common_V1&method=AwaitThreads&number=2
+0,-V1 Lock 3,N/A,N/A,N/A,6,dllname=Common_V1&method=LockItem&number=3
+0,-LedAllOnByHeadset,N/A,N/A,N/A,3,SetLEDAllOnByHeadset
+0,-+V1 unlock  3,N/A,N/A,N/A,6,dllname=Common_V1&method=UnlockItem&number=3
+10,Z1_led_rLmTP208|300|4.6.12.8.10.21.16,V,1,3,5,dllname=_8342_V1&method=V_DC&NewRange=5&Count=1
+11,Z1_led_gLmTP207|300|4.6.12.8.10.22.16,V,1,3,5,dllname=_8342_V1&method=V_DC&NewRange=5&Count=1
+12,Z2_led_rLmTP211|300|4.6.12.8.10.24.16,V,1,3,5,dllname=_8342_V1&method=V_DC&NewRange=5&Count=1
+13,Z2_led_gLmTP210|300|4.6.12.8.10.25.16,V,1,3,5,dllname=_8342_V1&method=V_DC&NewRange=5&Count=1
+14,Z1_led_bLmTP209|350|4.6.12.8.10.23.16,V,1,3,5,dllname=_8342_V1&method=V_DC&NewRange=5&Count=1
+15,Z2_led_bLmTP212|300|4.6.12.8.10.26.16,N/A,1,3,5,dllname=_8342_V1&method=V_DC&NewRange=5&Count=1
+0,-V1 Lock 4,N/A,N/A,N/A,6,dllname=Common_V1&method=LockItem&number=4
+0,-sideToneOnByHeadSet,N/A,N/A,N/A,3,sideToneOnByHeadSet
+0,-+V1 unlock  4,N/A,N/A,N/A,6,dllname=Common_V1&method=UnlockItem&number=4
+0,-1S,N/A,N/A,N/A,6,dllname=Common&method=Sleep&时间=1000
+16,MicBiasoLmbTP98|300|4.6.12.8.10.27.16,V,2.2,2.6,5,dllname=_8342_V1&method=V_DC&NewRange=5&Count=1
+17,NtcLmbTP216|150|4.6.12.8.10.29.16,V,-0.1,0.1,5,dllname=_8342_V1&method=V_DC&NewRange=5&Count=1
+18,Spk_lLmPad18|1000|4.6.12.8.2.30.16,mV,67,95,5,dllname=_8342_V1&method=V_AC&NewRange=0.5&Count=1
+19,Spk_rLmPad16|1000|1.4.6.16.12.8.31,mV,67,95,5,dllname=_8342_V1&method=V_AC&NewRange=0.5&Count=1
+0,+-resetSW,NA,NA,NA,6,dllname=Switch&继电器跳转=0
+0,-0.3s,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=300
+0,-setVbat3.7V,N/A,N/A,N/A,6,dllname=MB1205C_V1&method=SetVoltage&address=0003&VoltSet=3700
+0,-ConnectVbatVoltage|200|12.8,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=50
+20,Fast_chargeLM|1500|5.3.6.12.8.7,mA,370,500,5,dllname=_8342_V1&method=A_DC&NewRange=5&Count=1
+0,+-resetSW,NA,NA,NA,6,dllname=Switch&继电器跳转=0
+0,-SetVbat2.5V,NA,NA,NA,6,dllname=MB1205C_V1&method=SetVoltage&address=0003&VoltSet=2520
+0,-0.3s,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=300
+0,-ConnectVbatVoltage|200|12.8,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=50
+21,TrickleChargeLm|8000|5.3.6.12.8,mA,4,12,5,dllname=_8342_V1&method=A_DC&NewRange=5&Count=1
+0,+-resetSW,NA,NA,NA,6,dllname=Switch&继电器跳转=0
+0,-SetVbat4.2V,NA,NA,NA,6,dllname=MB1205C_V1&method=SetVoltage&address=0003&VoltSet=4200
+0,-0.3s,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=300
+0,-ConnectVbatVoltage|200|12.8,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=50
+22,aStopCharge_4V25LMB|8000|5.3.6.12.8,mA,0,5,5,dllname=_8342_V1&method=A_DC&NewRange=5&Count=1
+0,+-resetSW,NA,NA,NA,6,dllname=Switch&继电器跳转=0
+0,-+V1 AwaitThread 3,N/A,N/A,N/A,6,dllname=Common_V1&method=AwaitThreads&number=3
+0,-SetVbat6V5,NA,NA,NA,6,dllname=MB1205C_V1&method=SetVoltage&address=0003&VoltSet=6500
+23,OvpLM|1000|3.7.14,mA,-2,3,5,dllname=_8342_V1&method=A_DC&NewRange=5&Count=1
+0,+-resetSW,NA,NA,NA,6,dllname=Switch&继电器跳转=0
+0,-SET5V,N/A,N/A,N/A,6,dllname=MB1205C_V1&method=SetVoltage&address=0003&VoltSet=5000
+24,OcpLM|5200|3.7.14.9.8,mA,150,250,5,dllname=_8342_V1&method=A_DC&NewRange=5&Count=1
+0,+-resetSW,NA,NA,NA,6,dllname=Switch&继电器跳转=0
+0,-1S,N/A,N/A,N/A,6,dllname=Common&method=Sleep&时间=1000
+0,-SetVbat3.8V,N/A,N/A,N/A,6,dllname=MB1205C_V1&method=SetVoltage&address=0003&VoltSet=3800
+0,-ConnectVbatVoltage|200|12.8,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=50
+0,-V1 Lock 5,N/A,N/A,N/A,6,dllname=Common_V1&method=LockItem&number=5
+0,-aconnectUSB&Vbat测电压|2000|4.6.12.8.16,N/A,N/A,N/A,6,dllname=Common&method=Sleep&时间=1000
+0,-OpenHSUSB,N/A,N/A,N/A,1,OpenHSUSB
+25,WriteLEDBinCodeBySMT,N/A,N/A,N/A,3,WriteLEDBinCodeBySMT
+26,ReadLEDBinCode,N/A,N/A,N/A,3,ReadLEDBinCode
+27,SetPCBASNByHeadSet,N/A,N/A,N/A,3,SetPCBASNByHeadSet
+28,GetPCBASNByHeadSet,N/A,N/A,N/A,3,GetPCBASNByHeadSet
+0,-+CloseHSUSB,N/A,N/A,N/A,1,CloseHSUSB
+0,-+V1 unlock  5,N/A,N/A,N/A,6,dllname=Common_V1&method=UnlockItem&number=5
+0,+-resetSW,NA,NA,NA,6,dllname=Switch&继电器跳转=0
+0,+-切换500mA挡位,N/A,N/A,N/A,6,dllname=_8342_V1&method=A_DC&NewRange=0.5&Count=1
+0,-Off_Mode_继电器|150|13.11.8,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=1000
+29,Off_Mode_currentLM|600,uA,0.1,10,5,dllname=_8342_V1&method=A_DC&NewRange=0.0005&Count=1
+0,+-resetSW,NA,NA,NA,6,dllname=Switch&继电器跳转=0

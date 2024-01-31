@@ -1,0 +1,1702 @@
+﻿11/14 12:10:03.225 0.013 I tool_version: 2.9.0/V2.9.0_20220114_081940/v2.9.2_2021_12_28_16_45_51/geneva-dev-maindev
+11/14 12:10:03.212 0.000 I SetLogLevel: 2
+11/14 12:10:03.212 0.000 D set log_level=2
+11/14 12:10:03.212 0.000 D [task_time][ToolLogLevel] spend 0.000
+11/14 12:10:03.212 0.000 V [task_end][ToolLogLevel] ------------------------------------------
+11/14 12:10:03.212 0.000 V arg[airoha_task]=DisconnectDUTByUsbHid
+11/14 12:10:03.212 0.000 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+11/14 12:10:03.212 0.000 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+11/14 12:10:03.213 0.001 V arg[device_name]=DUT_HEADSET
+11/14 12:10:03.213 0.001 V arg[device_type]=USB_HID
+11/14 12:10:03.213 0.001 V arg[action]=disconnect
+11/14 12:10:03.213 0.001 V arg[port]=
+11/14 12:10:03.213 0.001 D [UartDevice] Disconnect
+11/14 12:10:03.213 0.001 D [DisconnectDUTByUsbHid] disconnect: DUT_HEADSET(USB_HID)
+11/14 12:10:03.213 0.001 D [task_time][DisconnectDUTByUsbHid] spend 0.000
+11/14 12:10:03.213 0.001 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+11/14 12:10:03.213 0.001 V [transact] result="pass"
+11/14 12:10:05.226 2.014 V [log_file_sync]
+11/14 12:10:14.719 11.507 V arg[airoha_task]=ConnectDutByUsbHid
+11/14 12:10:14.719 11.507 V [task] ConnectDutByUsbHid, class: ConnectDevice
+11/14 12:10:14.719 11.507 V [task_start][ConnectDutByUsbHid] +++++++++++++++++++++++
+11/14 12:10:14.719 11.507 V arg[device_name]=DUT_HEADSET
+11/14 12:10:14.719 11.507 V arg[device_type]=USB_HID
+11/14 12:10:14.719 11.507 V arg[action]=connect
+11/14 12:10:14.719 11.507 V arg[connected_by_usb]=
+11/14 12:10:14.719 11.507 V arg[port]=
+11/14 12:10:14.719 11.507 D [SerialHost] phy_name:USB_HID
+11/14 12:10:14.719 11.507 D phy_type:5
+11/14 12:10:14.719 11.507 D [SerialHost] trans_name:USB_HID
+11/14 12:10:14.719 11.507 D [tp_fty] trans_type:9
+11/14 12:10:14.719 11.507 D [UsbHidPhy] transport : USB_HID 
+11/14 12:10:14.719 11.507 D [SerialHost] phy_open
+11/14 12:10:14.719 11.507 D [UsbHidPhy] transport : USB_HID 
+11/14 12:10:14.719 11.507 I [UsbHidPhy] open [046D:0AFF] usb[]
+11/14 12:10:14.723 11.511 V [log_file_sync]
+11/14 12:10:17.727 14.515 I [UsbHidPhy] get [046D:0AFF] usb[] serial[0000000000000000]
+11/14 12:10:17.727 14.515 D [UsbHidPhy] open: 046d:0aff
+11/14 12:10:17.727 14.515 D [UartDevice] Connect: 0
+11/14 12:10:17.727 14.515 D [ConnectDutByUsbHid] connect: DUT_HEADSET(USB_HID)
+11/14 12:10:17.727 14.515 D [task_time][ConnectDutByUsbHid] spend 3.008
+11/14 12:10:17.727 14.515 V [task_end][ConnectDutByUsbHid] ------------------------------------------
+11/14 12:10:17.727 14.515 V [transact] result="pass"
+11/14 12:10:17.728 14.516 V [log_file_sync]
+11/14 12:10:17.732 14.520 V arg[airoha_task]=airoha_cmd
+11/14 12:10:17.732 14.520 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:10:17.732 14.520 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:10:17.732 14.520 V arg[device_name]=DUT_HEADSET
+11/14 12:10:17.732 14.520 V arg[command_xml]=command_627.xml
+11/14 12:10:17.732 14.520 V arg[airoha_cmd]=RACE_WRITE_LED_BIN_CODE
+11/14 12:10:17.732 14.520 I [airoha_cmd] RACE_WRITE_LED_BIN_CODE
+11/14 12:10:17.738 14.526 D arg[KeyData]=0x45414630352F3035
+11/14 12:10:17.738 14.526 D [046d:0aff] Write(16)
+11/14 12:10:17.741 14.529 D [046d:0aff] chunk: 62(16) (16/16) 061000
+11/14 12:10:17.741 14.529 V [046d:0aff] Write: 62(16) (16/16) 061000055A0C00010A01F835302F353046414500000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:10:17.743 14.531 V [UsbHidPhy] device is writing, skip.
+11/14 12:10:17.743 14.531 D [046d:0aff][write 16 RACE_WRITE_LED_BIN_CODE] 055A0C00010A01F835302F3530464145
+11/14 12:10:17.747 14.535 D [046d:0aff] Read(7)
+11/14 12:10:17.747 14.535 V [046d:0aff][read 10] 070700055B0300010A00
+11/14 12:10:17.748 14.536 I [RxP 7] 055B0300010A00
+11/14 12:10:17.748 14.536 V [Match 7 RACE_WRITE_LED_BIN_CODE] 055B0300010A00
+11/14 12:10:17.748 14.536 W [CmdR] resp not found: status
+11/14 12:10:17.748 14.536 D [task_time][airoha_cmd] spend 0.016
+11/14 12:10:17.748 14.536 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:10:17.748 14.536 V [transact] payload="00"
+11/14 12:10:17.774 14.562 V arg[airoha_task]=airoha_cmd
+11/14 12:10:17.774 14.562 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:10:17.774 14.562 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:10:17.774 14.562 V arg[device_name]=DUT_HEADSET
+11/14 12:10:17.774 14.562 V arg[command_xml]=command_627.xml
+11/14 12:10:17.774 14.562 V arg[airoha_cmd]=RACE_READ_LED_BIN_CODE
+11/14 12:10:17.774 14.562 I [airoha_cmd] RACE_READ_LED_BIN_CODE
+11/14 12:10:17.774 14.562 D [046d:0aff] Write(8)
+11/14 12:10:17.775 14.563 D [046d:0aff] chunk: 62(8) (8/8) 060800
+11/14 12:10:17.775 14.563 V [046d:0aff] Write: 62(8) (8/8) 060800055A0400000A01F8000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:10:17.777 14.565 D [046d:0aff][write 8 RACE_READ_LED_BIN_CODE] 055A0400000A01F8
+11/14 12:10:17.782 14.569 D [046d:0aff] Read(16)
+11/14 12:10:17.782 14.569 V [046d:0aff][read 19] 071000055B0C00000A080035302F3530464145
+11/14 12:10:17.783 14.570 I [RxP 16] 055B0C00000A080035302F3530464145
+11/14 12:10:17.783 14.570 V [Match 16 RACE_READ_LED_BIN_CODE] 055B0C00000A080035302F3530464145
+11/14 12:10:17.783 14.570 W [CmdR] resp not found: status
+11/14 12:10:17.783 14.570 D [task_time][airoha_cmd] spend 0.008
+11/14 12:10:17.783 14.570 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:10:17.783 14.570 V [transact] payload="45414630352F3035"
+11/14 12:10:17.804 14.592 V arg[airoha_task]=airoha_cmd
+11/14 12:10:17.804 14.592 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:10:17.804 14.592 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:10:17.804 14.592 V arg[device_name]=DUT_HEADSET
+11/14 12:10:17.804 14.592 V arg[command_xml]=command_627.xml
+11/14 12:10:17.804 14.592 V arg[airoha_cmd]=RACE_SET_PCBA_SN
+11/14 12:10:17.804 14.592 I [airoha_cmd] RACE_SET_PCBA_SN
+11/14 12:10:17.804 14.592 D arg[KeyData]=0x505152547769484848874850
+11/14 12:10:17.804 14.592 D [046d:0aff] Write(20)
+11/14 12:10:17.807 14.595 D [046d:0aff] chunk: 62(20) (20/20) 061400
+11/14 12:10:17.807 14.595 V [046d:0aff] Write: 62(20) (20/20) 061400055A1000010A0BF8504887484848697754525150000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:10:17.808 14.596 V [UsbHidPhy] device is writing, skip.
+11/14 12:10:17.808 14.596 D [046d:0aff][write 20 RACE_SET_PCBA_SN] 055A1000010A0BF8504887484848697754525150
+11/14 12:10:17.816 14.604 D [046d:0aff] Read(7)
+11/14 12:10:17.816 14.604 V [046d:0aff][read 10] 070700055B0300010A00
+11/14 12:10:17.816 14.604 I [RxP 7] 055B0300010A00
+11/14 12:10:17.816 14.604 V [Match 7 RACE_SET_PCBA_SN] 055B0300010A00
+11/14 12:10:17.816 14.604 W [CmdR] resp not found: status
+11/14 12:10:17.816 14.604 D [task_time][airoha_cmd] spend 0.012
+11/14 12:10:17.816 14.604 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:10:17.816 14.604 V [transact] payload="00"
+11/14 12:10:17.837 14.625 V arg[airoha_task]=airoha_cmd
+11/14 12:10:17.837 14.625 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:10:17.837 14.625 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:10:17.837 14.625 V arg[device_name]=DUT_HEADSET
+11/14 12:10:17.837 14.625 V arg[command_xml]=command_627.xml
+11/14 12:10:17.837 14.625 V arg[airoha_cmd]=RACE_PCBA_SN
+11/14 12:10:17.837 14.625 I [airoha_cmd] RACE_PCBA_SN
+11/14 12:10:17.837 14.625 D [046d:0aff] Write(10)
+11/14 12:10:17.839 14.627 D [046d:0aff] chunk: 62(10) (10/10) 060A00
+11/14 12:10:17.839 14.627 V [046d:0aff] Write: 62(10) (10/10) 060A00055A0600000A0BF80C0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:10:17.840 14.628 V [UsbHidPhy] device is writing, skip.
+11/14 12:10:17.840 14.628 D [046d:0aff][write 10 RACE_PCBA_SN] 055A0600000A0BF80C00
+11/14 12:10:17.843 14.631 D [046d:0aff] Read(20)
+11/14 12:10:17.843 14.631 V [046d:0aff][read 23] 071400055B1000000A0C00504887484848697754525150
+11/14 12:10:17.843 14.631 I [RxP 20] 055B1000000A0C00504887484848697754525150
+11/14 12:10:17.843 14.631 V [Match 20 RACE_PCBA_SN] 055B1000000A0C00504887484848697754525150
+11/14 12:10:17.843 14.631 W [CmdR] resp not found: status
+11/14 12:10:17.844 14.632 D [task_time][airoha_cmd] spend 0.007
+11/14 12:10:17.844 14.632 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:10:17.844 14.632 V [transact] payload="505152547769484848874850"
+11/14 12:10:17.865 14.653 V arg[airoha_task]=DisconnectDUTByUsbHid
+11/14 12:10:17.865 14.653 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+11/14 12:10:17.865 14.653 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+11/14 12:10:17.865 14.653 V arg[device_name]=DUT_HEADSET
+11/14 12:10:17.865 14.653 V arg[device_type]=USB_HID
+11/14 12:10:17.865 14.653 V arg[action]=disconnect
+11/14 12:10:17.865 14.653 V arg[port]=
+11/14 12:10:17.865 14.653 D [UsbHidPhy] Close Success.
+11/14 12:10:17.865 14.653 D [host] Clear buffer and queue.
+11/14 12:10:17.865 14.653 V [tp_fty] delete trans
+11/14 12:10:17.865 14.653 V delete phy
+11/14 12:10:17.865 14.653 D [host] Clear buffer and queue.
+11/14 12:10:17.865 14.653 D [UartDevice] Disconnect
+11/14 12:10:17.865 14.653 D [DisconnectDUTByUsbHid] disconnect: DUT_HEADSET(USB_HID)
+11/14 12:10:17.865 14.653 D [task_time][DisconnectDUTByUsbHid] spend 0.000
+11/14 12:10:17.865 14.653 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+11/14 12:10:17.865 14.653 V [transact] result="pass"
+11/14 12:10:19.732 16.520 V [log_file_sync]
+11/14 12:12:33.488 150.276 V arg[airoha_task]=ConnectDutByUsbHid
+11/14 12:12:33.488 150.276 V [task] ConnectDutByUsbHid, class: ConnectDevice
+11/14 12:12:33.488 150.276 V [task_start][ConnectDutByUsbHid] +++++++++++++++++++++++
+11/14 12:12:33.488 150.276 V arg[device_name]=DUT_HEADSET
+11/14 12:12:33.488 150.276 V arg[device_type]=USB_HID
+11/14 12:12:33.488 150.276 V arg[action]=connect
+11/14 12:12:33.488 150.276 V arg[connected_by_usb]=
+11/14 12:12:33.488 150.276 V arg[port]=
+11/14 12:12:33.489 150.277 D [SerialHost] phy_name:USB_HID
+11/14 12:12:33.489 150.277 D phy_type:5
+11/14 12:12:33.489 150.277 D [SerialHost] trans_name:USB_HID
+11/14 12:12:33.489 150.277 D [tp_fty] trans_type:9
+11/14 12:12:33.489 150.277 D [UsbHidPhy] transport : USB_HID 
+11/14 12:12:33.489 150.277 D [SerialHost] phy_open
+11/14 12:12:33.489 150.277 D [UsbHidPhy] transport : USB_HID 
+11/14 12:12:33.489 150.277 I [UsbHidPhy] open [046D:0AFF] usb[]
+11/14 12:12:33.491 150.279 V [log_file_sync]
+11/14 12:12:36.496 153.284 I [UsbHidPhy] get [046D:0AFF] usb[] serial[0000000000000000]
+11/14 12:12:36.496 153.284 D [UsbHidPhy] open: 046d:0aff
+11/14 12:12:36.496 153.284 D [UartDevice] Connect: 0
+11/14 12:12:36.496 153.284 D [ConnectDutByUsbHid] connect: DUT_HEADSET(USB_HID)
+11/14 12:12:36.496 153.284 D [task_time][ConnectDutByUsbHid] spend 3.009
+11/14 12:12:36.496 153.284 V [task_end][ConnectDutByUsbHid] ------------------------------------------
+11/14 12:12:36.496 153.284 V [transact] result="pass"
+11/14 12:12:36.496 153.284 V arg[airoha_task]=airoha_cmd
+11/14 12:12:36.496 153.284 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:12:36.496 153.284 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:12:36.496 153.284 V arg[device_name]=DUT_HEADSET
+11/14 12:12:36.496 153.284 V arg[command_xml]=command_627.xml
+11/14 12:12:36.496 153.284 V arg[airoha_cmd]=RACE_WRITE_LED_BIN_CODE
+11/14 12:12:36.496 153.284 I [airoha_cmd] RACE_WRITE_LED_BIN_CODE
+11/14 12:12:36.496 153.284 D arg[KeyData]=0x45414630352F3035
+11/14 12:12:36.496 153.284 D [046d:0aff] Write(16)
+11/14 12:12:36.497 153.285 V [log_file_sync]
+11/14 12:12:36.499 153.286 D [046d:0aff] chunk: 62(16) (16/16) 061000
+11/14 12:12:36.499 153.286 V [046d:0aff] Write: 62(16) (16/16) 061000055A0C00010A01F835302F353046414500000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:12:36.500 153.287 D [046d:0aff][write 16 RACE_WRITE_LED_BIN_CODE] 055A0C00010A01F835302F3530464145
+11/14 12:12:36.505 153.293 D [046d:0aff] Read(7)
+11/14 12:12:36.505 153.293 V [046d:0aff][read 10] 070700055B0300010A00
+11/14 12:12:36.506 153.293 I [RxP 7] 055B0300010A00
+11/14 12:12:36.506 153.293 V [Match 7 RACE_WRITE_LED_BIN_CODE] 055B0300010A00
+11/14 12:12:36.506 153.293 W [CmdR] resp not found: status
+11/14 12:12:36.506 153.293 D [task_time][airoha_cmd] spend 0.009
+11/14 12:12:36.506 153.293 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:12:36.506 153.293 V [transact] payload="00"
+11/14 12:12:36.531 153.319 V arg[airoha_task]=airoha_cmd
+11/14 12:12:36.531 153.319 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:12:36.531 153.319 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:12:36.531 153.319 V arg[device_name]=DUT_HEADSET
+11/14 12:12:36.531 153.319 V arg[command_xml]=command_627.xml
+11/14 12:12:36.531 153.319 V arg[airoha_cmd]=RACE_READ_LED_BIN_CODE
+11/14 12:12:36.531 153.319 I [airoha_cmd] RACE_READ_LED_BIN_CODE
+11/14 12:12:36.531 153.319 D [046d:0aff] Write(8)
+11/14 12:12:36.534 153.321 D [046d:0aff] chunk: 62(8) (8/8) 060800
+11/14 12:12:36.534 153.321 V [046d:0aff] Write: 62(8) (8/8) 060800055A0400000A01F8000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:12:36.535 153.323 V [UsbHidPhy] device is writing, skip.
+11/14 12:12:36.535 153.323 D [046d:0aff][write 8 RACE_READ_LED_BIN_CODE] 055A0400000A01F8
+11/14 12:12:36.539 153.327 D [046d:0aff] Read(16)
+11/14 12:12:36.539 153.327 V [046d:0aff][read 19] 071000055B0C00000A080035302F3530464145
+11/14 12:12:36.540 153.328 I [RxP 16] 055B0C00000A080035302F3530464145
+11/14 12:12:36.540 153.328 V [Match 16 RACE_READ_LED_BIN_CODE] 055B0C00000A080035302F3530464145
+11/14 12:12:36.540 153.328 W [CmdR] resp not found: status
+11/14 12:12:36.540 153.328 D [task_time][airoha_cmd] spend 0.009
+11/14 12:12:36.540 153.328 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:12:36.540 153.328 V [transact] payload="45414630352F3035"
+11/14 12:12:36.562 153.350 V arg[airoha_task]=airoha_cmd
+11/14 12:12:36.562 153.350 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:12:36.562 153.350 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:12:36.562 153.350 V arg[device_name]=DUT_HEADSET
+11/14 12:12:36.562 153.350 V arg[command_xml]=command_627.xml
+11/14 12:12:36.562 153.350 V arg[airoha_cmd]=RACE_SET_PCBA_SN
+11/14 12:12:36.562 153.350 I [airoha_cmd] RACE_SET_PCBA_SN
+11/14 12:12:36.562 153.350 D arg[KeyData]=0x505152547769484848816950
+11/14 12:12:36.562 153.350 D [046d:0aff] Write(20)
+11/14 12:12:36.563 153.351 D [046d:0aff] chunk: 62(20) (20/20) 061400
+11/14 12:12:36.563 153.351 V [046d:0aff] Write: 62(20) (20/20) 061400055A1000010A0BF8506981484848697754525150000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:12:36.564 153.352 V [UsbHidPhy] device is writing, skip.
+11/14 12:12:36.564 153.352 D [046d:0aff][write 20 RACE_SET_PCBA_SN] 055A1000010A0BF8506981484848697754525150
+11/14 12:12:36.572 153.360 D [046d:0aff] Read(7)
+11/14 12:12:36.572 153.360 V [046d:0aff][read 10] 070700055B0300010A00
+11/14 12:12:36.572 153.360 I [RxP 7] 055B0300010A00
+11/14 12:12:36.572 153.360 V [Match 7 RACE_SET_PCBA_SN] 055B0300010A00
+11/14 12:12:36.572 153.360 W [CmdR] resp not found: status
+11/14 12:12:36.572 153.360 D [task_time][airoha_cmd] spend 0.010
+11/14 12:12:36.572 153.360 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:12:36.572 153.360 V [transact] payload="00"
+11/14 12:12:36.593 153.381 V arg[airoha_task]=airoha_cmd
+11/14 12:12:36.593 153.381 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:12:36.593 153.381 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:12:36.593 153.381 V arg[device_name]=DUT_HEADSET
+11/14 12:12:36.593 153.381 V arg[command_xml]=command_627.xml
+11/14 12:12:36.593 153.381 V arg[airoha_cmd]=RACE_PCBA_SN
+11/14 12:12:36.593 153.381 I [airoha_cmd] RACE_PCBA_SN
+11/14 12:12:36.593 153.381 D [046d:0aff] Write(10)
+11/14 12:12:36.595 153.383 D [046d:0aff] chunk: 62(10) (10/10) 060A00
+11/14 12:12:36.595 153.383 V [046d:0aff] Write: 62(10) (10/10) 060A00055A0600000A0BF80C0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:12:36.596 153.384 V [UsbHidPhy] device is writing, skip.
+11/14 12:12:36.596 153.384 D [046d:0aff][write 10 RACE_PCBA_SN] 055A0600000A0BF80C00
+11/14 12:12:36.599 153.387 D [046d:0aff] Read(20)
+11/14 12:12:36.599 153.387 V [046d:0aff][read 23] 071400055B1000000A0C00506981484848697754525150
+11/14 12:12:36.600 153.388 I [RxP 20] 055B1000000A0C00506981484848697754525150
+11/14 12:12:36.600 153.388 V [Match 20 RACE_PCBA_SN] 055B1000000A0C00506981484848697754525150
+11/14 12:12:36.600 153.388 W [CmdR] resp not found: status
+11/14 12:12:36.600 153.388 D [task_time][airoha_cmd] spend 0.007
+11/14 12:12:36.600 153.388 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:12:36.600 153.388 V [transact] payload="505152547769484848816950"
+11/14 12:12:36.620 153.408 V arg[airoha_task]=DisconnectDUTByUsbHid
+11/14 12:12:36.620 153.408 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+11/14 12:12:36.620 153.408 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+11/14 12:12:36.620 153.408 V arg[device_name]=DUT_HEADSET
+11/14 12:12:36.620 153.408 V arg[device_type]=USB_HID
+11/14 12:12:36.620 153.408 V arg[action]=disconnect
+11/14 12:12:36.620 153.408 V arg[port]=
+11/14 12:12:36.620 153.408 D [UsbHidPhy] Close Success.
+11/14 12:12:36.620 153.408 D [host] Clear buffer and queue.
+11/14 12:12:36.620 153.408 V [tp_fty] delete trans
+11/14 12:12:36.620 153.408 V delete phy
+11/14 12:12:36.620 153.408 D [host] Clear buffer and queue.
+11/14 12:12:36.621 153.409 D [UartDevice] Disconnect
+11/14 12:12:36.621 153.409 D [DisconnectDUTByUsbHid] disconnect: DUT_HEADSET(USB_HID)
+11/14 12:12:36.621 153.409 D [task_time][DisconnectDUTByUsbHid] spend 0.001
+11/14 12:12:36.621 153.409 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+11/14 12:12:36.621 153.409 V [transact] result="pass"
+11/14 12:12:38.500 155.288 V [log_file_sync]
+11/14 12:12:39.784 156.572 V arg[airoha_task]=ConnectDutByUsbHid
+11/14 12:12:39.784 156.572 V [task] ConnectDutByUsbHid, class: ConnectDevice
+11/14 12:12:39.784 156.572 V [task_start][ConnectDutByUsbHid] +++++++++++++++++++++++
+11/14 12:12:39.784 156.572 V arg[device_name]=DUT_HEADSET
+11/14 12:12:39.784 156.572 V arg[device_type]=USB_HID
+11/14 12:12:39.784 156.572 V arg[action]=connect
+11/14 12:12:39.784 156.572 V arg[connected_by_usb]=
+11/14 12:12:39.784 156.572 V arg[port]=
+11/14 12:12:39.785 156.573 D [SerialHost] phy_name:USB_HID
+11/14 12:12:39.785 156.573 D phy_type:5
+11/14 12:12:39.785 156.573 D [SerialHost] trans_name:USB_HID
+11/14 12:12:39.785 156.573 D [tp_fty] trans_type:9
+11/14 12:12:39.785 156.573 D [UsbHidPhy] transport : USB_HID 
+11/14 12:12:39.785 156.573 D [SerialHost] phy_open
+11/14 12:12:39.785 156.573 D [UsbHidPhy] transport : USB_HID 
+11/14 12:12:39.785 156.573 I [UsbHidPhy] open [046D:0AFF] usb[]
+11/14 12:12:40.504 157.292 V [log_file_sync]
+11/14 12:12:42.792 159.580 I [UsbHidPhy] get [046D:0AFF] usb[] serial[0000000000000000]
+11/14 12:12:42.792 159.580 D [UsbHidPhy] open: 046d:0aff
+11/14 12:12:42.792 159.580 D [UartDevice] Connect: 0
+11/14 12:12:42.792 159.580 D [ConnectDutByUsbHid] connect: DUT_HEADSET(USB_HID)
+11/14 12:12:42.792 159.580 D [task_time][ConnectDutByUsbHid] spend 3.008
+11/14 12:12:42.792 159.580 V [task_end][ConnectDutByUsbHid] ------------------------------------------
+11/14 12:12:42.792 159.580 V [transact] result="pass"
+11/14 12:12:42.792 159.580 V arg[airoha_task]=airoha_cmd
+11/14 12:12:42.792 159.580 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:12:42.792 159.580 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:12:42.792 159.580 V arg[device_name]=DUT_HEADSET
+11/14 12:12:42.792 159.580 V arg[command_xml]=command_627.xml
+11/14 12:12:42.792 159.580 V arg[airoha_cmd]=RACE_WRITE_LED_BIN_CODE
+11/14 12:12:42.792 159.580 I [airoha_cmd] RACE_WRITE_LED_BIN_CODE
+11/14 12:12:42.792 159.580 D arg[KeyData]=0x45414630352F3035
+11/14 12:12:42.793 159.581 D [046d:0aff] Write(16)
+11/14 12:12:42.794 159.582 V [log_file_sync]
+11/14 12:12:42.796 159.584 D [046d:0aff] chunk: 62(16) (16/16) 061000
+11/14 12:12:42.796 159.584 V [046d:0aff] Write: 62(16) (16/16) 061000055A0C00010A01F835302F353046414500000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:12:42.797 159.585 V [UsbHidPhy] device is writing, skip.
+11/14 12:12:42.797 159.585 D [046d:0aff][write 16 RACE_WRITE_LED_BIN_CODE] 055A0C00010A01F835302F3530464145
+11/14 12:12:42.801 159.589 D [046d:0aff] Read(7)
+11/14 12:12:42.801 159.589 V [046d:0aff][read 10] 070700055B0300010A00
+11/14 12:12:42.802 159.590 I [RxP 7] 055B0300010A00
+11/14 12:12:42.802 159.590 V [Match 7 RACE_WRITE_LED_BIN_CODE] 055B0300010A00
+11/14 12:12:42.802 159.590 W [CmdR] resp not found: status
+11/14 12:12:42.802 159.590 D [task_time][airoha_cmd] spend 0.010
+11/14 12:12:42.802 159.590 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:12:42.802 159.590 V [transact] payload="00"
+11/14 12:12:42.827 159.615 V arg[airoha_task]=airoha_cmd
+11/14 12:12:42.827 159.615 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:12:42.827 159.615 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:12:42.827 159.615 V arg[device_name]=DUT_HEADSET
+11/14 12:12:42.827 159.615 V arg[command_xml]=command_627.xml
+11/14 12:12:42.827 159.615 V arg[airoha_cmd]=RACE_READ_LED_BIN_CODE
+11/14 12:12:42.827 159.615 I [airoha_cmd] RACE_READ_LED_BIN_CODE
+11/14 12:12:42.827 159.615 D [046d:0aff] Write(8)
+11/14 12:12:42.829 159.617 D [046d:0aff] chunk: 62(8) (8/8) 060800
+11/14 12:12:42.829 159.617 V [046d:0aff] Write: 62(8) (8/8) 060800055A0400000A01F8000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:12:42.831 159.619 V [UsbHidPhy] device is writing, skip.
+11/14 12:12:42.831 159.619 D [046d:0aff][write 8 RACE_READ_LED_BIN_CODE] 055A0400000A01F8
+11/14 12:12:42.834 159.622 D [046d:0aff] Read(16)
+11/14 12:12:42.834 159.622 V [046d:0aff][read 19] 071000055B0C00000A080035302F3530464145
+11/14 12:12:42.835 159.623 I [RxP 16] 055B0C00000A080035302F3530464145
+11/14 12:12:42.835 159.623 V [Match 16 RACE_READ_LED_BIN_CODE] 055B0C00000A080035302F3530464145
+11/14 12:12:42.835 159.623 W [CmdR] resp not found: status
+11/14 12:12:42.835 159.623 D [task_time][airoha_cmd] spend 0.008
+11/14 12:12:42.835 159.623 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:12:42.835 159.623 V [transact] payload="45414630352F3035"
+11/14 12:12:42.855 159.643 V arg[airoha_task]=airoha_cmd
+11/14 12:12:42.855 159.643 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:12:42.855 159.643 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:12:42.855 159.643 V arg[device_name]=DUT_HEADSET
+11/14 12:12:42.855 159.643 V arg[command_xml]=command_627.xml
+11/14 12:12:42.855 159.643 V arg[airoha_cmd]=RACE_SET_PCBA_SN
+11/14 12:12:42.855 159.643 I [airoha_cmd] RACE_SET_PCBA_SN
+11/14 12:12:42.855 159.643 D arg[KeyData]=0x505152547769484849845650
+11/14 12:12:42.855 159.643 D [046d:0aff] Write(20)
+11/14 12:12:42.857 159.645 D [046d:0aff] chunk: 62(20) (20/20) 061400
+11/14 12:12:42.857 159.645 V [046d:0aff] Write: 62(20) (20/20) 061400055A1000010A0BF8505684494848697754525150000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:12:42.859 159.647 D [046d:0aff][write 20 RACE_SET_PCBA_SN] 055A1000010A0BF8505684494848697754525150
+11/14 12:12:42.864 159.651 D [046d:0aff] Read(7)
+11/14 12:12:42.864 159.651 V [046d:0aff][read 10] 070700055B0300010A00
+11/14 12:12:42.865 159.652 I [RxP 7] 055B0300010A00
+11/14 12:12:42.865 159.652 V [Match 7 RACE_SET_PCBA_SN] 055B0300010A00
+11/14 12:12:42.865 159.652 W [CmdR] resp not found: status
+11/14 12:12:42.865 159.652 D [task_time][airoha_cmd] spend 0.010
+11/14 12:12:42.865 159.652 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:12:42.865 159.652 V [transact] payload="00"
+11/14 12:12:42.885 159.672 V arg[airoha_task]=airoha_cmd
+11/14 12:12:42.885 159.672 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:12:42.885 159.672 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:12:42.885 159.672 V arg[device_name]=DUT_HEADSET
+11/14 12:12:42.885 159.672 V arg[command_xml]=command_627.xml
+11/14 12:12:42.885 159.672 V arg[airoha_cmd]=RACE_PCBA_SN
+11/14 12:12:42.885 159.672 I [airoha_cmd] RACE_PCBA_SN
+11/14 12:12:42.886 159.673 D [046d:0aff] Write(10)
+11/14 12:12:42.887 159.674 D [046d:0aff] chunk: 62(10) (10/10) 060A00
+11/14 12:12:42.887 159.674 V [046d:0aff] Write: 62(10) (10/10) 060A00055A0600000A0BF80C0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:12:42.888 159.675 V [UsbHidPhy] device is writing, skip.
+11/14 12:12:42.888 159.675 D [046d:0aff][write 10 RACE_PCBA_SN] 055A0600000A0BF80C00
+11/14 12:12:42.891 159.679 D [046d:0aff] Read(20)
+11/14 12:12:42.891 159.679 V [046d:0aff][read 23] 071400055B1000000A0C00505684494848697754525150
+11/14 12:12:42.892 159.680 I [RxP 20] 055B1000000A0C00505684494848697754525150
+11/14 12:12:42.892 159.680 V [Match 20 RACE_PCBA_SN] 055B1000000A0C00505684494848697754525150
+11/14 12:12:42.892 159.680 W [CmdR] resp not found: status
+11/14 12:12:42.892 159.680 D [task_time][airoha_cmd] spend 0.007
+11/14 12:12:42.892 159.680 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:12:42.892 159.680 V [transact] payload="505152547769484849845650"
+11/14 12:12:42.912 159.700 V arg[airoha_task]=DisconnectDUTByUsbHid
+11/14 12:12:42.912 159.700 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+11/14 12:12:42.912 159.700 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+11/14 12:12:42.912 159.700 V arg[device_name]=DUT_HEADSET
+11/14 12:12:42.912 159.700 V arg[device_type]=USB_HID
+11/14 12:12:42.912 159.700 V arg[action]=disconnect
+11/14 12:12:42.912 159.700 V arg[port]=
+11/14 12:12:42.912 159.700 D [UsbHidPhy] Close Success.
+11/14 12:12:42.912 159.700 D [host] Clear buffer and queue.
+11/14 12:12:42.912 159.700 V [tp_fty] delete trans
+11/14 12:12:42.912 159.700 V delete phy
+11/14 12:12:42.912 159.700 D [host] Clear buffer and queue.
+11/14 12:12:42.912 159.700 D [UartDevice] Disconnect
+11/14 12:12:42.912 159.700 D [DisconnectDUTByUsbHid] disconnect: DUT_HEADSET(USB_HID)
+11/14 12:12:42.912 159.700 D [task_time][DisconnectDUTByUsbHid] spend 0.000
+11/14 12:12:42.912 159.700 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+11/14 12:12:42.912 159.700 V [transact] result="pass"
+11/14 12:12:44.796 161.584 V [log_file_sync]
+11/14 12:14:35.709 272.497 V arg[airoha_task]=DisconnectDUTByUsbHid
+11/14 12:14:35.709 272.497 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+11/14 12:14:35.709 272.497 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+11/14 12:14:35.709 272.497 V arg[device_name]=DUT_HEADSET
+11/14 12:14:35.709 272.497 V arg[device_type]=USB_HID
+11/14 12:14:35.709 272.497 V arg[action]=disconnect
+11/14 12:14:35.709 272.497 V arg[port]=
+11/14 12:14:35.709 272.497 D [UartDevice] Disconnect
+11/14 12:14:35.709 272.497 D [DisconnectDUTByUsbHid] disconnect: DUT_HEADSET(USB_HID)
+11/14 12:14:35.709 272.497 D [task_time][DisconnectDUTByUsbHid] spend 0.000
+11/14 12:14:35.709 272.497 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+11/14 12:14:35.709 272.497 V [transact] result="pass"
+11/14 12:14:35.715 272.502 V [log_file_sync]
+11/14 12:14:47.268 284.056 V arg[airoha_task]=ConnectDutByUsbHid
+11/14 12:14:47.268 284.056 V [task] ConnectDutByUsbHid, class: ConnectDevice
+11/14 12:14:47.268 284.056 V [task_start][ConnectDutByUsbHid] +++++++++++++++++++++++
+11/14 12:14:47.269 284.057 V arg[device_name]=DUT_HEADSET
+11/14 12:14:47.269 284.057 V arg[device_type]=USB_HID
+11/14 12:14:47.269 284.057 V arg[action]=connect
+11/14 12:14:47.269 284.057 V arg[connected_by_usb]=
+11/14 12:14:47.269 284.057 V arg[port]=
+11/14 12:14:47.269 284.057 D [SerialHost] phy_name:USB_HID
+11/14 12:14:47.269 284.057 D phy_type:5
+11/14 12:14:47.269 284.057 D [SerialHost] trans_name:USB_HID
+11/14 12:14:47.269 284.057 D [tp_fty] trans_type:9
+11/14 12:14:47.269 284.057 D [UsbHidPhy] transport : USB_HID 
+11/14 12:14:47.269 284.057 D [SerialHost] phy_open
+11/14 12:14:47.269 284.057 D [UsbHidPhy] transport : USB_HID 
+11/14 12:14:47.269 284.057 I [UsbHidPhy] open [046D:0AFF] usb[]
+11/14 12:14:47.272 284.060 V [log_file_sync]
+11/14 12:14:50.277 287.065 I [UsbHidPhy] get [046D:0AFF] usb[] serial[0000000000000000]
+11/14 12:14:50.277 287.065 D [UsbHidPhy] open: 046d:0aff
+11/14 12:14:50.277 287.065 D [UartDevice] Connect: 0
+11/14 12:14:50.277 287.065 D [ConnectDutByUsbHid] connect: DUT_HEADSET(USB_HID)
+11/14 12:14:50.277 287.065 D [task_time][ConnectDutByUsbHid] spend 3.009
+11/14 12:14:50.277 287.065 V [task_end][ConnectDutByUsbHid] ------------------------------------------
+11/14 12:14:50.277 287.065 V [transact] result="pass"
+11/14 12:14:50.277 287.065 V arg[airoha_task]=airoha_cmd
+11/14 12:14:50.277 287.065 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:14:50.277 287.065 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:14:50.277 287.065 V arg[device_name]=DUT_HEADSET
+11/14 12:14:50.277 287.065 V arg[command_xml]=command_627.xml
+11/14 12:14:50.277 287.065 V arg[airoha_cmd]=RACE_WRITE_LED_BIN_CODE
+11/14 12:14:50.277 287.065 I [airoha_cmd] RACE_WRITE_LED_BIN_CODE
+11/14 12:14:50.277 287.065 D arg[KeyData]=0x45414630352F3035
+11/14 12:14:50.277 287.065 D [046d:0aff] Write(16)
+11/14 12:14:50.279 287.067 D [046d:0aff] chunk: 62(16) (16/16) 061000
+11/14 12:14:50.279 287.067 V [046d:0aff] Write: 62(16) (16/16) 061000055A0C00010A01F835302F353046414500000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:14:50.280 287.068 V [log_file_sync]
+11/14 12:14:50.281 287.069 D [046d:0aff][write 16 RACE_WRITE_LED_BIN_CODE] 055A0C00010A01F835302F3530464145
+11/14 12:14:50.286 287.074 D [046d:0aff] Read(7)
+11/14 12:14:50.286 287.074 V [046d:0aff][read 10] 070700055B0300010A00
+11/14 12:14:50.287 287.075 I [RxP 7] 055B0300010A00
+11/14 12:14:50.287 287.075 V [Match 7 RACE_WRITE_LED_BIN_CODE] 055B0300010A00
+11/14 12:14:50.287 287.075 W [CmdR] resp not found: status
+11/14 12:14:50.287 287.075 D [task_time][airoha_cmd] spend 0.010
+11/14 12:14:50.287 287.075 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:14:50.287 287.075 V [transact] payload="00"
+11/14 12:14:50.313 287.101 V arg[airoha_task]=airoha_cmd
+11/14 12:14:50.313 287.101 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:14:50.313 287.101 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:14:50.313 287.101 V arg[device_name]=DUT_HEADSET
+11/14 12:14:50.313 287.101 V arg[command_xml]=command_627.xml
+11/14 12:14:50.313 287.101 V arg[airoha_cmd]=RACE_READ_LED_BIN_CODE
+11/14 12:14:50.313 287.101 I [airoha_cmd] RACE_READ_LED_BIN_CODE
+11/14 12:14:50.313 287.101 D [046d:0aff] Write(8)
+11/14 12:14:50.314 287.102 D [046d:0aff] chunk: 62(8) (8/8) 060800
+11/14 12:14:50.314 287.102 V [046d:0aff] Write: 62(8) (8/8) 060800055A0400000A01F8000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:14:50.316 287.104 D [046d:0aff][write 8 RACE_READ_LED_BIN_CODE] 055A0400000A01F8
+11/14 12:14:50.321 287.108 D [046d:0aff] Read(16)
+11/14 12:14:50.321 287.108 V [046d:0aff][read 19] 071000055B0C00000A080035302F3530464145
+11/14 12:14:50.321 287.109 I [RxP 16] 055B0C00000A080035302F3530464145
+11/14 12:14:50.321 287.109 V [Match 16 RACE_READ_LED_BIN_CODE] 055B0C00000A080035302F3530464145
+11/14 12:14:50.321 287.109 W [CmdR] resp not found: status
+11/14 12:14:50.321 287.109 D [task_time][airoha_cmd] spend 0.008
+11/14 12:14:50.321 287.109 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:14:50.321 287.109 V [transact] payload="45414630352F3035"
+11/14 12:14:50.342 287.130 V arg[airoha_task]=airoha_cmd
+11/14 12:14:50.342 287.130 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:14:50.342 287.130 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:14:50.342 287.130 V arg[device_name]=DUT_HEADSET
+11/14 12:14:50.342 287.130 V arg[command_xml]=command_627.xml
+11/14 12:14:50.342 287.130 V arg[airoha_cmd]=RACE_SET_PCBA_SN
+11/14 12:14:50.342 287.130 I [airoha_cmd] RACE_SET_PCBA_SN
+11/14 12:14:50.342 287.130 D arg[KeyData]=0x505152547769484849845750
+11/14 12:14:50.342 287.130 D [046d:0aff] Write(20)
+11/14 12:14:50.344 287.132 D [046d:0aff] chunk: 62(20) (20/20) 061400
+11/14 12:14:50.344 287.132 V [046d:0aff] Write: 62(20) (20/20) 061400055A1000010A0BF8505784494848697754525150000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:14:50.346 287.134 V [UsbHidPhy] device is writing, skip.
+11/14 12:14:50.346 287.134 D [046d:0aff][write 20 RACE_SET_PCBA_SN] 055A1000010A0BF8505784494848697754525150
+11/14 12:14:50.349 287.137 D [046d:0aff] Read(7)
+11/14 12:14:50.349 287.137 V [046d:0aff][read 10] 070700055B0300010A00
+11/14 12:14:50.349 287.137 I [RxP 7] 055B0300010A00
+11/14 12:14:50.350 287.138 V [Match 7 RACE_SET_PCBA_SN] 055B0300010A00
+11/14 12:14:50.350 287.138 W [CmdR] resp not found: status
+11/14 12:14:50.350 287.138 D [task_time][airoha_cmd] spend 0.008
+11/14 12:14:50.350 287.138 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:14:50.350 287.138 V [transact] payload="00"
+11/14 12:14:50.370 287.158 V arg[airoha_task]=airoha_cmd
+11/14 12:14:50.370 287.158 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:14:50.370 287.158 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:14:50.370 287.158 V arg[device_name]=DUT_HEADSET
+11/14 12:14:50.370 287.158 V arg[command_xml]=command_627.xml
+11/14 12:14:50.370 287.158 V arg[airoha_cmd]=RACE_PCBA_SN
+11/14 12:14:50.370 287.158 I [airoha_cmd] RACE_PCBA_SN
+11/14 12:14:50.370 287.158 D [046d:0aff] Write(10)
+11/14 12:14:50.372 287.160 D [046d:0aff] chunk: 62(10) (10/10) 060A00
+11/14 12:14:50.372 287.160 V [046d:0aff] Write: 62(10) (10/10) 060A00055A0600000A0BF80C0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:14:50.373 287.161 V [UsbHidPhy] device is writing, skip.
+11/14 12:14:50.373 287.161 D [046d:0aff][write 10 RACE_PCBA_SN] 055A0600000A0BF80C00
+11/14 12:14:50.376 287.164 D [046d:0aff] Read(20)
+11/14 12:14:50.376 287.164 V [046d:0aff][read 23] 071400055B1000000A0C00505784494848697754525150
+11/14 12:14:50.377 287.165 I [RxP 20] 055B1000000A0C00505784494848697754525150
+11/14 12:14:50.377 287.165 V [Match 20 RACE_PCBA_SN] 055B1000000A0C00505784494848697754525150
+11/14 12:14:50.377 287.165 W [CmdR] resp not found: status
+11/14 12:14:50.377 287.165 D [task_time][airoha_cmd] spend 0.007
+11/14 12:14:50.377 287.165 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:14:50.377 287.165 V [transact] payload="505152547769484849845750"
+11/14 12:14:50.397 287.185 V arg[airoha_task]=DisconnectDUTByUsbHid
+11/14 12:14:50.397 287.185 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+11/14 12:14:50.397 287.185 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+11/14 12:14:50.397 287.185 V arg[device_name]=DUT_HEADSET
+11/14 12:14:50.397 287.185 V arg[device_type]=USB_HID
+11/14 12:14:50.397 287.185 V arg[action]=disconnect
+11/14 12:14:50.397 287.185 V arg[port]=
+11/14 12:14:50.398 287.186 D [UsbHidPhy] Close Success.
+11/14 12:14:50.398 287.186 D [host] Clear buffer and queue.
+11/14 12:14:50.398 287.186 V [tp_fty] delete trans
+11/14 12:14:50.398 287.186 V delete phy
+11/14 12:14:50.398 287.186 D [host] Clear buffer and queue.
+11/14 12:14:50.398 287.186 D [UartDevice] Disconnect
+11/14 12:14:50.398 287.186 D [DisconnectDUTByUsbHid] disconnect: DUT_HEADSET(USB_HID)
+11/14 12:14:50.398 287.186 D [task_time][DisconnectDUTByUsbHid] spend 0.001
+11/14 12:14:50.398 287.186 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+11/14 12:14:50.398 287.186 V [transact] result="pass"
+11/14 12:14:52.284 289.072 V [log_file_sync]
+11/14 12:17:21.434 438.222 V arg[airoha_task]=ConnectDutByUsbHid
+11/14 12:17:21.434 438.222 V [task] ConnectDutByUsbHid, class: ConnectDevice
+11/14 12:17:21.434 438.222 V [task_start][ConnectDutByUsbHid] +++++++++++++++++++++++
+11/14 12:17:21.434 438.222 V arg[device_name]=DUT_HEADSET
+11/14 12:17:21.434 438.222 V arg[device_type]=USB_HID
+11/14 12:17:21.434 438.222 V arg[action]=connect
+11/14 12:17:21.434 438.222 V arg[connected_by_usb]=
+11/14 12:17:21.435 438.223 V arg[port]=
+11/14 12:17:21.435 438.223 D [SerialHost] phy_name:USB_HID
+11/14 12:17:21.435 438.223 D phy_type:5
+11/14 12:17:21.435 438.223 D [SerialHost] trans_name:USB_HID
+11/14 12:17:21.435 438.223 D [tp_fty] trans_type:9
+11/14 12:17:21.435 438.223 D [UsbHidPhy] transport : USB_HID 
+11/14 12:17:21.435 438.223 D [SerialHost] phy_open
+11/14 12:17:21.435 438.223 D [UsbHidPhy] transport : USB_HID 
+11/14 12:17:21.435 438.223 I [UsbHidPhy] open [046D:0AFF] usb[]
+11/14 12:17:21.436 438.224 V [log_file_sync]
+11/14 12:17:24.442 441.230 I [UsbHidPhy] get [046D:0AFF] usb[] serial[0000000000000000]
+11/14 12:17:24.442 441.230 D [UsbHidPhy] open: 046d:0aff
+11/14 12:17:24.442 441.230 D [UartDevice] Connect: 0
+11/14 12:17:24.442 441.230 D [ConnectDutByUsbHid] connect: DUT_HEADSET(USB_HID)
+11/14 12:17:24.442 441.230 D [task_time][ConnectDutByUsbHid] spend 3.008
+11/14 12:17:24.442 441.230 V [task_end][ConnectDutByUsbHid] ------------------------------------------
+11/14 12:17:24.442 441.230 V [transact] result="pass"
+11/14 12:17:24.442 441.230 V arg[airoha_task]=airoha_cmd
+11/14 12:17:24.442 441.230 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:17:24.442 441.230 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:17:24.442 441.230 V arg[device_name]=DUT_HEADSET
+11/14 12:17:24.442 441.230 V arg[command_xml]=command_627.xml
+11/14 12:17:24.442 441.230 V arg[airoha_cmd]=RACE_WRITE_LED_BIN_CODE
+11/14 12:17:24.442 441.230 I [airoha_cmd] RACE_WRITE_LED_BIN_CODE
+11/14 12:17:24.442 441.230 D arg[KeyData]=0x45414630352F3035
+11/14 12:17:24.442 441.230 D [046d:0aff] Write(16)
+11/14 12:17:24.443 441.231 V [log_file_sync]
+11/14 12:17:24.444 441.232 D [046d:0aff] chunk: 62(16) (16/16) 061000
+11/14 12:17:24.444 441.232 V [046d:0aff] Write: 62(16) (16/16) 061000055A0C00010A01F835302F353046414500000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:17:24.446 441.234 D [046d:0aff][write 16 RACE_WRITE_LED_BIN_CODE] 055A0C00010A01F835302F3530464145
+11/14 12:17:24.451 441.239 D [046d:0aff] Read(7)
+11/14 12:17:24.451 441.239 V [046d:0aff][read 10] 070700055B0300010A00
+11/14 12:17:24.452 441.240 I [RxP 7] 055B0300010A00
+11/14 12:17:24.452 441.240 V [Match 7 RACE_WRITE_LED_BIN_CODE] 055B0300010A00
+11/14 12:17:24.452 441.240 W [CmdR] resp not found: status
+11/14 12:17:24.452 441.240 D [task_time][airoha_cmd] spend 0.010
+11/14 12:17:24.452 441.240 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:17:24.452 441.240 V [transact] payload="00"
+11/14 12:17:24.472 441.260 V arg[airoha_task]=airoha_cmd
+11/14 12:17:24.472 441.260 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:17:24.472 441.260 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:17:24.472 441.260 V arg[device_name]=DUT_HEADSET
+11/14 12:17:24.472 441.260 V arg[command_xml]=command_627.xml
+11/14 12:17:24.472 441.260 V arg[airoha_cmd]=RACE_READ_LED_BIN_CODE
+11/14 12:17:24.472 441.260 I [airoha_cmd] RACE_READ_LED_BIN_CODE
+11/14 12:17:24.472 441.260 D [046d:0aff] Write(8)
+11/14 12:17:24.473 441.261 D [046d:0aff] chunk: 62(8) (8/8) 060800
+11/14 12:17:24.473 441.261 V [046d:0aff] Write: 62(8) (8/8) 060800055A0400000A01F8000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:17:24.475 441.263 D [046d:0aff][write 8 RACE_READ_LED_BIN_CODE] 055A0400000A01F8
+11/14 12:17:24.476 441.264 V [UsbHidPhy] device is writing, skip.
+11/14 12:17:24.479 441.267 D [046d:0aff] Read(16)
+11/14 12:17:24.479 441.267 V [046d:0aff][read 19] 071000055B0C00000A080035302F3530464145
+11/14 12:17:24.480 441.268 I [RxP 16] 055B0C00000A080035302F3530464145
+11/14 12:17:24.480 441.268 V [Match 16 RACE_READ_LED_BIN_CODE] 055B0C00000A080035302F3530464145
+11/14 12:17:24.480 441.268 W [CmdR] resp not found: status
+11/14 12:17:24.480 441.268 D [task_time][airoha_cmd] spend 0.008
+11/14 12:17:24.480 441.268 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:17:24.480 441.268 V [transact] payload="45414630352F3035"
+11/14 12:17:24.495 441.283 V arg[airoha_task]=airoha_cmd
+11/14 12:17:24.495 441.283 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:17:24.495 441.283 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:17:24.495 441.283 V arg[device_name]=DUT_HEADSET
+11/14 12:17:24.495 441.283 V arg[command_xml]=command_627.xml
+11/14 12:17:24.495 441.283 V arg[airoha_cmd]=RACE_SET_PCBA_SN
+11/14 12:17:24.495 441.283 I [airoha_cmd] RACE_SET_PCBA_SN
+11/14 12:17:24.495 441.283 D arg[KeyData]=0x505152547769484849846650
+11/14 12:17:24.495 441.283 D [046d:0aff] Write(20)
+11/14 12:17:24.497 441.285 D [046d:0aff] chunk: 62(20) (20/20) 061400
+11/14 12:17:24.497 441.285 V [046d:0aff] Write: 62(20) (20/20) 061400055A1000010A0BF8506684494848697754525150000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:17:24.499 441.287 D [046d:0aff][write 20 RACE_SET_PCBA_SN] 055A1000010A0BF8506684494848697754525150
+11/14 12:17:24.504 441.292 D [046d:0aff] Read(7)
+11/14 12:17:24.504 441.292 V [046d:0aff][read 10] 070700055B0300010A00
+11/14 12:17:24.505 441.293 I [RxP 7] 055B0300010A00
+11/14 12:17:24.505 441.293 V [Match 7 RACE_SET_PCBA_SN] 055B0300010A00
+11/14 12:17:24.505 441.293 W [CmdR] resp not found: status
+11/14 12:17:24.505 441.293 D [task_time][airoha_cmd] spend 0.010
+11/14 12:17:24.505 441.293 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:17:24.505 441.293 V [transact] payload="00"
+11/14 12:17:24.520 441.308 V arg[airoha_task]=airoha_cmd
+11/14 12:17:24.520 441.308 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:17:24.520 441.308 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:17:24.520 441.308 V arg[device_name]=DUT_HEADSET
+11/14 12:17:24.520 441.308 V arg[command_xml]=command_627.xml
+11/14 12:17:24.520 441.308 V arg[airoha_cmd]=RACE_PCBA_SN
+11/14 12:17:24.520 441.308 I [airoha_cmd] RACE_PCBA_SN
+11/14 12:17:24.520 441.308 D [046d:0aff] Write(10)
+11/14 12:17:24.522 441.310 D [046d:0aff] chunk: 62(10) (10/10) 060A00
+11/14 12:17:24.522 441.310 V [046d:0aff] Write: 62(10) (10/10) 060A00055A0600000A0BF80C0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:17:24.524 441.312 D [046d:0aff][write 10 RACE_PCBA_SN] 055A0600000A0BF80C00
+11/14 12:17:24.525 441.313 V [UsbHidPhy] device is writing, skip.
+11/14 12:17:24.529 441.317 D [046d:0aff] Read(20)
+11/14 12:17:24.529 441.317 V [046d:0aff][read 23] 071400055B1000000A0C00506684494848697754525150
+11/14 12:17:24.530 441.318 I [RxP 20] 055B1000000A0C00506684494848697754525150
+11/14 12:17:24.530 441.318 V [Match 20 RACE_PCBA_SN] 055B1000000A0C00506684494848697754525150
+11/14 12:17:24.530 441.318 W [CmdR] resp not found: status
+11/14 12:17:24.530 441.318 D [task_time][airoha_cmd] spend 0.010
+11/14 12:17:24.530 441.318 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:17:24.530 441.318 V [transact] payload="505152547769484849846650"
+11/14 12:17:24.545 441.333 V arg[airoha_task]=DisconnectDUTByUsbHid
+11/14 12:17:24.545 441.333 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+11/14 12:17:24.545 441.333 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+11/14 12:17:24.545 441.333 V arg[device_name]=DUT_HEADSET
+11/14 12:17:24.545 441.333 V arg[device_type]=USB_HID
+11/14 12:17:24.545 441.333 V arg[action]=disconnect
+11/14 12:17:24.545 441.333 V arg[port]=
+11/14 12:17:24.545 441.333 D [UsbHidPhy] Close Success.
+11/14 12:17:24.545 441.333 D [host] Clear buffer and queue.
+11/14 12:17:24.545 441.333 V [tp_fty] delete trans
+11/14 12:17:24.545 441.333 V delete phy
+11/14 12:17:24.545 441.333 D [host] Clear buffer and queue.
+11/14 12:17:24.545 441.333 D [UartDevice] Disconnect
+11/14 12:17:24.545 441.333 D [DisconnectDUTByUsbHid] disconnect: DUT_HEADSET(USB_HID)
+11/14 12:17:24.545 441.333 D [task_time][DisconnectDUTByUsbHid] spend 0.000
+11/14 12:17:24.545 441.333 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+11/14 12:17:24.545 441.333 V [transact] result="pass"
+11/14 12:17:26.448 443.236 V [log_file_sync]
+11/14 12:17:27.637 444.424 V arg[airoha_task]=ConnectDutByUsbHid
+11/14 12:17:27.637 444.424 V [task] ConnectDutByUsbHid, class: ConnectDevice
+11/14 12:17:27.637 444.424 V [task_start][ConnectDutByUsbHid] +++++++++++++++++++++++
+11/14 12:17:27.637 444.424 V arg[device_name]=DUT_HEADSET
+11/14 12:17:27.637 444.424 V arg[device_type]=USB_HID
+11/14 12:17:27.637 444.424 V arg[action]=connect
+11/14 12:17:27.637 444.424 V arg[connected_by_usb]=
+11/14 12:17:27.637 444.424 V arg[port]=
+11/14 12:17:27.638 444.425 D [SerialHost] phy_name:USB_HID
+11/14 12:17:27.638 444.425 D phy_type:5
+11/14 12:17:27.638 444.425 D [SerialHost] trans_name:USB_HID
+11/14 12:17:27.638 444.425 D [tp_fty] trans_type:9
+11/14 12:17:27.638 444.425 D [UsbHidPhy] transport : USB_HID 
+11/14 12:17:27.638 444.425 D [SerialHost] phy_open
+11/14 12:17:27.638 444.425 D [UsbHidPhy] transport : USB_HID 
+11/14 12:17:27.638 444.425 I [UsbHidPhy] open [046D:0AFF] usb[]
+11/14 12:17:28.452 445.239 V [log_file_sync]
+11/14 12:17:30.645 447.433 I [UsbHidPhy] get [046D:0AFF] usb[] serial[0000000000000000]
+11/14 12:17:30.645 447.433 D [UsbHidPhy] open: 046d:0aff
+11/14 12:17:30.645 447.433 D [UartDevice] Connect: 0
+11/14 12:17:30.645 447.433 D [ConnectDutByUsbHid] connect: DUT_HEADSET(USB_HID)
+11/14 12:17:30.645 447.433 D [task_time][ConnectDutByUsbHid] spend 3.008
+11/14 12:17:30.645 447.433 V [task_end][ConnectDutByUsbHid] ------------------------------------------
+11/14 12:17:30.645 447.433 V [transact] result="pass"
+11/14 12:17:30.645 447.433 V arg[airoha_task]=airoha_cmd
+11/14 12:17:30.645 447.433 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:17:30.645 447.433 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:17:30.645 447.433 V arg[device_name]=DUT_HEADSET
+11/14 12:17:30.645 447.433 V arg[command_xml]=command_627.xml
+11/14 12:17:30.645 447.433 V arg[airoha_cmd]=RACE_WRITE_LED_BIN_CODE
+11/14 12:17:30.645 447.433 I [airoha_cmd] RACE_WRITE_LED_BIN_CODE
+11/14 12:17:30.645 447.433 D arg[KeyData]=0x45414630352F3035
+11/14 12:17:30.646 447.434 D [046d:0aff] Write(16)
+11/14 12:17:30.647 447.435 V [log_file_sync]
+11/14 12:17:30.647 447.435 D [046d:0aff] chunk: 62(16) (16/16) 061000
+11/14 12:17:30.647 447.435 V [046d:0aff] Write: 62(16) (16/16) 061000055A0C00010A01F835302F353046414500000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:17:30.648 447.436 D [046d:0aff][write 16 RACE_WRITE_LED_BIN_CODE] 055A0C00010A01F835302F3530464145
+11/14 12:17:30.654 447.442 D [046d:0aff] Read(7)
+11/14 12:17:30.654 447.442 V [046d:0aff][read 10] 070700055B0300010A00
+11/14 12:17:30.655 447.443 I [RxP 7] 055B0300010A00
+11/14 12:17:30.655 447.443 V [Match 7 RACE_WRITE_LED_BIN_CODE] 055B0300010A00
+11/14 12:17:30.655 447.443 W [CmdR] resp not found: status
+11/14 12:17:30.655 447.443 D [task_time][airoha_cmd] spend 0.010
+11/14 12:17:30.655 447.443 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:17:30.655 447.443 V [transact] payload="00"
+11/14 12:17:30.674 447.462 V arg[airoha_task]=airoha_cmd
+11/14 12:17:30.674 447.462 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:17:30.674 447.462 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:17:30.674 447.462 V arg[device_name]=DUT_HEADSET
+11/14 12:17:30.674 447.462 V arg[command_xml]=command_627.xml
+11/14 12:17:30.674 447.462 V arg[airoha_cmd]=RACE_READ_LED_BIN_CODE
+11/14 12:17:30.674 447.462 I [airoha_cmd] RACE_READ_LED_BIN_CODE
+11/14 12:17:30.674 447.462 D [046d:0aff] Write(8)
+11/14 12:17:30.676 447.464 D [046d:0aff] chunk: 62(8) (8/8) 060800
+11/14 12:17:30.676 447.464 V [046d:0aff] Write: 62(8) (8/8) 060800055A0400000A01F8000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:17:30.679 447.466 D [046d:0aff][write 8 RACE_READ_LED_BIN_CODE] 055A0400000A01F8
+11/14 12:17:30.681 447.468 V [UsbHidPhy] device is writing, skip.
+11/14 12:17:30.684 447.471 D [046d:0aff] Read(16)
+11/14 12:17:30.684 447.471 V [046d:0aff][read 19] 071000055B0C00000A080035302F3530464145
+11/14 12:17:30.684 447.472 I [RxP 16] 055B0C00000A080035302F3530464145
+11/14 12:17:30.684 447.472 V [Match 16 RACE_READ_LED_BIN_CODE] 055B0C00000A080035302F3530464145
+11/14 12:17:30.684 447.472 W [CmdR] resp not found: status
+11/14 12:17:30.684 447.472 D [task_time][airoha_cmd] spend 0.010
+11/14 12:17:30.684 447.472 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:17:30.684 447.472 V [transact] payload="45414630352F3035"
+11/14 12:17:30.699 447.487 V arg[airoha_task]=airoha_cmd
+11/14 12:17:30.699 447.487 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:17:30.699 447.487 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:17:30.699 447.487 V arg[device_name]=DUT_HEADSET
+11/14 12:17:30.699 447.487 V arg[command_xml]=command_627.xml
+11/14 12:17:30.699 447.487 V arg[airoha_cmd]=RACE_SET_PCBA_SN
+11/14 12:17:30.699 447.487 I [airoha_cmd] RACE_SET_PCBA_SN
+11/14 12:17:30.699 447.487 D arg[KeyData]=0x505152547769484851498950
+11/14 12:17:30.699 447.487 D [046d:0aff] Write(20)
+11/14 12:17:30.701 447.489 D [046d:0aff] chunk: 62(20) (20/20) 061400
+11/14 12:17:30.701 447.489 V [046d:0aff] Write: 62(20) (20/20) 061400055A1000010A0BF8508949514848697754525150000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:17:30.704 447.491 D [046d:0aff][write 20 RACE_SET_PCBA_SN] 055A1000010A0BF8508949514848697754525150
+11/14 12:17:30.708 447.496 D [046d:0aff] Read(7)
+11/14 12:17:30.708 447.496 V [046d:0aff][read 10] 070700055B0300010A00
+11/14 12:17:30.709 447.496 I [RxP 7] 055B0300010A00
+11/14 12:17:30.709 447.496 V [Match 7 RACE_SET_PCBA_SN] 055B0300010A00
+11/14 12:17:30.709 447.496 W [CmdR] resp not found: status
+11/14 12:17:30.709 447.496 D [task_time][airoha_cmd] spend 0.009
+11/14 12:17:30.709 447.496 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:17:30.709 447.496 V [transact] payload="00"
+11/14 12:17:30.723 447.510 V arg[airoha_task]=airoha_cmd
+11/14 12:17:30.723 447.510 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:17:30.723 447.510 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:17:30.723 447.510 V arg[device_name]=DUT_HEADSET
+11/14 12:17:30.723 447.510 V arg[command_xml]=command_627.xml
+11/14 12:17:30.723 447.510 V arg[airoha_cmd]=RACE_PCBA_SN
+11/14 12:17:30.723 447.510 I [airoha_cmd] RACE_PCBA_SN
+11/14 12:17:30.724 447.511 D [046d:0aff] Write(10)
+11/14 12:17:30.725 447.513 D [046d:0aff] chunk: 62(10) (10/10) 060A00
+11/14 12:17:30.725 447.513 V [046d:0aff] Write: 62(10) (10/10) 060A00055A0600000A0BF80C0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:17:30.726 447.514 D [046d:0aff][write 10 RACE_PCBA_SN] 055A0600000A0BF80C00
+11/14 12:17:30.732 447.520 D [046d:0aff] Read(20)
+11/14 12:17:30.732 447.520 V [046d:0aff][read 23] 071400055B1000000A0C00508949514848697754525150
+11/14 12:17:30.733 447.521 I [RxP 20] 055B1000000A0C00508949514848697754525150
+11/14 12:17:30.733 447.521 V [Match 20 RACE_PCBA_SN] 055B1000000A0C00508949514848697754525150
+11/14 12:17:30.733 447.521 W [CmdR] resp not found: status
+11/14 12:17:30.733 447.521 D [task_time][airoha_cmd] spend 0.010
+11/14 12:17:30.733 447.521 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:17:30.733 447.521 V [transact] payload="505152547769484851498950"
+11/14 12:17:30.748 447.536 V arg[airoha_task]=DisconnectDUTByUsbHid
+11/14 12:17:30.748 447.536 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+11/14 12:17:30.748 447.536 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+11/14 12:17:30.748 447.536 V arg[device_name]=DUT_HEADSET
+11/14 12:17:30.748 447.536 V arg[device_type]=USB_HID
+11/14 12:17:30.748 447.536 V arg[action]=disconnect
+11/14 12:17:30.748 447.536 V arg[port]=
+11/14 12:17:30.748 447.536 D [UsbHidPhy] Close Success.
+11/14 12:17:30.748 447.536 D [host] Clear buffer and queue.
+11/14 12:17:30.748 447.536 V [tp_fty] delete trans
+11/14 12:17:30.748 447.536 V delete phy
+11/14 12:17:30.748 447.536 D [host] Clear buffer and queue.
+11/14 12:17:30.748 447.536 D [UartDevice] Disconnect
+11/14 12:17:30.748 447.536 D [DisconnectDUTByUsbHid] disconnect: DUT_HEADSET(USB_HID)
+11/14 12:17:30.748 447.536 D [task_time][DisconnectDUTByUsbHid] spend 0.000
+11/14 12:17:30.748 447.536 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+11/14 12:17:30.748 447.536 V [transact] result="pass"
+11/14 12:17:32.650 449.438 V [log_file_sync]
+11/14 12:19:25.459 562.247 V arg[airoha_task]=DisconnectDUTByUsbHid
+11/14 12:19:25.459 562.247 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+11/14 12:19:25.459 562.247 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+11/14 12:19:25.460 562.248 V arg[device_name]=DUT_HEADSET
+11/14 12:19:25.460 562.248 V arg[device_type]=USB_HID
+11/14 12:19:25.460 562.248 V arg[action]=disconnect
+11/14 12:19:25.460 562.248 V arg[port]=
+11/14 12:19:25.460 562.248 D [UartDevice] Disconnect
+11/14 12:19:25.460 562.248 D [DisconnectDUTByUsbHid] disconnect: DUT_HEADSET(USB_HID)
+11/14 12:19:25.460 562.248 D [task_time][DisconnectDUTByUsbHid] spend 0.000
+11/14 12:19:25.460 562.248 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+11/14 12:19:25.460 562.248 V [transact] result="pass"
+11/14 12:19:25.460 562.248 V [log_file_sync]
+11/14 12:19:37.078 573.866 V arg[airoha_task]=ConnectDutByUsbHid
+11/14 12:19:37.078 573.866 V [task] ConnectDutByUsbHid, class: ConnectDevice
+11/14 12:19:37.078 573.866 V [task_start][ConnectDutByUsbHid] +++++++++++++++++++++++
+11/14 12:19:37.078 573.866 V arg[device_name]=DUT_HEADSET
+11/14 12:19:37.078 573.866 V arg[device_type]=USB_HID
+11/14 12:19:37.078 573.866 V arg[action]=connect
+11/14 12:19:37.078 573.866 V arg[connected_by_usb]=
+11/14 12:19:37.078 573.866 V arg[port]=
+11/14 12:19:37.079 573.867 D [SerialHost] phy_name:USB_HID
+11/14 12:19:37.079 573.867 D phy_type:5
+11/14 12:19:37.079 573.867 D [SerialHost] trans_name:USB_HID
+11/14 12:19:37.079 573.867 D [tp_fty] trans_type:9
+11/14 12:19:37.079 573.867 D [UsbHidPhy] transport : USB_HID 
+11/14 12:19:37.079 573.867 D [SerialHost] phy_open
+11/14 12:19:37.079 573.867 D [UsbHidPhy] transport : USB_HID 
+11/14 12:19:37.079 573.867 I [UsbHidPhy] open [046D:0AFF] usb[]
+11/14 12:19:37.080 573.868 V [log_file_sync]
+11/14 12:19:40.086 576.874 I [UsbHidPhy] get [046D:0AFF] usb[] serial[0000000000000000]
+11/14 12:19:40.086 576.874 D [UsbHidPhy] open: 046d:0aff
+11/14 12:19:40.086 576.874 D [UartDevice] Connect: 0
+11/14 12:19:40.086 576.874 D [ConnectDutByUsbHid] connect: DUT_HEADSET(USB_HID)
+11/14 12:19:40.086 576.874 D [task_time][ConnectDutByUsbHid] spend 3.008
+11/14 12:19:40.086 576.874 V [task_end][ConnectDutByUsbHid] ------------------------------------------
+11/14 12:19:40.086 576.874 V [transact] result="pass"
+11/14 12:19:40.086 576.874 V arg[airoha_task]=airoha_cmd
+11/14 12:19:40.086 576.874 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:19:40.086 576.874 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:19:40.086 576.874 V arg[device_name]=DUT_HEADSET
+11/14 12:19:40.086 576.874 V arg[command_xml]=command_627.xml
+11/14 12:19:40.086 576.874 V arg[airoha_cmd]=RACE_WRITE_LED_BIN_CODE
+11/14 12:19:40.086 576.874 I [airoha_cmd] RACE_WRITE_LED_BIN_CODE
+11/14 12:19:40.086 576.874 D arg[KeyData]=0x45414630352F3035
+11/14 12:19:40.086 576.874 D [046d:0aff] Write(16)
+11/14 12:19:40.088 576.876 V [log_file_sync]
+11/14 12:19:40.089 576.877 D [046d:0aff] chunk: 62(16) (16/16) 061000
+11/14 12:19:40.090 576.878 V [046d:0aff] Write: 62(16) (16/16) 061000055A0C00010A01F835302F353046414500000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:19:40.091 576.879 D [046d:0aff][write 16 RACE_WRITE_LED_BIN_CODE] 055A0C00010A01F835302F3530464145
+11/14 12:19:40.096 576.884 D [046d:0aff] Read(7)
+11/14 12:19:40.096 576.884 V [046d:0aff][read 10] 070700055B0300010A00
+11/14 12:19:40.097 576.885 I [RxP 7] 055B0300010A00
+11/14 12:19:40.097 576.885 V [Match 7 RACE_WRITE_LED_BIN_CODE] 055B0300010A00
+11/14 12:19:40.097 576.885 W [CmdR] resp not found: status
+11/14 12:19:40.097 576.885 D [task_time][airoha_cmd] spend 0.011
+11/14 12:19:40.097 576.885 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:19:40.097 576.885 V [transact] payload="00"
+11/14 12:19:40.116 576.904 V arg[airoha_task]=airoha_cmd
+11/14 12:19:40.116 576.904 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:19:40.116 576.904 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:19:40.116 576.904 V arg[device_name]=DUT_HEADSET
+11/14 12:19:40.116 576.904 V arg[command_xml]=command_627.xml
+11/14 12:19:40.116 576.904 V arg[airoha_cmd]=RACE_READ_LED_BIN_CODE
+11/14 12:19:40.116 576.904 I [airoha_cmd] RACE_READ_LED_BIN_CODE
+11/14 12:19:40.116 576.904 D [046d:0aff] Write(8)
+11/14 12:19:40.118 576.906 D [046d:0aff] chunk: 62(8) (8/8) 060800
+11/14 12:19:40.118 576.906 V [046d:0aff] Write: 62(8) (8/8) 060800055A0400000A01F8000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:19:40.120 576.908 V [UsbHidPhy] device is writing, skip.
+11/14 12:19:40.120 576.908 D [046d:0aff][write 8 RACE_READ_LED_BIN_CODE] 055A0400000A01F8
+11/14 12:19:40.123 576.911 D [046d:0aff] Read(16)
+11/14 12:19:40.123 576.911 V [046d:0aff][read 19] 071000055B0C00000A080035302F3530464145
+11/14 12:19:40.124 576.912 I [RxP 16] 055B0C00000A080035302F3530464145
+11/14 12:19:40.124 576.912 V [Match 16 RACE_READ_LED_BIN_CODE] 055B0C00000A080035302F3530464145
+11/14 12:19:40.124 576.912 W [CmdR] resp not found: status
+11/14 12:19:40.124 576.912 D [task_time][airoha_cmd] spend 0.008
+11/14 12:19:40.124 576.912 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:19:40.124 576.912 V [transact] payload="45414630352F3035"
+11/14 12:19:40.139 576.927 V arg[airoha_task]=airoha_cmd
+11/14 12:19:40.139 576.927 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:19:40.139 576.927 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:19:40.139 576.927 V arg[device_name]=DUT_HEADSET
+11/14 12:19:40.139 576.927 V arg[command_xml]=command_627.xml
+11/14 12:19:40.139 576.927 V arg[airoha_cmd]=RACE_SET_PCBA_SN
+11/14 12:19:40.139 576.927 I [airoha_cmd] RACE_SET_PCBA_SN
+11/14 12:19:40.139 576.927 D arg[KeyData]=0x505152547769484850777450
+11/14 12:19:40.139 576.927 D [046d:0aff] Write(20)
+11/14 12:19:40.141 576.929 D [046d:0aff] chunk: 62(20) (20/20) 061400
+11/14 12:19:40.141 576.929 V [046d:0aff] Write: 62(20) (20/20) 061400055A1000010A0BF8507477504848697754525150000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:19:40.142 576.930 D [046d:0aff][write 20 RACE_SET_PCBA_SN] 055A1000010A0BF8507477504848697754525150
+11/14 12:19:40.142 576.930 V [UsbHidPhy] device is writing, skip.
+11/14 12:19:40.146 576.934 D [046d:0aff] Read(7)
+11/14 12:19:40.146 576.934 V [046d:0aff][read 10] 070700055B0300010A00
+11/14 12:19:40.146 576.934 I [RxP 7] 055B0300010A00
+11/14 12:19:40.146 576.934 V [Match 7 RACE_SET_PCBA_SN] 055B0300010A00
+11/14 12:19:40.146 576.934 W [CmdR] resp not found: status
+11/14 12:19:40.146 576.934 D [task_time][airoha_cmd] spend 0.007
+11/14 12:19:40.146 576.934 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:19:40.146 576.934 V [transact] payload="00"
+11/14 12:19:40.161 576.949 V arg[airoha_task]=airoha_cmd
+11/14 12:19:40.161 576.949 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:19:40.161 576.949 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:19:40.161 576.949 V arg[device_name]=DUT_HEADSET
+11/14 12:19:40.161 576.949 V arg[command_xml]=command_627.xml
+11/14 12:19:40.161 576.949 V arg[airoha_cmd]=RACE_PCBA_SN
+11/14 12:19:40.161 576.949 I [airoha_cmd] RACE_PCBA_SN
+11/14 12:19:40.161 576.949 D [046d:0aff] Write(10)
+11/14 12:19:40.163 576.951 D [046d:0aff] chunk: 62(10) (10/10) 060A00
+11/14 12:19:40.163 576.951 V [046d:0aff] Write: 62(10) (10/10) 060A00055A0600000A0BF80C0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:19:40.165 576.953 D [046d:0aff][write 10 RACE_PCBA_SN] 055A0600000A0BF80C00
+11/14 12:19:40.167 576.955 V [UsbHidPhy] device is writing, skip.
+11/14 12:19:40.170 576.958 D [046d:0aff] Read(20)
+11/14 12:19:40.170 576.958 V [046d:0aff][read 23] 071400055B1000000A0C00507477504848697754525150
+11/14 12:19:40.171 576.958 I [RxP 20] 055B1000000A0C00507477504848697754525150
+11/14 12:19:40.171 576.958 V [Match 20 RACE_PCBA_SN] 055B1000000A0C00507477504848697754525150
+11/14 12:19:40.171 576.958 W [CmdR] resp not found: status
+11/14 12:19:40.171 576.958 D [task_time][airoha_cmd] spend 0.010
+11/14 12:19:40.171 576.958 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:19:40.171 576.958 V [transact] payload="505152547769484850777450"
+11/14 12:19:40.185 576.973 V arg[airoha_task]=DisconnectDUTByUsbHid
+11/14 12:19:40.185 576.973 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+11/14 12:19:40.185 576.973 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+11/14 12:19:40.185 576.973 V arg[device_name]=DUT_HEADSET
+11/14 12:19:40.185 576.973 V arg[device_type]=USB_HID
+11/14 12:19:40.185 576.973 V arg[action]=disconnect
+11/14 12:19:40.185 576.973 V arg[port]=
+11/14 12:19:40.185 576.973 D [UsbHidPhy] Close Success.
+11/14 12:19:40.185 576.973 D [host] Clear buffer and queue.
+11/14 12:19:40.185 576.973 V [tp_fty] delete trans
+11/14 12:19:40.185 576.973 V delete phy
+11/14 12:19:40.185 576.973 D [host] Clear buffer and queue.
+11/14 12:19:40.185 576.973 D [UartDevice] Disconnect
+11/14 12:19:40.185 576.973 D [DisconnectDUTByUsbHid] disconnect: DUT_HEADSET(USB_HID)
+11/14 12:19:40.185 576.973 D [task_time][DisconnectDUTByUsbHid] spend 0.000
+11/14 12:19:40.185 576.973 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+11/14 12:19:40.185 576.973 V [transact] result="pass"
+11/14 12:19:42.090 578.878 V [log_file_sync]
+11/14 12:22:02.273 719.061 V arg[airoha_task]=DisconnectDUTByUsbHid
+11/14 12:22:02.273 719.061 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+11/14 12:22:02.273 719.061 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+11/14 12:22:02.273 719.061 V arg[device_name]=DUT_HEADSET
+11/14 12:22:02.273 719.061 V arg[device_type]=USB_HID
+11/14 12:22:02.273 719.061 V arg[action]=disconnect
+11/14 12:22:02.273 719.061 V arg[port]=
+11/14 12:22:02.273 719.061 D [UartDevice] Disconnect
+11/14 12:22:02.273 719.061 D [DisconnectDUTByUsbHid] disconnect: DUT_HEADSET(USB_HID)
+11/14 12:22:02.273 719.061 D [task_time][DisconnectDUTByUsbHid] spend 0.000
+11/14 12:22:02.273 719.061 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+11/14 12:22:02.273 719.061 V [transact] result="pass"
+11/14 12:22:02.277 719.065 V [log_file_sync]
+11/14 12:22:14.227 731.015 V arg[airoha_task]=ConnectDutByUsbHid
+11/14 12:22:14.227 731.015 V [task] ConnectDutByUsbHid, class: ConnectDevice
+11/14 12:22:14.227 731.015 V [task_start][ConnectDutByUsbHid] +++++++++++++++++++++++
+11/14 12:22:14.227 731.015 V arg[device_name]=DUT_HEADSET
+11/14 12:22:14.227 731.015 V arg[device_type]=USB_HID
+11/14 12:22:14.227 731.015 V arg[action]=connect
+11/14 12:22:14.227 731.015 V arg[connected_by_usb]=
+11/14 12:22:14.227 731.015 V arg[port]=
+11/14 12:22:14.228 731.016 D [SerialHost] phy_name:USB_HID
+11/14 12:22:14.228 731.016 D phy_type:5
+11/14 12:22:14.228 731.016 D [SerialHost] trans_name:USB_HID
+11/14 12:22:14.228 731.016 D [tp_fty] trans_type:9
+11/14 12:22:14.228 731.016 D [UsbHidPhy] transport : USB_HID 
+11/14 12:22:14.228 731.016 D [SerialHost] phy_open
+11/14 12:22:14.228 731.016 D [UsbHidPhy] transport : USB_HID 
+11/14 12:22:14.228 731.016 I [UsbHidPhy] open [046D:0AFF] usb[]
+11/14 12:22:14.229 731.017 V [log_file_sync]
+11/14 12:22:17.235 734.023 I [UsbHidPhy] get [046D:0AFF] usb[] serial[0000000000000000]
+11/14 12:22:17.235 734.023 D [UsbHidPhy] open: 046d:0aff
+11/14 12:22:17.235 734.023 D [UartDevice] Connect: 0
+11/14 12:22:17.235 734.023 D [ConnectDutByUsbHid] connect: DUT_HEADSET(USB_HID)
+11/14 12:22:17.235 734.023 D [task_time][ConnectDutByUsbHid] spend 3.008
+11/14 12:22:17.235 734.023 V [task_end][ConnectDutByUsbHid] ------------------------------------------
+11/14 12:22:17.235 734.023 V [transact] result="pass"
+11/14 12:22:17.236 734.024 V arg[airoha_task]=airoha_cmd
+11/14 12:22:17.236 734.024 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:22:17.236 734.024 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:22:17.236 734.024 V arg[device_name]=DUT_HEADSET
+11/14 12:22:17.236 734.024 V arg[command_xml]=command_627.xml
+11/14 12:22:17.236 734.024 V arg[airoha_cmd]=RACE_WRITE_LED_BIN_CODE
+11/14 12:22:17.236 734.024 I [airoha_cmd] RACE_WRITE_LED_BIN_CODE
+11/14 12:22:17.236 734.024 D arg[KeyData]=0x45414630352F3035
+11/14 12:22:17.236 734.024 D [046d:0aff] Write(16)
+11/14 12:22:17.238 734.026 V [log_file_sync]
+11/14 12:22:17.238 734.026 D [046d:0aff] chunk: 62(16) (16/16) 061000
+11/14 12:22:17.238 734.026 V [046d:0aff] Write: 62(16) (16/16) 061000055A0C00010A01F835302F353046414500000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:22:17.240 734.028 D [046d:0aff][write 16 RACE_WRITE_LED_BIN_CODE] 055A0C00010A01F835302F3530464145
+11/14 12:22:17.246 734.034 D [046d:0aff] Read(7)
+11/14 12:22:17.246 734.034 V [046d:0aff][read 10] 070700055B0300010A00
+11/14 12:22:17.247 734.035 I [RxP 7] 055B0300010A00
+11/14 12:22:17.247 734.035 V [Match 7 RACE_WRITE_LED_BIN_CODE] 055B0300010A00
+11/14 12:22:17.247 734.035 W [CmdR] resp not found: status
+11/14 12:22:17.247 734.035 D [task_time][airoha_cmd] spend 0.011
+11/14 12:22:17.247 734.035 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:22:17.247 734.035 V [transact] payload="00"
+11/14 12:22:17.267 734.055 V arg[airoha_task]=airoha_cmd
+11/14 12:22:17.267 734.055 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:22:17.267 734.055 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:22:17.267 734.055 V arg[device_name]=DUT_HEADSET
+11/14 12:22:17.267 734.055 V arg[command_xml]=command_627.xml
+11/14 12:22:17.267 734.055 V arg[airoha_cmd]=RACE_READ_LED_BIN_CODE
+11/14 12:22:17.267 734.055 I [airoha_cmd] RACE_READ_LED_BIN_CODE
+11/14 12:22:17.267 734.055 D [046d:0aff] Write(8)
+11/14 12:22:17.270 734.058 D [046d:0aff] chunk: 62(8) (8/8) 060800
+11/14 12:22:17.270 734.058 V [046d:0aff] Write: 62(8) (8/8) 060800055A0400000A01F8000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:22:17.271 734.059 V [UsbHidPhy] device is writing, skip.
+11/14 12:22:17.271 734.059 D [046d:0aff][write 8 RACE_READ_LED_BIN_CODE] 055A0400000A01F8
+11/14 12:22:17.274 734.062 D [046d:0aff] Read(16)
+11/14 12:22:17.274 734.062 V [046d:0aff][read 19] 071000055B0C00000A080035302F3530464145
+11/14 12:22:17.275 734.063 I [RxP 16] 055B0C00000A080035302F3530464145
+11/14 12:22:17.275 734.063 V [Match 16 RACE_READ_LED_BIN_CODE] 055B0C00000A080035302F3530464145
+11/14 12:22:17.275 734.063 W [CmdR] resp not found: status
+11/14 12:22:17.275 734.063 D [task_time][airoha_cmd] spend 0.008
+11/14 12:22:17.275 734.063 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:22:17.275 734.063 V [transact] payload="45414630352F3035"
+11/14 12:22:17.290 734.078 V arg[airoha_task]=airoha_cmd
+11/14 12:22:17.290 734.078 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:22:17.290 734.078 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:22:17.290 734.078 V arg[device_name]=DUT_HEADSET
+11/14 12:22:17.290 734.078 V arg[command_xml]=command_627.xml
+11/14 12:22:17.290 734.078 V arg[airoha_cmd]=RACE_SET_PCBA_SN
+11/14 12:22:17.290 734.078 I [airoha_cmd] RACE_SET_PCBA_SN
+11/14 12:22:17.290 734.078 D arg[KeyData]=0x505152547769484850778250
+11/14 12:22:17.290 734.078 D [046d:0aff] Write(20)
+11/14 12:22:17.292 734.080 D [046d:0aff] chunk: 62(20) (20/20) 061400
+11/14 12:22:17.292 734.080 V [046d:0aff] Write: 62(20) (20/20) 061400055A1000010A0BF8508277504848697754525150000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:22:17.295 734.082 D [046d:0aff][write 20 RACE_SET_PCBA_SN] 055A1000010A0BF8508277504848697754525150
+11/14 12:22:17.296 734.084 V [UsbHidPhy] device is writing, skip.
+11/14 12:22:17.300 734.088 D [046d:0aff] Read(7)
+11/14 12:22:17.300 734.088 V [046d:0aff][read 10] 070700055B0300010A00
+11/14 12:22:17.301 734.089 I [RxP 7] 055B0300010A00
+11/14 12:22:17.301 734.089 V [Match 7 RACE_SET_PCBA_SN] 055B0300010A00
+11/14 12:22:17.301 734.089 W [CmdR] resp not found: status
+11/14 12:22:17.301 734.089 D [task_time][airoha_cmd] spend 0.010
+11/14 12:22:17.301 734.089 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:22:17.301 734.089 V [transact] payload="00"
+11/14 12:22:17.316 734.104 V arg[airoha_task]=airoha_cmd
+11/14 12:22:17.316 734.104 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:22:17.316 734.104 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:22:17.316 734.104 V arg[device_name]=DUT_HEADSET
+11/14 12:22:17.316 734.104 V arg[command_xml]=command_627.xml
+11/14 12:22:17.316 734.104 V arg[airoha_cmd]=RACE_PCBA_SN
+11/14 12:22:17.316 734.104 I [airoha_cmd] RACE_PCBA_SN
+11/14 12:22:17.316 734.104 D [046d:0aff] Write(10)
+11/14 12:22:17.319 734.107 D [046d:0aff] chunk: 62(10) (10/10) 060A00
+11/14 12:22:17.319 734.107 V [046d:0aff] Write: 62(10) (10/10) 060A00055A0600000A0BF80C0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:22:17.320 734.108 V [UsbHidPhy] device is writing, skip.
+11/14 12:22:17.320 734.108 D [046d:0aff][write 10 RACE_PCBA_SN] 055A0600000A0BF80C00
+11/14 12:22:17.323 734.111 D [046d:0aff] Read(20)
+11/14 12:22:17.323 734.111 V [046d:0aff][read 23] 071400055B1000000A0C00508277504848697754525150
+11/14 12:22:17.324 734.112 I [RxP 20] 055B1000000A0C00508277504848697754525150
+11/14 12:22:17.324 734.112 V [Match 20 RACE_PCBA_SN] 055B1000000A0C00508277504848697754525150
+11/14 12:22:17.324 734.112 W [CmdR] resp not found: status
+11/14 12:22:17.324 734.112 D [task_time][airoha_cmd] spend 0.008
+11/14 12:22:17.324 734.112 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:22:17.324 734.112 V [transact] payload="505152547769484850778250"
+11/14 12:22:17.339 734.127 V arg[airoha_task]=DisconnectDUTByUsbHid
+11/14 12:22:17.339 734.127 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+11/14 12:22:17.339 734.127 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+11/14 12:22:17.339 734.127 V arg[device_name]=DUT_HEADSET
+11/14 12:22:17.339 734.127 V arg[device_type]=USB_HID
+11/14 12:22:17.339 734.127 V arg[action]=disconnect
+11/14 12:22:17.339 734.127 V arg[port]=
+11/14 12:22:17.339 734.127 D [UsbHidPhy] Close Success.
+11/14 12:22:17.339 734.127 D [host] Clear buffer and queue.
+11/14 12:22:17.339 734.127 V [tp_fty] delete trans
+11/14 12:22:17.339 734.127 V delete phy
+11/14 12:22:17.339 734.127 D [host] Clear buffer and queue.
+11/14 12:22:17.339 734.127 D [UartDevice] Disconnect
+11/14 12:22:17.339 734.127 D [DisconnectDUTByUsbHid] disconnect: DUT_HEADSET(USB_HID)
+11/14 12:22:17.339 734.127 D [task_time][DisconnectDUTByUsbHid] spend 0.000
+11/14 12:22:17.339 734.127 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+11/14 12:22:17.339 734.127 V [transact] result="pass"
+11/14 12:22:19.243 736.031 V [log_file_sync]
+11/14 12:24:53.321 890.109 V arg[airoha_task]=DisconnectDUTByUsbHid
+11/14 12:24:53.321 890.109 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+11/14 12:24:53.321 890.109 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+11/14 12:24:53.321 890.109 V arg[device_name]=DUT_HEADSET
+11/14 12:24:53.321 890.109 V arg[device_type]=USB_HID
+11/14 12:24:53.321 890.109 V arg[action]=disconnect
+11/14 12:24:53.321 890.109 V arg[port]=
+11/14 12:24:53.321 890.109 D [UartDevice] Disconnect
+11/14 12:24:53.321 890.109 D [DisconnectDUTByUsbHid] disconnect: DUT_HEADSET(USB_HID)
+11/14 12:24:53.321 890.109 D [task_time][DisconnectDUTByUsbHid] spend 0.000
+11/14 12:24:53.321 890.109 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+11/14 12:24:53.321 890.109 V [transact] result="pass"
+11/14 12:24:53.325 890.113 V [log_file_sync]
+11/14 12:25:05.237 902.025 V arg[airoha_task]=ConnectDutByUsbHid
+11/14 12:25:05.237 902.025 V [task] ConnectDutByUsbHid, class: ConnectDevice
+11/14 12:25:05.237 902.025 V [task_start][ConnectDutByUsbHid] +++++++++++++++++++++++
+11/14 12:25:05.237 902.025 V arg[device_name]=DUT_HEADSET
+11/14 12:25:05.237 902.025 V arg[device_type]=USB_HID
+11/14 12:25:05.237 902.025 V arg[action]=connect
+11/14 12:25:05.237 902.025 V arg[connected_by_usb]=
+11/14 12:25:05.237 902.025 V arg[port]=
+11/14 12:25:05.237 902.025 D [SerialHost] phy_name:USB_HID
+11/14 12:25:05.237 902.025 D phy_type:5
+11/14 12:25:05.237 902.025 D [SerialHost] trans_name:USB_HID
+11/14 12:25:05.237 902.025 D [tp_fty] trans_type:9
+11/14 12:25:05.237 902.025 D [UsbHidPhy] transport : USB_HID 
+11/14 12:25:05.237 902.025 D [SerialHost] phy_open
+11/14 12:25:05.237 902.025 D [UsbHidPhy] transport : USB_HID 
+11/14 12:25:05.237 902.025 I [UsbHidPhy] open [046D:0AFF] usb[]
+11/14 12:25:05.240 902.028 V [log_file_sync]
+11/14 12:25:08.244 905.032 I [UsbHidPhy] get [046D:0AFF] usb[] serial[0000000000000000]
+11/14 12:25:08.244 905.032 D [UsbHidPhy] open: 046d:0aff
+11/14 12:25:08.244 905.032 D [UartDevice] Connect: 0
+11/14 12:25:08.244 905.032 D [ConnectDutByUsbHid] connect: DUT_HEADSET(USB_HID)
+11/14 12:25:08.244 905.032 D [task_time][ConnectDutByUsbHid] spend 3.007
+11/14 12:25:08.244 905.032 V [task_end][ConnectDutByUsbHid] ------------------------------------------
+11/14 12:25:08.244 905.032 V [transact] result="pass"
+11/14 12:25:08.244 905.032 V arg[airoha_task]=airoha_cmd
+11/14 12:25:08.244 905.032 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:25:08.244 905.032 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:25:08.244 905.032 V arg[device_name]=DUT_HEADSET
+11/14 12:25:08.244 905.032 V arg[command_xml]=command_627.xml
+11/14 12:25:08.244 905.032 V arg[airoha_cmd]=RACE_WRITE_LED_BIN_CODE
+11/14 12:25:08.244 905.032 I [airoha_cmd] RACE_WRITE_LED_BIN_CODE
+11/14 12:25:08.244 905.032 D arg[KeyData]=0x45414630352F3035
+11/14 12:25:08.244 905.032 D [046d:0aff] Write(16)
+11/14 12:25:08.246 905.034 D [046d:0aff] chunk: 62(16) (16/16) 061000
+11/14 12:25:08.246 905.034 V [046d:0aff] Write: 62(16) (16/16) 061000055A0C00010A01F835302F353046414500000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:25:08.247 905.035 V [log_file_sync]
+11/14 12:25:08.248 905.036 D [046d:0aff][write 16 RACE_WRITE_LED_BIN_CODE] 055A0C00010A01F835302F3530464145
+11/14 12:25:08.253 905.041 D [046d:0aff] Read(7)
+11/14 12:25:08.253 905.041 V [046d:0aff][read 10] 070700055B0300010A00
+11/14 12:25:08.254 905.041 I [RxP 7] 055B0300010A00
+11/14 12:25:08.254 905.041 V [Match 7 RACE_WRITE_LED_BIN_CODE] 055B0300010A00
+11/14 12:25:08.254 905.041 W [CmdR] resp not found: status
+11/14 12:25:08.254 905.041 D [task_time][airoha_cmd] spend 0.009
+11/14 12:25:08.254 905.041 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:25:08.254 905.041 V [transact] payload="00"
+11/14 12:25:08.272 905.060 V arg[airoha_task]=airoha_cmd
+11/14 12:25:08.272 905.060 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:25:08.272 905.060 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:25:08.272 905.060 V arg[device_name]=DUT_HEADSET
+11/14 12:25:08.272 905.060 V arg[command_xml]=command_627.xml
+11/14 12:25:08.272 905.060 V arg[airoha_cmd]=RACE_READ_LED_BIN_CODE
+11/14 12:25:08.272 905.060 I [airoha_cmd] RACE_READ_LED_BIN_CODE
+11/14 12:25:08.272 905.060 D [046d:0aff] Write(8)
+11/14 12:25:08.275 905.063 D [046d:0aff] chunk: 62(8) (8/8) 060800
+11/14 12:25:08.275 905.063 V [046d:0aff] Write: 62(8) (8/8) 060800055A0400000A01F8000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:25:08.277 905.065 D [046d:0aff][write 8 RACE_READ_LED_BIN_CODE] 055A0400000A01F8
+11/14 12:25:08.278 905.066 V [UsbHidPhy] device is writing, skip.
+11/14 12:25:08.282 905.070 D [046d:0aff] Read(16)
+11/14 12:25:08.282 905.070 V [046d:0aff][read 19] 071000055B0C00000A080035302F3530464145
+11/14 12:25:08.282 905.070 I [RxP 16] 055B0C00000A080035302F3530464145
+11/14 12:25:08.282 905.070 V [Match 16 RACE_READ_LED_BIN_CODE] 055B0C00000A080035302F3530464145
+11/14 12:25:08.282 905.070 W [CmdR] resp not found: status
+11/14 12:25:08.282 905.070 D [task_time][airoha_cmd] spend 0.010
+11/14 12:25:08.282 905.070 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:25:08.282 905.070 V [transact] payload="45414630352F3035"
+11/14 12:25:08.317 905.104 V arg[airoha_task]=airoha_cmd
+11/14 12:25:08.317 905.104 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:25:08.317 905.104 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:25:08.317 905.104 V arg[device_name]=DUT_HEADSET
+11/14 12:25:08.317 905.104 V arg[command_xml]=command_627.xml
+11/14 12:25:08.317 905.104 V arg[airoha_cmd]=RACE_SET_PCBA_SN
+11/14 12:25:08.317 905.104 I [airoha_cmd] RACE_SET_PCBA_SN
+11/14 12:25:08.317 905.104 D arg[KeyData]=0x505152547769484850778750
+11/14 12:25:08.317 905.104 D [046d:0aff] Write(20)
+11/14 12:25:08.319 905.107 D [046d:0aff] chunk: 62(20) (20/20) 061400
+11/14 12:25:08.319 905.107 V [046d:0aff] Write: 62(20) (20/20) 061400055A1000010A0BF8508777504848697754525150000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:25:08.321 905.109 D [046d:0aff][write 20 RACE_SET_PCBA_SN] 055A1000010A0BF8508777504848697754525150
+11/14 12:25:08.322 905.110 V [UsbHidPhy] device is writing, skip.
+11/14 12:25:08.325 905.113 D [046d:0aff] Read(7)
+11/14 12:25:08.325 905.113 V [046d:0aff][read 10] 070700055B0300010A00
+11/14 12:25:08.326 905.114 I [RxP 7] 055B0300010A00
+11/14 12:25:08.326 905.114 V [Match 7 RACE_SET_PCBA_SN] 055B0300010A00
+11/14 12:25:08.326 905.114 W [CmdR] resp not found: status
+11/14 12:25:08.326 905.114 D [task_time][airoha_cmd] spend 0.010
+11/14 12:25:08.326 905.114 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:25:08.326 905.114 V [transact] payload="00"
+11/14 12:25:08.341 905.129 V arg[airoha_task]=airoha_cmd
+11/14 12:25:08.341 905.129 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:25:08.341 905.129 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:25:08.341 905.129 V arg[device_name]=DUT_HEADSET
+11/14 12:25:08.341 905.129 V arg[command_xml]=command_627.xml
+11/14 12:25:08.341 905.129 V arg[airoha_cmd]=RACE_PCBA_SN
+11/14 12:25:08.341 905.129 I [airoha_cmd] RACE_PCBA_SN
+11/14 12:25:08.341 905.129 D [046d:0aff] Write(10)
+11/14 12:25:08.342 905.130 D [046d:0aff] chunk: 62(10) (10/10) 060A00
+11/14 12:25:08.342 905.130 V [046d:0aff] Write: 62(10) (10/10) 060A00055A0600000A0BF80C0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:25:08.345 905.132 D [046d:0aff][write 10 RACE_PCBA_SN] 055A0600000A0BF80C00
+11/14 12:25:08.346 905.133 V [UsbHidPhy] device is writing, skip.
+11/14 12:25:08.349 905.137 D [046d:0aff] Read(20)
+11/14 12:25:08.349 905.137 V [046d:0aff][read 23] 071400055B1000000A0C00508777504848697754525150
+11/14 12:25:08.350 905.138 I [RxP 20] 055B1000000A0C00508777504848697754525150
+11/14 12:25:08.350 905.138 V [Match 20 RACE_PCBA_SN] 055B1000000A0C00508777504848697754525150
+11/14 12:25:08.350 905.138 W [CmdR] resp not found: status
+11/14 12:25:08.350 905.138 D [task_time][airoha_cmd] spend 0.008
+11/14 12:25:08.350 905.138 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:25:08.350 905.138 V [transact] payload="505152547769484850778750"
+11/14 12:25:08.365 905.152 V arg[airoha_task]=DisconnectDUTByUsbHid
+11/14 12:25:08.365 905.152 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+11/14 12:25:08.365 905.152 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+11/14 12:25:08.365 905.152 V arg[device_name]=DUT_HEADSET
+11/14 12:25:08.365 905.152 V arg[device_type]=USB_HID
+11/14 12:25:08.365 905.152 V arg[action]=disconnect
+11/14 12:25:08.365 905.152 V arg[port]=
+11/14 12:25:08.365 905.152 D [UsbHidPhy] Close Success.
+11/14 12:25:08.365 905.152 D [host] Clear buffer and queue.
+11/14 12:25:08.365 905.152 V [tp_fty] delete trans
+11/14 12:25:08.365 905.152 V delete phy
+11/14 12:25:08.365 905.152 D [host] Clear buffer and queue.
+11/14 12:25:08.365 905.152 D [UartDevice] Disconnect
+11/14 12:25:08.365 905.152 D [DisconnectDUTByUsbHid] disconnect: DUT_HEADSET(USB_HID)
+11/14 12:25:08.365 905.152 D [task_time][DisconnectDUTByUsbHid] spend 0.000
+11/14 12:25:08.365 905.152 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+11/14 12:25:08.365 905.152 V [transact] result="pass"
+11/14 12:25:10.250 907.038 V [log_file_sync]
+11/14 12:27:37.147 1053.935 V arg[airoha_task]=ConnectDutByUsbHid
+11/14 12:27:37.147 1053.935 V [task] ConnectDutByUsbHid, class: ConnectDevice
+11/14 12:27:37.147 1053.935 V [task_start][ConnectDutByUsbHid] +++++++++++++++++++++++
+11/14 12:27:37.147 1053.935 V arg[device_name]=DUT_HEADSET
+11/14 12:27:37.147 1053.935 V arg[device_type]=USB_HID
+11/14 12:27:37.147 1053.935 V arg[action]=connect
+11/14 12:27:37.147 1053.935 V arg[connected_by_usb]=
+11/14 12:27:37.147 1053.935 V arg[port]=
+11/14 12:27:37.148 1053.936 D [SerialHost] phy_name:USB_HID
+11/14 12:27:37.148 1053.936 D phy_type:5
+11/14 12:27:37.148 1053.936 D [SerialHost] trans_name:USB_HID
+11/14 12:27:37.148 1053.936 D [tp_fty] trans_type:9
+11/14 12:27:37.148 1053.936 D [UsbHidPhy] transport : USB_HID 
+11/14 12:27:37.148 1053.936 D [SerialHost] phy_open
+11/14 12:27:37.148 1053.936 D [UsbHidPhy] transport : USB_HID 
+11/14 12:27:37.148 1053.936 I [UsbHidPhy] open [046D:0AFF] usb[]
+11/14 12:27:37.150 1053.938 V [log_file_sync]
+11/14 12:27:40.155 1056.943 I [UsbHidPhy] get [046D:0AFF] usb[] serial[0000000000000000]
+11/14 12:27:40.155 1056.943 D [UsbHidPhy] open: 046d:0aff
+11/14 12:27:40.155 1056.943 D [UartDevice] Connect: 0
+11/14 12:27:40.155 1056.943 D [ConnectDutByUsbHid] connect: DUT_HEADSET(USB_HID)
+11/14 12:27:40.155 1056.943 D [task_time][ConnectDutByUsbHid] spend 3.008
+11/14 12:27:40.155 1056.943 V [task_end][ConnectDutByUsbHid] ------------------------------------------
+11/14 12:27:40.155 1056.943 V [transact] result="pass"
+11/14 12:27:40.155 1056.943 V arg[airoha_task]=airoha_cmd
+11/14 12:27:40.155 1056.943 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:27:40.155 1056.943 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:27:40.155 1056.943 V arg[device_name]=DUT_HEADSET
+11/14 12:27:40.155 1056.943 V arg[command_xml]=command_627.xml
+11/14 12:27:40.155 1056.943 V arg[airoha_cmd]=RACE_WRITE_LED_BIN_CODE
+11/14 12:27:40.155 1056.943 I [airoha_cmd] RACE_WRITE_LED_BIN_CODE
+11/14 12:27:40.155 1056.943 D arg[KeyData]=0x45414630352F3035
+11/14 12:27:40.156 1056.944 D [046d:0aff] Write(16)
+11/14 12:27:40.157 1056.945 D [046d:0aff] chunk: 62(16) (16/16) 061000
+11/14 12:27:40.157 1056.945 V [046d:0aff] Write: 62(16) (16/16) 061000055A0C00010A01F835302F353046414500000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:27:40.158 1056.946 D [046d:0aff][write 16 RACE_WRITE_LED_BIN_CODE] 055A0C00010A01F835302F3530464145
+11/14 12:27:40.159 1056.947 V [log_file_sync]
+11/14 12:27:40.166 1056.953 D [046d:0aff] Read(7)
+11/14 12:27:40.166 1056.953 V [046d:0aff][read 10] 070700055B0300010A00
+11/14 12:27:40.166 1056.954 I [RxP 7] 055B0300010A00
+11/14 12:27:40.166 1056.954 V [Match 7 RACE_WRITE_LED_BIN_CODE] 055B0300010A00
+11/14 12:27:40.166 1056.954 W [CmdR] resp not found: status
+11/14 12:27:40.166 1056.954 D [task_time][airoha_cmd] spend 0.011
+11/14 12:27:40.166 1056.954 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:27:40.166 1056.954 V [transact] payload="00"
+11/14 12:27:40.186 1056.974 V arg[airoha_task]=airoha_cmd
+11/14 12:27:40.186 1056.974 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:27:40.186 1056.974 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:27:40.186 1056.974 V arg[device_name]=DUT_HEADSET
+11/14 12:27:40.186 1056.974 V arg[command_xml]=command_627.xml
+11/14 12:27:40.186 1056.974 V arg[airoha_cmd]=RACE_READ_LED_BIN_CODE
+11/14 12:27:40.186 1056.974 I [airoha_cmd] RACE_READ_LED_BIN_CODE
+11/14 12:27:40.186 1056.974 D [046d:0aff] Write(8)
+11/14 12:27:40.189 1056.976 D [046d:0aff] chunk: 62(8) (8/8) 060800
+11/14 12:27:40.189 1056.976 V [046d:0aff] Write: 62(8) (8/8) 060800055A0400000A01F8000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:27:40.190 1056.978 D [046d:0aff][write 8 RACE_READ_LED_BIN_CODE] 055A0400000A01F8
+11/14 12:27:40.191 1056.979 V [UsbHidPhy] device is writing, skip.
+11/14 12:27:40.194 1056.982 D [046d:0aff] Read(16)
+11/14 12:27:40.194 1056.982 V [046d:0aff][read 19] 071000055B0C00000A080035302F3530464145
+11/14 12:27:40.195 1056.983 I [RxP 16] 055B0C00000A080035302F3530464145
+11/14 12:27:40.195 1056.983 V [Match 16 RACE_READ_LED_BIN_CODE] 055B0C00000A080035302F3530464145
+11/14 12:27:40.195 1056.983 W [CmdR] resp not found: status
+11/14 12:27:40.195 1056.983 D [task_time][airoha_cmd] spend 0.008
+11/14 12:27:40.195 1056.983 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:27:40.195 1056.983 V [transact] payload="45414630352F3035"
+11/14 12:27:40.210 1056.998 V arg[airoha_task]=airoha_cmd
+11/14 12:27:40.210 1056.998 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:27:40.210 1056.998 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:27:40.210 1056.998 V arg[device_name]=DUT_HEADSET
+11/14 12:27:40.210 1056.998 V arg[command_xml]=command_627.xml
+11/14 12:27:40.210 1056.998 V arg[airoha_cmd]=RACE_SET_PCBA_SN
+11/14 12:27:40.210 1056.998 I [airoha_cmd] RACE_SET_PCBA_SN
+11/14 12:27:40.210 1056.998 D arg[KeyData]=0x505152547769484849838550
+11/14 12:27:40.210 1056.998 D [046d:0aff] Write(20)
+11/14 12:27:40.212 1057.000 D [046d:0aff] chunk: 62(20) (20/20) 061400
+11/14 12:27:40.212 1057.000 V [046d:0aff] Write: 62(20) (20/20) 061400055A1000010A0BF8508583494848697754525150000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:27:40.213 1057.001 D [046d:0aff][write 20 RACE_SET_PCBA_SN] 055A1000010A0BF8508583494848697754525150
+11/14 12:27:40.214 1057.002 V [UsbHidPhy] device is writing, skip.
+11/14 12:27:40.218 1057.006 D [046d:0aff] Read(7)
+11/14 12:27:40.218 1057.006 V [046d:0aff][read 10] 070700055B0300010A00
+11/14 12:27:40.219 1057.007 I [RxP 7] 055B0300010A00
+11/14 12:27:40.219 1057.007 V [Match 7 RACE_SET_PCBA_SN] 055B0300010A00
+11/14 12:27:40.219 1057.007 W [CmdR] resp not found: status
+11/14 12:27:40.219 1057.007 D [task_time][airoha_cmd] spend 0.009
+11/14 12:27:40.219 1057.007 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:27:40.219 1057.007 V [transact] payload="00"
+11/14 12:27:40.234 1057.022 V arg[airoha_task]=airoha_cmd
+11/14 12:27:40.234 1057.022 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:27:40.234 1057.022 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:27:40.234 1057.022 V arg[device_name]=DUT_HEADSET
+11/14 12:27:40.234 1057.022 V arg[command_xml]=command_627.xml
+11/14 12:27:40.234 1057.022 V arg[airoha_cmd]=RACE_PCBA_SN
+11/14 12:27:40.234 1057.022 I [airoha_cmd] RACE_PCBA_SN
+11/14 12:27:40.234 1057.022 D [046d:0aff] Write(10)
+11/14 12:27:40.236 1057.024 D [046d:0aff] chunk: 62(10) (10/10) 060A00
+11/14 12:27:40.236 1057.024 V [046d:0aff] Write: 62(10) (10/10) 060A00055A0600000A0BF80C0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:27:40.238 1057.026 D [046d:0aff][write 10 RACE_PCBA_SN] 055A0600000A0BF80C00
+11/14 12:27:40.239 1057.027 V [UsbHidPhy] device is writing, skip.
+11/14 12:27:40.242 1057.029 D [046d:0aff] Read(20)
+11/14 12:27:40.242 1057.029 V [046d:0aff][read 23] 071400055B1000000A0C00508583494848697754525150
+11/14 12:27:40.242 1057.030 I [RxP 20] 055B1000000A0C00508583494848697754525150
+11/14 12:27:40.242 1057.030 V [Match 20 RACE_PCBA_SN] 055B1000000A0C00508583494848697754525150
+11/14 12:27:40.242 1057.030 W [CmdR] resp not found: status
+11/14 12:27:40.242 1057.030 D [task_time][airoha_cmd] spend 0.008
+11/14 12:27:40.242 1057.030 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:27:40.242 1057.030 V [transact] payload="505152547769484849838550"
+11/14 12:27:40.257 1057.045 V arg[airoha_task]=DisconnectDUTByUsbHid
+11/14 12:27:40.257 1057.045 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+11/14 12:27:40.257 1057.045 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+11/14 12:27:40.257 1057.045 V arg[device_name]=DUT_HEADSET
+11/14 12:27:40.257 1057.045 V arg[device_type]=USB_HID
+11/14 12:27:40.257 1057.045 V arg[action]=disconnect
+11/14 12:27:40.257 1057.045 V arg[port]=
+11/14 12:27:40.257 1057.045 D [UsbHidPhy] Close Success.
+11/14 12:27:40.257 1057.045 D [host] Clear buffer and queue.
+11/14 12:27:40.257 1057.045 V [tp_fty] delete trans
+11/14 12:27:40.257 1057.045 V delete phy
+11/14 12:27:40.257 1057.045 D [host] Clear buffer and queue.
+11/14 12:27:40.257 1057.045 D [UartDevice] Disconnect
+11/14 12:27:40.257 1057.045 D [DisconnectDUTByUsbHid] disconnect: DUT_HEADSET(USB_HID)
+11/14 12:27:40.257 1057.045 D [task_time][DisconnectDUTByUsbHid] spend 0.000
+11/14 12:27:40.257 1057.045 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+11/14 12:27:40.257 1057.045 V [transact] result="pass"
+11/14 12:27:42.164 1058.951 V [log_file_sync]
+11/14 12:27:43.447 1060.235 V arg[airoha_task]=ConnectDutByUsbHid
+11/14 12:27:43.447 1060.235 V [task] ConnectDutByUsbHid, class: ConnectDevice
+11/14 12:27:43.447 1060.235 V [task_start][ConnectDutByUsbHid] +++++++++++++++++++++++
+11/14 12:27:43.447 1060.235 V arg[device_name]=DUT_HEADSET
+11/14 12:27:43.447 1060.235 V arg[device_type]=USB_HID
+11/14 12:27:43.447 1060.235 V arg[action]=connect
+11/14 12:27:43.447 1060.235 V arg[connected_by_usb]=
+11/14 12:27:43.447 1060.235 V arg[port]=
+11/14 12:27:43.448 1060.236 D [SerialHost] phy_name:USB_HID
+11/14 12:27:43.448 1060.236 D phy_type:5
+11/14 12:27:43.448 1060.236 D [SerialHost] trans_name:USB_HID
+11/14 12:27:43.448 1060.236 D [tp_fty] trans_type:9
+11/14 12:27:43.448 1060.236 D [UsbHidPhy] transport : USB_HID 
+11/14 12:27:43.448 1060.236 D [SerialHost] phy_open
+11/14 12:27:43.448 1060.236 D [UsbHidPhy] transport : USB_HID 
+11/14 12:27:43.448 1060.236 I [UsbHidPhy] open [046D:0AFF] usb[]
+11/14 12:27:44.166 1060.954 V [log_file_sync]
+11/14 12:27:46.453 1063.241 I [UsbHidPhy] get [046D:0AFF] usb[] serial[0000000000000000]
+11/14 12:27:46.453 1063.241 D [UsbHidPhy] open: 046d:0aff
+11/14 12:27:46.453 1063.241 D [UartDevice] Connect: 0
+11/14 12:27:46.454 1063.242 D [ConnectDutByUsbHid] connect: DUT_HEADSET(USB_HID)
+11/14 12:27:46.454 1063.242 D [task_time][ConnectDutByUsbHid] spend 3.007
+11/14 12:27:46.454 1063.242 V [task_end][ConnectDutByUsbHid] ------------------------------------------
+11/14 12:27:46.454 1063.242 V [transact] result="pass"
+11/14 12:27:46.454 1063.242 V [log_file_sync]
+11/14 12:27:46.454 1063.242 V arg[airoha_task]=airoha_cmd
+11/14 12:27:46.454 1063.242 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:27:46.454 1063.242 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:27:46.454 1063.242 V arg[device_name]=DUT_HEADSET
+11/14 12:27:46.454 1063.242 V arg[command_xml]=command_627.xml
+11/14 12:27:46.454 1063.242 V arg[airoha_cmd]=RACE_WRITE_LED_BIN_CODE
+11/14 12:27:46.454 1063.242 I [airoha_cmd] RACE_WRITE_LED_BIN_CODE
+11/14 12:27:46.454 1063.242 D arg[KeyData]=0x45414630352F3035
+11/14 12:27:46.454 1063.242 D [046d:0aff] Write(16)
+11/14 12:27:46.456 1063.244 D [046d:0aff] chunk: 62(16) (16/16) 061000
+11/14 12:27:46.456 1063.244 V [046d:0aff] Write: 62(16) (16/16) 061000055A0C00010A01F835302F353046414500000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:27:46.457 1063.245 D [046d:0aff][write 16 RACE_WRITE_LED_BIN_CODE] 055A0C00010A01F835302F3530464145
+11/14 12:27:46.463 1063.251 D [046d:0aff] Read(7)
+11/14 12:27:46.463 1063.251 V [046d:0aff][read 10] 070700055B0300010A00
+11/14 12:27:46.464 1063.252 I [RxP 7] 055B0300010A00
+11/14 12:27:46.464 1063.252 V [Match 7 RACE_WRITE_LED_BIN_CODE] 055B0300010A00
+11/14 12:27:46.464 1063.252 W [CmdR] resp not found: status
+11/14 12:27:46.464 1063.252 D [task_time][airoha_cmd] spend 0.010
+11/14 12:27:46.464 1063.252 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:27:46.464 1063.252 V [transact] payload="00"
+11/14 12:27:46.483 1063.271 V arg[airoha_task]=airoha_cmd
+11/14 12:27:46.483 1063.271 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:27:46.483 1063.271 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:27:46.483 1063.271 V arg[device_name]=DUT_HEADSET
+11/14 12:27:46.483 1063.271 V arg[command_xml]=command_627.xml
+11/14 12:27:46.483 1063.271 V arg[airoha_cmd]=RACE_READ_LED_BIN_CODE
+11/14 12:27:46.483 1063.271 I [airoha_cmd] RACE_READ_LED_BIN_CODE
+11/14 12:27:46.483 1063.271 D [046d:0aff] Write(8)
+11/14 12:27:46.485 1063.273 D [046d:0aff] chunk: 62(8) (8/8) 060800
+11/14 12:27:46.485 1063.273 V [046d:0aff] Write: 62(8) (8/8) 060800055A0400000A01F8000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:27:46.487 1063.275 D [046d:0aff][write 8 RACE_READ_LED_BIN_CODE] 055A0400000A01F8
+11/14 12:27:46.488 1063.276 D [046d:0aff] Read(16)
+11/14 12:27:46.488 1063.276 V [046d:0aff][read 19] 071000055B0C00000A080035302F3530464145
+11/14 12:27:46.489 1063.277 I [RxP 16] 055B0C00000A080035302F3530464145
+11/14 12:27:46.489 1063.277 V [Match 16 RACE_READ_LED_BIN_CODE] 055B0C00000A080035302F3530464145
+11/14 12:27:46.489 1063.277 W [CmdR] resp not found: status
+11/14 12:27:46.489 1063.277 D [task_time][airoha_cmd] spend 0.006
+11/14 12:27:46.489 1063.277 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:27:46.489 1063.277 V [transact] payload="45414630352F3035"
+11/14 12:27:46.504 1063.292 V arg[airoha_task]=airoha_cmd
+11/14 12:27:46.504 1063.292 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:27:46.504 1063.292 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:27:46.504 1063.292 V arg[device_name]=DUT_HEADSET
+11/14 12:27:46.504 1063.292 V arg[command_xml]=command_627.xml
+11/14 12:27:46.504 1063.292 V arg[airoha_cmd]=RACE_SET_PCBA_SN
+11/14 12:27:46.504 1063.292 I [airoha_cmd] RACE_SET_PCBA_SN
+11/14 12:27:46.504 1063.292 D arg[KeyData]=0x505152547769484849838650
+11/14 12:27:46.504 1063.292 D [046d:0aff] Write(20)
+11/14 12:27:46.507 1063.295 D [046d:0aff] chunk: 62(20) (20/20) 061400
+11/14 12:27:46.507 1063.295 V [046d:0aff] Write: 62(20) (20/20) 061400055A1000010A0BF8508683494848697754525150000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:27:46.508 1063.296 D [046d:0aff][write 20 RACE_SET_PCBA_SN] 055A1000010A0BF8508683494848697754525150
+11/14 12:27:46.510 1063.298 V [UsbHidPhy] device is writing, skip.
+11/14 12:27:46.513 1063.301 D [046d:0aff] Read(7)
+11/14 12:27:46.513 1063.301 V [046d:0aff][read 10] 070700055B0300010A00
+11/14 12:27:46.514 1063.302 I [RxP 7] 055B0300010A00
+11/14 12:27:46.514 1063.302 V [Match 7 RACE_SET_PCBA_SN] 055B0300010A00
+11/14 12:27:46.514 1063.302 W [CmdR] resp not found: status
+11/14 12:27:46.514 1063.302 D [task_time][airoha_cmd] spend 0.010
+11/14 12:27:46.514 1063.302 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:27:46.514 1063.302 V [transact] payload="00"
+11/14 12:27:46.529 1063.317 V arg[airoha_task]=airoha_cmd
+11/14 12:27:46.529 1063.317 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:27:46.529 1063.317 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:27:46.529 1063.317 V arg[device_name]=DUT_HEADSET
+11/14 12:27:46.529 1063.317 V arg[command_xml]=command_627.xml
+11/14 12:27:46.529 1063.317 V arg[airoha_cmd]=RACE_PCBA_SN
+11/14 12:27:46.529 1063.317 I [airoha_cmd] RACE_PCBA_SN
+11/14 12:27:46.529 1063.317 D [046d:0aff] Write(10)
+11/14 12:27:46.531 1063.319 D [046d:0aff] chunk: 62(10) (10/10) 060A00
+11/14 12:27:46.531 1063.319 V [046d:0aff] Write: 62(10) (10/10) 060A00055A0600000A0BF80C0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:27:46.533 1063.321 D [046d:0aff][write 10 RACE_PCBA_SN] 055A0600000A0BF80C00
+11/14 12:27:46.534 1063.322 V [UsbHidPhy] device is writing, skip.
+11/14 12:27:46.538 1063.325 D [046d:0aff] Read(20)
+11/14 12:27:46.538 1063.325 V [046d:0aff][read 23] 071400055B1000000A0C00508683494848697754525150
+11/14 12:27:46.539 1063.326 I [RxP 20] 055B1000000A0C00508683494848697754525150
+11/14 12:27:46.539 1063.326 V [Match 20 RACE_PCBA_SN] 055B1000000A0C00508683494848697754525150
+11/14 12:27:46.539 1063.326 W [CmdR] resp not found: status
+11/14 12:27:46.539 1063.326 D [task_time][airoha_cmd] spend 0.009
+11/14 12:27:46.539 1063.326 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:27:46.539 1063.326 V [transact] payload="505152547769484849838650"
+11/14 12:27:46.555 1063.343 V arg[airoha_task]=DisconnectDUTByUsbHid
+11/14 12:27:46.555 1063.343 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+11/14 12:27:46.555 1063.343 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+11/14 12:27:46.555 1063.343 V arg[device_name]=DUT_HEADSET
+11/14 12:27:46.555 1063.343 V arg[device_type]=USB_HID
+11/14 12:27:46.555 1063.343 V arg[action]=disconnect
+11/14 12:27:46.555 1063.343 V arg[port]=
+11/14 12:27:46.555 1063.343 D [UsbHidPhy] Close Success.
+11/14 12:27:46.555 1063.343 D [host] Clear buffer and queue.
+11/14 12:27:46.555 1063.343 V [tp_fty] delete trans
+11/14 12:27:46.555 1063.343 V delete phy
+11/14 12:27:46.555 1063.343 D [host] Clear buffer and queue.
+11/14 12:27:46.555 1063.343 D [UartDevice] Disconnect
+11/14 12:27:46.555 1063.343 D [DisconnectDUTByUsbHid] disconnect: DUT_HEADSET(USB_HID)
+11/14 12:27:46.555 1063.343 D [task_time][DisconnectDUTByUsbHid] spend 0.000
+11/14 12:27:46.555 1063.343 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+11/14 12:27:46.555 1063.343 V [transact] result="pass"
+11/14 12:27:48.455 1065.243 V [log_file_sync]
+11/14 12:29:50.291 1187.079 V arg[airoha_task]=DisconnectDUTByUsbHid
+11/14 12:29:50.291 1187.079 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+11/14 12:29:50.291 1187.079 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+11/14 12:29:50.291 1187.079 V arg[device_name]=DUT_HEADSET
+11/14 12:29:50.291 1187.079 V arg[device_type]=USB_HID
+11/14 12:29:50.291 1187.079 V arg[action]=disconnect
+11/14 12:29:50.291 1187.079 V arg[port]=
+11/14 12:29:50.291 1187.079 D [UartDevice] Disconnect
+11/14 12:29:50.291 1187.079 D [DisconnectDUTByUsbHid] disconnect: DUT_HEADSET(USB_HID)
+11/14 12:29:50.291 1187.079 D [task_time][DisconnectDUTByUsbHid] spend 0.000
+11/14 12:29:50.291 1187.079 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+11/14 12:29:50.291 1187.079 V [transact] result="pass"
+11/14 12:29:50.293 1187.081 V [log_file_sync]
+11/14 12:30:02.168 1198.956 V arg[airoha_task]=ConnectDutByUsbHid
+11/14 12:30:02.168 1198.956 V [task] ConnectDutByUsbHid, class: ConnectDevice
+11/14 12:30:02.168 1198.956 V [task_start][ConnectDutByUsbHid] +++++++++++++++++++++++
+11/14 12:30:02.168 1198.956 V arg[device_name]=DUT_HEADSET
+11/14 12:30:02.168 1198.956 V arg[device_type]=USB_HID
+11/14 12:30:02.168 1198.956 V arg[action]=connect
+11/14 12:30:02.168 1198.956 V arg[connected_by_usb]=
+11/14 12:30:02.168 1198.956 V arg[port]=
+11/14 12:30:02.169 1198.957 V [log_file_sync]
+11/14 12:30:02.169 1198.957 D [SerialHost] phy_name:USB_HID
+11/14 12:30:02.169 1198.957 D phy_type:5
+11/14 12:30:02.169 1198.957 D [SerialHost] trans_name:USB_HID
+11/14 12:30:02.169 1198.957 D [tp_fty] trans_type:9
+11/14 12:30:02.169 1198.957 D [UsbHidPhy] transport : USB_HID 
+11/14 12:30:02.169 1198.957 D [SerialHost] phy_open
+11/14 12:30:02.169 1198.957 D [UsbHidPhy] transport : USB_HID 
+11/14 12:30:02.169 1198.957 I [UsbHidPhy] open [046D:0AFF] usb[]
+11/14 12:30:04.173 1200.960 V [log_file_sync]
+11/14 12:30:05.176 1201.964 I [UsbHidPhy] get [046D:0AFF] usb[] serial[0000000000000000]
+11/14 12:30:05.176 1201.964 D [UsbHidPhy] open: 046d:0aff
+11/14 12:30:05.176 1201.964 D [UartDevice] Connect: 0
+11/14 12:30:05.176 1201.964 D [ConnectDutByUsbHid] connect: DUT_HEADSET(USB_HID)
+11/14 12:30:05.176 1201.964 D [task_time][ConnectDutByUsbHid] spend 3.008
+11/14 12:30:05.176 1201.964 V [task_end][ConnectDutByUsbHid] ------------------------------------------
+11/14 12:30:05.176 1201.964 V [transact] result="pass"
+11/14 12:30:05.176 1201.964 V arg[airoha_task]=airoha_cmd
+11/14 12:30:05.176 1201.964 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:30:05.176 1201.964 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:30:05.176 1201.964 V arg[device_name]=DUT_HEADSET
+11/14 12:30:05.176 1201.964 V arg[command_xml]=command_627.xml
+11/14 12:30:05.176 1201.964 V arg[airoha_cmd]=RACE_WRITE_LED_BIN_CODE
+11/14 12:30:05.176 1201.964 I [airoha_cmd] RACE_WRITE_LED_BIN_CODE
+11/14 12:30:05.176 1201.964 D arg[KeyData]=0x45414630352F3035
+11/14 12:30:05.177 1201.965 D [046d:0aff] Write(16)
+11/14 12:30:05.179 1201.967 D [046d:0aff] chunk: 62(16) (16/16) 061000
+11/14 12:30:05.179 1201.967 V [046d:0aff] Write: 62(16) (16/16) 061000055A0C00010A01F835302F353046414500000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:30:05.180 1201.968 D [046d:0aff][write 16 RACE_WRITE_LED_BIN_CODE] 055A0C00010A01F835302F3530464145
+11/14 12:30:05.187 1201.974 D [046d:0aff] Read(7)
+11/14 12:30:05.187 1201.974 V [046d:0aff][read 10] 070700055B0300010A00
+11/14 12:30:05.187 1201.975 I [RxP 7] 055B0300010A00
+11/14 12:30:05.187 1201.975 V [Match 7 RACE_WRITE_LED_BIN_CODE] 055B0300010A00
+11/14 12:30:05.187 1201.975 W [CmdR] resp not found: status
+11/14 12:30:05.187 1201.975 D [task_time][airoha_cmd] spend 0.011
+11/14 12:30:05.187 1201.975 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:30:05.187 1201.975 V [transact] payload="00"
+11/14 12:30:05.206 1201.994 V arg[airoha_task]=airoha_cmd
+11/14 12:30:05.206 1201.994 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:30:05.206 1201.994 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:30:05.206 1201.994 V arg[device_name]=DUT_HEADSET
+11/14 12:30:05.206 1201.994 V arg[command_xml]=command_627.xml
+11/14 12:30:05.206 1201.994 V arg[airoha_cmd]=RACE_READ_LED_BIN_CODE
+11/14 12:30:05.206 1201.994 I [airoha_cmd] RACE_READ_LED_BIN_CODE
+11/14 12:30:05.206 1201.994 D [046d:0aff] Write(8)
+11/14 12:30:05.209 1201.997 D [046d:0aff] chunk: 62(8) (8/8) 060800
+11/14 12:30:05.209 1201.997 V [046d:0aff] Write: 62(8) (8/8) 060800055A0400000A01F8000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:30:05.211 1201.999 D [046d:0aff][write 8 RACE_READ_LED_BIN_CODE] 055A0400000A01F8
+11/14 12:30:05.212 1202.000 V [UsbHidPhy] device is writing, skip.
+11/14 12:30:05.215 1202.003 D [046d:0aff] Read(16)
+11/14 12:30:05.215 1202.003 V [046d:0aff][read 19] 071000055B0C00000A080035302F3530464145
+11/14 12:30:05.216 1202.004 I [RxP 16] 055B0C00000A080035302F3530464145
+11/14 12:30:05.216 1202.004 V [Match 16 RACE_READ_LED_BIN_CODE] 055B0C00000A080035302F3530464145
+11/14 12:30:05.216 1202.004 W [CmdR] resp not found: status
+11/14 12:30:05.216 1202.004 D [task_time][airoha_cmd] spend 0.010
+11/14 12:30:05.216 1202.004 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:30:05.216 1202.004 V [transact] payload="45414630352F3035"
+11/14 12:30:05.230 1202.018 V arg[airoha_task]=airoha_cmd
+11/14 12:30:05.230 1202.018 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:30:05.230 1202.018 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:30:05.230 1202.018 V arg[device_name]=DUT_HEADSET
+11/14 12:30:05.230 1202.018 V arg[command_xml]=command_627.xml
+11/14 12:30:05.230 1202.018 V arg[airoha_cmd]=RACE_SET_PCBA_SN
+11/14 12:30:05.230 1202.018 I [airoha_cmd] RACE_SET_PCBA_SN
+11/14 12:30:05.230 1202.018 D arg[KeyData]=0x505152547769484850785150
+11/14 12:30:05.230 1202.018 D [046d:0aff] Write(20)
+11/14 12:30:05.232 1202.020 D [046d:0aff] chunk: 62(20) (20/20) 061400
+11/14 12:30:05.232 1202.020 V [046d:0aff] Write: 62(20) (20/20) 061400055A1000010A0BF8505178504848697754525150000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:30:05.233 1202.021 D [046d:0aff][write 20 RACE_SET_PCBA_SN] 055A1000010A0BF8505178504848697754525150
+11/14 12:30:05.239 1202.027 D [046d:0aff] Read(7)
+11/14 12:30:05.239 1202.027 V [046d:0aff][read 10] 070700055B0300010A00
+11/14 12:30:05.240 1202.028 I [RxP 7] 055B0300010A00
+11/14 12:30:05.240 1202.028 V [Match 7 RACE_SET_PCBA_SN] 055B0300010A00
+11/14 12:30:05.240 1202.028 W [CmdR] resp not found: status
+11/14 12:30:05.240 1202.028 D [task_time][airoha_cmd] spend 0.010
+11/14 12:30:05.240 1202.028 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:30:05.240 1202.028 V [transact] payload="00"
+11/14 12:30:05.255 1202.043 V arg[airoha_task]=airoha_cmd
+11/14 12:30:05.255 1202.043 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:30:05.255 1202.043 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:30:05.255 1202.043 V arg[device_name]=DUT_HEADSET
+11/14 12:30:05.255 1202.043 V arg[command_xml]=command_627.xml
+11/14 12:30:05.255 1202.043 V arg[airoha_cmd]=RACE_PCBA_SN
+11/14 12:30:05.255 1202.043 I [airoha_cmd] RACE_PCBA_SN
+11/14 12:30:05.255 1202.043 D [046d:0aff] Write(10)
+11/14 12:30:05.256 1202.044 D [046d:0aff] chunk: 62(10) (10/10) 060A00
+11/14 12:30:05.256 1202.044 V [046d:0aff] Write: 62(10) (10/10) 060A00055A0600000A0BF80C0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:30:05.258 1202.046 D [046d:0aff][write 10 RACE_PCBA_SN] 055A0600000A0BF80C00
+11/14 12:30:05.260 1202.048 V [UsbHidPhy] device is writing, skip.
+11/14 12:30:05.263 1202.051 D [046d:0aff] Read(20)
+11/14 12:30:05.263 1202.051 V [046d:0aff][read 23] 071400055B1000000A0C00505178504848697754525150
+11/14 12:30:05.264 1202.052 I [RxP 20] 055B1000000A0C00505178504848697754525150
+11/14 12:30:05.264 1202.052 V [Match 20 RACE_PCBA_SN] 055B1000000A0C00505178504848697754525150
+11/14 12:30:05.264 1202.052 W [CmdR] resp not found: status
+11/14 12:30:05.264 1202.052 D [task_time][airoha_cmd] spend 0.009
+11/14 12:30:05.264 1202.052 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:30:05.264 1202.052 V [transact] payload="505152547769484850785150"
+11/14 12:30:05.279 1202.067 V arg[airoha_task]=DisconnectDUTByUsbHid
+11/14 12:30:05.279 1202.067 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+11/14 12:30:05.279 1202.067 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+11/14 12:30:05.279 1202.067 V arg[device_name]=DUT_HEADSET
+11/14 12:30:05.279 1202.067 V arg[device_type]=USB_HID
+11/14 12:30:05.279 1202.067 V arg[action]=disconnect
+11/14 12:30:05.279 1202.067 V arg[port]=
+11/14 12:30:05.279 1202.067 D [UsbHidPhy] Close Success.
+11/14 12:30:05.279 1202.067 D [host] Clear buffer and queue.
+11/14 12:30:05.279 1202.067 V [tp_fty] delete trans
+11/14 12:30:05.279 1202.067 V delete phy
+11/14 12:30:05.279 1202.067 D [host] Clear buffer and queue.
+11/14 12:30:05.279 1202.067 D [UartDevice] Disconnect
+11/14 12:30:05.279 1202.067 D [DisconnectDUTByUsbHid] disconnect: DUT_HEADSET(USB_HID)
+11/14 12:30:05.279 1202.067 D [task_time][DisconnectDUTByUsbHid] spend 0.000
+11/14 12:30:05.279 1202.067 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+11/14 12:30:05.279 1202.067 V [transact] result="pass"
+11/14 12:30:06.175 1202.963 V [log_file_sync]
+11/14 12:32:17.872 1334.660 V arg[airoha_task]=DisconnectDUTByUsbHid
+11/14 12:32:17.872 1334.660 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+11/14 12:32:17.872 1334.660 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+11/14 12:32:17.873 1334.661 V arg[device_name]=DUT_HEADSET
+11/14 12:32:17.873 1334.661 V arg[device_type]=USB_HID
+11/14 12:32:17.873 1334.661 V arg[action]=disconnect
+11/14 12:32:17.873 1334.661 V arg[port]=
+11/14 12:32:17.873 1334.661 D [UartDevice] Disconnect
+11/14 12:32:17.873 1334.661 D [DisconnectDUTByUsbHid] disconnect: DUT_HEADSET(USB_HID)
+11/14 12:32:17.873 1334.661 D [task_time][DisconnectDUTByUsbHid] spend 0.001
+11/14 12:32:17.873 1334.661 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+11/14 12:32:17.873 1334.661 V [transact] result="pass"
+11/14 12:32:17.874 1334.662 V [log_file_sync]
+11/14 12:32:29.756 1346.544 V arg[airoha_task]=ConnectDutByUsbHid
+11/14 12:32:29.756 1346.544 V [task] ConnectDutByUsbHid, class: ConnectDevice
+11/14 12:32:29.756 1346.544 V [task_start][ConnectDutByUsbHid] +++++++++++++++++++++++
+11/14 12:32:29.756 1346.544 V arg[device_name]=DUT_HEADSET
+11/14 12:32:29.756 1346.544 V arg[device_type]=USB_HID
+11/14 12:32:29.756 1346.544 V arg[action]=connect
+11/14 12:32:29.756 1346.544 V arg[connected_by_usb]=
+11/14 12:32:29.756 1346.544 V arg[port]=
+11/14 12:32:29.757 1346.545 D [SerialHost] phy_name:USB_HID
+11/14 12:32:29.757 1346.545 D phy_type:5
+11/14 12:32:29.757 1346.545 D [SerialHost] trans_name:USB_HID
+11/14 12:32:29.757 1346.545 D [tp_fty] trans_type:9
+11/14 12:32:29.757 1346.545 D [UsbHidPhy] transport : USB_HID 
+11/14 12:32:29.757 1346.545 D [SerialHost] phy_open
+11/14 12:32:29.757 1346.545 D [UsbHidPhy] transport : USB_HID 
+11/14 12:32:29.757 1346.545 I [UsbHidPhy] open [046D:0AFF] usb[]
+11/14 12:32:29.758 1346.546 V [log_file_sync]
+11/14 12:32:32.764 1349.551 I [UsbHidPhy] get [046D:0AFF] usb[] serial[0000000000000000]
+11/14 12:32:32.765 1349.552 D [UsbHidPhy] open: 046d:0aff
+11/14 12:32:32.765 1349.552 D [UartDevice] Connect: 0
+11/14 12:32:32.765 1349.552 D [ConnectDutByUsbHid] connect: DUT_HEADSET(USB_HID)
+11/14 12:32:32.765 1349.552 D [task_time][ConnectDutByUsbHid] spend 3.008
+11/14 12:32:32.765 1349.552 V [task_end][ConnectDutByUsbHid] ------------------------------------------
+11/14 12:32:32.765 1349.552 V [transact] result="pass"
+11/14 12:32:32.765 1349.552 V [log_file_sync]
+11/14 12:32:32.765 1349.552 V arg[airoha_task]=airoha_cmd
+11/14 12:32:32.765 1349.552 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:32:32.765 1349.552 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:32:32.765 1349.552 V arg[device_name]=DUT_HEADSET
+11/14 12:32:32.765 1349.552 V arg[command_xml]=command_627.xml
+11/14 12:32:32.765 1349.552 V arg[airoha_cmd]=RACE_WRITE_LED_BIN_CODE
+11/14 12:32:32.765 1349.552 I [airoha_cmd] RACE_WRITE_LED_BIN_CODE
+11/14 12:32:32.765 1349.552 D arg[KeyData]=0x45414630352F3035
+11/14 12:32:32.765 1349.552 D [046d:0aff] Write(16)
+11/14 12:32:32.767 1349.554 D [046d:0aff] chunk: 62(16) (16/16) 061000
+11/14 12:32:32.767 1349.554 V [046d:0aff] Write: 62(16) (16/16) 061000055A0C00010A01F835302F353046414500000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:32:32.768 1349.555 D [046d:0aff][write 16 RACE_WRITE_LED_BIN_CODE] 055A0C00010A01F835302F3530464145
+11/14 12:32:32.773 1349.561 D [046d:0aff] Read(7)
+11/14 12:32:32.773 1349.561 V [046d:0aff][read 10] 070700055B0300010A00
+11/14 12:32:32.774 1349.562 I [RxP 7] 055B0300010A00
+11/14 12:32:32.774 1349.562 V [Match 7 RACE_WRITE_LED_BIN_CODE] 055B0300010A00
+11/14 12:32:32.774 1349.562 W [CmdR] resp not found: status
+11/14 12:32:32.774 1349.562 D [task_time][airoha_cmd] spend 0.009
+11/14 12:32:32.774 1349.562 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:32:32.774 1349.562 V [transact] payload="00"
+11/14 12:32:32.793 1349.581 V arg[airoha_task]=airoha_cmd
+11/14 12:32:32.793 1349.581 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:32:32.793 1349.581 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:32:32.793 1349.581 V arg[device_name]=DUT_HEADSET
+11/14 12:32:32.793 1349.581 V arg[command_xml]=command_627.xml
+11/14 12:32:32.793 1349.581 V arg[airoha_cmd]=RACE_READ_LED_BIN_CODE
+11/14 12:32:32.793 1349.581 I [airoha_cmd] RACE_READ_LED_BIN_CODE
+11/14 12:32:32.793 1349.581 D [046d:0aff] Write(8)
+11/14 12:32:32.796 1349.584 D [046d:0aff] chunk: 62(8) (8/8) 060800
+11/14 12:32:32.796 1349.584 V [046d:0aff] Write: 62(8) (8/8) 060800055A0400000A01F8000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:32:32.797 1349.585 V [UsbHidPhy] device is writing, skip.
+11/14 12:32:32.797 1349.585 D [046d:0aff][write 8 RACE_READ_LED_BIN_CODE] 055A0400000A01F8
+11/14 12:32:32.802 1349.590 D [046d:0aff] Read(16)
+11/14 12:32:32.802 1349.590 V [046d:0aff][read 19] 071000055B0C00000A080035302F3530464145
+11/14 12:32:32.802 1349.590 I [RxP 16] 055B0C00000A080035302F3530464145
+11/14 12:32:32.802 1349.590 V [Match 16 RACE_READ_LED_BIN_CODE] 055B0C00000A080035302F3530464145
+11/14 12:32:32.802 1349.590 W [CmdR] resp not found: status
+11/14 12:32:32.802 1349.590 D [task_time][airoha_cmd] spend 0.009
+11/14 12:32:32.802 1349.590 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:32:32.802 1349.590 V [transact] payload="45414630352F3035"
+11/14 12:32:32.817 1349.604 V arg[airoha_task]=airoha_cmd
+11/14 12:32:32.817 1349.604 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:32:32.817 1349.604 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:32:32.817 1349.604 V arg[device_name]=DUT_HEADSET
+11/14 12:32:32.817 1349.604 V arg[command_xml]=command_627.xml
+11/14 12:32:32.817 1349.604 V arg[airoha_cmd]=RACE_SET_PCBA_SN
+11/14 12:32:32.817 1349.604 I [airoha_cmd] RACE_SET_PCBA_SN
+11/14 12:32:32.817 1349.604 D arg[KeyData]=0x505152547769484849844850
+11/14 12:32:32.817 1349.604 D [046d:0aff] Write(20)
+11/14 12:32:32.818 1349.606 D [046d:0aff] chunk: 62(20) (20/20) 061400
+11/14 12:32:32.818 1349.606 V [046d:0aff] Write: 62(20) (20/20) 061400055A1000010A0BF8504884494848697754525150000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:32:32.820 1349.608 D [046d:0aff][write 20 RACE_SET_PCBA_SN] 055A1000010A0BF8504884494848697754525150
+11/14 12:32:32.821 1349.609 V [UsbHidPhy] device is writing, skip.
+11/14 12:32:32.824 1349.612 D [046d:0aff] Read(7)
+11/14 12:32:32.824 1349.612 V [046d:0aff][read 10] 070700055B0300010A00
+11/14 12:32:32.825 1349.613 I [RxP 7] 055B0300010A00
+11/14 12:32:32.825 1349.613 V [Match 7 RACE_SET_PCBA_SN] 055B0300010A00
+11/14 12:32:32.825 1349.613 W [CmdR] resp not found: status
+11/14 12:32:32.825 1349.613 D [task_time][airoha_cmd] spend 0.008
+11/14 12:32:32.825 1349.613 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:32:32.825 1349.613 V [transact] payload="00"
+11/14 12:32:32.839 1349.627 V arg[airoha_task]=airoha_cmd
+11/14 12:32:32.839 1349.627 V [task] airoha_cmd, class: AirohaCommandTask
+11/14 12:32:32.839 1349.627 V [task_start][airoha_cmd] +++++++++++++++++++++++
+11/14 12:32:32.839 1349.627 V arg[device_name]=DUT_HEADSET
+11/14 12:32:32.839 1349.627 V arg[command_xml]=command_627.xml
+11/14 12:32:32.839 1349.627 V arg[airoha_cmd]=RACE_PCBA_SN
+11/14 12:32:32.839 1349.627 I [airoha_cmd] RACE_PCBA_SN
+11/14 12:32:32.839 1349.627 D [046d:0aff] Write(10)
+11/14 12:32:32.841 1349.628 D [046d:0aff] chunk: 62(10) (10/10) 060A00
+11/14 12:32:32.841 1349.628 V [046d:0aff] Write: 62(10) (10/10) 060A00055A0600000A0BF80C0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+11/14 12:32:32.842 1349.630 D [046d:0aff][write 10 RACE_PCBA_SN] 055A0600000A0BF80C00
+11/14 12:32:32.844 1349.632 V [UsbHidPhy] device is writing, skip.
+11/14 12:32:32.848 1349.636 D [046d:0aff] Read(20)
+11/14 12:32:32.848 1349.636 V [046d:0aff][read 23] 071400055B1000000A0C00504884494848697754525150
+11/14 12:32:32.848 1349.636 I [RxP 20] 055B1000000A0C00504884494848697754525150
+11/14 12:32:32.848 1349.636 V [Match 20 RACE_PCBA_SN] 055B1000000A0C00504884494848697754525150
+11/14 12:32:32.848 1349.636 W [CmdR] resp not found: status
+11/14 12:32:32.848 1349.636 D [task_time][airoha_cmd] spend 0.009
+11/14 12:32:32.848 1349.636 V [task_end][airoha_cmd] ------------------------------------------
+11/14 12:32:32.848 1349.636 V [transact] payload="505152547769484849844850"
+11/14 12:32:32.863 1349.651 V arg[airoha_task]=DisconnectDUTByUsbHid
+11/14 12:32:32.863 1349.651 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+11/14 12:32:32.863 1349.651 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+11/14 12:32:32.863 1349.651 V arg[device_name]=DUT_HEADSET
+11/14 12:32:32.863 1349.651 V arg[device_type]=USB_HID
+11/14 12:32:32.863 1349.651 V arg[action]=disconnect
+11/14 12:32:32.863 1349.651 V arg[port]=
+11/14 12:32:32.863 1349.651 D [UsbHidPhy] Close Success.
+11/14 12:32:32.863 1349.651 D [host] Clear buffer and queue.
+11/14 12:32:32.863 1349.651 V [tp_fty] delete trans
+11/14 12:32:32.863 1349.651 V delete phy
+11/14 12:32:32.863 1349.651 D [host] Clear buffer and queue.
+11/14 12:32:32.863 1349.651 D [UartDevice] Disconnect
+11/14 12:32:32.863 1349.651 D [DisconnectDUTByUsbHid] disconnect: DUT_HEADSET(USB_HID)
+11/14 12:32:32.863 1349.651 D [task_time][DisconnectDUTByUsbHid] spend 0.000
+11/14 12:32:32.863 1349.651 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+11/14 12:32:32.863 1349.651 V [transact] result="pass"
+11/14 12:32:34.770 1351.557 V [log_file_sync]

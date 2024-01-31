@@ -1,0 +1,25 @@
+﻿0,-CLOSE,N/A,N/A,N/A,6,dllname=Common&method=send_read&串口=COM1&写入字符串=CLOSE
+0,-Dongle 连接,N/A,N/A,N/A,6,dllname=Common_V1&method=AwaitDevice&VID=046D&PID=0AFE&TimeOut=8&MSG=等待Dongle连接
+1,UID,N/A,N/A,N/A,6,dllname=MES&Method=LogiUIDForIndex&Type=True&BindSNIndex=0
+2,getFwByDongle,N/A,V2.0.6,V2.0.6,1,getFwByDongle
+3,+OpenDongleUSB,N/A,N/A,N/A,1,OpenDongleUSB
+4,GetPCBASNByDongle,N/A,N/A,N/A,3,GetPCBASNByDongle
+5,GetCrystalTrimByDongle,N/A,N/A,N/A,3,GetCrystalTrimByDongle
+6,+CloseDongleUSB,N/A,N/A,N/A,1,CloseDongleUSB
+7,Dongle_DUTMODE,N/A,N/A,N/A,3,EnterDongleDutModel
+0,-1S,N/A,N/A,N/A,6,dllname=Common&method=Sleep&时间=1000
+8,Connect,N/A,N/A,N/A,6,dllname=RT550&method=Connect
+9,StartTest,N/A,N/A,N/A,6,dllname=RT550&method=StartTest
+10,2402DongleTxPoweRch1Ant1,dBm,5,13,5,dllname=RT550&method=output_power_low
+11,2402FreqOfsetCh1Ant1Dongle,N/A,-20,20,5,dllname=RT550&method=carrier_drift_low
+12,2440DongleTxPowerCh20Ant1,dBm,5,13,5,dllname=RT550&method=output_power_mid
+13,2440FreqOfsetCh20Ant1Dongle,N/A,-20,20,5,dllname=RT550&method=carrier_drift_mid
+14,2476DongleTxPowerCh38Ant1,dBm,5,13,5,dllname=RT550&method=output_power_high
+15,2476FreqOfsetCh38Ant1Dongle,N/A,-20,20,5,dllname=RT550&method=carrier_drift_high
+16,ReadAnt1Ber,%,0,0.1,5,dllname=RT550&method=s_slot_sensitivitv
+17,DongleModulationIndex,N/A,0.8,1.1,5,dllname=RT550&method=DfDiff
+0,-OpenDongleUSB2,N/A,N/A,N/A,3,OpenDongleUSB
+0,-FactoryResetByDongle,NA,NA,NA,3,FactoryResetByDongle
+0,-CloseDongleUSB2,N/A,N/A,N/A,3,CloseDongleUSB
+0,-2S,N/A,N/A,N/A,6,dllname=Common&method=Sleep&时间=2000
+0,+-OPEN,N/A,N/A,N/A,6,dllname=Common&method=send_read&串口=COM1&写入字符串=OPEN

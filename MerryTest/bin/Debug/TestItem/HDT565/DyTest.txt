@@ -1,0 +1,2 @@
+﻿1,Dongle Barcode SN,N/A,N/A,N/A,6,dllname=MES&GetBD=BarCodeWindow&条码长度=12&forms=请扫描 Dongle SN/ Vui lòng quét mã SN của Dongle
+0,-Check Binding,N/A,N/A,N/A,4,dllname=MES&method=CheckBinding

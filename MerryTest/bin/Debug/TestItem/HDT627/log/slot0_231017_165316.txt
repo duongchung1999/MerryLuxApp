@@ -1,0 +1,1610 @@
+﻿10/17 16:53:16.933 0.004 I tool_version: 2.9.0/V2.9.0_20220114_081940/v2.9.2_2021_12_28_16_45_51/geneva-dev-maindev
+10/17 16:53:16.930 0.001 I SetLogLevel: 2
+10/17 16:53:16.930 0.001 D set log_level=2
+10/17 16:53:16.930 0.001 D [task_time][ToolLogLevel] spend 0.000
+10/17 16:53:16.930 0.001 V [task_end][ToolLogLevel] ------------------------------------------
+10/17 16:53:16.931 0.002 V arg[airoha_task]=ConnectDutByUsbHid
+10/17 16:53:16.931 0.002 V [task] ConnectDutByUsbHid, class: ConnectDevice
+10/17 16:53:16.931 0.002 V [task_start][ConnectDutByUsbHid] +++++++++++++++++++++++
+10/17 16:53:16.931 0.002 V arg[device_name]=DUT_HEADSET
+10/17 16:53:16.931 0.002 V arg[device_type]=USB_HID
+10/17 16:53:16.931 0.002 V arg[action]=connect
+10/17 16:53:16.931 0.002 V arg[connected_by_usb]=
+10/17 16:53:16.931 0.002 V arg[port]=
+10/17 16:53:16.931 0.002 D [SerialHost] phy_name:USB_HID
+10/17 16:53:16.931 0.002 D phy_type:5
+10/17 16:53:16.931 0.002 D [SerialHost] trans_name:USB_HID
+10/17 16:53:16.931 0.002 D [tp_fty] trans_type:9
+10/17 16:53:16.931 0.002 D [UsbHidPhy] transport : USB_HID 
+10/17 16:53:16.931 0.002 D [SerialHost] phy_open
+10/17 16:53:16.931 0.002 D [UsbHidPhy] transport : USB_HID 
+10/17 16:53:16.931 0.002 I [UsbHidPhy] open [046D:0AFF] usb[]
+10/17 16:53:17.034 0.105 I [UsbHidPhy] get [046D:0AFF] usb[] serial[0000000000000000]
+10/17 16:53:17.034 0.105 D [UsbHidPhy] open: 046d:0aff
+10/17 16:53:17.034 0.105 D [UartDevice] Connect: 0
+10/17 16:53:17.034 0.105 D [ConnectDutByUsbHid] connect: DUT_HEADSET(USB_HID)
+10/17 16:53:17.034 0.105 D [task_time][ConnectDutByUsbHid] spend 0.103
+10/17 16:53:17.034 0.105 V [task_end][ConnectDutByUsbHid] ------------------------------------------
+10/17 16:53:17.034 0.105 V [transact] result="pass"
+10/17 16:53:17.042 0.113 V arg[airoha_task]=airoha_cmd
+10/17 16:53:17.042 0.113 V [task] airoha_cmd, class: AirohaCommandTask
+10/17 16:53:17.042 0.113 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/17 16:53:17.042 0.113 V arg[device_name]=DUT_HEADSET
+10/17 16:53:17.042 0.113 V arg[command_xml]=command_627.xml
+10/17 16:53:17.042 0.113 V arg[airoha_cmd]=RACE_PCBA_SN
+10/17 16:53:17.042 0.113 I [airoha_cmd] RACE_PCBA_SN
+10/17 16:53:17.044 0.115 D [046d:0aff] Write(10)
+10/17 16:53:17.045 0.116 D [046d:0aff] chunk: 62(10) (10/10) 060A00
+10/17 16:53:17.045 0.116 V [046d:0aff] Write: 62(10) (10/10) 060A00055A0600000A0BF80C0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+10/17 16:53:17.047 0.118 D [046d:0aff][write 10 RACE_PCBA_SN] 055A0600000A0BF80C00
+10/17 16:53:17.049 0.120 D [046d:0aff] Read(9)
+10/17 16:53:17.049 0.120 V [046d:0aff][read 12] 070900055B0500000A000000
+10/17 16:53:17.049 0.120 I [RxP 9] 055B0500000A000000
+10/17 16:53:18.937 2.008 V [log_file_sync]
+10/17 16:53:19.049 2.120 D [host] Match timeout 2001 ms(0)
+10/17 16:53:19.049 2.120 E [exception] airoha_command.cc:144(-1): [airoha_cmd] run command fail(-1): RACE_PCBA_SN
+10/17 16:53:19.049 2.120 E [task] Fail to execute RunTask() of airoha_cmd object
+10/17 16:53:19.049 2.120 D [task_time][airoha_cmd] spend 2.007
+10/17 16:53:19.049 2.120 V [task_end][airoha_cmd] ------------------------------------------
+10/17 16:53:19.080 2.151 V arg[airoha_task]=DisconnectDUTByUsbHid
+10/17 16:53:19.080 2.151 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+10/17 16:53:19.080 2.151 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+10/17 16:53:19.080 2.151 V arg[device_name]=DUT_HEADSET
+10/17 16:53:19.080 2.151 V arg[device_type]=USB_HID
+10/17 16:53:19.080 2.151 V arg[action]=disconnect
+10/17 16:53:19.080 2.151 V arg[port]=
+10/17 16:53:19.080 2.151 D [UsbHidPhy] Close Success.
+10/17 16:53:19.080 2.151 D [host] Clear buffer and queue.
+10/17 16:53:19.080 2.151 V [tp_fty] delete trans
+10/17 16:53:19.080 2.151 V delete phy
+10/17 16:53:19.080 2.151 D [host] Clear buffer and queue.
+10/17 16:53:19.080 2.151 D [UartDevice] Disconnect
+10/17 16:53:19.080 2.151 D [DisconnectDUTByUsbHid] disconnect: DUT_HEADSET(USB_HID)
+10/17 16:53:19.080 2.151 D [task_time][DisconnectDUTByUsbHid] spend 0.000
+10/17 16:53:19.080 2.151 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+10/17 16:53:19.080 2.151 V [transact] result="pass"
+10/17 16:53:19.087 2.158 V arg[airoha_task]=ConnectDutByUsbHid
+10/17 16:53:19.087 2.158 V [task] ConnectDutByUsbHid, class: ConnectDevice
+10/17 16:53:19.087 2.158 V [task_start][ConnectDutByUsbHid] +++++++++++++++++++++++
+10/17 16:53:19.088 2.159 V arg[device_name]=DUT_HEADSET
+10/17 16:53:19.088 2.159 V arg[device_type]=USB_HID
+10/17 16:53:19.088 2.159 V arg[action]=connect
+10/17 16:53:19.088 2.159 V arg[connected_by_usb]=
+10/17 16:53:19.088 2.159 V arg[port]=
+10/17 16:53:19.088 2.159 D [SerialHost] phy_name:USB_HID
+10/17 16:53:19.088 2.159 D phy_type:5
+10/17 16:53:19.088 2.159 D [SerialHost] trans_name:USB_HID
+10/17 16:53:19.088 2.159 D [tp_fty] trans_type:9
+10/17 16:53:19.088 2.159 D [UsbHidPhy] transport : USB_HID 
+10/17 16:53:19.088 2.159 D [SerialHost] phy_open
+10/17 16:53:19.088 2.159 D [UsbHidPhy] transport : USB_HID 
+10/17 16:53:19.088 2.159 I [UsbHidPhy] open [046D:0AFF] usb[]
+10/17 16:53:19.191 2.262 I [UsbHidPhy] get [046D:0AFF] usb[] serial[0000000000000000]
+10/17 16:53:19.191 2.262 D [UsbHidPhy] open: 046d:0aff
+10/17 16:53:19.191 2.262 D [UartDevice] Connect: 0
+10/17 16:53:19.191 2.262 D [ConnectDutByUsbHid] connect: DUT_HEADSET(USB_HID)
+10/17 16:53:19.191 2.262 D [task_time][ConnectDutByUsbHid] spend 0.104
+10/17 16:53:19.191 2.262 V [task_end][ConnectDutByUsbHid] ------------------------------------------
+10/17 16:53:19.191 2.262 V [transact] result="pass"
+10/17 16:53:19.198 2.269 V arg[airoha_task]=airoha_cmd
+10/17 16:53:19.198 2.269 V [task] airoha_cmd, class: AirohaCommandTask
+10/17 16:53:19.198 2.269 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/17 16:53:19.198 2.269 V arg[device_name]=DUT_HEADSET
+10/17 16:53:19.198 2.269 V arg[command_xml]=command_627.xml
+10/17 16:53:19.198 2.269 V arg[airoha_cmd]=RACE_APP_KEYCODE_SYSTEM_RESET
+10/17 16:53:19.198 2.269 I [airoha_cmd] RACE_APP_KEYCODE_SYSTEM_RESET
+10/17 16:53:19.198 2.269 D [046d:0aff] Write(6)
+10/17 16:53:19.201 2.272 D [046d:0aff] chunk: 62(6) (6/6) 060600
+10/17 16:53:19.201 2.272 V [046d:0aff] Write: 62(6) (6/6) 060600055C0200011F0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+10/17 16:53:19.202 2.273 V [UsbHidPhy] device is writing, skip.
+10/17 16:53:19.202 2.273 D [046d:0aff][write 6 RACE_APP_KEYCODE_SYSTEM_RESET] 055C0200011F
+10/17 16:53:20.202 3.273 D [host] Match timeout 1000 ms(0)
+10/17 16:53:20.202 3.273 E [exception] airoha_command.cc:144(-1): [airoha_cmd] run command fail(-1): RACE_APP_KEYCODE_SYSTEM_RESET
+10/17 16:53:20.202 3.273 E [task] Fail to execute RunTask() of airoha_cmd object
+10/17 16:53:20.202 3.273 D [task_time][airoha_cmd] spend 1.004
+10/17 16:53:20.202 3.273 V [task_end][airoha_cmd] ------------------------------------------
+10/17 16:53:20.943 4.014 V [log_file_sync]
+10/17 16:53:23.208 6.279 V arg[airoha_task]=DisconnectDUTByUsbHid
+10/17 16:53:23.208 6.279 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+10/17 16:53:23.208 6.279 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+10/17 16:53:23.208 6.279 V arg[device_name]=DUT_HEADSET
+10/17 16:53:23.208 6.279 V arg[device_type]=USB_HID
+10/17 16:53:23.208 6.279 V arg[action]=disconnect
+10/17 16:53:23.208 6.279 V arg[port]=
+10/17 16:53:23.208 6.279 D [UsbHidPhy] Close Success.
+10/17 16:53:23.208 6.279 D [host] Clear buffer and queue.
+10/17 16:53:23.208 6.279 V [tp_fty] delete trans
+10/17 16:53:23.208 6.279 V delete phy
+10/17 16:53:23.208 6.279 D [host] Clear buffer and queue.
+10/17 16:53:23.209 6.280 D [UartDevice] Disconnect
+10/17 16:53:23.209 6.280 D [DisconnectDUTByUsbHid] disconnect: DUT_HEADSET(USB_HID)
+10/17 16:53:23.209 6.280 D [task_time][DisconnectDUTByUsbHid] spend 0.001
+10/17 16:53:23.209 6.280 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+10/17 16:53:23.209 6.280 V [transact] result="pass"
+10/17 16:53:23.211 6.282 V [log_file_sync]
+10/17 16:53:23.239 6.310 V arg[airoha_task]=ConnectDutByUsbHid
+10/17 16:53:23.239 6.310 V [task] ConnectDutByUsbHid, class: ConnectDevice
+10/17 16:53:23.239 6.310 V [task_start][ConnectDutByUsbHid] +++++++++++++++++++++++
+10/17 16:53:23.239 6.310 V arg[device_name]=DUT_HEADSET
+10/17 16:53:23.239 6.310 V arg[device_type]=USB_HID
+10/17 16:53:23.239 6.310 V arg[action]=connect
+10/17 16:53:23.239 6.310 V arg[connected_by_usb]=
+10/17 16:53:23.239 6.310 V arg[port]=
+10/17 16:53:23.239 6.310 D [SerialHost] phy_name:USB_HID
+10/17 16:53:23.239 6.310 D phy_type:5
+10/17 16:53:23.239 6.310 D [SerialHost] trans_name:USB_HID
+10/17 16:53:23.239 6.310 D [tp_fty] trans_type:9
+10/17 16:53:23.239 6.310 D [UsbHidPhy] transport : USB_HID 
+10/17 16:53:23.239 6.310 D [SerialHost] phy_open
+10/17 16:53:23.239 6.310 D [UsbHidPhy] transport : USB_HID 
+10/17 16:53:23.239 6.310 I [UsbHidPhy] open [046D:0AFF] usb[]
+10/17 16:53:23.342 6.413 I [UsbHidPhy] get [046D:0AFF] usb[] serial[0000000000000000]
+10/17 16:53:23.342 6.413 D [UsbHidPhy] open: 046d:0aff
+10/17 16:53:23.342 6.413 D [UartDevice] Connect: 0
+10/17 16:53:23.342 6.413 D [ConnectDutByUsbHid] connect: DUT_HEADSET(USB_HID)
+10/17 16:53:23.342 6.413 D [task_time][ConnectDutByUsbHid] spend 0.103
+10/17 16:53:23.342 6.413 V [task_end][ConnectDutByUsbHid] ------------------------------------------
+10/17 16:53:23.342 6.413 V [transact] result="pass"
+10/17 16:53:23.349 6.420 V arg[airoha_task]=DisconnectDUTByUsbHid
+10/17 16:53:23.349 6.420 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+10/17 16:53:23.349 6.420 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+10/17 16:53:23.349 6.420 V arg[device_name]=DUT_HEADSET
+10/17 16:53:23.349 6.420 V arg[device_type]=USB_HID
+10/17 16:53:23.349 6.420 V arg[action]=disconnect
+10/17 16:53:23.349 6.420 V arg[port]=
+10/17 16:53:23.349 6.420 D [UsbHidPhy] Close Success.
+10/17 16:53:23.349 6.420 D [host] Clear buffer and queue.
+10/17 16:53:23.349 6.420 V [tp_fty] delete trans
+10/17 16:53:23.349 6.420 V delete phy
+10/17 16:53:23.349 6.420 D [host] Clear buffer and queue.
+10/17 16:53:23.349 6.420 D [UartDevice] Disconnect
+10/17 16:53:23.349 6.420 D [DisconnectDUTByUsbHid] disconnect: DUT_HEADSET(USB_HID)
+10/17 16:53:23.349 6.420 D [task_time][DisconnectDUTByUsbHid] spend 0.000
+10/17 16:53:23.349 6.420 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+10/17 16:53:23.349 6.420 V [transact] result="pass"
+10/17 16:53:25.214 8.285 V [log_file_sync]
+10/17 16:53:49.042 32.113 V arg[airoha_task]=ConnectDutByUsbHid
+10/17 16:53:49.042 32.113 V [task] ConnectDutByUsbHid, class: ConnectDevice
+10/17 16:53:49.042 32.113 V [task_start][ConnectDutByUsbHid] +++++++++++++++++++++++
+10/17 16:53:49.042 32.113 V arg[device_name]=DUT_HEADSET
+10/17 16:53:49.042 32.113 V arg[device_type]=USB_HID
+10/17 16:53:49.042 32.113 V arg[action]=connect
+10/17 16:53:49.042 32.113 V arg[connected_by_usb]=
+10/17 16:53:49.042 32.113 V arg[port]=
+10/17 16:53:49.042 32.113 D [SerialHost] phy_name:USB_HID
+10/17 16:53:49.042 32.113 D phy_type:5
+10/17 16:53:49.042 32.113 D [SerialHost] trans_name:USB_HID
+10/17 16:53:49.042 32.113 D [tp_fty] trans_type:9
+10/17 16:53:49.042 32.113 D [UsbHidPhy] transport : USB_HID 
+10/17 16:53:49.042 32.113 D [SerialHost] phy_open
+10/17 16:53:49.042 32.113 D [UsbHidPhy] transport : USB_HID 
+10/17 16:53:49.042 32.113 I [UsbHidPhy] open [046D:0AFF] usb[]
+10/17 16:53:49.047 32.118 V [log_file_sync]
+10/17 16:53:49.145 32.216 I [UsbHidPhy] get [046D:0AFF] usb[] serial[0000000000000000]
+10/17 16:53:49.145 32.216 D [UsbHidPhy] open: 046d:0aff
+10/17 16:53:49.145 32.216 D [UartDevice] Connect: 0
+10/17 16:53:49.145 32.216 D [ConnectDutByUsbHid] connect: DUT_HEADSET(USB_HID)
+10/17 16:53:49.145 32.216 D [task_time][ConnectDutByUsbHid] spend 0.103
+10/17 16:53:49.145 32.216 V [task_end][ConnectDutByUsbHid] ------------------------------------------
+10/17 16:53:49.145 32.216 V [transact] result="pass"
+10/17 16:53:49.145 32.216 W [UsbHidPhy] drop invalid hid data: 512 070002055B0500000A000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004B
+10/17 16:53:49.145 32.216 W [UsbHidPhy] drop invalid hid data: 512 070002055B0500000A000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004B
+10/17 16:53:49.150 32.221 W [UsbHidPhy] drop invalid hid data: 512 070002055B0500000A000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004B
+10/17 16:53:49.152 32.223 V arg[airoha_task]=airoha_cmd
+10/17 16:53:49.152 32.223 V [task] airoha_cmd, class: AirohaCommandTask
+10/17 16:53:49.152 32.223 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/17 16:53:49.152 32.223 V arg[device_name]=DUT_HEADSET
+10/17 16:53:49.152 32.223 V arg[command_xml]=command_627.xml
+10/17 16:53:49.152 32.223 V arg[airoha_cmd]=RACE_PCBA_SN
+10/17 16:53:49.152 32.223 I [airoha_cmd] RACE_PCBA_SN
+10/17 16:53:49.152 32.223 D [046d:0aff] Write(10)
+10/17 16:53:49.153 32.224 D [046d:0aff] chunk: 62(10) (10/10) 060A00
+10/17 16:53:49.153 32.224 V [046d:0aff] Write: 62(10) (10/10) 060A00055A0600000A0BF80C0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+10/17 16:53:49.155 32.226 D [046d:0aff][write 10 RACE_PCBA_SN] 055A0600000A0BF80C00
+10/17 16:53:49.157 32.228 V [UsbHidPhy] device is writing, skip.
+10/17 16:53:49.161 32.232 D [046d:0aff] Read(9)
+10/17 16:53:49.161 32.232 V [046d:0aff][read 12] 070900055B0500000A000000
+10/17 16:53:49.161 32.232 I [RxP 9] 055B0500000A000000
+10/17 16:53:51.051 34.122 V [log_file_sync]
+10/17 16:53:51.159 34.230 D [host] Match timeout 2001 ms(0)
+10/17 16:53:51.159 34.230 E [exception] airoha_command.cc:144(-1): [airoha_cmd] run command fail(-1): RACE_PCBA_SN
+10/17 16:53:51.159 34.230 E [task] Fail to execute RunTask() of airoha_cmd object
+10/17 16:53:51.159 34.230 D [task_time][airoha_cmd] spend 2.007
+10/17 16:53:51.159 34.230 V [task_end][airoha_cmd] ------------------------------------------
+10/17 16:53:51.188 34.259 V arg[airoha_task]=DisconnectDUTByUsbHid
+10/17 16:53:51.188 34.259 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+10/17 16:53:51.188 34.259 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+10/17 16:53:51.188 34.259 V arg[device_name]=DUT_HEADSET
+10/17 16:53:51.188 34.259 V arg[device_type]=USB_HID
+10/17 16:53:51.188 34.259 V arg[action]=disconnect
+10/17 16:53:51.188 34.259 V arg[port]=
+10/17 16:53:51.188 34.259 D [UsbHidPhy] Close Success.
+10/17 16:53:51.188 34.259 D [host] Clear buffer and queue.
+10/17 16:53:51.188 34.259 V [tp_fty] delete trans
+10/17 16:53:51.188 34.259 V delete phy
+10/17 16:53:51.188 34.259 D [host] Clear buffer and queue.
+10/17 16:53:51.188 34.259 D [UartDevice] Disconnect
+10/17 16:53:51.188 34.259 D [DisconnectDUTByUsbHid] disconnect: DUT_HEADSET(USB_HID)
+10/17 16:53:51.188 34.259 D [task_time][DisconnectDUTByUsbHid] spend 0.000
+10/17 16:53:51.188 34.259 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+10/17 16:53:51.188 34.259 V [transact] result="pass"
+10/17 16:53:51.196 34.267 V arg[airoha_task]=ConnectDutByUsbHid
+10/17 16:53:51.196 34.267 V [task] ConnectDutByUsbHid, class: ConnectDevice
+10/17 16:53:51.196 34.267 V [task_start][ConnectDutByUsbHid] +++++++++++++++++++++++
+10/17 16:53:51.196 34.267 V arg[device_name]=DUT_HEADSET
+10/17 16:53:51.196 34.267 V arg[device_type]=USB_HID
+10/17 16:53:51.196 34.267 V arg[action]=connect
+10/17 16:53:51.196 34.267 V arg[connected_by_usb]=
+10/17 16:53:51.196 34.267 V arg[port]=
+10/17 16:53:51.196 34.267 D [SerialHost] phy_name:USB_HID
+10/17 16:53:51.196 34.267 D phy_type:5
+10/17 16:53:51.196 34.267 D [SerialHost] trans_name:USB_HID
+10/17 16:53:51.196 34.267 D [tp_fty] trans_type:9
+10/17 16:53:51.196 34.267 D [UsbHidPhy] transport : USB_HID 
+10/17 16:53:51.196 34.267 D [SerialHost] phy_open
+10/17 16:53:51.196 34.267 D [UsbHidPhy] transport : USB_HID 
+10/17 16:53:51.196 34.267 I [UsbHidPhy] open [046D:0AFF] usb[]
+10/17 16:53:51.299 34.370 I [UsbHidPhy] get [046D:0AFF] usb[] serial[0000000000000000]
+10/17 16:53:51.299 34.370 D [UsbHidPhy] open: 046d:0aff
+10/17 16:53:51.299 34.370 D [UartDevice] Connect: 0
+10/17 16:53:51.299 34.370 D [ConnectDutByUsbHid] connect: DUT_HEADSET(USB_HID)
+10/17 16:53:51.299 34.370 D [task_time][ConnectDutByUsbHid] spend 0.103
+10/17 16:53:51.299 34.370 V [task_end][ConnectDutByUsbHid] ------------------------------------------
+10/17 16:53:51.299 34.370 V [transact] result="pass"
+10/17 16:53:51.306 34.377 V arg[airoha_task]=airoha_cmd
+10/17 16:53:51.306 34.377 V [task] airoha_cmd, class: AirohaCommandTask
+10/17 16:53:51.306 34.377 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/17 16:53:51.306 34.377 V arg[device_name]=DUT_HEADSET
+10/17 16:53:51.306 34.377 V arg[command_xml]=command_627.xml
+10/17 16:53:51.306 34.377 V arg[airoha_cmd]=RACE_APP_KEYCODE_SYSTEM_RESET
+10/17 16:53:51.306 34.377 I [airoha_cmd] RACE_APP_KEYCODE_SYSTEM_RESET
+10/17 16:53:51.306 34.377 D [046d:0aff] Write(6)
+10/17 16:53:51.307 34.378 D [046d:0aff] chunk: 62(6) (6/6) 060600
+10/17 16:53:51.307 34.378 V [046d:0aff] Write: 62(6) (6/6) 060600055C0200011F0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+10/17 16:53:51.309 34.380 D [046d:0aff][write 6 RACE_APP_KEYCODE_SYSTEM_RESET] 055C0200011F
+10/17 16:53:51.311 34.382 V [UsbHidPhy] device is writing, skip.
+10/17 16:53:52.311 35.383 D [host] Match timeout 1000 ms(0)
+10/17 16:53:52.311 35.383 E [exception] airoha_command.cc:144(-1): [airoha_cmd] run command fail(-1): RACE_APP_KEYCODE_SYSTEM_RESET
+10/17 16:53:52.311 35.383 E [task] Fail to execute RunTask() of airoha_cmd object
+10/17 16:53:52.311 35.383 D [task_time][airoha_cmd] spend 1.005
+10/17 16:53:52.311 35.383 V [task_end][airoha_cmd] ------------------------------------------
+10/17 16:53:53.053 36.124 V [log_file_sync]
+10/17 16:53:55.319 38.390 V arg[airoha_task]=DisconnectDUTByUsbHid
+10/17 16:53:55.319 38.390 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+10/17 16:53:55.319 38.390 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+10/17 16:53:55.319 38.390 V arg[device_name]=DUT_HEADSET
+10/17 16:53:55.319 38.390 V arg[device_type]=USB_HID
+10/17 16:53:55.319 38.390 V arg[action]=disconnect
+10/17 16:53:55.319 38.390 V arg[port]=
+10/17 16:53:55.319 38.390 D [UsbHidPhy] Close Success.
+10/17 16:53:55.319 38.390 D [host] Clear buffer and queue.
+10/17 16:53:55.319 38.390 V [tp_fty] delete trans
+10/17 16:53:55.319 38.390 V delete phy
+10/17 16:53:55.319 38.390 D [host] Clear buffer and queue.
+10/17 16:53:55.319 38.390 D [UartDevice] Disconnect
+10/17 16:53:55.319 38.390 D [DisconnectDUTByUsbHid] disconnect: DUT_HEADSET(USB_HID)
+10/17 16:53:55.319 38.390 D [task_time][DisconnectDUTByUsbHid] spend 0.000
+10/17 16:53:55.319 38.390 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+10/17 16:53:55.319 38.390 V [transact] result="pass"
+10/17 16:53:55.323 38.394 V [log_file_sync]
+10/17 16:53:55.346 38.417 V arg[airoha_task]=ConnectDutByUsbHid
+10/17 16:53:55.346 38.417 V [task] ConnectDutByUsbHid, class: ConnectDevice
+10/17 16:53:55.346 38.417 V [task_start][ConnectDutByUsbHid] +++++++++++++++++++++++
+10/17 16:53:55.346 38.417 V arg[device_name]=DUT_HEADSET
+10/17 16:53:55.346 38.417 V arg[device_type]=USB_HID
+10/17 16:53:55.346 38.417 V arg[action]=connect
+10/17 16:53:55.346 38.417 V arg[connected_by_usb]=
+10/17 16:53:55.346 38.417 V arg[port]=
+10/17 16:53:55.346 38.417 D [SerialHost] phy_name:USB_HID
+10/17 16:53:55.346 38.417 D phy_type:5
+10/17 16:53:55.346 38.417 D [SerialHost] trans_name:USB_HID
+10/17 16:53:55.346 38.417 D [tp_fty] trans_type:9
+10/17 16:53:55.346 38.417 D [UsbHidPhy] transport : USB_HID 
+10/17 16:53:55.346 38.417 D [SerialHost] phy_open
+10/17 16:53:55.346 38.417 D [UsbHidPhy] transport : USB_HID 
+10/17 16:53:55.346 38.417 I [UsbHidPhy] open [046D:0AFF] usb[]
+10/17 16:53:55.450 38.521 I [UsbHidPhy] get [046D:0AFF] usb[] serial[0000000000000000]
+10/17 16:53:55.450 38.521 D [UsbHidPhy] open: 046d:0aff
+10/17 16:53:55.450 38.521 D [UartDevice] Connect: 0
+10/17 16:53:55.450 38.521 D [ConnectDutByUsbHid] connect: DUT_HEADSET(USB_HID)
+10/17 16:53:55.450 38.521 D [task_time][ConnectDutByUsbHid] spend 0.104
+10/17 16:53:55.450 38.521 V [task_end][ConnectDutByUsbHid] ------------------------------------------
+10/17 16:53:55.450 38.521 V [transact] result="pass"
+10/17 16:53:55.455 38.526 V arg[airoha_task]=DisconnectDUTByUsbHid
+10/17 16:53:55.455 38.526 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+10/17 16:53:55.455 38.526 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+10/17 16:53:55.455 38.526 V arg[device_name]=DUT_HEADSET
+10/17 16:53:55.455 38.526 V arg[device_type]=USB_HID
+10/17 16:53:55.455 38.526 V arg[action]=disconnect
+10/17 16:53:55.455 38.526 V arg[port]=
+10/17 16:53:55.455 38.526 D [UsbHidPhy] Close Success.
+10/17 16:53:55.456 38.527 D [host] Clear buffer and queue.
+10/17 16:53:55.456 38.527 V [tp_fty] delete trans
+10/17 16:53:55.456 38.527 V delete phy
+10/17 16:53:55.456 38.527 D [host] Clear buffer and queue.
+10/17 16:53:55.456 38.527 D [UartDevice] Disconnect
+10/17 16:53:55.456 38.527 D [DisconnectDUTByUsbHid] disconnect: DUT_HEADSET(USB_HID)
+10/17 16:53:55.456 38.527 D [task_time][DisconnectDUTByUsbHid] spend 0.001
+10/17 16:53:55.456 38.527 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+10/17 16:53:55.456 38.527 V [transact] result="pass"
+10/17 16:53:57.326 40.398 V [log_file_sync]
+10/17 16:54:19.630 62.701 V arg[airoha_task]=ConnectDutByUsbHid
+10/17 16:54:19.631 62.702 V [task] ConnectDutByUsbHid, class: ConnectDevice
+10/17 16:54:19.631 62.702 V [task_start][ConnectDutByUsbHid] +++++++++++++++++++++++
+10/17 16:54:19.631 62.702 V arg[device_name]=DUT_HEADSET
+10/17 16:54:19.631 62.702 V arg[device_type]=USB_HID
+10/17 16:54:19.631 62.702 V arg[action]=connect
+10/17 16:54:19.631 62.702 V arg[connected_by_usb]=
+10/17 16:54:19.631 62.702 V arg[port]=
+10/17 16:54:19.631 62.702 D [SerialHost] phy_name:USB_HID
+10/17 16:54:19.631 62.702 D phy_type:5
+10/17 16:54:19.631 62.702 D [SerialHost] trans_name:USB_HID
+10/17 16:54:19.631 62.702 D [tp_fty] trans_type:9
+10/17 16:54:19.631 62.702 D [UsbHidPhy] transport : USB_HID 
+10/17 16:54:19.631 62.702 D [SerialHost] phy_open
+10/17 16:54:19.631 62.702 D [UsbHidPhy] transport : USB_HID 
+10/17 16:54:19.631 62.702 I [UsbHidPhy] open [046D:0AFF] usb[]
+10/17 16:54:19.635 62.706 V [log_file_sync]
+10/17 16:54:19.734 62.805 I [UsbHidPhy] get [046D:0AFF] usb[] serial[0000000000000000]
+10/17 16:54:19.734 62.805 D [UsbHidPhy] open: 046d:0aff
+10/17 16:54:19.734 62.805 D [UartDevice] Connect: 0
+10/17 16:54:19.734 62.805 D [ConnectDutByUsbHid] connect: DUT_HEADSET(USB_HID)
+10/17 16:54:19.734 62.805 D [task_time][ConnectDutByUsbHid] spend 0.103
+10/17 16:54:19.734 62.805 V [task_end][ConnectDutByUsbHid] ------------------------------------------
+10/17 16:54:19.734 62.805 V [transact] result="pass"
+10/17 16:54:19.734 62.805 W [UsbHidPhy] drop invalid hid data: 512 070002055B0500000A000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004B
+10/17 16:54:19.734 62.805 W [UsbHidPhy] drop invalid hid data: 512 070002055B0500000A000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004B
+10/17 16:54:19.739 62.810 W [UsbHidPhy] drop invalid hid data: 512 070002055B0500000A000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004B
+10/17 16:54:19.741 62.812 V arg[airoha_task]=airoha_cmd
+10/17 16:54:19.741 62.812 V [task] airoha_cmd, class: AirohaCommandTask
+10/17 16:54:19.741 62.812 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/17 16:54:19.741 62.812 V arg[device_name]=DUT_HEADSET
+10/17 16:54:19.741 62.812 V arg[command_xml]=command_627.xml
+10/17 16:54:19.741 62.812 V arg[airoha_cmd]=RACE_HEADSET_POWER_ON
+10/17 16:54:19.741 62.812 I [airoha_cmd] RACE_HEADSET_POWER_ON
+10/17 16:54:19.741 62.812 D [046d:0aff] Write(8)
+10/17 16:54:19.742 62.813 D [046d:0aff] chunk: 62(8) (8/8) 060800
+10/17 16:54:19.742 62.813 V [046d:0aff] Write: 62(8) (8/8) 060800055A040001111700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+10/17 16:54:19.744 62.815 D [046d:0aff][write 8 RACE_HEADSET_POWER_ON] 055A040001111700
+10/17 16:54:19.745 62.816 V [UsbHidPhy] device is writing, skip.
+10/17 16:54:20.746 63.817 D [host] Match timeout 1000 ms(0)
+10/17 16:54:20.746 63.817 E [exception] airoha_command.cc:144(-1): [airoha_cmd] run command fail(-1): RACE_HEADSET_POWER_ON
+10/17 16:54:20.746 63.817 E [task] Fail to execute RunTask() of airoha_cmd object
+10/17 16:54:20.746 63.817 D [task_time][airoha_cmd] spend 1.004
+10/17 16:54:20.746 63.817 V [task_end][airoha_cmd] ------------------------------------------
+10/17 16:54:20.752 63.823 V arg[airoha_task]=DisconnectDUTByUsbHid
+10/17 16:54:20.752 63.823 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+10/17 16:54:20.752 63.823 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+10/17 16:54:20.752 63.823 V arg[device_name]=DUT_HEADSET
+10/17 16:54:20.752 63.823 V arg[device_type]=USB_HID
+10/17 16:54:20.752 63.823 V arg[action]=disconnect
+10/17 16:54:20.752 63.823 V arg[port]=
+10/17 16:54:20.752 63.823 D [UsbHidPhy] Close Success.
+10/17 16:54:20.752 63.823 D [host] Clear buffer and queue.
+10/17 16:54:20.752 63.823 V [tp_fty] delete trans
+10/17 16:54:20.752 63.823 V delete phy
+10/17 16:54:20.752 63.823 D [host] Clear buffer and queue.
+10/17 16:54:20.752 63.823 D [UartDevice] Disconnect
+10/17 16:54:20.752 63.823 D [DisconnectDUTByUsbHid] disconnect: DUT_HEADSET(USB_HID)
+10/17 16:54:20.752 63.823 D [task_time][DisconnectDUTByUsbHid] spend 0.000
+10/17 16:54:20.752 63.823 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+10/17 16:54:20.752 63.823 V [transact] result="pass"
+10/17 16:54:20.758 63.829 V arg[airoha_task]=ConnectDutByUsbHid
+10/17 16:54:20.758 63.829 V [task] ConnectDutByUsbHid, class: ConnectDevice
+10/17 16:54:20.758 63.829 V [task_start][ConnectDutByUsbHid] +++++++++++++++++++++++
+10/17 16:54:20.758 63.829 V arg[device_name]=DUT_HEADSET
+10/17 16:54:20.758 63.829 V arg[device_type]=USB_HID
+10/17 16:54:20.758 63.829 V arg[action]=connect
+10/17 16:54:20.758 63.829 V arg[connected_by_usb]=
+10/17 16:54:20.758 63.829 V arg[port]=
+10/17 16:54:20.758 63.829 D [SerialHost] phy_name:USB_HID
+10/17 16:54:20.758 63.829 D phy_type:5
+10/17 16:54:20.758 63.829 D [SerialHost] trans_name:USB_HID
+10/17 16:54:20.758 63.829 D [tp_fty] trans_type:9
+10/17 16:54:20.758 63.829 D [UsbHidPhy] transport : USB_HID 
+10/17 16:54:20.758 63.829 D [SerialHost] phy_open
+10/17 16:54:20.758 63.829 D [UsbHidPhy] transport : USB_HID 
+10/17 16:54:20.758 63.829 I [UsbHidPhy] open [046D:0AFF] usb[]
+10/17 16:54:20.861 63.932 I [UsbHidPhy] get [046D:0AFF] usb[] serial[0000000000000000]
+10/17 16:54:20.861 63.932 D [UsbHidPhy] open: 046d:0aff
+10/17 16:54:20.861 63.932 D [UartDevice] Connect: 0
+10/17 16:54:20.861 63.932 D [ConnectDutByUsbHid] connect: DUT_HEADSET(USB_HID)
+10/17 16:54:20.861 63.932 D [task_time][ConnectDutByUsbHid] spend 0.103
+10/17 16:54:20.861 63.932 V [task_end][ConnectDutByUsbHid] ------------------------------------------
+10/17 16:54:20.861 63.932 V [transact] result="pass"
+10/17 16:54:20.867 63.938 V arg[airoha_task]=airoha_cmd
+10/17 16:54:20.867 63.938 V [task] airoha_cmd, class: AirohaCommandTask
+10/17 16:54:20.867 63.938 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/17 16:54:20.867 63.938 V arg[device_name]=DUT_HEADSET
+10/17 16:54:20.867 63.938 V arg[command_xml]=command_627.xml
+10/17 16:54:20.867 63.938 V arg[airoha_cmd]=RACE_APP_KEYCODE_SYSTEM_RESET
+10/17 16:54:20.867 63.938 I [airoha_cmd] RACE_APP_KEYCODE_SYSTEM_RESET
+10/17 16:54:20.867 63.938 D [046d:0aff] Write(6)
+10/17 16:54:20.868 63.939 D [046d:0aff] chunk: 62(6) (6/6) 060600
+10/17 16:54:20.868 63.939 V [046d:0aff] Write: 62(6) (6/6) 060600055C0200011F0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+10/17 16:54:20.870 63.941 D [046d:0aff][write 6 RACE_APP_KEYCODE_SYSTEM_RESET] 055C0200011F
+10/17 16:54:21.640 64.711 V [log_file_sync]
+10/17 16:54:21.870 64.941 D [host] Match timeout 1000 ms(0)
+10/17 16:54:21.870 64.941 E [exception] airoha_command.cc:144(-1): [airoha_cmd] run command fail(-1): RACE_APP_KEYCODE_SYSTEM_RESET
+10/17 16:54:21.870 64.941 E [task] Fail to execute RunTask() of airoha_cmd object
+10/17 16:54:21.870 64.941 D [task_time][airoha_cmd] spend 1.003
+10/17 16:54:21.870 64.941 V [task_end][airoha_cmd] ------------------------------------------
+10/17 16:54:23.643 66.714 V [log_file_sync]
+10/17 16:54:24.897 67.968 V arg[airoha_task]=DisconnectDUTByUsbHid
+10/17 16:54:24.897 67.968 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+10/17 16:54:24.897 67.968 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+10/17 16:54:24.897 67.968 V arg[device_name]=DUT_HEADSET
+10/17 16:54:24.897 67.968 V arg[device_type]=USB_HID
+10/17 16:54:24.897 67.968 V arg[action]=disconnect
+10/17 16:54:24.897 67.968 V arg[port]=
+10/17 16:54:24.897 67.968 D [UsbHidPhy] Close Success.
+10/17 16:54:24.897 67.968 D [host] Clear buffer and queue.
+10/17 16:54:24.897 67.968 V [tp_fty] delete trans
+10/17 16:54:24.897 67.968 V delete phy
+10/17 16:54:24.897 67.968 D [host] Clear buffer and queue.
+10/17 16:54:24.898 67.969 D [UartDevice] Disconnect
+10/17 16:54:24.898 67.969 D [DisconnectDUTByUsbHid] disconnect: DUT_HEADSET(USB_HID)
+10/17 16:54:24.898 67.969 D [task_time][DisconnectDUTByUsbHid] spend 0.001
+10/17 16:54:24.898 67.969 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+10/17 16:54:24.898 67.969 V [transact] result="pass"
+10/17 16:54:24.904 67.975 V arg[airoha_task]=ConnectDutByUsbHid
+10/17 16:54:24.904 67.975 V [task] ConnectDutByUsbHid, class: ConnectDevice
+10/17 16:54:24.904 67.975 V [task_start][ConnectDutByUsbHid] +++++++++++++++++++++++
+10/17 16:54:24.904 67.975 V arg[device_name]=DUT_HEADSET
+10/17 16:54:24.904 67.975 V arg[device_type]=USB_HID
+10/17 16:54:24.904 67.975 V arg[action]=connect
+10/17 16:54:24.904 67.975 V arg[connected_by_usb]=
+10/17 16:54:24.904 67.975 V arg[port]=
+10/17 16:54:24.904 67.975 D [SerialHost] phy_name:USB_HID
+10/17 16:54:24.904 67.975 D phy_type:5
+10/17 16:54:24.904 67.975 D [SerialHost] trans_name:USB_HID
+10/17 16:54:24.904 67.975 D [tp_fty] trans_type:9
+10/17 16:54:24.904 67.975 D [UsbHidPhy] transport : USB_HID 
+10/17 16:54:24.904 67.975 D [SerialHost] phy_open
+10/17 16:54:24.904 67.975 D [UsbHidPhy] transport : USB_HID 
+10/17 16:54:24.904 67.975 I [UsbHidPhy] open [046D:0AFF] usb[]
+10/17 16:54:25.008 68.079 I [UsbHidPhy] get [046D:0AFF] usb[] serial[0000000000000000]
+10/17 16:54:25.008 68.079 D [UsbHidPhy] open: 046d:0aff
+10/17 16:54:25.008 68.079 D [UartDevice] Connect: 0
+10/17 16:54:25.008 68.079 D [ConnectDutByUsbHid] connect: DUT_HEADSET(USB_HID)
+10/17 16:54:25.008 68.079 D [task_time][ConnectDutByUsbHid] spend 0.104
+10/17 16:54:25.008 68.079 V [task_end][ConnectDutByUsbHid] ------------------------------------------
+10/17 16:54:25.008 68.079 V [transact] result="pass"
+10/17 16:54:25.014 68.085 V arg[airoha_task]=DisconnectDUTByUsbHid
+10/17 16:54:25.014 68.085 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+10/17 16:54:25.014 68.085 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+10/17 16:54:25.014 68.085 V arg[device_name]=DUT_HEADSET
+10/17 16:54:25.014 68.085 V arg[device_type]=USB_HID
+10/17 16:54:25.014 68.085 V arg[action]=disconnect
+10/17 16:54:25.014 68.085 V arg[port]=
+10/17 16:54:25.014 68.085 D [UsbHidPhy] Close Success.
+10/17 16:54:25.014 68.085 D [host] Clear buffer and queue.
+10/17 16:54:25.014 68.085 V [tp_fty] delete trans
+10/17 16:54:25.014 68.085 V delete phy
+10/17 16:54:25.014 68.085 D [host] Clear buffer and queue.
+10/17 16:54:25.015 68.086 D [UartDevice] Disconnect
+10/17 16:54:25.015 68.086 D [DisconnectDUTByUsbHid] disconnect: DUT_HEADSET(USB_HID)
+10/17 16:54:25.015 68.086 D [task_time][DisconnectDUTByUsbHid] spend 0.001
+10/17 16:54:25.015 68.086 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+10/17 16:54:25.015 68.086 V [transact] result="pass"
+10/17 16:54:25.648 68.719 V [log_file_sync]
+10/17 16:56:42.997 206.068 V arg[airoha_task]=ConnectDutByUsbHid
+10/17 16:56:42.997 206.068 V [task] ConnectDutByUsbHid, class: ConnectDevice
+10/17 16:56:42.997 206.068 V [task_start][ConnectDutByUsbHid] +++++++++++++++++++++++
+10/17 16:56:42.997 206.068 V arg[device_name]=DUT_HEADSET
+10/17 16:56:42.997 206.068 V arg[device_type]=USB_HID
+10/17 16:56:42.997 206.068 V arg[action]=connect
+10/17 16:56:42.997 206.068 V arg[connected_by_usb]=
+10/17 16:56:42.997 206.068 V arg[port]=
+10/17 16:56:42.997 206.068 D [SerialHost] phy_name:USB_HID
+10/17 16:56:42.997 206.068 D phy_type:5
+10/17 16:56:42.997 206.068 D [SerialHost] trans_name:USB_HID
+10/17 16:56:42.997 206.068 D [tp_fty] trans_type:9
+10/17 16:56:42.997 206.068 D [UsbHidPhy] transport : USB_HID 
+10/17 16:56:42.997 206.068 D [SerialHost] phy_open
+10/17 16:56:42.997 206.068 D [UsbHidPhy] transport : USB_HID 
+10/17 16:56:42.997 206.068 I [UsbHidPhy] open [046D:0AFF] usb[]
+10/17 16:56:43.002 206.073 V [log_file_sync]
+10/17 16:56:43.100 206.171 I [UsbHidPhy] get [046D:0AFF] usb[] serial[0000000000000000]
+10/17 16:56:43.100 206.171 D [UsbHidPhy] open: 046d:0aff
+10/17 16:56:43.100 206.171 D [UartDevice] Connect: 0
+10/17 16:56:43.100 206.171 D [ConnectDutByUsbHid] connect: DUT_HEADSET(USB_HID)
+10/17 16:56:43.100 206.171 D [task_time][ConnectDutByUsbHid] spend 0.103
+10/17 16:56:43.100 206.171 V [task_end][ConnectDutByUsbHid] ------------------------------------------
+10/17 16:56:43.100 206.171 V [transact] result="pass"
+10/17 16:56:43.100 206.171 W [UsbHidPhy] drop invalid hid data: 512 070002055B0500000A0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+10/17 16:56:43.100 206.171 W [UsbHidPhy] drop invalid hid data: 512 070002055B0500000A0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+10/17 16:56:43.105 206.176 W [UsbHidPhy] drop invalid hid data: 512 070002055B0500000A0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+10/17 16:56:43.106 206.177 V arg[airoha_task]=airoha_cmd
+10/17 16:56:43.106 206.177 V [task] airoha_cmd, class: AirohaCommandTask
+10/17 16:56:43.106 206.177 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/17 16:56:43.106 206.177 V arg[device_name]=DUT_HEADSET
+10/17 16:56:43.106 206.177 V arg[command_xml]=command_627.xml
+10/17 16:56:43.106 206.177 V arg[airoha_cmd]=RACE_HEADSET_POWER_ON
+10/17 16:56:43.107 206.178 I [airoha_cmd] RACE_HEADSET_POWER_ON
+10/17 16:56:43.107 206.178 D [046d:0aff] Write(8)
+10/17 16:56:43.107 206.178 D [046d:0aff] chunk: 62(8) (8/8) 060800
+10/17 16:56:43.107 206.178 V [046d:0aff] Write: 62(8) (8/8) 060800055A040001111700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+10/17 16:56:43.108 206.179 D [046d:0aff][write 8 RACE_HEADSET_POWER_ON] 055A040001111700
+10/17 16:56:44.109 207.180 D [host] Match timeout 1000 ms(0)
+10/17 16:56:44.109 207.180 E [exception] airoha_command.cc:144(-1): [airoha_cmd] run command fail(-1): RACE_HEADSET_POWER_ON
+10/17 16:56:44.109 207.180 E [task] Fail to execute RunTask() of airoha_cmd object
+10/17 16:56:44.109 207.180 D [task_time][airoha_cmd] spend 1.002
+10/17 16:56:44.109 207.180 V [task_end][airoha_cmd] ------------------------------------------
+10/17 16:56:44.116 207.187 V arg[airoha_task]=DisconnectDUTByUsbHid
+10/17 16:56:44.116 207.187 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+10/17 16:56:44.116 207.187 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+10/17 16:56:44.116 207.187 V arg[device_name]=DUT_HEADSET
+10/17 16:56:44.116 207.187 V arg[device_type]=USB_HID
+10/17 16:56:44.116 207.187 V arg[action]=disconnect
+10/17 16:56:44.116 207.187 V arg[port]=
+10/17 16:56:44.116 207.187 D [UsbHidPhy] Close Success.
+10/17 16:56:44.116 207.187 D [host] Clear buffer and queue.
+10/17 16:56:44.116 207.187 V [tp_fty] delete trans
+10/17 16:56:44.116 207.187 V delete phy
+10/17 16:56:44.116 207.187 D [host] Clear buffer and queue.
+10/17 16:56:44.116 207.187 D [UartDevice] Disconnect
+10/17 16:56:44.116 207.187 D [DisconnectDUTByUsbHid] disconnect: DUT_HEADSET(USB_HID)
+10/17 16:56:44.116 207.187 D [task_time][DisconnectDUTByUsbHid] spend 0.000
+10/17 16:56:44.116 207.187 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+10/17 16:56:44.116 207.187 V [transact] result="pass"
+10/17 16:56:44.121 207.192 V arg[airoha_task]=ConnectDutByUsbHid
+10/17 16:56:44.122 207.193 V [task] ConnectDutByUsbHid, class: ConnectDevice
+10/17 16:56:44.122 207.193 V [task_start][ConnectDutByUsbHid] +++++++++++++++++++++++
+10/17 16:56:44.122 207.193 V arg[device_name]=DUT_HEADSET
+10/17 16:56:44.122 207.193 V arg[device_type]=USB_HID
+10/17 16:56:44.122 207.193 V arg[action]=connect
+10/17 16:56:44.122 207.193 V arg[connected_by_usb]=
+10/17 16:56:44.122 207.193 V arg[port]=
+10/17 16:56:44.122 207.193 D [SerialHost] phy_name:USB_HID
+10/17 16:56:44.122 207.193 D phy_type:5
+10/17 16:56:44.122 207.193 D [SerialHost] trans_name:USB_HID
+10/17 16:56:44.122 207.193 D [tp_fty] trans_type:9
+10/17 16:56:44.122 207.193 D [UsbHidPhy] transport : USB_HID 
+10/17 16:56:44.122 207.193 D [SerialHost] phy_open
+10/17 16:56:44.122 207.193 D [UsbHidPhy] transport : USB_HID 
+10/17 16:56:44.122 207.193 I [UsbHidPhy] open [046D:0AFF] usb[]
+10/17 16:56:44.225 207.296 I [UsbHidPhy] get [046D:0AFF] usb[] serial[0000000000000000]
+10/17 16:56:44.225 207.296 D [UsbHidPhy] open: 046d:0aff
+10/17 16:56:44.225 207.296 D [UartDevice] Connect: 0
+10/17 16:56:44.225 207.296 D [ConnectDutByUsbHid] connect: DUT_HEADSET(USB_HID)
+10/17 16:56:44.225 207.296 D [task_time][ConnectDutByUsbHid] spend 0.103
+10/17 16:56:44.225 207.296 V [task_end][ConnectDutByUsbHid] ------------------------------------------
+10/17 16:56:44.225 207.296 V [transact] result="pass"
+10/17 16:56:44.233 207.304 V arg[airoha_task]=airoha_cmd
+10/17 16:56:44.233 207.304 V [task] airoha_cmd, class: AirohaCommandTask
+10/17 16:56:44.233 207.304 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/17 16:56:44.233 207.304 V arg[device_name]=DUT_HEADSET
+10/17 16:56:44.233 207.304 V arg[command_xml]=command_627.xml
+10/17 16:56:44.233 207.304 V arg[airoha_cmd]=RACE_APP_KEYCODE_SYSTEM_RESET
+10/17 16:56:44.233 207.304 I [airoha_cmd] RACE_APP_KEYCODE_SYSTEM_RESET
+10/17 16:56:44.233 207.304 D [046d:0aff] Write(6)
+10/17 16:56:44.234 207.305 D [046d:0aff] chunk: 62(6) (6/6) 060600
+10/17 16:56:44.234 207.305 V [046d:0aff] Write: 62(6) (6/6) 060600055C0200011F0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+10/17 16:56:44.236 207.307 D [046d:0aff][write 6 RACE_APP_KEYCODE_SYSTEM_RESET] 055C0200011F
+10/17 16:56:44.237 207.308 V [UsbHidPhy] device is writing, skip.
+10/17 16:56:45.004 208.075 V [log_file_sync]
+10/17 16:56:45.237 208.308 D [host] Match timeout 1000 ms(0)
+10/17 16:56:45.237 208.308 E [exception] airoha_command.cc:144(-1): [airoha_cmd] run command fail(-1): RACE_APP_KEYCODE_SYSTEM_RESET
+10/17 16:56:45.237 208.308 E [task] Fail to execute RunTask() of airoha_cmd object
+10/17 16:56:45.237 208.308 D [task_time][airoha_cmd] spend 1.004
+10/17 16:56:45.237 208.308 V [task_end][airoha_cmd] ------------------------------------------
+10/17 16:56:47.006 210.077 V [log_file_sync]
+10/17 16:56:48.265 211.336 V arg[airoha_task]=DisconnectDUTByUsbHid
+10/17 16:56:48.265 211.336 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+10/17 16:56:48.265 211.336 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+10/17 16:56:48.265 211.336 V arg[device_name]=DUT_HEADSET
+10/17 16:56:48.265 211.336 V arg[device_type]=USB_HID
+10/17 16:56:48.265 211.336 V arg[action]=disconnect
+10/17 16:56:48.265 211.336 V arg[port]=
+10/17 16:56:48.265 211.336 D [UsbHidPhy] Close Success.
+10/17 16:56:48.265 211.336 D [host] Clear buffer and queue.
+10/17 16:56:48.265 211.336 V [tp_fty] delete trans
+10/17 16:56:48.265 211.336 V delete phy
+10/17 16:56:48.265 211.336 D [host] Clear buffer and queue.
+10/17 16:56:48.265 211.336 D [UartDevice] Disconnect
+10/17 16:56:48.265 211.336 D [DisconnectDUTByUsbHid] disconnect: DUT_HEADSET(USB_HID)
+10/17 16:56:48.265 211.336 D [task_time][DisconnectDUTByUsbHid] spend 0.000
+10/17 16:56:48.265 211.336 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+10/17 16:56:48.265 211.336 V [transact] result="pass"
+10/17 16:56:48.272 211.343 V arg[airoha_task]=ConnectDutByUsbHid
+10/17 16:56:48.272 211.343 V [task] ConnectDutByUsbHid, class: ConnectDevice
+10/17 16:56:48.272 211.343 V [task_start][ConnectDutByUsbHid] +++++++++++++++++++++++
+10/17 16:56:48.272 211.343 V arg[device_name]=DUT_HEADSET
+10/17 16:56:48.272 211.343 V arg[device_type]=USB_HID
+10/17 16:56:48.272 211.343 V arg[action]=connect
+10/17 16:56:48.272 211.343 V arg[connected_by_usb]=
+10/17 16:56:48.272 211.343 V arg[port]=
+10/17 16:56:48.272 211.343 D [SerialHost] phy_name:USB_HID
+10/17 16:56:48.272 211.343 D phy_type:5
+10/17 16:56:48.272 211.343 D [SerialHost] trans_name:USB_HID
+10/17 16:56:48.272 211.343 D [tp_fty] trans_type:9
+10/17 16:56:48.272 211.343 D [UsbHidPhy] transport : USB_HID 
+10/17 16:56:48.272 211.343 D [SerialHost] phy_open
+10/17 16:56:48.272 211.343 D [UsbHidPhy] transport : USB_HID 
+10/17 16:56:48.272 211.343 I [UsbHidPhy] open [046D:0AFF] usb[]
+10/17 16:56:48.375 211.446 I [UsbHidPhy] get [046D:0AFF] usb[] serial[0000000000000000]
+10/17 16:56:48.375 211.446 D [UsbHidPhy] open: 046d:0aff
+10/17 16:56:48.375 211.446 D [UartDevice] Connect: 0
+10/17 16:56:48.375 211.446 D [ConnectDutByUsbHid] connect: DUT_HEADSET(USB_HID)
+10/17 16:56:48.375 211.446 D [task_time][ConnectDutByUsbHid] spend 0.103
+10/17 16:56:48.375 211.446 V [task_end][ConnectDutByUsbHid] ------------------------------------------
+10/17 16:56:48.375 211.446 V [transact] result="pass"
+10/17 16:56:48.381 211.452 V arg[airoha_task]=DisconnectDUTByUsbHid
+10/17 16:56:48.381 211.452 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+10/17 16:56:48.381 211.452 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+10/17 16:56:48.381 211.452 V arg[device_name]=DUT_HEADSET
+10/17 16:56:48.381 211.452 V arg[device_type]=USB_HID
+10/17 16:56:48.381 211.452 V arg[action]=disconnect
+10/17 16:56:48.381 211.452 V arg[port]=
+10/17 16:56:48.381 211.452 D [UsbHidPhy] Close Success.
+10/17 16:56:48.381 211.452 D [host] Clear buffer and queue.
+10/17 16:56:48.381 211.452 V [tp_fty] delete trans
+10/17 16:56:48.381 211.452 V delete phy
+10/17 16:56:48.381 211.452 D [host] Clear buffer and queue.
+10/17 16:56:48.382 211.453 D [UartDevice] Disconnect
+10/17 16:56:48.382 211.453 D [DisconnectDUTByUsbHid] disconnect: DUT_HEADSET(USB_HID)
+10/17 16:56:48.382 211.453 D [task_time][DisconnectDUTByUsbHid] spend 0.001
+10/17 16:56:48.382 211.453 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+10/17 16:56:48.382 211.453 V [transact] result="pass"
+10/17 16:56:49.012 212.083 V [log_file_sync]
+10/17 17:01:57.941 521.012 V arg[airoha_task]=ConnectDutByUsbHid
+10/17 17:01:57.941 521.012 V [task] ConnectDutByUsbHid, class: ConnectDevice
+10/17 17:01:57.941 521.012 V [task_start][ConnectDutByUsbHid] +++++++++++++++++++++++
+10/17 17:01:57.941 521.012 V arg[device_name]=DUT_HEADSET
+10/17 17:01:57.941 521.012 V arg[device_type]=USB_HID
+10/17 17:01:57.941 521.012 V arg[action]=connect
+10/17 17:01:57.941 521.012 V arg[connected_by_usb]=
+10/17 17:01:57.941 521.012 V arg[port]=
+10/17 17:01:57.942 521.013 D [SerialHost] phy_name:USB_HID
+10/17 17:01:57.942 521.013 D phy_type:5
+10/17 17:01:57.942 521.013 D [SerialHost] trans_name:USB_HID
+10/17 17:01:57.942 521.013 D [tp_fty] trans_type:9
+10/17 17:01:57.942 521.013 D [UsbHidPhy] transport : USB_HID 
+10/17 17:01:57.942 521.013 D [SerialHost] phy_open
+10/17 17:01:57.942 521.013 D [UsbHidPhy] transport : USB_HID 
+10/17 17:01:57.942 521.013 I [UsbHidPhy] open [046D:0AFF] usb[]
+10/17 17:01:57.944 521.015 V [log_file_sync]
+10/17 17:01:58.046 521.117 I [UsbHidPhy] get [046D:0AFF] usb[] serial[0000000000000000]
+10/17 17:01:58.046 521.117 D [UsbHidPhy] open: 046d:0aff
+10/17 17:01:58.046 521.117 D [UartDevice] Connect: 0
+10/17 17:01:58.046 521.117 D [ConnectDutByUsbHid] connect: DUT_HEADSET(USB_HID)
+10/17 17:01:58.046 521.117 D [task_time][ConnectDutByUsbHid] spend 0.105
+10/17 17:01:58.046 521.117 V [task_end][ConnectDutByUsbHid] ------------------------------------------
+10/17 17:01:58.046 521.117 V [transact] result="pass"
+10/17 17:01:58.052 521.123 V arg[airoha_task]=DisconnectDUTByUsbHid
+10/17 17:01:58.052 521.123 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+10/17 17:01:58.052 521.123 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+10/17 17:01:58.052 521.123 V arg[device_name]=DUT_HEADSET
+10/17 17:01:58.052 521.123 V arg[device_type]=USB_HID
+10/17 17:01:58.052 521.123 V arg[action]=disconnect
+10/17 17:01:58.052 521.123 V arg[port]=
+10/17 17:01:58.052 521.123 D [UsbHidPhy] Close Success.
+10/17 17:01:58.052 521.123 D [host] Clear buffer and queue.
+10/17 17:01:58.052 521.123 V [tp_fty] delete trans
+10/17 17:01:58.052 521.123 V delete phy
+10/17 17:01:58.052 521.123 D [host] Clear buffer and queue.
+10/17 17:01:58.052 521.123 D [UartDevice] Disconnect
+10/17 17:01:58.052 521.123 D [DisconnectDUTByUsbHid] disconnect: DUT_HEADSET(USB_HID)
+10/17 17:01:58.052 521.123 D [task_time][DisconnectDUTByUsbHid] spend 0.000
+10/17 17:01:58.052 521.123 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+10/17 17:01:58.052 521.123 V [transact] result="pass"
+10/17 17:01:58.059 521.130 V arg[airoha_task]=ConnectDutByUsbHid
+10/17 17:01:58.059 521.130 V [task] ConnectDutByUsbHid, class: ConnectDevice
+10/17 17:01:58.059 521.130 V [task_start][ConnectDutByUsbHid] +++++++++++++++++++++++
+10/17 17:01:58.059 521.130 V arg[device_name]=DUT_HEADSET
+10/17 17:01:58.059 521.130 V arg[device_type]=USB_HID
+10/17 17:01:58.059 521.130 V arg[action]=connect
+10/17 17:01:58.059 521.130 V arg[connected_by_usb]=
+10/17 17:01:58.059 521.130 V arg[port]=
+10/17 17:01:58.059 521.130 D [SerialHost] phy_name:USB_HID
+10/17 17:01:58.059 521.130 D phy_type:5
+10/17 17:01:58.059 521.130 D [SerialHost] trans_name:USB_HID
+10/17 17:01:58.059 521.130 D [tp_fty] trans_type:9
+10/17 17:01:58.059 521.130 D [UsbHidPhy] transport : USB_HID 
+10/17 17:01:58.059 521.130 D [SerialHost] phy_open
+10/17 17:01:58.059 521.130 D [UsbHidPhy] transport : USB_HID 
+10/17 17:01:58.059 521.130 I [UsbHidPhy] open [046D:0AFF] usb[]
+10/17 17:01:58.162 521.233 I [UsbHidPhy] get [046D:0AFF] usb[] serial[0000000000000000]
+10/17 17:01:58.162 521.233 D [UsbHidPhy] open: 046d:0aff
+10/17 17:01:58.162 521.233 D [UartDevice] Connect: 0
+10/17 17:01:58.162 521.233 D [ConnectDutByUsbHid] connect: DUT_HEADSET(USB_HID)
+10/17 17:01:58.162 521.233 D [task_time][ConnectDutByUsbHid] spend 0.103
+10/17 17:01:58.162 521.233 V [task_end][ConnectDutByUsbHid] ------------------------------------------
+10/17 17:01:58.162 521.233 V [transact] result="pass"
+10/17 17:01:58.169 521.240 V arg[airoha_task]=airoha_cmd
+10/17 17:01:58.169 521.240 V [task] airoha_cmd, class: AirohaCommandTask
+10/17 17:01:58.169 521.240 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/17 17:01:58.169 521.240 V arg[device_name]=DUT_HEADSET
+10/17 17:01:58.169 521.240 V arg[command_xml]=command_627.xml
+10/17 17:01:58.169 521.240 V arg[airoha_cmd]=RACE_APP_KEYCODE_SYSTEM_RESET
+10/17 17:01:58.169 521.240 I [airoha_cmd] RACE_APP_KEYCODE_SYSTEM_RESET
+10/17 17:01:58.169 521.240 D [046d:0aff] Write(6)
+10/17 17:01:58.171 521.242 D [046d:0aff] chunk: 62(6) (6/6) 060600
+10/17 17:01:58.171 521.242 V [046d:0aff] Write: 62(6) (6/6) 060600055C0200011F0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+10/17 17:01:58.173 521.244 V [UsbHidPhy] device is writing, skip.
+10/17 17:01:58.173 521.244 D [046d:0aff][write 6 RACE_APP_KEYCODE_SYSTEM_RESET] 055C0200011F
+10/17 17:01:58.187 521.258 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.192 521.263 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.197 521.268 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.202 521.273 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.207 521.278 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.212 521.283 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.217 521.288 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.221 521.292 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.226 521.297 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.231 521.302 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.236 521.307 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.241 521.312 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.246 521.317 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.251 521.322 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.256 521.327 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.260 521.331 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.265 521.336 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.269 521.340 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.274 521.345 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.279 521.350 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.284 521.355 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.289 521.360 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.293 521.364 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.298 521.369 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.303 521.374 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.308 521.379 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.313 521.384 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.317 521.388 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.322 521.393 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.327 521.398 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.332 521.403 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.337 521.408 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.342 521.413 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.346 521.417 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.351 521.422 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.356 521.427 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.361 521.432 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.366 521.437 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.371 521.442 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.375 521.446 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.380 521.451 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.385 521.456 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.390 521.461 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.394 521.465 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.399 521.470 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.404 521.475 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.408 521.479 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.413 521.484 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.418 521.489 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.423 521.494 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.428 521.499 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.433 521.504 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.437 521.508 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.442 521.513 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.447 521.518 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.452 521.523 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.456 521.527 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.461 521.532 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.466 521.537 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.471 521.542 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.475 521.546 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.480 521.551 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.484 521.555 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.489 521.560 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.494 521.565 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.499 521.570 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.504 521.575 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.508 521.579 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.513 521.584 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.517 521.588 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.522 521.593 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.526 521.597 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.531 521.602 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.536 521.607 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.541 521.612 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.545 521.616 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.550 521.621 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.555 521.626 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.560 521.631 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.564 521.635 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.568 521.639 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.573 521.644 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.578 521.649 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.582 521.653 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.587 521.658 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.592 521.663 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.597 521.668 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.602 521.673 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.607 521.678 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.612 521.683 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.617 521.688 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.622 521.693 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.626 521.697 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.631 521.702 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.636 521.707 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.641 521.712 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.645 521.716 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.650 521.721 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.655 521.726 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.660 521.731 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.664 521.735 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.668 521.739 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.673 521.744 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.678 521.749 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.682 521.753 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.687 521.758 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.692 521.763 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.697 521.768 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.702 521.773 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.706 521.777 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.711 521.782 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.716 521.787 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.721 521.792 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.725 521.796 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.729 521.800 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.734 521.805 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.738 521.809 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.743 521.814 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.748 521.819 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.753 521.824 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.758 521.829 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.763 521.834 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.768 521.839 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.773 521.844 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.777 521.848 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.782 521.853 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.787 521.858 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.792 521.863 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.797 521.868 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.802 521.873 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.806 521.877 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.811 521.882 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.816 521.887 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.821 521.892 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.826 521.897 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.831 521.902 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.836 521.907 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.841 521.912 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.845 521.916 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.850 521.921 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.855 521.926 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.860 521.931 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.865 521.936 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.870 521.941 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.874 521.945 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.879 521.950 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.884 521.955 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.889 521.960 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.894 521.965 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.899 521.970 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.904 521.975 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.909 521.980 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.914 521.985 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.919 521.990 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.924 521.995 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.929 522.000 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.933 522.004 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.938 522.009 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.943 522.014 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.948 522.019 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.953 522.024 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.958 522.029 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.963 522.034 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.968 522.039 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.973 522.044 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.978 522.049 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.983 522.054 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.987 522.058 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.992 522.063 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:58.996 522.067 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.001 522.072 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.005 522.077 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.010 522.081 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.015 522.086 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.020 522.091 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.025 522.096 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.030 522.101 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.034 522.106 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.039 522.111 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.044 522.116 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.049 522.121 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.054 522.126 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.059 522.131 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.064 522.136 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.069 522.141 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.074 522.146 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.079 522.151 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.084 522.156 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.089 522.161 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.094 522.166 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.099 522.171 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.104 522.176 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.109 522.181 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.113 522.185 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.118 522.190 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.123 522.195 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.128 522.200 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.132 522.204 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.137 522.209 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.142 522.214 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.147 522.219 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.152 522.224 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.156 522.228 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.161 522.233 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.166 522.238 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.171 522.243 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.173 522.245 D [host] Match timeout 1000 ms(0)
+10/17 17:01:59.173 522.245 E [exception] airoha_command.cc:144(-1): [airoha_cmd] run command fail(-1): RACE_APP_KEYCODE_SYSTEM_RESET
+10/17 17:01:59.173 522.245 E [task] Fail to execute RunTask() of airoha_cmd object
+10/17 17:01:59.173 522.245 D [task_time][airoha_cmd] spend 1.004
+10/17 17:01:59.173 522.245 V [task_end][airoha_cmd] ------------------------------------------
+10/17 17:01:59.176 522.248 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.181 522.253 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.186 522.258 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.191 522.263 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.196 522.268 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.201 522.273 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.206 522.278 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.210 522.282 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.215 522.287 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.219 522.291 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.224 522.296 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.229 522.301 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.234 522.306 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.239 522.311 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.244 522.316 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.249 522.321 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.254 522.326 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.259 522.331 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.264 522.336 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.269 522.341 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.274 522.346 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.279 522.351 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.284 522.356 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.289 522.361 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.294 522.366 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.299 522.371 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.304 522.375 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.309 522.381 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.314 522.386 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.319 522.391 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.324 522.395 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.329 522.400 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.334 522.405 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.338 522.409 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.343 522.414 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.348 522.419 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.353 522.424 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.357 522.428 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.362 522.433 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.366 522.437 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.371 522.442 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.376 522.447 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.381 522.452 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.386 522.457 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.391 522.462 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.396 522.467 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.401 522.472 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.405 522.476 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.410 522.481 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.415 522.486 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.420 522.491 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.425 522.496 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.429 522.500 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.434 522.505 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.439 522.510 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.444 522.515 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.449 522.520 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.454 522.525 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.459 522.530 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.464 522.535 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.469 522.540 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.474 522.545 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.479 522.550 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.484 522.555 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.489 522.560 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.494 522.565 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.499 522.570 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.504 522.575 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.509 522.580 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.514 522.585 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.519 522.590 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.524 522.595 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.529 522.600 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.534 522.605 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.538 522.609 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.542 522.613 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.547 522.618 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.551 522.622 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.556 522.627 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.561 522.632 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.566 522.637 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.571 522.642 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.576 522.647 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.581 522.652 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.586 522.657 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.590 522.661 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.595 522.666 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.600 522.671 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.605 522.676 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.609 522.680 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.614 522.685 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.619 522.690 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.624 522.695 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.629 522.700 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.634 522.705 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.639 522.710 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.644 522.715 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.649 522.720 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.654 522.725 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.659 522.730 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.664 522.735 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.669 522.740 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.674 522.745 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.679 522.750 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.683 522.754 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.688 522.759 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.693 522.764 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.698 522.769 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.703 522.774 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.708 522.779 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.713 522.784 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.718 522.789 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.723 522.794 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.728 522.799 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.732 522.803 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.737 522.808 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.741 522.812 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.746 522.817 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.751 522.822 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.756 522.827 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.760 522.831 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.765 522.836 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.770 522.841 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.775 522.846 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.779 522.850 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.784 522.855 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.788 522.859 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.793 522.864 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.798 522.869 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.802 522.873 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.807 522.878 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.812 522.883 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.817 522.888 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.822 522.893 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.827 522.898 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.832 522.903 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.837 522.908 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.842 522.913 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.847 522.918 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.852 522.923 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.857 522.928 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.862 522.933 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.867 522.938 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.872 522.943 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.877 522.948 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.882 522.953 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.887 522.958 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.892 522.963 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.897 522.968 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.902 522.973 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.907 522.978 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.912 522.983 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.917 522.988 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.921 522.993 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.926 522.998 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.932 523.003 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.937 523.008 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.942 523.013 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.947 523.018 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.947 523.018 V [log_file_sync]
+10/17 17:01:59.951 523.023 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.956 523.028 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.960 523.032 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.965 523.037 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.969 523.041 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.974 523.046 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.979 523.051 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.984 523.056 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.989 523.061 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.993 523.065 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:01:59.998 523.070 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.003 523.075 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.008 523.080 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.012 523.084 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.017 523.089 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.022 523.094 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.027 523.099 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.032 523.104 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.037 523.109 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.042 523.114 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.047 523.119 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.052 523.124 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.056 523.128 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.061 523.133 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.066 523.138 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.071 523.143 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.076 523.148 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.081 523.153 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.086 523.158 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.091 523.163 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.096 523.168 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.101 523.173 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.106 523.178 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.111 523.183 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.116 523.188 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.121 523.193 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.126 523.198 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.131 523.203 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.136 523.208 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.141 523.213 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.146 523.218 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.151 523.223 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.155 523.227 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.160 523.232 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.165 523.237 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.170 523.242 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.175 523.247 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.180 523.252 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.185 523.257 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.190 523.262 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.195 523.267 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.200 523.272 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.205 523.277 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.210 523.282 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.215 523.286 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.220 523.291 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.225 523.296 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.230 523.301 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.235 523.306 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.240 523.311 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.245 523.316 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.250 523.321 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.255 523.326 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.260 523.331 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.265 523.336 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.270 523.341 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.275 523.346 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.280 523.351 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.285 523.356 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.290 523.361 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.295 523.366 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.300 523.371 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.305 523.376 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.310 523.381 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.315 523.386 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.320 523.391 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.325 523.396 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.330 523.401 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.335 523.406 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.340 523.411 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.345 523.416 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.350 523.421 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.355 523.426 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.360 523.431 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.365 523.436 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.370 523.441 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.375 523.446 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.380 523.451 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.385 523.456 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.390 523.461 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.395 523.466 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.400 523.471 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.405 523.476 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.410 523.481 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.415 523.486 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.420 523.491 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.425 523.496 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.430 523.501 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.435 523.506 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.440 523.511 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.445 523.516 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.450 523.521 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.455 523.526 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.460 523.531 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.464 523.535 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.469 523.540 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.473 523.544 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.478 523.549 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.482 523.553 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.487 523.558 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.491 523.562 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.496 523.567 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.501 523.572 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.506 523.577 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.510 523.581 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.515 523.586 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.519 523.590 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.523 523.594 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.527 523.598 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.531 523.602 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.536 523.607 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.540 523.611 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.545 523.616 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.549 523.620 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.553 523.624 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.558 523.629 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.562 523.633 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.567 523.638 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.572 523.643 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.577 523.648 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.581 523.652 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.586 523.657 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.591 523.662 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.596 523.667 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.601 523.672 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.606 523.677 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.611 523.682 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.616 523.687 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.621 523.692 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.626 523.697 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.631 523.702 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.636 523.707 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.641 523.712 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.646 523.717 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.651 523.722 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.656 523.727 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.661 523.732 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.666 523.737 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.671 523.742 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.676 523.747 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.681 523.752 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.686 523.757 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.691 523.762 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.696 523.767 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.701 523.772 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.706 523.777 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.711 523.782 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.716 523.787 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.721 523.792 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.725 523.796 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.730 523.801 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.735 523.806 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.740 523.811 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.745 523.816 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.750 523.821 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.755 523.826 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.760 523.831 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.765 523.836 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.770 523.841 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.775 523.846 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.780 523.851 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.785 523.856 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.790 523.861 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.795 523.866 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.800 523.871 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.804 523.875 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.809 523.880 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.814 523.885 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.819 523.890 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.824 523.895 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.829 523.900 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.834 523.905 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.839 523.910 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.844 523.915 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.849 523.920 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.854 523.925 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.859 523.930 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.864 523.935 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.869 523.940 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.874 523.945 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.879 523.950 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.884 523.955 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.889 523.960 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.894 523.965 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.898 523.969 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.903 523.974 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.908 523.979 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.913 523.984 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.918 523.989 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.922 523.993 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.927 523.998 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.932 524.003 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.937 524.008 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.941 524.012 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.946 524.017 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.951 524.022 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.956 524.027 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.961 524.032 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.966 524.037 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.971 524.042 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.976 524.047 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.981 524.052 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.986 524.057 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.991 524.062 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:00.996 524.067 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.001 524.072 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.006 524.077 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.011 524.082 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.016 524.087 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.021 524.092 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.026 524.097 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.031 524.102 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.036 524.107 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.041 524.112 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.046 524.117 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.051 524.122 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.056 524.127 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.061 524.132 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.066 524.137 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.071 524.142 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.075 524.146 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.080 524.151 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.085 524.156 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.090 524.161 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.095 524.166 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.100 524.171 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.105 524.176 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.110 524.181 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.115 524.186 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.120 524.191 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.125 524.196 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.130 524.201 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.135 524.206 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.140 524.211 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.145 524.216 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.150 524.221 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.155 524.226 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.160 524.231 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.165 524.236 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.170 524.241 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.175 524.246 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.180 524.251 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.184 524.256 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.189 524.261 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.194 524.266 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.199 524.271 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.204 524.276 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.209 524.281 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.214 524.286 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.219 524.291 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.224 524.296 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.229 524.301 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.234 524.306 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.239 524.311 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.244 524.316 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.249 524.321 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.254 524.326 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.258 524.330 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.263 524.335 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.268 524.340 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.273 524.345 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.278 524.350 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.282 524.354 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.287 524.359 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.292 524.364 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.297 524.369 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.302 524.374 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.307 524.379 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.311 524.383 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.316 524.388 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.320 524.392 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.325 524.397 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.329 524.401 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.334 524.406 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.339 524.411 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.344 524.416 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.349 524.421 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.354 524.426 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.359 524.431 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.364 524.436 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.369 524.441 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.374 524.446 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.379 524.451 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.384 524.456 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.389 524.461 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.394 524.466 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.399 524.471 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.404 524.476 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.409 524.481 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.414 524.486 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.418 524.490 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.423 524.495 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.428 524.500 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.433 524.505 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.438 524.510 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.443 524.515 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.448 524.520 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.453 524.525 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.458 524.529 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.463 524.534 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.468 524.539 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.473 524.544 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.478 524.549 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.483 524.554 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.488 524.559 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.493 524.564 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.498 524.569 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.503 524.574 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.508 524.579 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.513 524.584 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.518 524.589 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.523 524.594 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.528 524.599 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.533 524.604 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.538 524.609 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.543 524.614 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.548 524.619 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.553 524.624 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.558 524.629 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.563 524.634 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.568 524.639 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.573 524.644 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.578 524.649 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.583 524.654 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.588 524.659 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.593 524.664 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.598 524.669 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.603 524.674 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.608 524.679 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.613 524.684 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.618 524.689 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.622 524.693 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.627 524.698 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.631 524.702 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.636 524.707 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.641 524.712 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.646 524.717 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.651 524.722 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.656 524.727 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.660 524.731 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.665 524.736 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.669 524.740 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.674 524.745 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.679 524.750 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.684 524.755 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.689 524.760 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.694 524.765 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.699 524.770 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.704 524.775 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.709 524.780 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.714 524.785 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.719 524.790 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.724 524.795 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.729 524.800 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.734 524.805 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.739 524.810 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.744 524.815 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.749 524.820 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.754 524.825 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.759 524.830 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.764 524.835 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.769 524.840 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.774 524.845 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.779 524.850 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.784 524.855 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.789 524.860 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.794 524.865 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.799 524.870 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.804 524.875 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.809 524.880 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.814 524.885 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.819 524.890 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.824 524.895 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.829 524.900 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.834 524.905 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.839 524.910 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.844 524.915 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.849 524.920 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.854 524.925 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.859 524.930 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.864 524.935 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.869 524.940 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.874 524.945 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.879 524.950 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.884 524.955 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.889 524.960 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.894 524.965 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.899 524.970 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.904 524.975 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.909 524.980 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.914 524.985 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.919 524.990 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.923 524.994 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.928 524.999 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.933 525.004 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.938 525.009 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.943 525.014 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.948 525.019 V [log_file_sync]
+10/17 17:02:01.948 525.019 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.953 525.024 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.958 525.029 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.963 525.034 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.968 525.039 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.973 525.044 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.978 525.049 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.983 525.054 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.988 525.059 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.993 525.064 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:01.998 525.069 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:02.003 525.074 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:02.008 525.079 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:02.012 525.083 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:02.017 525.088 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:02.022 525.093 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:02.027 525.098 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:02.032 525.103 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:02.037 525.108 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:02.042 525.113 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:02.047 525.118 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:02.052 525.123 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:02.057 525.128 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:02.062 525.133 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:02.067 525.138 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:02.072 525.143 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:02.077 525.148 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:02.082 525.153 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:02.087 525.158 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:02.092 525.163 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:02.097 525.168 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:02.102 525.173 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:02.107 525.178 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:02.112 525.183 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:02.117 525.188 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:02.122 525.193 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:02.127 525.198 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:02.132 525.203 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:02.137 525.208 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:02.142 525.213 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:02.147 525.218 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:02.152 525.223 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:02.157 525.228 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:02.162 525.233 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:02.167 525.238 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:02.172 525.243 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:02.176 525.247 E [UsbHidPhy] Unable to read, err 1167.
+10/17 17:02:02.180 525.251 V arg[airoha_task]=DisconnectDUTByUsbHid
+10/17 17:02:02.180 525.251 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+10/17 17:02:02.180 525.251 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+10/17 17:02:02.180 525.251 V arg[device_name]=DUT_HEADSET
+10/17 17:02:02.180 525.251 V arg[device_type]=USB_HID
+10/17 17:02:02.180 525.251 V arg[action]=disconnect
+10/17 17:02:02.180 525.251 V arg[port]=
+10/17 17:02:02.180 525.251 D [UsbHidPhy] Close Success.
+10/17 17:02:02.180 525.251 D [host] Clear buffer and queue.
+10/17 17:02:02.180 525.251 V [tp_fty] delete trans
+10/17 17:02:02.180 525.251 V delete phy
+10/17 17:02:02.180 525.251 D [host] Clear buffer and queue.
+10/17 17:02:02.180 525.251 D [UartDevice] Disconnect
+10/17 17:02:02.180 525.251 D [DisconnectDUTByUsbHid] disconnect: DUT_HEADSET(USB_HID)
+10/17 17:02:02.180 525.251 D [task_time][DisconnectDUTByUsbHid] spend 0.000
+10/17 17:02:02.180 525.251 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+10/17 17:02:02.180 525.251 V [transact] result="pass"
+10/17 17:02:02.209 525.280 V arg[airoha_task]=ConnectDutByUsbHid
+10/17 17:02:02.209 525.280 V [task] ConnectDutByUsbHid, class: ConnectDevice
+10/17 17:02:02.209 525.280 V [task_start][ConnectDutByUsbHid] +++++++++++++++++++++++
+10/17 17:02:02.209 525.280 V arg[device_name]=DUT_HEADSET
+10/17 17:02:02.209 525.280 V arg[device_type]=USB_HID
+10/17 17:02:02.209 525.280 V arg[action]=connect
+10/17 17:02:02.209 525.280 V arg[connected_by_usb]=
+10/17 17:02:02.209 525.280 V arg[port]=
+10/17 17:02:02.209 525.280 D [SerialHost] phy_name:USB_HID
+10/17 17:02:02.209 525.280 D phy_type:5
+10/17 17:02:02.209 525.280 D [SerialHost] trans_name:USB_HID
+10/17 17:02:02.209 525.280 D [tp_fty] trans_type:9
+10/17 17:02:02.209 525.280 D [UsbHidPhy] transport : USB_HID 
+10/17 17:02:02.209 525.280 D [SerialHost] phy_open
+10/17 17:02:02.209 525.280 D [UsbHidPhy] transport : USB_HID 
+10/17 17:02:02.209 525.280 I [UsbHidPhy] open [046D:0AFF] usb[]
+10/17 17:02:02.313 525.384 I [UsbHidPhy] get [046D:0AFF] usb[] serial[0000000000000000]
+10/17 17:02:02.313 525.384 D [UsbHidPhy] open: 046d:0aff
+10/17 17:02:02.313 525.384 D [UartDevice] Connect: 0
+10/17 17:02:02.313 525.384 D [ConnectDutByUsbHid] connect: DUT_HEADSET(USB_HID)
+10/17 17:02:02.313 525.384 D [task_time][ConnectDutByUsbHid] spend 0.104
+10/17 17:02:02.313 525.384 V [task_end][ConnectDutByUsbHid] ------------------------------------------
+10/17 17:02:02.313 525.384 V [transact] result="pass"
+10/17 17:02:02.319 525.390 V arg[airoha_task]=DisconnectDUTByUsbHid
+10/17 17:02:02.319 525.390 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+10/17 17:02:02.319 525.390 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+10/17 17:02:02.319 525.390 V arg[device_name]=DUT_HEADSET
+10/17 17:02:02.319 525.390 V arg[device_type]=USB_HID
+10/17 17:02:02.319 525.390 V arg[action]=disconnect
+10/17 17:02:02.319 525.390 V arg[port]=
+10/17 17:02:02.319 525.390 D [UsbHidPhy] Close Success.
+10/17 17:02:02.319 525.390 D [host] Clear buffer and queue.
+10/17 17:02:02.319 525.390 V [tp_fty] delete trans
+10/17 17:02:02.319 525.390 V delete phy
+10/17 17:02:02.319 525.390 D [host] Clear buffer and queue.
+10/17 17:02:02.320 525.391 D [UartDevice] Disconnect
+10/17 17:02:02.320 525.391 D [DisconnectDUTByUsbHid] disconnect: DUT_HEADSET(USB_HID)
+10/17 17:02:02.320 525.391 D [task_time][DisconnectDUTByUsbHid] spend 0.001
+10/17 17:02:02.320 525.391 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+10/17 17:02:02.320 525.391 V [transact] result="pass"
+10/17 17:02:03.950 527.021 V [log_file_sync]

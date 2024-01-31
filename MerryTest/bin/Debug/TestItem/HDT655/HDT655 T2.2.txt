@@ -1,0 +1,11 @@
+﻿1,DonglePIDVID,N/A,0x098D&0x03F0,0x098D&0x03F0,1,GetDonglePV
+2,Dongle FW,N/A,V4.1.0.8.0,V4.1.0.8.0,1,GetDongleFW
+3,TXRF准备动作(9320B),N/A,N/A,N/A,1,TXRFSetpu
+4,TX发射2404Power,N/A,-4,4,2,TX2402By9320B
+5,TX发射2440Power,N/A,-4,4,2,TX2440By9320B
+6,TX发射2480Power,N/A,-4,4,2,TX2480By9320B
+7,(MES)获取BD号,N/A,N/A,N/A,6,dllname=MES&获取BD和=GetBDFromMES
+8,写DongleBD,N/A,N/A,N/A,3,WriteDongleBD
+9,+clearKL,N/A,N/A,N/A,1,clearKL
+0,-+COM200 open,N/A,N/A,N/A,6,dllname=Common&串口调试=send_read&串口=COM200&写入字符串=open
+0,-1s,N/A,N/A,N/A,4,dllname=Common&Mode=sleep&Delay=1000

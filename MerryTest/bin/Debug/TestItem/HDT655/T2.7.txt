@@ -1,0 +1,1 @@
+﻿1,UnPlug TypeC,N/A,N/A,N/A,6,dllname=Common&弹窗判断=forms&显示信息=请拔线/Vui lòng rút dây TypeC

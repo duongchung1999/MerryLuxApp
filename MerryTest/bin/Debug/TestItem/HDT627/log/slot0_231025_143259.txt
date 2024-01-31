@@ -1,0 +1,443 @@
+﻿10/25 14:32:59.170 0.011 I tool_version: 2.9.0/V2.9.0_20220114_081940/v2.9.2_2021_12_28_16_45_51/geneva-dev-maindev
+10/25 14:32:59.162 0.003 I SetLogLevel: 2
+10/25 14:32:59.162 0.003 D set log_level=2
+10/25 14:32:59.162 0.003 D [task_time][ToolLogLevel] spend 0.000
+10/25 14:32:59.162 0.003 V [task_end][ToolLogLevel] ------------------------------------------
+10/25 14:32:59.166 0.007 V arg[airoha_task]=ConnectDutByUsbHid
+10/25 14:32:59.166 0.007 V [task] ConnectDutByUsbHid, class: ConnectDevice
+10/25 14:32:59.166 0.007 V [task_start][ConnectDutByUsbHid] +++++++++++++++++++++++
+10/25 14:32:59.166 0.007 V arg[device_name]=DUT_HEADSET
+10/25 14:32:59.166 0.007 V arg[device_type]=USB_HID
+10/25 14:32:59.166 0.007 V arg[action]=connect
+10/25 14:32:59.166 0.007 V arg[connected_by_usb]=
+10/25 14:32:59.166 0.007 V arg[port]=
+10/25 14:32:59.166 0.007 D [SerialHost] phy_name:USB_HID
+10/25 14:32:59.166 0.007 D phy_type:5
+10/25 14:32:59.166 0.007 D [SerialHost] trans_name:USB_HID
+10/25 14:32:59.166 0.007 D [tp_fty] trans_type:9
+10/25 14:32:59.167 0.008 D [UsbHidPhy] transport : USB_HID 
+10/25 14:32:59.167 0.008 D [SerialHost] phy_open
+10/25 14:32:59.167 0.008 D [UsbHidPhy] transport : USB_HID 
+10/25 14:32:59.167 0.008 I [UsbHidPhy] open [046D:0AFF] usb[]
+10/25 14:32:59.173 0.014 D [UartDevice] Connect: 1
+10/25 14:32:59.173 0.014 D USB Disconnect
+10/25 14:32:59.173 0.014 E [UsbHidPhy] no device to read
+10/25 14:32:59.173 0.014 D [host] Clear buffer and queue.
+10/25 14:32:59.173 0.014 V [tp_fty] delete trans
+10/25 14:32:59.173 0.014 V delete phy
+10/25 14:32:59.173 0.014 D [host] Clear buffer and queue.
+10/25 14:32:59.173 0.014 D [UartDevice] Disconnect
+10/25 14:33:01.173 2.014 V [log_file_sync]
+10/25 14:33:02.173 3.014 D [SerialHost] phy_name:USB_HID
+10/25 14:33:02.173 3.014 D phy_type:5
+10/25 14:33:02.173 3.014 D [SerialHost] trans_name:USB_HID
+10/25 14:33:02.173 3.014 D [tp_fty] trans_type:9
+10/25 14:33:02.173 3.014 D [UsbHidPhy] transport : USB_HID 
+10/25 14:33:02.173 3.014 D [SerialHost] phy_open
+10/25 14:33:02.173 3.014 D [UsbHidPhy] transport : USB_HID 
+10/25 14:33:02.173 3.014 I [UsbHidPhy] open [046D:0AFF] usb[]
+10/25 14:33:02.177 3.018 D [UartDevice] Connect: 1
+10/25 14:33:02.177 3.018 E [UsbHidPhy] no device to read
+10/25 14:33:02.177 3.018 D [host] Clear buffer and queue.
+10/25 14:33:02.177 3.018 V [tp_fty] delete trans
+10/25 14:33:02.177 3.018 V delete phy
+10/25 14:33:02.177 3.018 D [host] Clear buffer and queue.
+10/25 14:33:02.177 3.018 D [UartDevice] Disconnect
+10/25 14:33:02.177 3.018 D USB Connect [1]: connect_device.cc:244(-1): USB Connect failed
+10/25 14:33:03.177 4.018 V [log_file_sync]
+10/25 14:33:05.277 6.119 D [SerialHost] phy_name:USB_HID
+10/25 14:33:05.277 6.119 D phy_type:5
+10/25 14:33:05.277 6.119 D [SerialHost] trans_name:USB_HID
+10/25 14:33:05.277 6.119 D [tp_fty] trans_type:9
+10/25 14:33:05.277 6.119 D [UsbHidPhy] transport : USB_HID 
+10/25 14:33:05.277 6.119 D [SerialHost] phy_open
+10/25 14:33:05.277 6.119 D [UsbHidPhy] transport : USB_HID 
+10/25 14:33:05.277 6.119 I [UsbHidPhy] open [046D:0AFF] usb[]
+10/25 14:33:05.281 6.122 D [UartDevice] Connect: 1
+10/25 14:33:05.281 6.122 E [UsbHidPhy] no device to read
+10/25 14:33:05.282 6.123 D [host] Clear buffer and queue.
+10/25 14:33:05.282 6.123 V [tp_fty] delete trans
+10/25 14:33:05.282 6.123 V delete phy
+10/25 14:33:05.282 6.123 D [host] Clear buffer and queue.
+10/25 14:33:05.282 6.123 D [UartDevice] Disconnect
+10/25 14:33:05.282 6.123 D USB Connect [2]: connect_device.cc:244(-1): USB Connect failed
+10/25 14:33:05.282 6.123 V [log_file_sync]
+10/25 14:33:08.383 9.225 D [SerialHost] phy_name:USB_HID
+10/25 14:33:08.383 9.225 D phy_type:5
+10/25 14:33:08.383 9.225 D [SerialHost] trans_name:USB_HID
+10/25 14:33:08.383 9.225 D [tp_fty] trans_type:9
+10/25 14:33:08.383 9.225 D [UsbHidPhy] transport : USB_HID 
+10/25 14:33:08.383 9.225 D [SerialHost] phy_open
+10/25 14:33:08.383 9.225 D [UsbHidPhy] transport : USB_HID 
+10/25 14:33:08.383 9.225 I [UsbHidPhy] open [046D:0AFF] usb[]
+10/25 14:33:08.386 9.228 V [log_file_sync]
+10/25 14:33:08.386 9.228 D [UartDevice] Connect: 1
+10/25 14:33:08.386 9.228 E [UsbHidPhy] no device to read
+10/25 14:33:08.387 9.229 D [host] Clear buffer and queue.
+10/25 14:33:08.387 9.229 V [tp_fty] delete trans
+10/25 14:33:08.387 9.229 V delete phy
+10/25 14:33:08.387 9.229 D [host] Clear buffer and queue.
+10/25 14:33:08.387 9.229 D [UartDevice] Disconnect
+10/25 14:33:08.387 9.229 D USB Connect [3]: connect_device.cc:244(-1): USB Connect failed
+10/25 14:33:10.388 11.230 V [log_file_sync]
+10/25 14:33:11.488 12.330 D [SerialHost] phy_name:USB_HID
+10/25 14:33:11.488 12.330 D phy_type:5
+10/25 14:33:11.488 12.330 D [SerialHost] trans_name:USB_HID
+10/25 14:33:11.488 12.330 D [tp_fty] trans_type:9
+10/25 14:33:11.488 12.330 D [UsbHidPhy] transport : USB_HID 
+10/25 14:33:11.488 12.330 D [SerialHost] phy_open
+10/25 14:33:11.488 12.330 D [UsbHidPhy] transport : USB_HID 
+10/25 14:33:11.488 12.330 I [UsbHidPhy] open [046D:0AFF] usb[]
+10/25 14:33:11.509 12.351 D [UartDevice] Connect: 1
+10/25 14:33:11.510 12.352 E [UsbHidPhy] no device to read
+10/25 14:33:11.510 12.352 D [host] Clear buffer and queue.
+10/25 14:33:11.510 12.352 V [tp_fty] delete trans
+10/25 14:33:11.510 12.352 V delete phy
+10/25 14:33:11.510 12.352 D [host] Clear buffer and queue.
+10/25 14:33:11.510 12.352 D [UartDevice] Disconnect
+10/25 14:33:11.510 12.352 D USB Connect [4]: connect_device.cc:244(-1): USB Connect failed
+10/25 14:33:12.390 13.232 V [log_file_sync]
+10/25 14:33:14.612 15.453 D [SerialHost] phy_name:USB_HID
+10/25 14:33:14.612 15.453 D phy_type:5
+10/25 14:33:14.612 15.453 D [SerialHost] trans_name:USB_HID
+10/25 14:33:14.612 15.453 D [tp_fty] trans_type:9
+10/25 14:33:14.612 15.453 D [UsbHidPhy] transport : USB_HID 
+10/25 14:33:14.612 15.453 D [SerialHost] phy_open
+10/25 14:33:14.612 15.453 D [UsbHidPhy] transport : USB_HID 
+10/25 14:33:14.612 15.453 I [UsbHidPhy] open [046D:0AFF] usb[]
+10/25 14:33:14.615 15.456 V [log_file_sync]
+10/25 14:33:14.615 15.456 D [UartDevice] Connect: 1
+10/25 14:33:14.615 15.456 E [UsbHidPhy] no device to read
+10/25 14:33:14.615 15.456 D [host] Clear buffer and queue.
+10/25 14:33:14.615 15.456 V [tp_fty] delete trans
+10/25 14:33:14.615 15.456 V delete phy
+10/25 14:33:14.615 15.456 D [host] Clear buffer and queue.
+10/25 14:33:14.616 15.458 D [UartDevice] Disconnect
+10/25 14:33:14.616 15.458 D USB Connect [5]: connect_device.cc:244(-1): USB Connect failed
+10/25 14:33:16.619 17.461 V [log_file_sync]
+10/25 14:33:17.717 18.559 D [SerialHost] phy_name:USB_HID
+10/25 14:33:17.717 18.559 D phy_type:5
+10/25 14:33:17.717 18.559 D [SerialHost] trans_name:USB_HID
+10/25 14:33:17.717 18.559 D [tp_fty] trans_type:9
+10/25 14:33:17.717 18.559 D [UsbHidPhy] transport : USB_HID 
+10/25 14:33:17.717 18.559 D [SerialHost] phy_open
+10/25 14:33:17.717 18.559 D [UsbHidPhy] transport : USB_HID 
+10/25 14:33:17.717 18.559 I [UsbHidPhy] open [046D:0AFF] usb[]
+10/25 14:33:17.722 18.563 D [UartDevice] Connect: 1
+10/25 14:33:17.722 18.563 E [UsbHidPhy] no device to read
+10/25 14:33:17.722 18.563 D [host] Clear buffer and queue.
+10/25 14:33:17.722 18.563 V [tp_fty] delete trans
+10/25 14:33:17.722 18.563 V delete phy
+10/25 14:33:17.722 18.563 D [host] Clear buffer and queue.
+10/25 14:33:17.722 18.563 D [UartDevice] Disconnect
+10/25 14:33:17.722 18.563 D USB Connect [6]: connect_device.cc:244(-1): USB Connect failed
+10/25 14:33:18.621 19.463 V [log_file_sync]
+10/25 14:33:20.824 21.666 D [SerialHost] phy_name:USB_HID
+10/25 14:33:20.824 21.666 D phy_type:5
+10/25 14:33:20.824 21.666 D [SerialHost] trans_name:USB_HID
+10/25 14:33:20.824 21.666 D [tp_fty] trans_type:9
+10/25 14:33:20.824 21.666 D [UsbHidPhy] transport : USB_HID 
+10/25 14:33:20.824 21.666 D [SerialHost] phy_open
+10/25 14:33:20.824 21.666 D [UsbHidPhy] transport : USB_HID 
+10/25 14:33:20.824 21.666 I [UsbHidPhy] open [046D:0AFF] usb[]
+10/25 14:33:20.825 21.667 V [log_file_sync]
+10/25 14:33:20.829 21.671 D [UartDevice] Connect: 1
+10/25 14:33:20.829 21.671 E [UsbHidPhy] no device to read
+10/25 14:33:20.829 21.671 E [UsbHidPhy] no device to read
+10/25 14:33:20.829 21.671 D [host] Clear buffer and queue.
+10/25 14:33:20.829 21.671 V [tp_fty] delete trans
+10/25 14:33:20.829 21.671 V delete phy
+10/25 14:33:20.829 21.671 D [host] Clear buffer and queue.
+10/25 14:33:20.829 21.671 D [UartDevice] Disconnect
+10/25 14:33:20.829 21.671 D USB Connect [7]: connect_device.cc:244(-1): USB Connect failed
+10/25 14:33:22.828 23.670 V [log_file_sync]
+10/25 14:33:23.930 24.772 D [SerialHost] phy_name:USB_HID
+10/25 14:33:23.930 24.772 D phy_type:5
+10/25 14:33:23.930 24.772 D [SerialHost] trans_name:USB_HID
+10/25 14:33:23.930 24.772 D [tp_fty] trans_type:9
+10/25 14:33:23.930 24.772 D [UsbHidPhy] transport : USB_HID 
+10/25 14:33:23.930 24.772 D [SerialHost] phy_open
+10/25 14:33:23.930 24.772 D [UsbHidPhy] transport : USB_HID 
+10/25 14:33:23.930 24.772 I [UsbHidPhy] open [046D:0AFF] usb[]
+10/25 14:33:23.935 24.776 D [UartDevice] Connect: 1
+10/25 14:33:23.935 24.776 E [UsbHidPhy] no device to read
+10/25 14:33:23.935 24.776 D [host] Clear buffer and queue.
+10/25 14:33:23.935 24.776 V [tp_fty] delete trans
+10/25 14:33:23.935 24.776 V delete phy
+10/25 14:33:23.935 24.776 D [host] Clear buffer and queue.
+10/25 14:33:23.935 24.776 D [UartDevice] Disconnect
+10/25 14:33:23.935 24.776 D USB Connect [8]: connect_device.cc:244(-1): USB Connect failed
+10/25 14:33:24.829 25.671 V [log_file_sync]
+10/25 14:33:27.036 27.878 D [SerialHost] phy_name:USB_HID
+10/25 14:33:27.036 27.878 D phy_type:5
+10/25 14:33:27.036 27.878 D [SerialHost] trans_name:USB_HID
+10/25 14:33:27.036 27.878 D [tp_fty] trans_type:9
+10/25 14:33:27.036 27.878 D [UsbHidPhy] transport : USB_HID 
+10/25 14:33:27.036 27.878 D [SerialHost] phy_open
+10/25 14:33:27.036 27.878 D [UsbHidPhy] transport : USB_HID 
+10/25 14:33:27.036 27.878 I [UsbHidPhy] open [046D:0AFF] usb[]
+10/25 14:33:27.039 27.881 V [log_file_sync]
+10/25 14:33:27.042 27.884 D [UartDevice] Connect: 1
+10/25 14:33:27.042 27.884 E [UsbHidPhy] no device to read
+10/25 14:33:27.042 27.884 D [host] Clear buffer and queue.
+10/25 14:33:27.042 27.884 V [tp_fty] delete trans
+10/25 14:33:27.042 27.884 V delete phy
+10/25 14:33:27.042 27.884 D [host] Clear buffer and queue.
+10/25 14:33:27.042 27.884 D [UartDevice] Disconnect
+10/25 14:33:27.042 27.884 D USB Connect [9]: connect_device.cc:244(-1): USB Connect failed
+10/25 14:33:29.044 29.885 V [log_file_sync]
+10/25 14:33:30.143 30.985 D [SerialHost] phy_name:USB_HID
+10/25 14:33:30.143 30.985 D phy_type:5
+10/25 14:33:30.143 30.985 D [SerialHost] trans_name:USB_HID
+10/25 14:33:30.143 30.985 D [tp_fty] trans_type:9
+10/25 14:33:30.143 30.985 D [UsbHidPhy] transport : USB_HID 
+10/25 14:33:30.143 30.985 D [SerialHost] phy_open
+10/25 14:33:30.143 30.985 D [UsbHidPhy] transport : USB_HID 
+10/25 14:33:30.143 30.985 I [UsbHidPhy] open [046D:0AFF] usb[]
+10/25 14:33:30.148 30.990 D [UartDevice] Connect: 1
+10/25 14:33:30.148 30.990 E [UsbHidPhy] no device to read
+10/25 14:33:30.148 30.990 D [host] Clear buffer and queue.
+10/25 14:33:30.148 30.990 V [tp_fty] delete trans
+10/25 14:33:30.148 30.990 V delete phy
+10/25 14:33:30.148 30.990 D [host] Clear buffer and queue.
+10/25 14:33:30.148 30.990 D [UartDevice] Disconnect
+10/25 14:33:30.148 30.990 D USB Connect [10]: connect_device.cc:244(-1): USB Connect failed
+10/25 14:33:31.046 31.887 V [log_file_sync]
+10/25 14:33:33.149 33.990 E [exception] connect_device.cc:225(-1): USB Connect tried 10 times but failed
+10/25 14:33:33.149 33.990 E [task] Fail to execute RunTask() of ConnectDutByUsbHid object
+10/25 14:33:33.149 33.990 D [task_time][ConnectDutByUsbHid] spend 33.983
+10/25 14:33:33.149 33.990 V [task_end][ConnectDutByUsbHid] ------------------------------------------
+10/25 14:33:33.153 33.995 V [log_file_sync]
+10/25 14:33:33.177 34.019 V arg[airoha_task]=DisconnectDUTByUsbHid
+10/25 14:33:33.177 34.019 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+10/25 14:33:33.177 34.019 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+10/25 14:33:33.177 34.019 V arg[device_name]=DUT_HEADSET
+10/25 14:33:33.177 34.019 V arg[device_type]=USB_HID
+10/25 14:33:33.177 34.019 V arg[action]=disconnect
+10/25 14:33:33.177 34.019 V arg[port]=
+10/25 14:33:33.177 34.019 D [UartDevice] Disconnect
+10/25 14:33:33.177 34.019 D [DisconnectDUTByUsbHid] disconnect: DUT_HEADSET(USB_HID)
+10/25 14:33:33.177 34.019 D [task_time][DisconnectDUTByUsbHid] spend 0.000
+10/25 14:33:33.177 34.019 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+10/25 14:33:33.178 34.020 V [transact] result="pass"
+10/25 14:33:33.206 34.047 V arg[airoha_task]=ConnectDutByUsbHid
+10/25 14:33:33.206 34.047 V [task] ConnectDutByUsbHid, class: ConnectDevice
+10/25 14:33:33.206 34.047 V [task_start][ConnectDutByUsbHid] +++++++++++++++++++++++
+10/25 14:33:33.207 34.048 V arg[device_name]=DUT_DONGLE
+10/25 14:33:33.207 34.048 V arg[device_type]=USB_HID
+10/25 14:33:33.207 34.048 V arg[action]=connect
+10/25 14:33:33.207 34.048 V arg[connected_by_usb]=
+10/25 14:33:33.207 34.048 V arg[port]=
+10/25 14:33:33.207 34.048 D [SerialHost] phy_name:USB_HID
+10/25 14:33:33.207 34.048 D phy_type:5
+10/25 14:33:33.207 34.048 D [SerialHost] trans_name:USB_HID
+10/25 14:33:33.207 34.048 D [tp_fty] trans_type:9
+10/25 14:33:33.207 34.048 D [UsbHidPhy] transport : USB_HID 
+10/25 14:33:33.207 34.048 D [SerialHost] phy_open
+10/25 14:33:33.207 34.048 D [UsbHidPhy] transport : USB_HID 
+10/25 14:33:33.207 34.048 I [UsbHidPhy] open [046D:0AFE] usb[]
+10/25 14:33:33.214 34.055 D [UartDevice] Connect: 1
+10/25 14:33:33.214 34.055 D USB Disconnect
+10/25 14:33:33.214 34.055 E [UsbHidPhy] no device to read
+10/25 14:33:33.214 34.055 D [host] Clear buffer and queue.
+10/25 14:33:33.214 34.055 V [tp_fty] delete trans
+10/25 14:33:33.214 34.055 V delete phy
+10/25 14:33:33.214 34.055 D [host] Clear buffer and queue.
+10/25 14:33:33.214 34.055 D [UartDevice] Disconnect
+10/25 14:33:35.155 35.997 V [log_file_sync]
+10/25 14:33:36.214 37.055 D [SerialHost] phy_name:USB_HID
+10/25 14:33:36.214 37.055 D phy_type:5
+10/25 14:33:36.214 37.055 D [SerialHost] trans_name:USB_HID
+10/25 14:33:36.214 37.055 D [tp_fty] trans_type:9
+10/25 14:33:36.214 37.055 D [UsbHidPhy] transport : USB_HID 
+10/25 14:33:36.214 37.055 D [SerialHost] phy_open
+10/25 14:33:36.214 37.055 D [UsbHidPhy] transport : USB_HID 
+10/25 14:33:36.214 37.055 I [UsbHidPhy] open [046D:0AFE] usb[]
+10/25 14:33:36.219 37.060 D [UartDevice] Connect: 1
+10/25 14:33:36.219 37.060 E [UsbHidPhy] no device to read
+10/25 14:33:36.219 37.060 D [host] Clear buffer and queue.
+10/25 14:33:36.219 37.060 V [tp_fty] delete trans
+10/25 14:33:36.219 37.060 V delete phy
+10/25 14:33:36.219 37.060 D [host] Clear buffer and queue.
+10/25 14:33:36.219 37.060 D [UartDevice] Disconnect
+10/25 14:33:36.219 37.060 D USB Connect [1]: connect_device.cc:244(-1): USB Connect failed
+10/25 14:33:37.159 38.000 V [log_file_sync]
+10/25 14:33:39.319 40.161 D [SerialHost] phy_name:USB_HID
+10/25 14:33:39.319 40.161 D phy_type:5
+10/25 14:33:39.319 40.161 D [SerialHost] trans_name:USB_HID
+10/25 14:33:39.319 40.161 D [tp_fty] trans_type:9
+10/25 14:33:39.319 40.161 D [UsbHidPhy] transport : USB_HID 
+10/25 14:33:39.319 40.161 D [SerialHost] phy_open
+10/25 14:33:39.319 40.161 D [UsbHidPhy] transport : USB_HID 
+10/25 14:33:39.319 40.161 I [UsbHidPhy] open [046D:0AFE] usb[]
+10/25 14:33:39.320 40.162 V [log_file_sync]
+10/25 14:33:39.326 40.167 D [UartDevice] Connect: 1
+10/25 14:33:39.326 40.167 E [UsbHidPhy] no device to read
+10/25 14:33:39.326 40.167 E [UsbHidPhy] no device to read
+10/25 14:33:39.326 40.167 D [host] Clear buffer and queue.
+10/25 14:33:39.326 40.167 V [tp_fty] delete trans
+10/25 14:33:39.326 40.167 V delete phy
+10/25 14:33:39.326 40.167 D [host] Clear buffer and queue.
+10/25 14:33:39.326 40.167 D [UartDevice] Disconnect
+10/25 14:33:39.326 40.167 D USB Connect [2]: connect_device.cc:244(-1): USB Connect failed
+10/25 14:33:41.326 42.167 V [log_file_sync]
+10/25 14:33:42.427 43.269 D [SerialHost] phy_name:USB_HID
+10/25 14:33:42.427 43.269 D phy_type:5
+10/25 14:33:42.427 43.269 D [SerialHost] trans_name:USB_HID
+10/25 14:33:42.427 43.269 D [tp_fty] trans_type:9
+10/25 14:33:42.427 43.269 D [UsbHidPhy] transport : USB_HID 
+10/25 14:33:42.427 43.269 D [SerialHost] phy_open
+10/25 14:33:42.427 43.269 D [UsbHidPhy] transport : USB_HID 
+10/25 14:33:42.427 43.269 I [UsbHidPhy] open [046D:0AFE] usb[]
+10/25 14:33:42.434 43.275 D [UartDevice] Connect: 1
+10/25 14:33:42.434 43.275 E [UsbHidPhy] no device to read
+10/25 14:33:42.434 43.275 E [UsbHidPhy] no device to read
+10/25 14:33:42.434 43.275 D [host] Clear buffer and queue.
+10/25 14:33:42.434 43.275 V [tp_fty] delete trans
+10/25 14:33:42.434 43.275 V delete phy
+10/25 14:33:42.434 43.275 D [host] Clear buffer and queue.
+10/25 14:33:42.434 43.275 D [UartDevice] Disconnect
+10/25 14:33:42.434 43.275 D USB Connect [3]: connect_device.cc:244(-1): USB Connect failed
+10/25 14:33:43.330 44.172 V [log_file_sync]
+10/25 14:33:45.535 46.377 D [SerialHost] phy_name:USB_HID
+10/25 14:33:45.535 46.377 D phy_type:5
+10/25 14:33:45.535 46.377 D [SerialHost] trans_name:USB_HID
+10/25 14:33:45.535 46.377 D [tp_fty] trans_type:9
+10/25 14:33:45.535 46.377 D [UsbHidPhy] transport : USB_HID 
+10/25 14:33:45.535 46.377 D [SerialHost] phy_open
+10/25 14:33:45.535 46.377 D [UsbHidPhy] transport : USB_HID 
+10/25 14:33:45.535 46.377 I [UsbHidPhy] open [046D:0AFE] usb[]
+10/25 14:33:45.540 46.382 V [log_file_sync]
+10/25 14:33:45.540 46.382 D [UartDevice] Connect: 1
+10/25 14:33:45.540 46.382 E [UsbHidPhy] no device to read
+10/25 14:33:45.541 46.383 D [host] Clear buffer and queue.
+10/25 14:33:45.541 46.383 V [tp_fty] delete trans
+10/25 14:33:45.541 46.383 V delete phy
+10/25 14:33:45.541 46.383 D [host] Clear buffer and queue.
+10/25 14:33:45.541 46.383 D [UartDevice] Disconnect
+10/25 14:33:45.541 46.383 D USB Connect [4]: connect_device.cc:244(-1): USB Connect failed
+10/25 14:33:47.543 48.385 V [log_file_sync]
+10/25 14:33:48.641 49.483 D [SerialHost] phy_name:USB_HID
+10/25 14:33:48.641 49.483 D phy_type:5
+10/25 14:33:48.641 49.483 D [SerialHost] trans_name:USB_HID
+10/25 14:33:48.641 49.483 D [tp_fty] trans_type:9
+10/25 14:33:48.641 49.483 D [UsbHidPhy] transport : USB_HID 
+10/25 14:33:48.641 49.483 D [SerialHost] phy_open
+10/25 14:33:48.641 49.483 D [UsbHidPhy] transport : USB_HID 
+10/25 14:33:48.641 49.483 I [UsbHidPhy] open [046D:0AFE] usb[]
+10/25 14:33:48.646 49.488 D [UartDevice] Connect: 1
+10/25 14:33:48.646 49.488 E [UsbHidPhy] no device to read
+10/25 14:33:48.646 49.488 E [UsbHidPhy] no device to read
+10/25 14:33:48.646 49.488 D [host] Clear buffer and queue.
+10/25 14:33:48.646 49.488 V [tp_fty] delete trans
+10/25 14:33:48.646 49.488 V delete phy
+10/25 14:33:48.646 49.488 D [host] Clear buffer and queue.
+10/25 14:33:48.646 49.488 D [UartDevice] Disconnect
+10/25 14:33:48.646 49.488 D USB Connect [5]: connect_device.cc:244(-1): USB Connect failed
+10/25 14:33:49.545 50.386 V [log_file_sync]
+10/25 14:33:51.747 52.589 D [SerialHost] phy_name:USB_HID
+10/25 14:33:51.747 52.589 D phy_type:5
+10/25 14:33:51.747 52.589 D [SerialHost] trans_name:USB_HID
+10/25 14:33:51.747 52.589 D [tp_fty] trans_type:9
+10/25 14:33:51.747 52.589 D [UsbHidPhy] transport : USB_HID 
+10/25 14:33:51.747 52.589 D [SerialHost] phy_open
+10/25 14:33:51.747 52.589 D [UsbHidPhy] transport : USB_HID 
+10/25 14:33:51.747 52.589 I [UsbHidPhy] open [046D:0AFE] usb[]
+10/25 14:33:51.751 52.592 V [log_file_sync]
+10/25 14:33:51.753 52.594 D [UartDevice] Connect: 1
+10/25 14:33:51.753 52.594 E [UsbHidPhy] no device to read
+10/25 14:33:51.753 52.594 D [host] Clear buffer and queue.
+10/25 14:33:51.753 52.594 V [tp_fty] delete trans
+10/25 14:33:51.753 52.594 V delete phy
+10/25 14:33:51.753 52.594 D [host] Clear buffer and queue.
+10/25 14:33:51.754 52.595 D [UartDevice] Disconnect
+10/25 14:33:51.754 52.595 D USB Connect [6]: connect_device.cc:244(-1): USB Connect failed
+10/25 14:33:53.753 54.595 V [log_file_sync]
+10/25 14:33:54.854 55.696 D [SerialHost] phy_name:USB_HID
+10/25 14:33:54.854 55.696 D phy_type:5
+10/25 14:33:54.854 55.696 D [SerialHost] trans_name:USB_HID
+10/25 14:33:54.854 55.696 D [tp_fty] trans_type:9
+10/25 14:33:54.854 55.696 D [UsbHidPhy] transport : USB_HID 
+10/25 14:33:54.854 55.696 D [SerialHost] phy_open
+10/25 14:33:54.854 55.696 D [UsbHidPhy] transport : USB_HID 
+10/25 14:33:54.854 55.696 I [UsbHidPhy] open [046D:0AFE] usb[]
+10/25 14:33:54.860 55.702 D [UartDevice] Connect: 1
+10/25 14:33:54.860 55.702 E [UsbHidPhy] no device to read
+10/25 14:33:54.860 55.702 D [host] Clear buffer and queue.
+10/25 14:33:54.860 55.702 V [tp_fty] delete trans
+10/25 14:33:54.860 55.702 V delete phy
+10/25 14:33:54.860 55.702 D [host] Clear buffer and queue.
+10/25 14:33:54.860 55.702 D [UartDevice] Disconnect
+10/25 14:33:54.860 55.702 D USB Connect [7]: connect_device.cc:244(-1): USB Connect failed
+10/25 14:33:55.755 56.597 V [log_file_sync]
+10/25 14:33:57.961 58.803 D [SerialHost] phy_name:USB_HID
+10/25 14:33:57.961 58.803 D phy_type:5
+10/25 14:33:57.961 58.803 D [SerialHost] trans_name:USB_HID
+10/25 14:33:57.961 58.803 D [tp_fty] trans_type:9
+10/25 14:33:57.961 58.803 D [UsbHidPhy] transport : USB_HID 
+10/25 14:33:57.961 58.803 D [SerialHost] phy_open
+10/25 14:33:57.961 58.803 D [UsbHidPhy] transport : USB_HID 
+10/25 14:33:57.961 58.803 I [UsbHidPhy] open [046D:0AFE] usb[]
+10/25 14:33:57.964 58.806 V [log_file_sync]
+10/25 14:33:57.966 58.808 D [UartDevice] Connect: 1
+10/25 14:33:57.966 58.808 E [UsbHidPhy] no device to read
+10/25 14:33:57.966 58.808 D [host] Clear buffer and queue.
+10/25 14:33:57.966 58.808 V [tp_fty] delete trans
+10/25 14:33:57.966 58.808 V delete phy
+10/25 14:33:57.966 58.808 D [host] Clear buffer and queue.
+10/25 14:33:57.966 58.808 D [UartDevice] Disconnect
+10/25 14:33:57.966 58.808 D USB Connect [8]: connect_device.cc:244(-1): USB Connect failed
+10/25 14:33:59.967 60.808 V [log_file_sync]
+10/25 14:34:01.067 61.909 D [SerialHost] phy_name:USB_HID
+10/25 14:34:01.067 61.909 D phy_type:5
+10/25 14:34:01.067 61.909 D [SerialHost] trans_name:USB_HID
+10/25 14:34:01.067 61.909 D [tp_fty] trans_type:9
+10/25 14:34:01.067 61.909 D [UsbHidPhy] transport : USB_HID 
+10/25 14:34:01.067 61.909 D [SerialHost] phy_open
+10/25 14:34:01.067 61.909 D [UsbHidPhy] transport : USB_HID 
+10/25 14:34:01.067 61.909 I [UsbHidPhy] open [046D:0AFE] usb[]
+10/25 14:34:01.073 61.915 D [UartDevice] Connect: 1
+10/25 14:34:01.073 61.915 E [UsbHidPhy] no device to read
+10/25 14:34:01.073 61.915 E [UsbHidPhy] no device to read
+10/25 14:34:01.073 61.915 D [host] Clear buffer and queue.
+10/25 14:34:01.073 61.915 V [tp_fty] delete trans
+10/25 14:34:01.073 61.915 V delete phy
+10/25 14:34:01.073 61.915 D [host] Clear buffer and queue.
+10/25 14:34:01.073 61.915 D [UartDevice] Disconnect
+10/25 14:34:01.073 61.915 D USB Connect [9]: connect_device.cc:244(-1): USB Connect failed
+10/25 14:34:01.970 62.812 V [log_file_sync]
+10/25 14:34:04.174 65.015 D [SerialHost] phy_name:USB_HID
+10/25 14:34:04.174 65.015 D phy_type:5
+10/25 14:34:04.174 65.015 D [SerialHost] trans_name:USB_HID
+10/25 14:34:04.174 65.015 D [tp_fty] trans_type:9
+10/25 14:34:04.174 65.015 D [UsbHidPhy] transport : USB_HID 
+10/25 14:34:04.174 65.015 D [SerialHost] phy_open
+10/25 14:34:04.174 65.015 D [UsbHidPhy] transport : USB_HID 
+10/25 14:34:04.174 65.015 I [UsbHidPhy] open [046D:0AFE] usb[]
+10/25 14:34:04.177 65.018 V [log_file_sync]
+10/25 14:34:04.179 65.020 D [UartDevice] Connect: 1
+10/25 14:34:04.179 65.020 E [UsbHidPhy] no device to read
+10/25 14:34:04.179 65.020 D [host] Clear buffer and queue.
+10/25 14:34:04.179 65.020 V [tp_fty] delete trans
+10/25 14:34:04.179 65.020 V delete phy
+10/25 14:34:04.179 65.020 D [host] Clear buffer and queue.
+10/25 14:34:04.179 65.020 D [UartDevice] Disconnect
+10/25 14:34:04.179 65.020 D USB Connect [10]: connect_device.cc:244(-1): USB Connect failed
+10/25 14:34:06.181 67.023 V [log_file_sync]
+10/25 14:34:07.179 68.021 E [exception] connect_device.cc:225(-1): USB Connect tried 10 times but failed
+10/25 14:34:07.179 68.021 E [task] Fail to execute RunTask() of ConnectDutByUsbHid object
+10/25 14:34:07.179 68.021 D [task_time][ConnectDutByUsbHid] spend 33.973
+10/25 14:34:07.179 68.021 V [task_end][ConnectDutByUsbHid] ------------------------------------------
+10/25 14:34:07.207 68.048 V arg[airoha_task]=DisconnectDUTByUsbHid
+10/25 14:34:07.207 68.048 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+10/25 14:34:07.207 68.048 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+10/25 14:34:07.207 68.048 V arg[device_name]=DUT_DONGLE
+10/25 14:34:07.207 68.048 V arg[device_type]=USB_HID
+10/25 14:34:07.207 68.048 V arg[action]=disconnect
+10/25 14:34:07.207 68.049 V arg[port]=
+10/25 14:34:07.207 68.049 D [UartDevice] Disconnect
+10/25 14:34:07.207 68.049 D [DisconnectDUTByUsbHid] disconnect: DUT_DONGLE(USB_HID)
+10/25 14:34:07.207 68.049 D [task_time][DisconnectDUTByUsbHid] spend 0.001
+10/25 14:34:07.207 68.049 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+10/25 14:34:07.207 68.049 V [transact] result="pass"
+10/25 14:34:08.186 69.027 V [log_file_sync]

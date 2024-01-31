@@ -1,0 +1,63 @@
+2024-01-18 09:03:14-checkEmpNo==>>Execute Start
+2024-01-18 09:03:14-checkEmpNo==>>Param【EMP】【91201975】
+2024-01-18 09:03:14-checkEmpNo==>>Param【STATION】【HDT565_T2.01】
+2024-01-18 09:03:14-checkEmpNo==>>Result【OK;】 - Exectue Total【21】ms 
+2024-01-18 09:03:14-GetPart==>>Execute Start
+2024-01-18 09:03:14-GetPart==>>Param【WO】【002100039359】
+2024-01-18 09:03:14-GetPart==>>Result【53TX56517001Z】 - Exectue Total【11】ms 
+2024-01-18 09:12:27-checkEmpNo==>>Execute Start
+2024-01-18 09:12:27-checkEmpNo==>>Param【EMP】【91201975】
+2024-01-18 09:12:27-checkEmpNo==>>Param【STATION】【HDT565_T2.01】
+2024-01-18 09:12:27-checkEmpNo==>>Result【OK;】 - Exectue Total【30】ms 
+2024-01-18 09:12:27-GetPart==>>Execute Start
+2024-01-18 09:12:27-GetPart==>>Param【WO】【002100039359】
+2024-01-18 09:12:27-GetPart==>>Result【53TX56517001Z】 - Exectue Total【12】ms 
+2024-01-18 09:23:31-checkEmpNo==>>Execute Start
+2024-01-18 09:23:31-checkEmpNo==>>Param【EMP】【91201975】
+2024-01-18 09:23:31-checkEmpNo==>>Param【STATION】【HDT565_T2.01】
+2024-01-18 09:23:31-checkEmpNo==>>Result【OK;】 - Exectue Total【22】ms 
+2024-01-18 09:23:31-GetPart==>>Execute Start
+2024-01-18 09:23:31-GetPart==>>Param【WO】【002100039359】
+2024-01-18 09:23:31-GetPart==>>Result【53TX56517001Z】 - Exectue Total【13】ms 
+2024-01-18 09:43:35-checkEmpNo==>>Execute Start
+2024-01-18 09:43:35-checkEmpNo==>>Param【EMP】【91201975】
+2024-01-18 09:43:35-checkEmpNo==>>Param【STATION】【HDT565_T2.01】
+2024-01-18 09:43:35-checkEmpNo==>>Result【OK;】 - Exectue Total【20】ms 
+2024-01-18 09:43:35-GetPart==>>Execute Start
+2024-01-18 09:43:35-GetPart==>>Param【WO】【002100039359】
+2024-01-18 09:43:35-GetPart==>>Result【53TX56517001Z】 - Exectue Total【11】ms 
+2024-01-18 09:47:47-checkEmpNo==>>Execute Start
+2024-01-18 09:47:47-checkEmpNo==>>Param【EMP】【91201975】
+2024-01-18 09:47:47-checkEmpNo==>>Param【STATION】【HDT565_T2.01】
+2024-01-18 09:47:47-checkEmpNo==>>Result【OK;】 - Exectue Total【17】ms 
+2024-01-18 09:47:47-GetPart==>>Execute Start
+2024-01-18 09:47:47-GetPart==>>Param【WO】【002100039359】
+2024-01-18 09:47:47-GetPart==>>Result【53TX56517001Z】 - Exectue Total【9】ms 
+2024-01-18 09:49:53-checkEmpNo==>>Execute Start
+2024-01-18 09:49:53-checkEmpNo==>>Param【EMP】【91201975】
+2024-01-18 09:49:53-checkEmpNo==>>Param【STATION】【HDT565_T2.01】
+2024-01-18 09:49:53-checkEmpNo==>>Result【OK;】 - Exectue Total【13】ms 
+2024-01-18 09:49:53-GetPart==>>Execute Start
+2024-01-18 09:49:53-GetPart==>>Param【WO】【002100039359】
+2024-01-18 09:49:53-GetPart==>>Result【53TX56517001Z】 - Exectue Total【9】ms 
+2024-01-18 09:58:54-checkEmpNo==>>Execute Start
+2024-01-18 09:58:54-checkEmpNo==>>Param【EMP】【91201975】
+2024-01-18 09:58:54-checkEmpNo==>>Param【STATION】【HDT565_T2.01】
+2024-01-18 09:58:54-checkEmpNo==>>Result【OK;】 - Exectue Total【19】ms 
+2024-01-18 09:58:54-GetPart==>>Execute Start
+2024-01-18 09:58:54-GetPart==>>Param【WO】【002100039359】
+2024-01-18 09:58:54-GetPart==>>Result【53TX56517001Z】 - Exectue Total【11】ms 
+2024-01-18 10:03:40-checkEmpNo==>>Execute Start
+2024-01-18 10:03:40-checkEmpNo==>>Param【EMP】【91201975】
+2024-01-18 10:03:40-checkEmpNo==>>Param【STATION】【HDT565_T2.01】
+2024-01-18 10:03:40-checkEmpNo==>>Result【OK;】 - Exectue Total【22】ms 
+2024-01-18 10:03:40-GetPart==>>Execute Start
+2024-01-18 10:03:40-GetPart==>>Param【WO】【002100039359】
+2024-01-18 10:03:40-GetPart==>>Result【53TX56517001Z】 - Exectue Total【11】ms 
+2024-01-18 10:12:38-checkEmpNo==>>Execute Start
+2024-01-18 10:12:38-checkEmpNo==>>Param【EMP】【91201975】
+2024-01-18 10:12:38-checkEmpNo==>>Param【STATION】【HDT565_T2.01】
+2024-01-18 10:12:38-checkEmpNo==>>Result【OK;】 - Exectue Total【17】ms 
+2024-01-18 10:12:38-GetPart==>>Execute Start
+2024-01-18 10:12:38-GetPart==>>Param【WO】【002100039359】
+2024-01-18 10:12:38-GetPart==>>Result【53TX56517001Z】 - Exectue Total【8】ms 

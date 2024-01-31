@@ -16,10 +16,17 @@ namespace AutoTest.Class
     /// </summary>
     internal class MySqlHelper
     {
+
+        //public const string Constr = //"Server=10.175.5.59;database=te_test;uid=merryte;pwd=merry@TE;AllowLoadLocalInfile=true";
+        //                  "database=zxltest;Password=merry@TE;user ID=merryte;server=10.175.5.59;SslMode=none";
         public const string Constr = //"Server=10.175.5.59;database=te_test;uid=merryte;pwd=merry@TE;AllowLoadLocalInfile=true";
                           "database=zxltest;Password=merry@TE;user ID=merryte;server=10.175.5.59;SslMode=none";
         static MySqlConnection conn = new MySqlConnection(Constr);
         public static MySqlCommand comm;
+        void GetQueryPath()
+        {
+
+        }
         /// <summary>
         /// 判断数据库是否连接成功
         /// </summary>

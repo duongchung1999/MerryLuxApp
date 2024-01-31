@@ -1,5 +1,5 @@
-﻿1,UID,N/A,N/A,N/A,6,dllname=MES&method=UID_Master&SMT_Flag=True&PN_Name=NULL
-2,ConfirmIsOk,N/A,N/A,N/A,6,dllname=Common&method=Forms&显示信息=请确认产品摆放好
+1,UID,N/A,N/A,N/A,6,dllname=MES&method=UID_Master&IsSMT=false&PN_Name=PCB ASS’Y HDT627N007_L-M V2.0.6 MEVN
+2,ConfirmIsOk,N/A,N/A,N/A,4,dllname=Common&method=Forms&显示信息=Vui lòng xác nhận đã đặt hàng vào vị trí test、请确认产品摆放好
 3,getFwByHeadset,N/A,V2.0.6,V2.0.6,1,getFwByHeadset
 0,-1S,N/A,N/A,N/A,6,dllname=Common&method=Sleep&时间=1000
 0,+-OpenHSUSB,N/A,N/A,N/A,1,OpenHSUSB
@@ -9,10 +9,10 @@
 5,HeadSET_DUTMODEL,N/A,N/A,N/A,3,EnterHeadSetDutModelByHID
 0,-1S,N/A,N/A,N/A,6,dllname=Common&method=Sleep&时间=1000
 6,ConnectStartTest,N/A,N/A,N/A,6,dllname=RT550_V1&method=DUT_Test&ConnectSleepTime=1&TimeOut=16&TXP=-40&ExtraLoss=0&ManualFlag=False
-7,2402RxPowerCH1Ant1V1,dBm,-11,-3,5,dllname=RT550_V1&method=DUT_Out_Put_Power_Low
-8,2440RxPowerCH20Ant1V1,dBm,-11,-3,5,dllname=RT550_V1&method=DUT_Out_Put_Power_Middle
+7,2402RxRF_POWER_CH1Ant1V1,dBm,-11,-3,5,dllname=RT550_V1&method=DUT_Out_Put_Power_Low
+8,2440RxRF_POWER_CH20Ant1V1,dBm,-11,-3,5,dllname=RT550_V1&method=DUT_Out_Put_Power_Middle
 9,2440FreqOfsetCH20Ant1V1,KHz,-20,20,5,dllname=RT550_V1&method=DUT_Carrier_Drift_Middle
-10,2476RxPowerCH38Ant1V1,dBm,-11,-3,5,dllname=RT550_V1&method=DUT_Out_Put_Power_High
+10,2476RxRF_POWER_CH38Ant1V1,dBm,-11,-3,5,dllname=RT550_V1&method=DUT_Out_Put_Power_High
 11,ReadANT1BERV1,%,0,0.1,5,dllname=RT550_V1&method=DUT_Sensitivity_Middle
 12,HeadsetModulationIndexV1,N/A,0.8,1.1,5,dllname=RT550_V1&method=DUT_Modulation_Index_dfDiff
 0,+-OpenHSUSB,N/A,N/A,N/A,1,OpenHSUSB

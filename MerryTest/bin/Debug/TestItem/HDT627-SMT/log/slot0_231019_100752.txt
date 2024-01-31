@@ -1,0 +1,130 @@
+﻿10/19 10:07:52.082 0.003 I tool_version: 2.9.0/V2.9.0_20220114_081940/v2.9.2_2021_12_28_16_45_51/geneva-dev-maindev
+10/19 10:07:52.079 0.000 I SetLogLevel: 2
+10/19 10:07:52.079 0.000 D set log_level=2
+10/19 10:07:52.079 0.000 D [task_time][ToolLogLevel] spend 0.000
+10/19 10:07:52.079 0.000 V [task_end][ToolLogLevel] ------------------------------------------
+10/19 10:07:52.080 0.001 V arg[airoha_task]=ConnectDutByUsbHid
+10/19 10:07:52.080 0.001 V [task] ConnectDutByUsbHid, class: ConnectDevice
+10/19 10:07:52.080 0.001 V [task_start][ConnectDutByUsbHid] +++++++++++++++++++++++
+10/19 10:07:52.080 0.001 V arg[device_name]=DUT_HEADSET
+10/19 10:07:52.080 0.001 V arg[device_type]=USB_HID
+10/19 10:07:52.080 0.001 V arg[action]=connect
+10/19 10:07:52.080 0.001 V arg[connected_by_usb]=
+10/19 10:07:52.080 0.001 V arg[port]=
+10/19 10:07:52.080 0.001 D [SerialHost] phy_name:USB_HID
+10/19 10:07:52.080 0.001 D phy_type:5
+10/19 10:07:52.080 0.001 D [SerialHost] trans_name:USB_HID
+10/19 10:07:52.080 0.001 D [tp_fty] trans_type:9
+10/19 10:07:52.080 0.001 D [UsbHidPhy] transport : USB_HID 
+10/19 10:07:52.080 0.001 D [SerialHost] phy_open
+10/19 10:07:52.080 0.001 D [UsbHidPhy] transport : USB_HID 
+10/19 10:07:52.080 0.001 I [UsbHidPhy] open [046D:0AFF] usb[]
+10/19 10:07:54.086 2.007 V [log_file_sync]
+10/19 10:07:55.085 3.007 I [UsbHidPhy] get [046D:0AFF] usb[] serial[0000000000000000]
+10/19 10:07:55.085 3.007 D [UsbHidPhy] open: 046d:0aff
+10/19 10:07:55.085 3.007 D [UartDevice] Connect: 0
+10/19 10:07:55.085 3.007 D [ConnectDutByUsbHid] connect: DUT_HEADSET(USB_HID)
+10/19 10:07:55.085 3.007 D [task_time][ConnectDutByUsbHid] spend 3.006
+10/19 10:07:55.085 3.007 V [task_end][ConnectDutByUsbHid] ------------------------------------------
+10/19 10:07:55.087 3.008 V [transact] result="pass"
+10/19 10:07:56.088 4.009 V [log_file_sync]
+10/19 10:08:10.363 18.284 V arg[airoha_task]=ConnectDutByUsbHid
+10/19 10:08:10.363 18.284 V [task] ConnectDutByUsbHid, class: ConnectDevice
+10/19 10:08:10.363 18.284 V [task_start][ConnectDutByUsbHid] +++++++++++++++++++++++
+10/19 10:08:10.363 18.284 V arg[device_name]=DUT_HEADSET
+10/19 10:08:10.363 18.284 V arg[device_type]=USB_HID
+10/19 10:08:10.363 18.284 V arg[action]=connect
+10/19 10:08:10.363 18.284 V arg[connected_by_usb]=
+10/19 10:08:10.363 18.284 V arg[port]=
+10/19 10:08:10.363 18.284 D [ConnectDutByUsbHid] connect: DUT_HEADSET(USB_HID)
+10/19 10:08:10.363 18.284 D [task_time][ConnectDutByUsbHid] spend 0.000
+10/19 10:08:10.363 18.284 V [task_end][ConnectDutByUsbHid] ------------------------------------------
+10/19 10:08:10.363 18.284 V [transact] result="pass"
+10/19 10:08:10.365 18.286 V [log_file_sync]
+10/19 10:08:14.251 22.172 V arg[airoha_task]=airoha_cmd
+10/19 10:08:14.251 22.172 V [task] airoha_cmd, class: AirohaCommandTask
+10/19 10:08:14.251 22.172 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/19 10:08:14.251 22.172 V arg[device_name]=DUT_HEADSET
+10/19 10:08:14.251 22.172 V arg[command_xml]=command_627.xml
+10/19 10:08:14.251 22.172 V arg[airoha_cmd]=RACE_READ_LED_BIN_CODE
+10/19 10:08:14.251 22.172 I [airoha_cmd] RACE_READ_LED_BIN_CODE
+10/19 10:08:14.252 22.173 D [046d:0aff] Write(8)
+10/19 10:08:14.254 22.175 D [046d:0aff] chunk: 62(8) (8/8) 060800
+10/19 10:08:14.254 22.175 V [046d:0aff] Write: 62(8) (8/8) 060800055A0400000A01F8000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+10/19 10:08:14.255 22.176 D [046d:0aff][write 8 RACE_READ_LED_BIN_CODE] 055A0400000A01F8
+10/19 10:08:14.255 22.176 V [log_file_sync]
+10/19 10:08:14.256 22.178 D [046d:0aff] Read(16)
+10/19 10:08:14.256 22.178 V [046d:0aff][read 19] 071000055B0C00000A080045302F453046414C
+10/19 10:08:14.256 22.178 I [RxP 16] 055B0C00000A080045302F453046414C
+10/19 10:08:14.256 22.178 V [Match 16 RACE_READ_LED_BIN_CODE] 055B0C00000A080045302F453046414C
+10/19 10:08:14.256 22.178 W [CmdR] resp not found: status
+10/19 10:08:14.256 22.178 D [task_time][airoha_cmd] spend 0.006
+10/19 10:08:14.256 22.178 V [task_end][airoha_cmd] ------------------------------------------
+10/19 10:08:14.256 22.178 V [transact] payload="4C414630452F3045"
+10/19 10:08:16.260 24.182 V [log_file_sync]
+10/19 10:08:17.037 24.958 V arg[airoha_task]=airoha_cmd
+10/19 10:08:17.037 24.958 V [task] airoha_cmd, class: AirohaCommandTask
+10/19 10:08:17.037 24.958 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/19 10:08:17.037 24.958 V arg[device_name]=DUT_HEADSET
+10/19 10:08:17.037 24.958 V arg[command_xml]=command_627.xml
+10/19 10:08:17.037 24.958 V arg[airoha_cmd]=RACE_SET_PCBA_SN
+10/19 10:08:17.037 24.958 I [airoha_cmd] RACE_SET_PCBA_SN
+10/19 10:08:17.037 24.958 D arg[KeyData]=0x
+10/19 10:08:17.037 24.958 E [spack/build] argument not found: KeyData
+10/19 10:08:17.037 24.958 E [CmdR] Error: nothing to send
+10/19 10:08:17.037 24.958 E [exception] airoha_command.cc:144(-201): [airoha_cmd] run command fail(-201): RACE_SET_PCBA_SN
+10/19 10:08:17.037 24.958 E [task] Fail to execute RunTask() of airoha_cmd object
+10/19 10:08:17.037 24.958 D [task_time][airoha_cmd] spend 0.000
+10/19 10:08:17.037 24.958 V [task_end][airoha_cmd] ------------------------------------------
+10/19 10:08:18.265 26.186 V [log_file_sync]
+10/19 10:08:19.387 27.308 V arg[airoha_task]=airoha_cmd
+10/19 10:08:19.387 27.308 V [task] airoha_cmd, class: AirohaCommandTask
+10/19 10:08:19.387 27.308 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/19 10:08:19.387 27.308 V arg[device_name]=DUT_HEADSET
+10/19 10:08:19.387 27.308 V arg[command_xml]=command_627.xml
+10/19 10:08:19.387 27.308 V arg[airoha_cmd]=RACE_PCBA_SN
+10/19 10:08:19.387 27.308 I [airoha_cmd] RACE_PCBA_SN
+10/19 10:08:19.387 27.308 D [046d:0aff] Write(10)
+10/19 10:08:19.388 27.309 D [046d:0aff] chunk: 62(10) (10/10) 060A00
+10/19 10:08:19.388 27.309 V [046d:0aff] Write: 62(10) (10/10) 060A00055A0600000A0BF80C0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+10/19 10:08:19.389 27.310 D [046d:0aff][write 10 RACE_PCBA_SN] 055A0600000A0BF80C00
+10/19 10:08:19.393 27.315 D [046d:0aff] Read(20)
+10/19 10:08:19.393 27.315 V [046d:0aff][read 23] 071400055B1000000A0C00504853494848515050508882
+10/19 10:08:19.394 27.316 I [RxP 20] 055B1000000A0C00504853494848515050508882
+10/19 10:08:19.394 27.316 V [Match 20 RACE_PCBA_SN] 055B1000000A0C00504853494848515050508882
+10/19 10:08:19.394 27.316 W [CmdR] resp not found: status
+10/19 10:08:19.394 27.316 D [task_time][airoha_cmd] spend 0.007
+10/19 10:08:19.394 27.316 V [task_end][airoha_cmd] ------------------------------------------
+10/19 10:08:19.394 27.316 V [transact] payload="828850505051484849534850"
+10/19 10:08:20.266 28.188 V [log_file_sync]
+10/19 10:08:30.619 38.540 V arg[airoha_task]=DisconnectDUTByUsbHid
+10/19 10:08:30.619 38.540 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+10/19 10:08:30.619 38.540 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+10/19 10:08:30.619 38.540 V arg[device_name]=DUT_HEADSET
+10/19 10:08:30.619 38.540 V arg[device_type]=USB_HID
+10/19 10:08:30.619 38.540 V arg[action]=disconnect
+10/19 10:08:30.619 38.540 V arg[port]=
+10/19 10:08:30.619 38.540 D [UsbHidPhy] Close Success.
+10/19 10:08:30.619 38.540 D [host] Clear buffer and queue.
+10/19 10:08:30.619 38.540 V [tp_fty] delete trans
+10/19 10:08:30.619 38.540 V delete phy
+10/19 10:08:30.619 38.540 D [host] Clear buffer and queue.
+10/19 10:08:30.619 38.540 D [UartDevice] Disconnect
+10/19 10:08:30.619 38.540 D [DisconnectDUTByUsbHid] disconnect: DUT_HEADSET(USB_HID)
+10/19 10:08:30.619 38.540 D [task_time][DisconnectDUTByUsbHid] spend 0.000
+10/19 10:08:30.619 38.540 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+10/19 10:08:30.619 38.540 V [transact] result="pass"
+10/19 10:08:30.620 38.541 V [log_file_sync]
+10/19 10:11:08.765 196.687 V arg[airoha_task]=DisconnectDUTByUsbHid
+10/19 10:11:08.765 196.687 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+10/19 10:11:08.765 196.687 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+10/19 10:11:08.765 196.687 V arg[device_name]=DUT_HEADSET
+10/19 10:11:08.765 196.687 V arg[device_type]=USB_HID
+10/19 10:11:08.765 196.687 V arg[action]=disconnect
+10/19 10:11:08.765 196.687 V arg[port]=
+10/19 10:11:08.765 196.687 D [UartDevice] Disconnect
+10/19 10:11:08.765 196.687 D [DisconnectDUTByUsbHid] disconnect: DUT_HEADSET(USB_HID)
+10/19 10:11:08.765 196.687 D [task_time][DisconnectDUTByUsbHid] spend 0.000
+10/19 10:11:08.765 196.687 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+10/19 10:11:08.765 196.687 V [transact] result="pass"
+10/19 10:11:08.769 196.690 V [log_file_sync]

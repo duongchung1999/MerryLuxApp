@@ -1,0 +1,1011 @@
+﻿10/23 09:49:33.143 0.095 I tool_version: 2.9.0/V2.9.0_20220114_081940/v2.9.2_2021_12_28_16_45_51/geneva-dev-maindev
+10/23 09:49:33.048 0.001 I SetLogLevel: 2
+10/23 09:49:33.048 0.001 D set log_level=2
+10/23 09:49:33.048 0.001 D [task_time][ToolLogLevel] spend 0.000
+10/23 09:49:33.048 0.001 V [task_end][ToolLogLevel] ------------------------------------------
+10/23 09:49:33.051 0.004 V arg[airoha_task]=TaskUsbHidDongleHeadsetUartPairing
+10/23 09:49:33.051 0.004 V [task] TaskUsbHidDongleHeadsetUartPairing, class: UsbHidDongleHeadsetUartPairingTask
+10/23 09:49:33.051 0.004 V [task_start][TaskUsbHidDongleHeadsetUartPairing] +++++++++++++++++++++++
+10/23 09:49:33.051 0.004 V arg[minimum_battery_level]=30
+10/23 09:49:33.051 0.004 V arg[delay_for_boot]=2000
+10/23 09:49:33.051 0.004 V arg[is_check_boot_event]=true
+10/23 09:49:33.052 0.005 V arg[device_name_d]=DUT_DONGLE
+10/23 09:49:33.052 0.005 E [dev_mgr] device not found: DUT_DONGLE
+10/23 09:49:33.053 0.006 E [exception] usb_hid_dongle_headset_uart_pairing.cpp:149(-1): [TaskUsbHidDongleHeadsetUartPairing] device not found: DUT_DONGLE
+10/23 09:49:33.053 0.006 E [task] Fail to execute RunTask() of TaskUsbHidDongleHeadsetUartPairing object
+10/23 09:49:33.053 0.006 D [task_time][TaskUsbHidDongleHeadsetUartPairing] spend 0.002
+10/23 09:49:33.053 0.006 V [task_end][TaskUsbHidDongleHeadsetUartPairing] ------------------------------------------
+10/23 09:49:33.053 0.006 V [transact] result="fail"
+10/23 09:49:35.148 2.100 V [log_file_sync]
+10/23 09:49:55.239 22.192 V arg[airoha_task]=TaskUsbHidDongleHeadsetUartPairing
+10/23 09:49:55.239 22.192 V [task] TaskUsbHidDongleHeadsetUartPairing, class: UsbHidDongleHeadsetUartPairingTask
+10/23 09:49:55.239 22.192 V [task_start][TaskUsbHidDongleHeadsetUartPairing] +++++++++++++++++++++++
+10/23 09:49:55.239 22.192 V arg[minimum_battery_level]=30
+10/23 09:49:55.239 22.192 V arg[delay_for_boot]=2000
+10/23 09:49:55.239 22.192 V arg[is_check_boot_event]=true
+10/23 09:49:55.239 22.192 V arg[device_name_d]=DUT_DONGLE
+10/23 09:49:55.239 22.192 E [dev_mgr] device not found: DUT_DONGLE
+10/23 09:49:55.239 22.192 E [exception] usb_hid_dongle_headset_uart_pairing.cpp:149(-1): [TaskUsbHidDongleHeadsetUartPairing] device not found: DUT_DONGLE
+10/23 09:49:55.239 22.192 E [task] Fail to execute RunTask() of TaskUsbHidDongleHeadsetUartPairing object
+10/23 09:49:55.239 22.192 D [task_time][TaskUsbHidDongleHeadsetUartPairing] spend 0.000
+10/23 09:49:55.239 22.192 V [task_end][TaskUsbHidDongleHeadsetUartPairing] ------------------------------------------
+10/23 09:49:55.239 22.192 V [transact] result="fail"
+10/23 09:49:55.242 22.195 V [log_file_sync]
+10/23 09:49:56.150 23.102 V arg[airoha_task]=TaskUsbHidDongleHeadsetUartPairing
+10/23 09:49:56.150 23.102 V [task] TaskUsbHidDongleHeadsetUartPairing, class: UsbHidDongleHeadsetUartPairingTask
+10/23 09:49:56.150 23.102 V [task_start][TaskUsbHidDongleHeadsetUartPairing] +++++++++++++++++++++++
+10/23 09:49:56.150 23.102 V arg[minimum_battery_level]=30
+10/23 09:49:56.150 23.102 V arg[delay_for_boot]=2000
+10/23 09:49:56.150 23.102 V arg[is_check_boot_event]=true
+10/23 09:49:56.150 23.102 V arg[device_name_d]=DUT_DONGLE
+10/23 09:49:56.150 23.102 E [dev_mgr] device not found: DUT_DONGLE
+10/23 09:49:56.150 23.102 E [exception] usb_hid_dongle_headset_uart_pairing.cpp:149(-1): [TaskUsbHidDongleHeadsetUartPairing] device not found: DUT_DONGLE
+10/23 09:49:56.150 23.102 E [task] Fail to execute RunTask() of TaskUsbHidDongleHeadsetUartPairing object
+10/23 09:49:56.150 23.102 D [task_time][TaskUsbHidDongleHeadsetUartPairing] spend 0.000
+10/23 09:49:56.150 23.102 V [task_end][TaskUsbHidDongleHeadsetUartPairing] ------------------------------------------
+10/23 09:49:56.150 23.102 V [transact] result="fail"
+10/23 09:49:56.375 23.328 V arg[airoha_task]=TaskUsbHidDongleHeadsetUartPairing
+10/23 09:49:56.375 23.328 V [task] TaskUsbHidDongleHeadsetUartPairing, class: UsbHidDongleHeadsetUartPairingTask
+10/23 09:49:56.375 23.328 V [task_start][TaskUsbHidDongleHeadsetUartPairing] +++++++++++++++++++++++
+10/23 09:49:56.375 23.328 V arg[minimum_battery_level]=30
+10/23 09:49:56.375 23.328 V arg[delay_for_boot]=2000
+10/23 09:49:56.375 23.328 V arg[is_check_boot_event]=true
+10/23 09:49:56.375 23.328 V arg[device_name_d]=DUT_DONGLE
+10/23 09:49:56.375 23.328 E [dev_mgr] device not found: DUT_DONGLE
+10/23 09:49:56.376 23.329 E [exception] usb_hid_dongle_headset_uart_pairing.cpp:149(-1): [TaskUsbHidDongleHeadsetUartPairing] device not found: DUT_DONGLE
+10/23 09:49:56.376 23.329 E [task] Fail to execute RunTask() of TaskUsbHidDongleHeadsetUartPairing object
+10/23 09:49:56.376 23.329 D [task_time][TaskUsbHidDongleHeadsetUartPairing] spend 0.001
+10/23 09:49:56.376 23.329 V [task_end][TaskUsbHidDongleHeadsetUartPairing] ------------------------------------------
+10/23 09:49:56.376 23.329 V [transact] result="fail"
+10/23 09:49:57.244 24.197 V [log_file_sync]
+10/23 09:50:00.335 27.287 V arg[airoha_task]=airoha_cmd
+10/23 09:50:00.335 27.287 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:00.335 27.287 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:00.335 27.287 V arg[device_name]=DUT_HEADSET
+10/23 09:50:00.335 27.287 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:00.336 27.288 V [log_file_sync]
+10/23 09:50:00.377 27.329 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:00.377 27.329 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:00.377 27.329 D [task_time][airoha_cmd] spend 0.042
+10/23 09:50:00.377 27.329 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:02.338 29.291 V [log_file_sync]
+10/23 09:50:03.099 30.052 V arg[airoha_task]=airoha_cmd
+10/23 09:50:03.099 30.052 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:03.099 30.052 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:03.099 30.052 V arg[device_name]=DUT_HEADSET
+10/23 09:50:03.099 30.052 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:03.099 30.052 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:03.099 30.052 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:03.099 30.052 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:03.099 30.052 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:04.344 31.296 V [log_file_sync]
+10/23 09:50:07.412 34.365 V arg[airoha_task]=airoha_cmd
+10/23 09:50:07.412 34.365 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:07.412 34.365 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:07.412 34.365 V arg[device_name]=DUT_HEADSET
+10/23 09:50:07.412 34.365 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:07.412 34.365 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:07.412 34.365 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:07.412 34.365 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:07.412 34.365 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:07.414 34.367 V [log_file_sync]
+10/23 09:50:07.513 34.466 V arg[airoha_task]=airoha_cmd
+10/23 09:50:07.513 34.466 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:07.513 34.466 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:07.513 34.466 V arg[device_name]=DUT_HEADSET
+10/23 09:50:07.513 34.466 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:07.513 34.466 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:07.513 34.466 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:07.513 34.466 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:07.513 34.466 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:07.614 34.566 V arg[airoha_task]=airoha_cmd
+10/23 09:50:07.614 34.566 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:07.614 34.566 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:07.614 34.566 V arg[device_name]=DUT_HEADSET
+10/23 09:50:07.614 34.566 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:07.614 34.566 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:07.614 34.566 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:07.614 34.566 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:07.614 34.566 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:07.714 34.667 V arg[airoha_task]=airoha_cmd
+10/23 09:50:07.714 34.667 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:07.714 34.667 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:07.714 34.667 V arg[device_name]=DUT_HEADSET
+10/23 09:50:07.714 34.667 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:07.714 34.667 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:07.714 34.667 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:07.714 34.667 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:07.714 34.667 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:07.815 34.768 V arg[airoha_task]=airoha_cmd
+10/23 09:50:07.815 34.768 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:07.815 34.768 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:07.815 34.768 V arg[device_name]=DUT_HEADSET
+10/23 09:50:07.815 34.768 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:07.815 34.768 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:07.815 34.768 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:07.815 34.768 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:07.815 34.768 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:07.916 34.869 V arg[airoha_task]=airoha_cmd
+10/23 09:50:07.916 34.869 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:07.916 34.869 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:07.916 34.869 V arg[device_name]=DUT_HEADSET
+10/23 09:50:07.916 34.869 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:07.916 34.869 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:07.916 34.869 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:07.916 34.869 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:07.916 34.869 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:08.016 34.969 V arg[airoha_task]=airoha_cmd
+10/23 09:50:08.016 34.969 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:08.016 34.969 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:08.016 34.969 V arg[device_name]=DUT_HEADSET
+10/23 09:50:08.016 34.969 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:08.016 34.969 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:08.016 34.969 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:08.016 34.969 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:08.016 34.969 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:08.117 35.070 V arg[airoha_task]=airoha_cmd
+10/23 09:50:08.117 35.070 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:08.117 35.070 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:08.117 35.070 V arg[device_name]=DUT_HEADSET
+10/23 09:50:08.117 35.070 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:08.117 35.070 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:08.117 35.070 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:08.117 35.070 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:08.117 35.070 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:08.218 35.171 V arg[airoha_task]=airoha_cmd
+10/23 09:50:08.218 35.171 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:08.218 35.171 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:08.218 35.171 V arg[device_name]=DUT_HEADSET
+10/23 09:50:08.218 35.171 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:08.218 35.171 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:08.218 35.171 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:08.218 35.171 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:08.218 35.171 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:08.318 35.271 V arg[airoha_task]=airoha_cmd
+10/23 09:50:08.318 35.271 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:08.318 35.271 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:08.318 35.271 V arg[device_name]=DUT_HEADSET
+10/23 09:50:08.318 35.271 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:08.318 35.271 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:08.318 35.271 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:08.318 35.271 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:08.318 35.271 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:08.419 35.372 V arg[airoha_task]=airoha_cmd
+10/23 09:50:08.419 35.372 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:08.419 35.372 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:08.419 35.372 V arg[device_name]=DUT_HEADSET
+10/23 09:50:08.419 35.372 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:08.419 35.372 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:08.419 35.372 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:08.419 35.372 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:08.419 35.372 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:08.520 35.473 V arg[airoha_task]=airoha_cmd
+10/23 09:50:08.520 35.473 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:08.520 35.473 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:08.520 35.473 V arg[device_name]=DUT_HEADSET
+10/23 09:50:08.520 35.473 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:08.520 35.473 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:08.520 35.473 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:08.520 35.473 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:08.520 35.473 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:08.621 35.573 V arg[airoha_task]=airoha_cmd
+10/23 09:50:08.621 35.573 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:08.621 35.573 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:08.621 35.573 V arg[device_name]=DUT_HEADSET
+10/23 09:50:08.621 35.573 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:08.621 35.573 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:08.621 35.573 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:08.621 35.573 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:08.621 35.573 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:08.721 35.674 V arg[airoha_task]=airoha_cmd
+10/23 09:50:08.721 35.674 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:08.721 35.674 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:08.721 35.674 V arg[device_name]=DUT_HEADSET
+10/23 09:50:08.721 35.674 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:08.721 35.674 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:08.721 35.674 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:08.721 35.674 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:08.721 35.674 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:08.822 35.775 V arg[airoha_task]=airoha_cmd
+10/23 09:50:08.822 35.775 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:08.822 35.775 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:08.822 35.775 V arg[device_name]=DUT_HEADSET
+10/23 09:50:08.822 35.775 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:08.822 35.775 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:08.822 35.775 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:08.822 35.775 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:08.822 35.775 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:08.923 35.876 V arg[airoha_task]=airoha_cmd
+10/23 09:50:08.923 35.876 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:08.923 35.876 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:08.923 35.876 V arg[device_name]=DUT_HEADSET
+10/23 09:50:08.923 35.876 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:08.923 35.876 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:08.923 35.876 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:08.923 35.876 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:08.923 35.876 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:09.023 35.976 V arg[airoha_task]=airoha_cmd
+10/23 09:50:09.023 35.976 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:09.023 35.976 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:09.023 35.976 V arg[device_name]=DUT_HEADSET
+10/23 09:50:09.023 35.976 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:09.023 35.976 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:09.023 35.976 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:09.023 35.976 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:09.023 35.976 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:09.125 36.077 V arg[airoha_task]=airoha_cmd
+10/23 09:50:09.125 36.077 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:09.125 36.077 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:09.125 36.077 V arg[device_name]=DUT_HEADSET
+10/23 09:50:09.125 36.077 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:09.125 36.077 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:09.125 36.077 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:09.125 36.077 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:09.125 36.077 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:09.225 36.178 V arg[airoha_task]=airoha_cmd
+10/23 09:50:09.225 36.178 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:09.225 36.178 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:09.225 36.178 V arg[device_name]=DUT_HEADSET
+10/23 09:50:09.225 36.178 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:09.225 36.178 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:09.225 36.178 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:09.225 36.178 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:09.225 36.178 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:09.326 36.279 V arg[airoha_task]=airoha_cmd
+10/23 09:50:09.326 36.279 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:09.326 36.279 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:09.326 36.279 V arg[device_name]=DUT_HEADSET
+10/23 09:50:09.326 36.279 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:09.326 36.279 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:09.326 36.279 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:09.326 36.279 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:09.326 36.279 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:09.420 36.373 V [log_file_sync]
+10/23 09:50:09.427 36.380 V arg[airoha_task]=airoha_cmd
+10/23 09:50:09.427 36.380 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:09.427 36.380 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:09.427 36.380 V arg[device_name]=DUT_HEADSET
+10/23 09:50:09.427 36.380 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:09.427 36.380 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:09.427 36.380 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:09.427 36.380 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:09.427 36.380 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:09.528 36.480 V arg[airoha_task]=airoha_cmd
+10/23 09:50:09.528 36.480 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:09.528 36.480 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:09.528 36.480 V arg[device_name]=DUT_HEADSET
+10/23 09:50:09.528 36.480 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:09.528 36.480 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:09.528 36.480 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:09.528 36.480 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:09.528 36.480 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:09.628 36.581 V arg[airoha_task]=airoha_cmd
+10/23 09:50:09.628 36.581 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:09.628 36.581 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:09.628 36.581 V arg[device_name]=DUT_HEADSET
+10/23 09:50:09.628 36.581 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:09.628 36.581 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:09.628 36.581 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:09.628 36.581 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:09.628 36.581 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:09.729 36.681 V arg[airoha_task]=airoha_cmd
+10/23 09:50:09.729 36.681 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:09.729 36.681 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:09.729 36.681 V arg[device_name]=DUT_HEADSET
+10/23 09:50:09.729 36.681 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:09.729 36.681 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:09.729 36.681 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:09.729 36.681 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:09.729 36.681 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:09.830 36.783 V arg[airoha_task]=airoha_cmd
+10/23 09:50:09.830 36.783 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:09.830 36.783 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:09.830 36.783 V arg[device_name]=DUT_HEADSET
+10/23 09:50:09.830 36.783 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:09.830 36.783 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:09.830 36.783 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:09.830 36.783 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:09.830 36.783 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:09.931 36.883 V arg[airoha_task]=airoha_cmd
+10/23 09:50:09.931 36.883 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:09.931 36.883 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:09.931 36.883 V arg[device_name]=DUT_HEADSET
+10/23 09:50:09.931 36.883 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:09.931 36.883 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:09.931 36.883 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:09.931 36.883 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:09.931 36.883 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:10.032 36.984 V arg[airoha_task]=airoha_cmd
+10/23 09:50:10.032 36.984 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:10.032 36.984 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:10.032 36.984 V arg[device_name]=DUT_HEADSET
+10/23 09:50:10.032 36.984 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:10.032 36.984 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:10.032 36.984 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:10.032 36.984 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:10.032 36.984 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:10.132 37.085 V arg[airoha_task]=airoha_cmd
+10/23 09:50:10.132 37.085 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:10.132 37.085 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:10.132 37.085 V arg[device_name]=DUT_HEADSET
+10/23 09:50:10.132 37.085 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:10.132 37.085 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:10.132 37.085 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:10.132 37.085 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:10.132 37.085 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:10.233 37.186 V arg[airoha_task]=airoha_cmd
+10/23 09:50:10.233 37.186 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:10.233 37.186 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:10.233 37.186 V arg[device_name]=DUT_HEADSET
+10/23 09:50:10.233 37.186 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:10.233 37.186 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:10.233 37.186 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:10.233 37.186 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:10.233 37.186 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:10.334 37.286 V arg[airoha_task]=airoha_cmd
+10/23 09:50:10.334 37.286 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:10.334 37.286 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:10.334 37.286 V arg[device_name]=DUT_HEADSET
+10/23 09:50:10.334 37.286 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:10.334 37.286 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:10.334 37.286 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:10.334 37.286 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:10.334 37.286 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:10.435 37.387 V arg[airoha_task]=airoha_cmd
+10/23 09:50:10.435 37.387 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:10.435 37.387 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:10.435 37.387 V arg[device_name]=DUT_HEADSET
+10/23 09:50:10.435 37.387 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:10.435 37.387 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:10.435 37.387 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:10.435 37.387 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:10.435 37.387 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:10.536 37.489 V arg[airoha_task]=airoha_cmd
+10/23 09:50:10.536 37.489 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:10.536 37.489 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:10.536 37.489 V arg[device_name]=DUT_HEADSET
+10/23 09:50:10.536 37.489 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:10.536 37.489 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:10.536 37.489 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:10.536 37.489 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:10.536 37.489 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:10.637 37.590 V arg[airoha_task]=airoha_cmd
+10/23 09:50:10.637 37.590 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:10.637 37.590 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:10.637 37.590 V arg[device_name]=DUT_HEADSET
+10/23 09:50:10.637 37.590 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:10.637 37.590 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:10.637 37.590 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:10.637 37.590 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:10.637 37.590 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:10.738 37.691 V arg[airoha_task]=airoha_cmd
+10/23 09:50:10.738 37.691 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:10.738 37.691 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:10.738 37.691 V arg[device_name]=DUT_HEADSET
+10/23 09:50:10.738 37.691 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:10.738 37.691 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:10.738 37.691 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:10.738 37.691 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:10.738 37.691 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:10.840 37.792 V arg[airoha_task]=airoha_cmd
+10/23 09:50:10.840 37.792 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:10.840 37.792 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:10.840 37.792 V arg[device_name]=DUT_HEADSET
+10/23 09:50:10.840 37.792 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:10.840 37.792 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:10.840 37.792 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:10.840 37.792 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:10.840 37.792 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:10.940 37.893 V arg[airoha_task]=airoha_cmd
+10/23 09:50:10.940 37.893 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:10.940 37.893 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:10.940 37.893 V arg[device_name]=DUT_HEADSET
+10/23 09:50:10.940 37.893 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:10.940 37.893 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:10.940 37.893 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:10.940 37.893 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:10.940 37.893 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:11.041 37.994 V arg[airoha_task]=airoha_cmd
+10/23 09:50:11.041 37.994 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:11.041 37.994 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:11.041 37.994 V arg[device_name]=DUT_HEADSET
+10/23 09:50:11.041 37.994 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:11.041 37.994 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:11.041 37.994 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:11.041 37.994 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:11.041 37.994 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:11.142 38.094 V arg[airoha_task]=airoha_cmd
+10/23 09:50:11.142 38.094 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:11.142 38.094 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:11.142 38.094 V arg[device_name]=DUT_HEADSET
+10/23 09:50:11.142 38.094 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:11.142 38.094 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:11.142 38.094 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:11.142 38.094 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:11.142 38.094 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:11.243 38.196 V arg[airoha_task]=airoha_cmd
+10/23 09:50:11.243 38.196 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:11.243 38.196 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:11.243 38.196 V arg[device_name]=DUT_HEADSET
+10/23 09:50:11.243 38.196 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:11.243 38.196 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:11.243 38.196 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:11.243 38.196 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:11.243 38.196 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:11.343 38.296 V arg[airoha_task]=airoha_cmd
+10/23 09:50:11.343 38.296 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:11.343 38.296 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:11.343 38.296 V arg[device_name]=DUT_HEADSET
+10/23 09:50:11.343 38.296 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:11.343 38.296 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:11.343 38.296 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:11.343 38.296 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:11.343 38.296 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:11.421 38.374 V [log_file_sync]
+10/23 09:50:11.443 38.396 V arg[airoha_task]=airoha_cmd
+10/23 09:50:11.443 38.396 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:11.443 38.396 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:11.443 38.396 V arg[device_name]=DUT_HEADSET
+10/23 09:50:11.443 38.396 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:11.443 38.396 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:11.443 38.396 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:11.443 38.396 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:11.443 38.396 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:11.544 38.496 V arg[airoha_task]=airoha_cmd
+10/23 09:50:11.544 38.496 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:11.544 38.496 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:11.544 38.496 V arg[device_name]=DUT_HEADSET
+10/23 09:50:11.544 38.496 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:11.544 38.496 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:11.544 38.496 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:11.544 38.496 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:11.544 38.496 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:11.645 38.597 V arg[airoha_task]=airoha_cmd
+10/23 09:50:11.645 38.597 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:11.645 38.597 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:11.645 38.597 V arg[device_name]=DUT_HEADSET
+10/23 09:50:11.645 38.597 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:11.645 38.597 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:11.645 38.597 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:11.645 38.597 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:11.645 38.597 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:11.746 38.699 V arg[airoha_task]=airoha_cmd
+10/23 09:50:11.746 38.699 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:11.746 38.699 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:11.746 38.699 V arg[device_name]=DUT_HEADSET
+10/23 09:50:11.746 38.699 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:11.746 38.699 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:11.746 38.699 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:11.746 38.699 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:11.746 38.699 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:11.847 38.799 V arg[airoha_task]=airoha_cmd
+10/23 09:50:11.847 38.799 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:11.847 38.799 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:11.847 38.799 V arg[device_name]=DUT_HEADSET
+10/23 09:50:11.847 38.799 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:11.847 38.799 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:11.847 38.799 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:11.847 38.799 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:11.847 38.799 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:11.948 38.900 V arg[airoha_task]=airoha_cmd
+10/23 09:50:11.948 38.900 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:11.948 38.900 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:11.948 38.900 V arg[device_name]=DUT_HEADSET
+10/23 09:50:11.948 38.900 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:11.948 38.900 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:11.948 38.900 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:11.948 38.900 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:11.948 38.900 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:12.049 39.001 V arg[airoha_task]=airoha_cmd
+10/23 09:50:12.049 39.001 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:12.049 39.001 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:12.049 39.001 V arg[device_name]=DUT_HEADSET
+10/23 09:50:12.049 39.001 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:12.049 39.001 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:12.049 39.001 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:12.049 39.001 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:12.049 39.001 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:12.149 39.102 V arg[airoha_task]=airoha_cmd
+10/23 09:50:12.149 39.102 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:12.149 39.102 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:12.149 39.102 V arg[device_name]=DUT_HEADSET
+10/23 09:50:12.149 39.102 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:12.149 39.102 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:12.149 39.102 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:12.149 39.102 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:12.149 39.102 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:12.251 39.203 V arg[airoha_task]=airoha_cmd
+10/23 09:50:12.251 39.203 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:12.251 39.203 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:12.251 39.203 V arg[device_name]=DUT_HEADSET
+10/23 09:50:12.251 39.203 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:12.251 39.203 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:12.251 39.203 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:12.251 39.203 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:12.251 39.203 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:12.351 39.304 V arg[airoha_task]=airoha_cmd
+10/23 09:50:12.351 39.304 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:12.351 39.304 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:12.351 39.304 V arg[device_name]=DUT_HEADSET
+10/23 09:50:12.351 39.304 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:12.351 39.304 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:12.351 39.304 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:12.351 39.304 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:12.351 39.304 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:12.452 39.404 V arg[airoha_task]=airoha_cmd
+10/23 09:50:12.452 39.404 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:12.452 39.404 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:12.452 39.404 V arg[device_name]=DUT_HEADSET
+10/23 09:50:12.452 39.404 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:12.452 39.404 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:12.452 39.404 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:12.452 39.404 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:12.452 39.404 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:12.553 39.506 V arg[airoha_task]=airoha_cmd
+10/23 09:50:12.553 39.506 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:12.553 39.506 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:12.553 39.506 V arg[device_name]=DUT_HEADSET
+10/23 09:50:12.553 39.506 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:12.553 39.506 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:12.553 39.506 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:12.553 39.506 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:12.553 39.506 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:12.653 39.606 V arg[airoha_task]=airoha_cmd
+10/23 09:50:12.653 39.606 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:12.653 39.606 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:12.653 39.606 V arg[device_name]=DUT_HEADSET
+10/23 09:50:12.653 39.606 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:12.653 39.606 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:12.653 39.606 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:12.653 39.606 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:12.653 39.606 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:12.754 39.707 V arg[airoha_task]=airoha_cmd
+10/23 09:50:12.754 39.707 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:12.754 39.707 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:12.754 39.707 V arg[device_name]=DUT_HEADSET
+10/23 09:50:12.754 39.707 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:12.754 39.707 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:12.754 39.707 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:12.754 39.707 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:12.754 39.707 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:12.856 39.808 V arg[airoha_task]=airoha_cmd
+10/23 09:50:12.856 39.808 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:12.856 39.808 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:12.856 39.808 V arg[device_name]=DUT_HEADSET
+10/23 09:50:12.856 39.808 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:12.856 39.808 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:12.856 39.808 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:12.856 39.808 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:12.856 39.808 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:12.956 39.909 V arg[airoha_task]=airoha_cmd
+10/23 09:50:12.956 39.909 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:12.956 39.909 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:12.956 39.909 V arg[device_name]=DUT_HEADSET
+10/23 09:50:12.956 39.909 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:12.956 39.909 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:12.956 39.909 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:12.956 39.909 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:12.956 39.909 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:13.057 40.010 V arg[airoha_task]=airoha_cmd
+10/23 09:50:13.057 40.010 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:13.057 40.010 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:13.057 40.010 V arg[device_name]=DUT_HEADSET
+10/23 09:50:13.057 40.010 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:13.057 40.010 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:13.057 40.010 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:13.057 40.010 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:13.057 40.010 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:13.158 40.110 V arg[airoha_task]=airoha_cmd
+10/23 09:50:13.158 40.110 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:13.158 40.110 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:13.158 40.110 V arg[device_name]=DUT_HEADSET
+10/23 09:50:13.158 40.110 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:13.158 40.110 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:13.158 40.110 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:13.158 40.110 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:13.158 40.110 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:13.258 40.211 V arg[airoha_task]=airoha_cmd
+10/23 09:50:13.258 40.211 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:13.258 40.211 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:13.258 40.211 V arg[device_name]=DUT_HEADSET
+10/23 09:50:13.258 40.211 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:13.258 40.211 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:13.258 40.211 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:13.258 40.211 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:13.258 40.211 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:13.359 40.312 V arg[airoha_task]=airoha_cmd
+10/23 09:50:13.359 40.312 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:13.359 40.312 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:13.359 40.312 V arg[device_name]=DUT_HEADSET
+10/23 09:50:13.359 40.312 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:13.359 40.312 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:13.359 40.312 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:13.359 40.312 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:13.359 40.312 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:13.426 40.379 V [log_file_sync]
+10/23 09:50:13.460 40.413 V arg[airoha_task]=airoha_cmd
+10/23 09:50:13.460 40.413 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:13.460 40.413 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:13.460 40.413 V arg[device_name]=DUT_HEADSET
+10/23 09:50:13.460 40.413 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:13.460 40.413 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:13.460 40.413 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:13.460 40.413 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:13.460 40.413 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:13.561 40.513 V arg[airoha_task]=airoha_cmd
+10/23 09:50:13.561 40.513 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:13.561 40.513 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:13.561 40.513 V arg[device_name]=DUT_HEADSET
+10/23 09:50:13.561 40.513 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:13.561 40.513 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:13.561 40.513 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:13.561 40.513 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:13.561 40.513 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:13.661 40.614 V arg[airoha_task]=airoha_cmd
+10/23 09:50:13.661 40.614 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:13.661 40.614 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:13.661 40.614 V arg[device_name]=DUT_HEADSET
+10/23 09:50:13.661 40.614 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:13.661 40.614 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:13.661 40.614 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:13.661 40.614 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:13.661 40.614 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:13.762 40.715 V arg[airoha_task]=airoha_cmd
+10/23 09:50:13.762 40.715 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:13.762 40.715 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:13.762 40.715 V arg[device_name]=DUT_HEADSET
+10/23 09:50:13.762 40.715 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:13.762 40.715 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:13.762 40.715 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:13.762 40.715 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:13.762 40.715 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:13.863 40.815 V arg[airoha_task]=airoha_cmd
+10/23 09:50:13.863 40.815 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:13.863 40.815 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:13.863 40.815 V arg[device_name]=DUT_HEADSET
+10/23 09:50:13.863 40.815 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:13.863 40.815 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:13.863 40.815 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:13.863 40.815 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:13.863 40.815 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:13.964 40.916 V arg[airoha_task]=airoha_cmd
+10/23 09:50:13.964 40.916 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:13.964 40.916 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:13.964 40.916 V arg[device_name]=DUT_HEADSET
+10/23 09:50:13.964 40.916 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:13.964 40.916 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:13.964 40.916 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:13.964 40.916 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:13.964 40.916 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:14.064 41.017 V arg[airoha_task]=airoha_cmd
+10/23 09:50:14.064 41.017 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:14.064 41.017 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:14.064 41.017 V arg[device_name]=DUT_HEADSET
+10/23 09:50:14.064 41.017 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:14.064 41.017 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:14.064 41.017 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:14.064 41.017 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:14.064 41.017 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:14.165 41.118 V arg[airoha_task]=airoha_cmd
+10/23 09:50:14.165 41.118 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:14.165 41.118 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:14.165 41.118 V arg[device_name]=DUT_HEADSET
+10/23 09:50:14.165 41.118 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:14.165 41.118 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:14.165 41.118 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:14.165 41.118 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:14.165 41.118 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:14.267 41.219 V arg[airoha_task]=airoha_cmd
+10/23 09:50:14.267 41.219 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:14.267 41.219 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:14.267 41.219 V arg[device_name]=DUT_HEADSET
+10/23 09:50:14.267 41.219 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:14.267 41.219 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:14.267 41.219 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:14.267 41.219 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:14.267 41.219 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:14.367 41.320 V arg[airoha_task]=airoha_cmd
+10/23 09:50:14.367 41.320 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:14.367 41.320 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:14.367 41.320 V arg[device_name]=DUT_HEADSET
+10/23 09:50:14.367 41.320 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:14.367 41.320 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:14.367 41.320 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:14.367 41.320 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:14.367 41.320 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:14.467 41.420 V arg[airoha_task]=airoha_cmd
+10/23 09:50:14.467 41.420 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:14.467 41.420 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:14.467 41.420 V arg[device_name]=DUT_HEADSET
+10/23 09:50:14.467 41.420 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:14.467 41.420 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:14.467 41.420 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:14.467 41.420 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:14.467 41.420 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:14.568 41.520 V arg[airoha_task]=airoha_cmd
+10/23 09:50:14.568 41.520 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:14.568 41.520 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:14.568 41.520 V arg[device_name]=DUT_HEADSET
+10/23 09:50:14.568 41.520 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:14.568 41.520 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:14.568 41.520 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:14.568 41.520 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:14.568 41.520 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:14.668 41.621 V arg[airoha_task]=airoha_cmd
+10/23 09:50:14.668 41.621 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:14.668 41.621 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:14.668 41.621 V arg[device_name]=DUT_HEADSET
+10/23 09:50:14.668 41.621 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:14.668 41.621 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:14.668 41.621 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:14.668 41.621 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:14.668 41.621 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:14.769 41.722 V arg[airoha_task]=airoha_cmd
+10/23 09:50:14.769 41.722 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:14.769 41.722 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:14.769 41.722 V arg[device_name]=DUT_HEADSET
+10/23 09:50:14.769 41.722 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:14.769 41.722 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:14.769 41.722 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:14.769 41.722 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:14.769 41.722 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:14.869 41.822 V arg[airoha_task]=airoha_cmd
+10/23 09:50:14.869 41.822 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:14.869 41.822 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:14.869 41.822 V arg[device_name]=DUT_HEADSET
+10/23 09:50:14.869 41.822 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:14.869 41.822 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:14.869 41.822 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:14.869 41.822 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:14.869 41.822 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:14.970 41.923 V arg[airoha_task]=airoha_cmd
+10/23 09:50:14.970 41.923 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:14.970 41.923 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:14.970 41.923 V arg[device_name]=DUT_HEADSET
+10/23 09:50:14.970 41.923 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:14.970 41.923 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:14.970 41.923 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:14.970 41.923 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:14.970 41.923 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:15.071 42.023 V arg[airoha_task]=airoha_cmd
+10/23 09:50:15.071 42.023 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:15.071 42.023 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:15.071 42.023 V arg[device_name]=DUT_HEADSET
+10/23 09:50:15.071 42.023 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:15.071 42.023 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:15.071 42.023 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:15.071 42.023 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:15.071 42.023 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:15.171 42.124 V arg[airoha_task]=airoha_cmd
+10/23 09:50:15.171 42.124 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:15.171 42.124 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:15.171 42.124 V arg[device_name]=DUT_HEADSET
+10/23 09:50:15.171 42.124 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:15.171 42.124 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:15.171 42.124 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:15.171 42.124 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:15.171 42.124 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:15.272 42.224 V arg[airoha_task]=airoha_cmd
+10/23 09:50:15.272 42.224 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:15.272 42.224 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:15.272 42.224 V arg[device_name]=DUT_HEADSET
+10/23 09:50:15.272 42.224 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:15.272 42.224 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:15.272 42.224 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:15.272 42.224 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:15.272 42.224 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:15.372 42.325 V arg[airoha_task]=airoha_cmd
+10/23 09:50:15.372 42.325 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:15.372 42.325 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:15.372 42.325 V arg[device_name]=DUT_HEADSET
+10/23 09:50:15.372 42.325 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:15.372 42.325 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:15.372 42.325 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:15.372 42.325 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:15.372 42.325 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:15.428 42.380 V [log_file_sync]
+10/23 09:50:15.473 42.426 V arg[airoha_task]=airoha_cmd
+10/23 09:50:15.473 42.426 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:15.473 42.426 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:15.473 42.426 V arg[device_name]=DUT_HEADSET
+10/23 09:50:15.473 42.426 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:15.473 42.426 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:15.473 42.426 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:15.473 42.426 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:15.473 42.426 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:15.573 42.526 V arg[airoha_task]=airoha_cmd
+10/23 09:50:15.573 42.526 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:15.573 42.526 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:15.573 42.526 V arg[device_name]=DUT_HEADSET
+10/23 09:50:15.573 42.526 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:15.573 42.526 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:15.573 42.526 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:15.573 42.526 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:15.573 42.526 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:15.674 42.627 V arg[airoha_task]=airoha_cmd
+10/23 09:50:15.674 42.627 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:15.674 42.627 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:15.674 42.627 V arg[device_name]=DUT_HEADSET
+10/23 09:50:15.674 42.627 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:15.674 42.627 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:15.674 42.627 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:15.674 42.627 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:15.674 42.627 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:15.775 42.728 V arg[airoha_task]=airoha_cmd
+10/23 09:50:15.775 42.728 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:15.775 42.728 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:15.775 42.728 V arg[device_name]=DUT_HEADSET
+10/23 09:50:15.775 42.728 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:15.775 42.728 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:15.775 42.728 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:15.775 42.728 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:15.775 42.728 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:15.876 42.828 V arg[airoha_task]=airoha_cmd
+10/23 09:50:15.876 42.828 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:15.876 42.828 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:15.876 42.828 V arg[device_name]=DUT_HEADSET
+10/23 09:50:15.876 42.828 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:15.876 42.828 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:15.876 42.828 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:15.876 42.828 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:15.876 42.828 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:15.977 42.930 V arg[airoha_task]=airoha_cmd
+10/23 09:50:15.977 42.930 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:15.977 42.930 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:15.977 42.930 V arg[device_name]=DUT_HEADSET
+10/23 09:50:15.977 42.930 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:15.977 42.930 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:15.977 42.930 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:15.977 42.930 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:15.977 42.930 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:16.078 43.030 V arg[airoha_task]=airoha_cmd
+10/23 09:50:16.078 43.030 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:16.078 43.030 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:16.078 43.030 V arg[device_name]=DUT_HEADSET
+10/23 09:50:16.078 43.030 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:16.078 43.030 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:16.078 43.030 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:16.078 43.030 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:16.078 43.030 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:16.178 43.131 V arg[airoha_task]=airoha_cmd
+10/23 09:50:16.178 43.131 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:16.178 43.131 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:16.178 43.131 V arg[device_name]=DUT_HEADSET
+10/23 09:50:16.178 43.131 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:16.178 43.131 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:16.178 43.131 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:16.178 43.131 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:16.178 43.131 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:16.278 43.231 V arg[airoha_task]=airoha_cmd
+10/23 09:50:16.278 43.231 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:16.278 43.231 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:16.278 43.231 V arg[device_name]=DUT_HEADSET
+10/23 09:50:16.278 43.231 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:16.278 43.231 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:16.278 43.231 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:16.278 43.231 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:16.278 43.231 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:16.379 43.332 V arg[airoha_task]=airoha_cmd
+10/23 09:50:16.379 43.332 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:16.379 43.332 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:16.379 43.332 V arg[device_name]=DUT_HEADSET
+10/23 09:50:16.379 43.332 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:16.379 43.332 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:16.379 43.332 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:16.379 43.332 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:16.379 43.332 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:16.480 43.433 V arg[airoha_task]=airoha_cmd
+10/23 09:50:16.480 43.433 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:16.480 43.433 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:16.480 43.433 V arg[device_name]=DUT_HEADSET
+10/23 09:50:16.480 43.433 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:16.480 43.433 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:16.480 43.433 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:16.480 43.433 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:16.480 43.433 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:16.581 43.534 V arg[airoha_task]=airoha_cmd
+10/23 09:50:16.581 43.534 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:16.581 43.534 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:16.581 43.534 V arg[device_name]=DUT_HEADSET
+10/23 09:50:16.581 43.534 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:16.581 43.534 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:16.581 43.534 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:16.581 43.534 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:16.581 43.534 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:16.682 43.634 V arg[airoha_task]=airoha_cmd
+10/23 09:50:16.682 43.634 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:16.682 43.634 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:16.682 43.634 V arg[device_name]=DUT_HEADSET
+10/23 09:50:16.682 43.634 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:16.682 43.634 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:16.682 43.634 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:16.682 43.634 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:16.682 43.634 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:16.782 43.735 V arg[airoha_task]=airoha_cmd
+10/23 09:50:16.782 43.735 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:16.782 43.735 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:16.782 43.735 V arg[device_name]=DUT_HEADSET
+10/23 09:50:16.782 43.735 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:16.782 43.735 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:16.782 43.735 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:16.782 43.735 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:16.782 43.735 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:16.883 43.836 V arg[airoha_task]=airoha_cmd
+10/23 09:50:16.883 43.836 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:16.883 43.836 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:16.883 43.836 V arg[device_name]=DUT_HEADSET
+10/23 09:50:16.883 43.836 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:16.883 43.836 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:16.883 43.836 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:16.883 43.836 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:16.883 43.836 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:16.984 43.937 V arg[airoha_task]=airoha_cmd
+10/23 09:50:16.984 43.937 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:16.984 43.937 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:16.984 43.937 V arg[device_name]=DUT_HEADSET
+10/23 09:50:16.984 43.937 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:16.984 43.937 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:16.984 43.937 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:16.984 43.937 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:16.984 43.937 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:17.085 44.038 V arg[airoha_task]=airoha_cmd
+10/23 09:50:17.085 44.038 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:17.085 44.038 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:17.085 44.038 V arg[device_name]=DUT_HEADSET
+10/23 09:50:17.085 44.038 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:17.085 44.038 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:17.085 44.038 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:17.085 44.038 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:17.085 44.038 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:17.186 44.139 V arg[airoha_task]=airoha_cmd
+10/23 09:50:17.186 44.139 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:17.186 44.139 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:17.186 44.139 V arg[device_name]=DUT_HEADSET
+10/23 09:50:17.186 44.139 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:17.186 44.139 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:17.186 44.139 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:17.186 44.139 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:17.186 44.139 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:17.287 44.240 V arg[airoha_task]=airoha_cmd
+10/23 09:50:17.287 44.240 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:17.287 44.240 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:17.287 44.240 V arg[device_name]=DUT_HEADSET
+10/23 09:50:17.287 44.240 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:17.287 44.240 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:17.287 44.240 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:17.287 44.240 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:17.287 44.240 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:17.388 44.341 V arg[airoha_task]=airoha_cmd
+10/23 09:50:17.388 44.341 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:17.388 44.341 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:17.388 44.341 V arg[device_name]=DUT_HEADSET
+10/23 09:50:17.388 44.341 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:17.388 44.341 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:17.388 44.341 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:17.388 44.341 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:17.388 44.341 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:17.430 44.383 V [log_file_sync]
+10/23 09:50:48.826 75.778 V arg[airoha_task]=airoha_cmd
+10/23 09:50:48.827 75.779 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 09:50:48.827 75.779 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 09:50:48.827 75.779 V arg[device_name]=DUT_HEADSET
+10/23 09:50:48.827 75.779 E [dev_mgr] device not found: DUT_HEADSET
+10/23 09:50:48.827 75.779 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/23 09:50:48.827 75.779 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 09:50:48.827 75.779 D [task_time][airoha_cmd] spend 0.000
+10/23 09:50:48.827 75.779 V [task_end][airoha_cmd] ------------------------------------------
+10/23 09:50:48.831 75.783 V [log_file_sync]
+10/23 09:50:58.087 85.040 V arg[airoha_task]=TaskUsbHidDongleHeadsetUartPairing
+10/23 09:50:58.087 85.040 V [task] TaskUsbHidDongleHeadsetUartPairing, class: UsbHidDongleHeadsetUartPairingTask
+10/23 09:50:58.087 85.040 V [task_start][TaskUsbHidDongleHeadsetUartPairing] +++++++++++++++++++++++
+10/23 09:50:58.087 85.040 V arg[minimum_battery_level]=30
+10/23 09:50:58.087 85.040 V arg[delay_for_boot]=2000
+10/23 09:50:58.087 85.040 V arg[is_check_boot_event]=true
+10/23 09:50:58.087 85.040 V arg[device_name_d]=DUT_DONGLE
+10/23 09:50:58.087 85.040 E [dev_mgr] device not found: DUT_DONGLE
+10/23 09:50:58.087 85.040 E [exception] usb_hid_dongle_headset_uart_pairing.cpp:149(-1): [TaskUsbHidDongleHeadsetUartPairing] device not found: DUT_DONGLE
+10/23 09:50:58.087 85.040 E [task] Fail to execute RunTask() of TaskUsbHidDongleHeadsetUartPairing object
+10/23 09:50:58.087 85.040 D [task_time][TaskUsbHidDongleHeadsetUartPairing] spend 0.000
+10/23 09:50:58.087 85.040 V [task_end][TaskUsbHidDongleHeadsetUartPairing] ------------------------------------------
+10/23 09:50:58.087 85.040 V [transact] result="fail"
+10/23 09:50:58.091 85.044 V [log_file_sync]

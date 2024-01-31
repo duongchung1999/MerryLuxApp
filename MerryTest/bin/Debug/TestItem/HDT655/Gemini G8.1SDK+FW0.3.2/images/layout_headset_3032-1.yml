@@ -1,0 +1,45 @@
+# number of partitions: 5
+# table address: 0xa00
+# max used size (including ssb and table): 256 KB
+# kl_ota_headset and kl_headset applications should have same layout files
+active_partition: 0
+layout_version: 0xff
+entries:
+    # partition_id 0
+    - name: "app"
+      type: firmware
+      base_address: 0xbf0
+      size: 0x3e400 # 249 KB
+      offsets:
+          - 0x0          # kl_app | 135 KB
+          - 0x21c10      # nxh_app | 65 KB
+          - 0x32010      # rfmac | 16 KB
+          - 0x36010      # cf | 33 KB
+    # partition_id 1
+    - name: "app_data"
+      type: appdata
+      base_address: 0x3f000
+      size: 0x400 # 1 KB
+      offsets:
+          - 0x0          # app_data | 1 KB
+    # partition_id 2
+    - name: "nxh_pers_data"
+      type: appdata
+      base_address: 0x3f400
+      size: 0x400 # 1 KB
+      offsets:
+          - 0x0          # nxh_pers_data | 1 KB
+    # partition_id 3
+    - name: "app_data_factry"
+      type: factoryreset
+      base_address: 0x3f800
+      size: 0x400 # 1 KB
+      offsets:
+          - 0x0          # app_data_factory | 1 KB
+    # partition_id 4
+    - name: "nxh_pers_factry"
+      type: factoryreset
+      base_address: 0x3fc00
+      size: 0x400 # 1 KB
+      offsets:
+          - 0x0          # nxh_persistent_data_factory | 1 KB

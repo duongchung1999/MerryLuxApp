@@ -1,0 +1,60 @@
+known_devices:
+  - pid: "0x3670"
+    name: "kl_dongle"
+    groups: ["dongle"]
+    device: "NXH3670"
+
+  - pid: "0x3671"
+    name: "kl_dongle_mix"
+    groups: ["dongle", "mixer"]
+    device: "NXH3670"
+
+  - pid: "0x3672"
+    name: "kl_headset"
+    groups: ["headset"]
+    device: "NXH3670"
+
+  - pid: "0x3678"
+    name: "kl_headset_usb"
+    groups: ["headset"]
+    device: "NXH3670"
+
+  - pid: "0x3677"
+    name: "kl_broadcaster"
+    groups: ["broadcaster"]
+    device: "NXH3670"
+
+  - pid: "0x3679"
+    name: "kl_observer"
+    groups: ["observer"]
+    device: "NXH3670"
+
+  - pid: "0x3673"
+    name: "kl_ota_dongle"
+    groups: []
+    device: "NXH3670"
+
+  - pid: "0x3674"
+    name: "kl_dongle_mouse"
+    groups: []
+    device: "NXH3670"
+
+  - pid: "0x3675"
+    name: "kl_multi_tool"
+    groups: []
+    device: "NXH3670"
+
+  - pid: "0x2004"
+    name: "KL_NXH2004"
+    groups: []
+    device: "NXH2004"
+    
+  - pid: "0x1743"
+    name: "Gemini_dongle"
+    groups: ["dongle"]
+    device: "NXH3670" 
+    
+  - pid: "0x1754"
+    name: "Gemini_headset"
+    groups: ["headset"]
+    device: "NXH3670"

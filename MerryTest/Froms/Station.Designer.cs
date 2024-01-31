@@ -75,9 +75,10 @@ namespace MerryTest.Froms
             // 
             // btn_Up
             // 
-            this.btn_Up.Location = new System.Drawing.Point(379, 212);
+            this.btn_Up.Location = new System.Drawing.Point(426, 283);
+            this.btn_Up.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_Up.Name = "btn_Up";
-            this.btn_Up.Size = new System.Drawing.Size(75, 47);
+            this.btn_Up.Size = new System.Drawing.Size(84, 63);
             this.btn_Up.TabIndex = 11;
             this.btn_Up.Text = "↑";
             this.btn_Up.UseVisualStyleBackColor = true;
@@ -85,9 +86,10 @@ namespace MerryTest.Froms
             // 
             // btn_Lower
             // 
-            this.btn_Lower.Location = new System.Drawing.Point(379, 283);
+            this.btn_Lower.Location = new System.Drawing.Point(426, 377);
+            this.btn_Lower.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_Lower.Name = "btn_Lower";
-            this.btn_Lower.Size = new System.Drawing.Size(75, 47);
+            this.btn_Lower.Size = new System.Drawing.Size(84, 63);
             this.btn_Lower.TabIndex = 12;
             this.btn_Lower.Text = "↓";
             this.btn_Lower.UseVisualStyleBackColor = true;
@@ -95,9 +97,10 @@ namespace MerryTest.Froms
             // 
             // btn_Dilite
             // 
-            this.btn_Dilite.Location = new System.Drawing.Point(379, 353);
+            this.btn_Dilite.Location = new System.Drawing.Point(426, 471);
+            this.btn_Dilite.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_Dilite.Name = "btn_Dilite";
-            this.btn_Dilite.Size = new System.Drawing.Size(75, 47);
+            this.btn_Dilite.Size = new System.Drawing.Size(84, 63);
             this.btn_Dilite.TabIndex = 13;
             this.btn_Dilite.Text = "删除";
             this.btn_Dilite.UseVisualStyleBackColor = true;
@@ -105,9 +108,10 @@ namespace MerryTest.Froms
             // 
             // btn_Inset
             // 
-            this.btn_Inset.Location = new System.Drawing.Point(379, 418);
+            this.btn_Inset.Location = new System.Drawing.Point(426, 557);
+            this.btn_Inset.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_Inset.Name = "btn_Inset";
-            this.btn_Inset.Size = new System.Drawing.Size(75, 47);
+            this.btn_Inset.Size = new System.Drawing.Size(84, 63);
             this.btn_Inset.TabIndex = 14;
             this.btn_Inset.Text = "插入";
             this.btn_Inset.UseVisualStyleBackColor = true;
@@ -115,26 +119,28 @@ namespace MerryTest.Froms
             // 
             // lb_testliem
             // 
-            this.lb_testliem.Font = new System.Drawing.Font("新細明體", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.lb_testliem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.lb_testliem.FormattingEnabled = true;
             this.lb_testliem.HorizontalScrollbar = true;
-            this.lb_testliem.ItemHeight = 18;
+            this.lb_testliem.ItemHeight = 26;
             this.lb_testliem.Items.AddRange(new object[] {
             "xx",
             "xx"});
-            this.lb_testliem.Location = new System.Drawing.Point(460, 12);
+            this.lb_testliem.Location = new System.Drawing.Point(518, 16);
+            this.lb_testliem.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.lb_testliem.Name = "lb_testliem";
-            this.lb_testliem.Size = new System.Drawing.Size(343, 562);
+            this.lb_testliem.Size = new System.Drawing.Size(385, 732);
             this.lb_testliem.TabIndex = 20;
             this.lb_testliem.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
+            this.lb_testliem.DoubleClick += new System.EventHandler(this.lb_testliem_DoubleClick);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label1.Location = new System.Drawing.Point(32, 215);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label1.Location = new System.Drawing.Point(36, 287);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(109, 20);
+            this.label1.Size = new System.Drawing.Size(121, 29);
             this.label1.TabIndex = 22;
             this.label1.Text = "项目名称：";
             this.toolTip1.SetToolTip(this.label1, "显示界面的测试名称\r\n名称包含：+\r\n测试失败也会执行\r\n名称包含：-\r\n在显示界面隐藏并执行");
@@ -142,10 +148,10 @@ namespace MerryTest.Froms
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label2.Location = new System.Drawing.Point(72, 272);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label2.Location = new System.Drawing.Point(81, 363);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(69, 20);
+            this.label2.Size = new System.Drawing.Size(73, 29);
             this.label2.TabIndex = 22;
             this.label2.Text = "延时：";
             this.toolTip1.SetToolTip(this.label2, "测试前延时");
@@ -153,10 +159,10 @@ namespace MerryTest.Froms
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label3.Location = new System.Drawing.Point(52, 325);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label3.Location = new System.Drawing.Point(58, 433);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(89, 20);
+            this.label3.Size = new System.Drawing.Size(97, 29);
             this.label3.TabIndex = 22;
             this.label3.Text = "继电器：";
             this.toolTip1.SetToolTip(this.label3, "延时前跳转继电器");
@@ -164,39 +170,40 @@ namespace MerryTest.Froms
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label4.Location = new System.Drawing.Point(72, 377);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label4.Location = new System.Drawing.Point(81, 503);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(69, 20);
+            this.label4.Size = new System.Drawing.Size(73, 29);
             this.label4.TabIndex = 22;
             this.label4.Text = "单位：";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label5.Location = new System.Drawing.Point(72, 485);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label5.Location = new System.Drawing.Point(81, 647);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(69, 20);
+            this.label5.Size = new System.Drawing.Size(73, 29);
             this.label5.TabIndex = 2;
             this.label5.Text = "上限：";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label6.Location = new System.Drawing.Point(72, 429);
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label6.Location = new System.Drawing.Point(81, 572);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(69, 20);
+            this.label6.Size = new System.Drawing.Size(73, 29);
             this.label6.TabIndex = 22;
             this.label6.Text = "下限：";
             // 
             // tb_ProjectName
             // 
-            this.tb_ProjectName.Font = new System.Drawing.Font("新細明體", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.tb_ProjectName.Location = new System.Drawing.Point(147, 210);
+            this.tb_ProjectName.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.tb_ProjectName.Location = new System.Drawing.Point(165, 280);
+            this.tb_ProjectName.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tb_ProjectName.Name = "tb_ProjectName";
-            this.tb_ProjectName.Size = new System.Drawing.Size(131, 35);
+            this.tb_ProjectName.Size = new System.Drawing.Size(147, 39);
             this.tb_ProjectName.TabIndex = 2;
             this.tb_ProjectName.Text = "MerryTE";
             this.tb_ProjectName.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Updata_KeyDown);
@@ -204,10 +211,10 @@ namespace MerryTest.Froms
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label7.Location = new System.Drawing.Point(32, 594);
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label7.Location = new System.Drawing.Point(36, 792);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(109, 20);
+            this.label7.Size = new System.Drawing.Size(121, 29);
             this.label7.TabIndex = 22;
             this.label7.Text = "执行结果：";
             this.toolTip1.SetToolTip(this.label7, "测试序号");
@@ -215,10 +222,10 @@ namespace MerryTest.Froms
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label9.Location = new System.Drawing.Point(72, 542);
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label9.Location = new System.Drawing.Point(81, 723);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(69, 20);
+            this.label9.Size = new System.Drawing.Size(73, 29);
             this.label9.TabIndex = 7;
             this.label9.Text = "方法：";
             this.toolTip1.SetToolTip(this.label9, "参照当前模板说明书");
@@ -226,9 +233,10 @@ namespace MerryTest.Froms
             // cb_Display
             // 
             this.cb_Display.AutoSize = true;
-            this.cb_Display.Location = new System.Drawing.Point(284, 210);
+            this.cb_Display.Location = new System.Drawing.Point(320, 280);
+            this.cb_Display.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cb_Display.Name = "cb_Display";
-            this.cb_Display.Size = new System.Drawing.Size(89, 19);
+            this.cb_Display.Size = new System.Drawing.Size(99, 24);
             this.cb_Display.TabIndex = 99;
             this.cb_Display.Text = "隐藏项目";
             this.toolTip1.SetToolTip(this.cb_Display, "在测试项目里隐藏");
@@ -238,9 +246,10 @@ namespace MerryTest.Froms
             // cb_execute
             // 
             this.cb_execute.AutoSize = true;
-            this.cb_execute.Location = new System.Drawing.Point(284, 235);
+            this.cb_execute.Location = new System.Drawing.Point(320, 313);
+            this.cb_execute.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cb_execute.Name = "cb_execute";
-            this.cb_execute.Size = new System.Drawing.Size(89, 19);
+            this.cb_execute.Size = new System.Drawing.Size(95, 24);
             this.cb_execute.TabIndex = 100;
             this.cb_execute.Text = "强制执行";
             this.toolTip1.SetToolTip(this.cb_execute, "执行失败也会执行此项");
@@ -249,9 +258,10 @@ namespace MerryTest.Froms
             // 
             // btn_StartRun
             // 
-            this.btn_StartRun.Location = new System.Drawing.Point(379, 152);
+            this.btn_StartRun.Location = new System.Drawing.Point(426, 203);
+            this.btn_StartRun.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_StartRun.Name = "btn_StartRun";
-            this.btn_StartRun.Size = new System.Drawing.Size(75, 47);
+            this.btn_StartRun.Size = new System.Drawing.Size(84, 63);
             this.btn_StartRun.TabIndex = 11;
             this.btn_StartRun.Text = "StartRun";
             this.toolTip1.SetToolTip(this.btn_StartRun, "单独执行右框选中的项目");
@@ -260,9 +270,10 @@ namespace MerryTest.Froms
             // 
             // Savs
             // 
-            this.Savs.Location = new System.Drawing.Point(379, 479);
+            this.Savs.Location = new System.Drawing.Point(426, 639);
+            this.Savs.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Savs.Name = "Savs";
-            this.Savs.Size = new System.Drawing.Size(75, 47);
+            this.Savs.Size = new System.Drawing.Size(84, 63);
             this.Savs.TabIndex = 14;
             this.Savs.Text = "Save";
             this.toolTip1.SetToolTip(this.Savs, "联网情况下即使保存测试项也会以数据库为准");
@@ -271,59 +282,65 @@ namespace MerryTest.Froms
             // 
             // tb_Sleep
             // 
-            this.tb_Sleep.Font = new System.Drawing.Font("新細明體", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.tb_Sleep.Location = new System.Drawing.Point(147, 264);
+            this.tb_Sleep.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.tb_Sleep.Location = new System.Drawing.Point(165, 352);
+            this.tb_Sleep.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tb_Sleep.Name = "tb_Sleep";
-            this.tb_Sleep.Size = new System.Drawing.Size(200, 35);
+            this.tb_Sleep.Size = new System.Drawing.Size(224, 39);
             this.tb_Sleep.TabIndex = 3;
             this.tb_Sleep.Text = "MerryTE";
             this.tb_Sleep.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Updata_KeyDown);
             // 
             // tb_switch
             // 
-            this.tb_switch.Font = new System.Drawing.Font("新細明體", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.tb_switch.Location = new System.Drawing.Point(147, 320);
+            this.tb_switch.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.tb_switch.Location = new System.Drawing.Point(165, 427);
+            this.tb_switch.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tb_switch.Name = "tb_switch";
-            this.tb_switch.Size = new System.Drawing.Size(200, 35);
+            this.tb_switch.Size = new System.Drawing.Size(224, 39);
             this.tb_switch.TabIndex = 4;
             this.tb_switch.Text = "MerryTE";
             this.tb_switch.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Updata_KeyDown);
             // 
             // tb_unit
             // 
-            this.tb_unit.Font = new System.Drawing.Font("新細明體", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.tb_unit.Location = new System.Drawing.Point(147, 372);
+            this.tb_unit.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.tb_unit.Location = new System.Drawing.Point(165, 496);
+            this.tb_unit.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tb_unit.Name = "tb_unit";
-            this.tb_unit.Size = new System.Drawing.Size(200, 35);
+            this.tb_unit.Size = new System.Drawing.Size(224, 39);
             this.tb_unit.TabIndex = 5;
             this.tb_unit.Text = "MerryTE";
             this.tb_unit.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Updata_KeyDown);
             // 
             // tb_LowerLimit
             // 
-            this.tb_LowerLimit.Font = new System.Drawing.Font("新細明體", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.tb_LowerLimit.Location = new System.Drawing.Point(147, 424);
+            this.tb_LowerLimit.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.tb_LowerLimit.Location = new System.Drawing.Point(165, 565);
+            this.tb_LowerLimit.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tb_LowerLimit.Name = "tb_LowerLimit";
-            this.tb_LowerLimit.Size = new System.Drawing.Size(200, 35);
+            this.tb_LowerLimit.Size = new System.Drawing.Size(224, 39);
             this.tb_LowerLimit.TabIndex = 6;
             this.tb_LowerLimit.Text = "MerryTE";
             this.tb_LowerLimit.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Updata_KeyDown);
             // 
             // tb_UpperLimit
             // 
-            this.tb_UpperLimit.Font = new System.Drawing.Font("新細明體", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.tb_UpperLimit.Location = new System.Drawing.Point(147, 480);
+            this.tb_UpperLimit.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.tb_UpperLimit.Location = new System.Drawing.Point(165, 640);
+            this.tb_UpperLimit.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tb_UpperLimit.Name = "tb_UpperLimit";
-            this.tb_UpperLimit.Size = new System.Drawing.Size(200, 35);
+            this.tb_UpperLimit.Size = new System.Drawing.Size(224, 39);
             this.tb_UpperLimit.TabIndex = 7;
             this.tb_UpperLimit.Text = "MerryTE";
             this.tb_UpperLimit.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Updata_KeyDown);
             // 
             // btn_Close
             // 
-            this.btn_Close.Location = new System.Drawing.Point(379, 537);
+            this.btn_Close.Location = new System.Drawing.Point(426, 716);
+            this.btn_Close.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_Close.Name = "btn_Close";
-            this.btn_Close.Size = new System.Drawing.Size(75, 47);
+            this.btn_Close.Size = new System.Drawing.Size(84, 63);
             this.btn_Close.TabIndex = 17;
             this.btn_Close.Text = "取消";
             this.btn_Close.UseVisualStyleBackColor = true;
@@ -332,29 +349,31 @@ namespace MerryTest.Froms
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label8.Location = new System.Drawing.Point(72, 645);
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label8.Location = new System.Drawing.Point(81, 860);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(69, 20);
+            this.label8.Size = new System.Drawing.Size(73, 29);
             this.label8.TabIndex = 7;
             this.label8.Text = "指令：";
             // 
             // tb_Order
             // 
-            this.tb_Order.Font = new System.Drawing.Font("新細明體", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.tb_Order.Location = new System.Drawing.Point(147, 630);
+            this.tb_Order.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.tb_Order.Location = new System.Drawing.Point(165, 840);
+            this.tb_Order.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tb_Order.Name = "tb_Order";
-            this.tb_Order.Size = new System.Drawing.Size(1086, 35);
+            this.tb_Order.Size = new System.Drawing.Size(1221, 39);
             this.tb_Order.TabIndex = 7;
             this.tb_Order.Text = "MerryTE";
             this.tb_Order.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Updata_KeyDown);
             // 
             // tb_way
             // 
-            this.tb_way.Font = new System.Drawing.Font("新細明體", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.tb_way.Location = new System.Drawing.Point(147, 537);
+            this.tb_way.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.tb_way.Location = new System.Drawing.Point(165, 716);
+            this.tb_way.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tb_way.Name = "tb_way";
-            this.tb_way.Size = new System.Drawing.Size(200, 35);
+            this.tb_way.Size = new System.Drawing.Size(224, 39);
             this.tb_way.TabIndex = 7;
             this.tb_way.Text = "MerryTE";
             this.tb_way.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Updata_KeyDown);
@@ -362,10 +381,10 @@ namespace MerryTest.Froms
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(56, 8);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Location = new System.Drawing.Point(63, 11);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(344, 137);
+            this.pictureBox1.Size = new System.Drawing.Size(387, 183);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 98;
             this.pictureBox1.TabStop = false;
@@ -373,10 +392,11 @@ namespace MerryTest.Froms
             // tb_result
             // 
             this.tb_result.BackColor = System.Drawing.Color.White;
-            this.tb_result.Font = new System.Drawing.Font("新細明體", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.tb_result.Location = new System.Drawing.Point(147, 589);
+            this.tb_result.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.tb_result.Location = new System.Drawing.Point(165, 785);
+            this.tb_result.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tb_result.Name = "tb_result";
-            this.tb_result.Size = new System.Drawing.Size(1086, 35);
+            this.tb_result.Size = new System.Drawing.Size(1221, 39);
             this.tb_result.TabIndex = 2;
             // 
             // listView1
@@ -385,15 +405,17 @@ namespace MerryTest.Froms
             this.testnumber,
             this.testname,
             this.testvalue});
-            this.listView1.Font = new System.Drawing.Font("微软雅黑", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.listView1.Font = new System.Drawing.Font("Microsoft YaHei", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.listView1.FullRowSelect = true;
             this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(890, 6);
+            this.listView1.Location = new System.Drawing.Point(1001, 8);
+            this.listView1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(343, 568);
+            this.listView1.Size = new System.Drawing.Size(385, 756);
             this.listView1.TabIndex = 101;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
+            this.listView1.DoubleClick += new System.EventHandler(this.listView1_DoubleClick);
             // 
             // testnumber
             // 
@@ -414,9 +436,10 @@ namespace MerryTest.Froms
             // 
             // btn_insetlist
             // 
-            this.btn_insetlist.Location = new System.Drawing.Point(809, 273);
+            this.btn_insetlist.Location = new System.Drawing.Point(910, 364);
+            this.btn_insetlist.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_insetlist.Name = "btn_insetlist";
-            this.btn_insetlist.Size = new System.Drawing.Size(75, 47);
+            this.btn_insetlist.Size = new System.Drawing.Size(84, 63);
             this.btn_insetlist.TabIndex = 13;
             this.btn_insetlist.Text = "→";
             this.btn_insetlist.UseVisualStyleBackColor = true;
@@ -424,9 +447,10 @@ namespace MerryTest.Froms
             // 
             // btn_diletelist
             // 
-            this.btn_diletelist.Location = new System.Drawing.Point(809, 380);
+            this.btn_diletelist.Location = new System.Drawing.Point(910, 507);
+            this.btn_diletelist.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_diletelist.Name = "btn_diletelist";
-            this.btn_diletelist.Size = new System.Drawing.Size(75, 47);
+            this.btn_diletelist.Size = new System.Drawing.Size(84, 63);
             this.btn_diletelist.TabIndex = 14;
             this.btn_diletelist.Text = "←";
             this.btn_diletelist.UseVisualStyleBackColor = true;
@@ -435,19 +459,21 @@ namespace MerryTest.Froms
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(76, 679);
+            this.dataGridView1.Location = new System.Drawing.Point(86, 905);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersVisible = false;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 27;
-            this.dataGridView1.Size = new System.Drawing.Size(1157, 319);
+            this.dataGridView1.Size = new System.Drawing.Size(1302, 425);
             this.dataGridView1.TabIndex = 102;
             // 
             // btn_ListStartRun
             // 
-            this.btn_ListStartRun.Location = new System.Drawing.Point(809, 173);
+            this.btn_ListStartRun.Location = new System.Drawing.Point(910, 231);
+            this.btn_ListStartRun.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btn_ListStartRun.Name = "btn_ListStartRun";
-            this.btn_ListStartRun.Size = new System.Drawing.Size(75, 47);
+            this.btn_ListStartRun.Size = new System.Drawing.Size(84, 63);
             this.btn_ListStartRun.TabIndex = 11;
             this.btn_ListStartRun.Text = "ListStartRun";
             this.btn_ListStartRun.UseVisualStyleBackColor = true;
@@ -455,9 +481,9 @@ namespace MerryTest.Froms
             // 
             // Station
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1311, 1007);
+            this.ClientSize = new System.Drawing.Size(1475, 1343);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.cb_execute);
@@ -493,6 +519,7 @@ namespace MerryTest.Froms
             this.Controls.Add(this.btn_StartRun);
             this.Controls.Add(this.btn_Up);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Station";
             this.Text = "Station";
             this.Load += new System.EventHandler(this.Station_Load);

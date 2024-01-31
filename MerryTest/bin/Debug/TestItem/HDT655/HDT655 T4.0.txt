@@ -1,0 +1,20 @@
+0,-等待连接(OnlyDongle),N/A,N/A,N/A,3,WaitingDongleConnected
+1,Dongle FW,N/A,V4.1.0.8.0,V4.1.0.8.0,1,GetDongleFW
+2,播放客户音乐,N/A,N/A,N/A,4,dllname=Audio&指令选择=PlayTest&装置名称=HyperX&选择音频=1&显示内容信息=播放敲门声音/Phát âm thanh gõ cửa
+3,播放宽频音乐,N/A,N/A,N/A,4,dllname=Audio&指令选择=PlayTest&装置名称=HyperX&选择音频=2&显示内容信息=播放宽频音乐/Phát âm thanh quét tần số
+4,播放音乐,N/A,N/A,N/A,4,dllname=Audio&指令选择=PlayTest&装置名称=HyperX&选择音频=0&显示内容信息=播放音乐测试/Kiểm tra phát nhạc
+5,录音,N/A,N/A,N/A,4,dllname=Audio&录音测试=RecordTest&装置名称=HyperX&显示内容信息=录音测试/Kiểm tra ghi âm&显示内容信息=播放录音/Phát âm thanh ghi âm
+6,电池版本AEC(ByDongle),N/A,AEC,AEC,1,GetBatteryConfigByDongle
+0,-1s,N/A,N/A,N/A,4,dllname=Common&Mode=sleep&Delay=1000
+7,电池电压,v,3.8,4.2,2,GetBatteryVoltage
+0,-RefreshPercentage,N/A,N/A,N/A,3,RefreshPercentage
+0,-1s,N/A,N/A,N/A,4,dllname=Common&Mode=sleep&Delay=1000
+8,电池电量,%,50,100,2,GetBatteryPercentage
+0,-Plug in TypeC Wire,N/A,N/A,N/A,6,	 dllname=Common&弹窗判断=forms&显示信息=请插线/Vui lòng cắm dây TypeC
+9,等待配对成功,N/A,N/A,N/A,3,WaitingConnected
+10,Headset FW,N/A,V3.1.0.8.0,V3.1.0.8.0,1,GetHeadsetFW
+11,重置设备,N/A,N/A,N/A,1,ResetDevic
+0,-1s,N/A,N/A,N/A,4,dllname=Common&Mode=sleep&Delay=1000
+0,-1s,N/A,N/A,N/A,4,dllname=Common&Mode=sleep&Delay=1000
+0,-等待连接(OnlyDongle),N/A,N/A,N/A,3,WaitingDongleConnected
+12,PowerOff(ByDongle),N/A,N/A,N/A,1,PowerOffByDongle

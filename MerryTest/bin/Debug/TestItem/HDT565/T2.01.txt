@@ -1,0 +1,12 @@
+﻿1,OpenLEDDongle_DyTest,N/A,N/A,N/A,1,OpenLEDDongle
+2,ReadDongleRGB_DyTest,N/A,N/A,N/A,3,ReadDongleRGB
+3,Read HanopticSensRGB NoCompare,N/A,N/A,N/A,3,GetHanopticSensRGB
+4,Read HanopticSensLux NoCompare,N/A,N/A,N/A,3,GetHanopticSensLux
+5,Read HanopticSens CieX NoCompare,N/A,N/A,N/A,3,GetHanopticSensCieX
+6,Read HanopticSens CieY NoCompare,N/A,N/A,N/A,3,GetHanopticSensCieY
+7,CallAdjustForm_DyTest,N/A,N/A,N/A,3,CallAdjustForm
+8,ReadDongleRGB_DyTest,N/A,N/A,N/A,3,ReadDongleRGB
+9,Dongle Led LUX,N/A,0,60,2,DongleLux
+10,Dongle Led CieX,N/A,0,20,2,Dongle_CoordinateX
+11,Dongle Led CieY,N/A,0,20,2,Dongle_CoordinateY
+0,-Confirm Dongle LED White,N/A,N/A,N/A,6,dllname=Common_V1&method=MessageBox&Message=Vui lòng xác nhận đèn LED dongle Màu Trắng.

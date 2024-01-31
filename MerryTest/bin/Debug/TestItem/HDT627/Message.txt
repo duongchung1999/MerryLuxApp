@@ -6,3 +6,4 @@ Record=录音中
 mi=mi_05
 MicMuteButtonTest=请将MICMute键恢复到非静音状态
 TestKnob=请将旋钮转至正中间
+OQC=1

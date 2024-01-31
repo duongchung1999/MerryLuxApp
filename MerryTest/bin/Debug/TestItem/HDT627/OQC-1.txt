@@ -1,0 +1,16 @@
+﻿1,PlayTest,N/A,N/A,N/A,6,dllname=Audio&指令选择=PlayTest&装置名称=G733&选择音频=0&显示内容信息=播放音乐测试/Kiểm tra phát nhạc
+2,AudioTest,N/A,N/A,N/A,6,dllname=Audio&method=Sidetone&显示内容信息=Nói vào mic 123; đồng thời nghe được 123 bình thường; sau đó nhấn nút mute
+3,GetVoltageByDongle,V,3.75,3.95,2,GetVoltageByDongle
+4,ConnectTypec,N/A,N/A,N/A,4,dllname=Common&method=Forms&显示信息=Vui lòng cắm cáp sạc tai nghe、请插入耳机充电线
+5,getFwByHeadset,N/A,V2.0.6,V2.0.6,1,getFwByHeadset
+6,getFwByDongle,N/A,V2.0.6,V2.0.6,1,getFwByDongle
+7,ChargingCurrentCheckHeadsetAssemblage,mA,100,500,5,dllname=_8342_V1&method=A_DC&NewRange=0.5&Count=1
+0,+-OpenHSUSB,N/A,N/A,N/A,1,OpenHSUSB
+8,GetColorIdByHeadSet,N/A,N/A,N/A,3,GetColorIdByHeadSet
+0,-2S,N/A,N/A,N/A,6,dllname=Common&method=Sleep&时间=2000
+0,-1S,N/A,N/A,N/A,6,dllname=Common&method=Sleep&时间=1000
+0,+-CloseHSUSB,N/A,N/A,N/A,1,CloseHSUSB
+9,+OpenDongleUSB,N/A,N/A,N/A,1,OpenDongleUSB
+10,GetColorIdByDongle,N/A,N/A,N/A,3,GetColorIdByDongle
+0,-2S,N/A,N/A,N/A,6,dllname=Common&method=Sleep&时间=2000
+11,+CloseDongleUSB,N/A,N/A,N/A,1,CloseDongleUSB

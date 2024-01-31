@@ -252,3 +252,17 @@ E:\2. MEVNSW\1_SourceCode\8_MerryApplication\MECH\MerryTest 2023.07.15\Z_AllDll\
 E:\2. MEVNSW\1_SourceCode\8_MerryApplication\MECH\MerryTest 2023.07.15\Z_AllDll\MES\MES\obj\Debug\MES.pdb
 E:\2. MEVNSW\1_SourceCode\8_MerryApplication\MECH\MerryTest 2023.07.15\Z_AllDll\MES\MES\bin\Debug\MES.xml
 E:\2. MEVNSW\1_SourceCode\8_MerryApplication\MECH\MerryTest 2023.07.15\Z_AllDll\MES\MES\obj\Debug\MES.csproj.AssemblyReference.cache
+E:\2. MEVNSW\1_SourceCode\8_MerryApplication\MECH\MerryAppGithub\Z_AllDll\MES\MES\bin\Debug\MES.xml
+E:\2. MEVNSW\1_SourceCode\8_MerryApplication\MECH\MerryAppGithub\Z_AllDll\MES\MES\bin\Debug\MES.dll
+E:\2. MEVNSW\1_SourceCode\8_MerryApplication\MECH\MerryAppGithub\Z_AllDll\MES\MES\bin\Debug\MES.pdb
+E:\2. MEVNSW\1_SourceCode\8_MerryApplication\MECH\MerryAppGithub\Z_AllDll\MES\MES\obj\Debug\MES.csproj.AssemblyReference.cache
+E:\2. MEVNSW\1_SourceCode\8_MerryApplication\MECH\MerryAppGithub\Z_AllDll\MES\MES\obj\Debug\MerryDllFramework.ChormeLogin.resources
+E:\2. MEVNSW\1_SourceCode\8_MerryApplication\MECH\MerryAppGithub\Z_AllDll\MES\MES\obj\Debug\MES.Form1.resources
+E:\2. MEVNSW\1_SourceCode\8_MerryApplication\MECH\MerryAppGithub\Z_AllDll\MES\MES\obj\Debug\MES.Messagebox.resources
+E:\2. MEVNSW\1_SourceCode\8_MerryApplication\MECH\MerryAppGithub\Z_AllDll\MES\MES\obj\Debug\MerryTest.MessageBoxs.resources
+E:\2. MEVNSW\1_SourceCode\8_MerryApplication\MECH\MerryAppGithub\Z_AllDll\MES\MES\obj\Debug\BD.ShowInformation.resources
+E:\2. MEVNSW\1_SourceCode\8_MerryApplication\MECH\MerryAppGithub\Z_AllDll\MES\MES\obj\Debug\MES.csproj.GenerateResource.cache
+E:\2. MEVNSW\1_SourceCode\8_MerryApplication\MECH\MerryAppGithub\Z_AllDll\MES\MES\obj\Debug\MES.csproj.CoreCompileInputs.cache
+E:\2. MEVNSW\1_SourceCode\8_MerryApplication\MECH\MerryAppGithub\Z_AllDll\MES\MES\obj\Debug\MES.csproj.CopyComplete
+E:\2. MEVNSW\1_SourceCode\8_MerryApplication\MECH\MerryAppGithub\Z_AllDll\MES\MES\obj\Debug\MES.dll
+E:\2. MEVNSW\1_SourceCode\8_MerryApplication\MECH\MerryAppGithub\Z_AllDll\MES\MES\obj\Debug\MES.pdb

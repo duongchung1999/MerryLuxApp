@@ -1,0 +1,44 @@
+# number of partitions: 5
+# table address: 0xa00
+# max used size (including ssb and table): 256 KB
+active_partition: 0
+layout_version: 0xff
+entries:
+    # partition_id 0
+    - name: "app"
+      type: firmware
+      base_address: 0xbf0
+      size: 0x3e400 # 249 KB
+      offsets:
+          - 0x0          # kl_app  | 119 KB (0x1DC10)
+          - 0x1DC10      # nxh_app | 69 KB  (0x11400)
+          - 0x2F010      # rfmac   | 16 KB  (0x04000)
+          - 0x33010      # cf      | 45 KB  (0x0B400)
+    # partition_id 1
+    - name: "app_data"
+      type: appdata
+      base_address: 0x3f000
+      size: 0x400 # 1 KB
+      offsets:
+          - 0x0          # app_data | 1 KB
+    # partition_id 2
+    - name: "nxh_pers_data"
+      type: appdata
+      base_address: 0x3f400
+      size: 0x400 # 1 KB
+      offsets:
+          - 0x0          # nxh_pers_data | 1 KB
+    # partition_id 3
+    - name: "app_data_factry"
+      type: factoryreset
+      base_address: 0x3f800
+      size: 0x400 # 1 KB
+      offsets:
+          - 0x0          # app_data_factory | 1 KB
+    # partition_id 4
+    - name: "nxh_pers_factry"
+      type: factoryreset
+      base_address: 0x3fc00
+      size: 0x400 # 1 KB
+      offsets:
+          - 0x0          # nxh_persistent_data_factory | 1 KB

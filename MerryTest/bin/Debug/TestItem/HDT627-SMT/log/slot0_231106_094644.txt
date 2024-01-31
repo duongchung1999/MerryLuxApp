@@ -1,0 +1,18 @@
+﻿11/06 09:46:44.699 0.004 I tool_version: 2.9.0/V2.9.0_20220114_081940/v2.9.2_2021_12_28_16_45_51/geneva-dev-maindev
+11/06 09:46:44.695 0.000 I SetLogLevel: 2
+11/06 09:46:44.695 0.000 D set log_level=2
+11/06 09:46:44.695 0.000 D [task_time][ToolLogLevel] spend 0.000
+11/06 09:46:44.695 0.000 V [task_end][ToolLogLevel] ------------------------------------------
+11/06 09:46:44.696 0.001 V arg[airoha_task]=DisconnectDUTByUsbHid
+11/06 09:46:44.696 0.001 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+11/06 09:46:44.696 0.001 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+11/06 09:46:44.696 0.001 V arg[device_name]=DUT_HEADSET
+11/06 09:46:44.696 0.001 V arg[device_type]=USB_HID
+11/06 09:46:44.696 0.001 V arg[action]=disconnect
+11/06 09:46:44.696 0.001 V arg[port]=
+11/06 09:46:44.696 0.001 D [UartDevice] Disconnect
+11/06 09:46:44.696 0.001 D [DisconnectDUTByUsbHid] disconnect: DUT_HEADSET(USB_HID)
+11/06 09:46:44.696 0.001 D [task_time][DisconnectDUTByUsbHid] spend 0.000
+11/06 09:46:44.696 0.001 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+11/06 09:46:44.697 0.002 V [transact] result="pass"
+11/06 09:46:46.702 2.007 V [log_file_sync]

@@ -1,0 +1,31 @@
+﻿1,UID,N/A,N/A,N/A,6,dllname=MES&method=UID_Master&SMT_Flag=True&PN_Name=NULL
+0,-V1 Lock 1,N/A,N/A,N/A,6,dllname=Common_V1&method=LockItem&number=1
+0,-UidDongle|1000|4.2.5.6,N/A,NA,NA,6,dllname=_8342_V1&method=A_DC&NewRange=0.5&Count=1
+0,-2S,N/A,N/A,N/A,6,dllname=Common&method=Sleep&时间=2000
+0,-1S,N/A,N/A,N/A,6,dllname=Common&method=Sleep&时间=1000
+0,-1S,N/A,N/A,N/A,6,dllname=Common&method=Sleep&时间=1000
+2,getFwByDongle,N/A,N/A,N/A,3,getFwByDongle
+3,OpenDongleUSB,N/A,N/A,N/A,1,OpenDongleUSB
+4,SetPCBASNByDongle,N/A,N/A,N/A,3,SetPCBASNByDongle
+5,GetPCBASNByDongle,N/A,N/A,N/A,3,GetPCBASNByDongle
+6,+CloseDongleUSB,N/A,N/A,N/A,1,CloseDongleUSB
+0,+-resetSW,NA,NA,NA,6,dllname=Switch&继电器跳转=0
+0,-+V1 unlock 1,N/A,N/A,N/A,6,dllname=Common_V1&method=UnlockItem&number=1
+0,-2S,N/A,N/A,N/A,6,dllname=Common&method=Sleep&时间=2000
+0,-0.3s,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=300
+0,+-V1 AwaitThread 1,N/A,N/A,N/A,6,dllname=Common_V1&method=AwaitThreads&number=1
+0,-UidDongle|1000|4.2.5.6,N/A,NA,NA,6,dllname=_8342_V1&method=A_DC&NewRange=0.5&Count=1
+7,PowerOnCurrentDongle|1000|4.2.5.6,mA,10,23,5,dllname=_8342_V1&method=A_DC&NewRange=0.5&Count=1
+0,-0.3s,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=300
+0,-2S,N/A,N/A,N/A,6,dllname=Common&method=Sleep&时间=2000
+0,-跳继电器测休眠电流,N/A,N/A,N/A,6,dllname=Switch&继电器跳转=4.2.5
+8,suspendCurrentDongle|5000,mA,1,3.12,5,dllname=_8342_V1&method=A_DC&NewRange=0.5&Count=1
+9,VbusDongle|500|3.1.5.6.7,V,4.75,5.25,5,dllname=_8342_V1&method=V_DC&NewRange=15&Count=1
+10,VsysDongle|500|3.1.5.6.8,V,4.37,4.83,5,dllname=_8342_V1&method=V_DC&NewRange=15&Count=1
+11,Vrf_ldoDongle|500|3.1.5.6.9,V,1.0,1.2,5,dllname=_8342_V1&method=V_DC&NewRange=5&Count=1
+12,VDD33Dongle|500|3.1.5.6.13,V,3.2,3.4,5,dllname=_8342_V1&method=V_DC&NewRange=5&Count=1
+13,OvCoreDongle|500|3.1.5.6.10,V,0.84,0.99,5,dllname=_8342_V1&method=V_DC&NewRange=5&Count=1
+14,OVIO18Dongle|500|3.1.5.6.11,N/A,1.61,2.05,5,dllname=_8342_V1&method=V_DC&NewRange=5&Count=1
+15,SetLEDSolidOnByDongle,N/A,N/A,N/A,3,SetLEDSolidOnByDongle
+16,Led1Dongle|2000|3.1.5.6.12,V,2.25,2.85,5,dllname=_8342_V1&method=V_DC&NewRange=5&Count=1
+0,+-resetSW,NA,NA,NA,6,dllname=Switch&继电器跳转=0

@@ -1,0 +1,27 @@
+﻿0,-SET VBAT3.8V,N/A,N/A,N/A,6,dllname=MB1205C&method=SetVoltage&Voltage=3820
+0,-Connect UID,N/A,N/A,N/A,6,dllname=Switch&继电器跳转=1.3.4.5.6
+0,-2S,N/A,N/A,N/A,6,dllname=Common&method=Sleep&时间=2000
+0,-4S,N/A,N/A,N/A,6,dllname=Common&method=Sleep&时间=4000
+1,UID,N/A,N/A,N/A,6,dllname=MES&GetBD=LogiUID&HeadSN=2&ID=2&SN=2
+2,getFwByHeadset,N/A,V1.0.12,V1.0.12,1,getFwByHeadset
+0,+-OpenHSUSB,N/A,N/A,N/A,1,OpenHSUSB
+3,SetPCBASNByHeadSet,N/A,N/A,N/A,3,SetPCBASNByHeadSet
+4,GetPCBASNByHeadSet,N/A,N/A,N/A,3,GetPCBASNByHeadSet
+0,-+CloseHSUSB,N/A,N/A,N/A,1,CloseHSUSB
+5,VSYS|3000|4.5.6.7.8.16,V,3.7,3.9,5,dllname=_8342&method=V_DC&量程=5
+6,VDD33|3000|2.4.5.6.7.9.16,V,3.2,3.4,5,dllname=_8342&method=V_DC&量程=5
+7,VBAT|3000|6.7.10.16,V,3.75,3.95,5,dllname=_8342&method=V_DC&量程=5
+8,RESET|3000|2.4.5.6.7.11.16,V,1.62,1.98,5,dllname=_8342&method=V_DC&量程=5
+9,AB1565_EN|3000|2.4.5.6.7.12.15.16,V,4.75,5.25,5,dllname=_8342&method=V_DC&量程=15
+10,OVCORE|3000|2.4.5.6.7.13.16,V,0.7,0.9,5,dllname=_8342&method=V_DC&量程=5
+11,OVIO18|3000|2.4.5.6.7.14.16,V,1.61,2.05,5,dllname=_8342&method=V_DC&量程=5
+0,+-RESET SW lianban,NA,NA,NA,6,dllname=Switch&继电器跳转=0
+0,-Dau  connect USB&Vbat Charge|2000|2.4.5.6.17.18,NA,NA,NA,6,dllname=Common&method=Sleep&时间=1000
+0,+-OpenHSUSB,N/A,N/A,N/A,1,OpenHSUSB
+0,-HeadsetPowerOn,N/A,N/A,N/A,3,HeadsetPowerOn
+0,-+CloseHSUSB,N/A,N/A,N/A,1,CloseHSUSB
+12,Dau  Power on Current |3000|17.18,mA,1,6,5,dllname=_8342&method=A_DC&量程=5
+0,+-RESET SW lianban,NA,NA,NA,6,dllname=Switch&继电器跳转=0
+0,-set vbat 3730,N/A,N/A,N/A,6,dllname=MB1205C&method=SetVoltage&Voltage=3730
+13,Dau  Fast_charge |3000|1.3.4.5.6.10.16,mA,370,500,5,dllname=_8342&method=A_DC&量程=5
+0,+-RESET SW lianban,NA,NA,NA,6,dllname=Switch&继电器跳转=0

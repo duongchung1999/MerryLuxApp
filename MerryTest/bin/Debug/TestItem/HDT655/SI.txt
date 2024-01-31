@@ -1,0 +1,12 @@
+0,-等待连接(OnlyDongle),N/A,N/A,N/A,3,WaitingDongleConnected
+1,电池电压,v,3.8,4.2,2,GetBatteryVoltage
+0,-RefreshPercentage,N/A,N/A,N/A,3,RefreshPercentage
+0,-Waiting 1s,N/A,N/A,N/A,6,dllname=Common&Method=sleep&Time=1000
+2,电池电量,%,50,100,2,GetBatteryPercentage
+0,-Plug Type-C wire,N/A,N/A,N/A,6,dllname=Common&Method=forms&Notification=Please plug in Type-C wire/ Vui lòng cắm dây Type-C
+3,Headset PIDVID,N/A,0x0B8D&0x03F0,0x0B8D&0x03F0,1,GetHeadsetPV
+4,电池类型AEC,N/A,AEC,AEC,1,GetBatteryConfig
+5,Dongle FW,N/A,V4.1.0.8.0,V4.1.0.8.0,1,GetDongleFW
+0,-Waiting 1s,N/A,N/A,N/A,6,dllname=Common&Method=sleep&Time=1000
+6,Headset FW,N/A,V3.1.0.8.0,V3.1.0.8.0,1,GetHeadsetFW
+7,等待配对成功,N/A,N/A,N/A,3,WaitingConnected

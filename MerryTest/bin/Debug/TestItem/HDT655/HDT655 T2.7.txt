@@ -1,0 +1,14 @@
+﻿0,-等待连接(OnlyDongle),N/A,N/A,N/A,3,WaitingDongleConnected
+1,音量下调,N/A,N/A,N/A,1,VolumeDown
+2,音量上调,N/A,N/A,N/A,1,VolumeUp
+3,播放音乐,N/A,N/A,N/A,4,dllname=Audio&指令选择=PlayTest&装置名称=HyperX&选择音频=0&显示内容信息=播放音乐测试/Kiểm tra phát nhạc
+4,播放客户音乐,N/A,N/A,N/A,4,dllname=Audio&指令选择=PlayTest&装置名称=HyperX&选择音频=1&显示内容信息=播放敲门声音/Phát âm thanh gõ cửa
+5,播放宽频音乐,N/A,N/A,N/A,4,dllname=Audio&指令选择=PlayTest&装置名称=HyperX&选择音频=2&显示内容信息=播放宽频音乐/Phát âm thanh quét tần số
+6,录音,N/A,N/A,N/A,4,dllname=Audio&录音测试=RecordTest&装置名称=HyperX&显示内容信息=录音测试/Kiểm tra ghi âm&显示内容信息=播放录音/Phát âm thanh ghi âm
+7,电池版本AEC(ByDongle),N/A,AEC,AEC,1,GetBatteryConfigByDongle
+0,-1s,N/A,N/A,N/A,4,dllname=Common&Mode=sleep&Delay=1000
+8,电池电压,v,3.8,4.2,2,GetBatteryVoltage
+0,-RefreshPercentage,N/A,N/A,N/A,3,RefreshPercentage
+0,-1s,N/A,N/A,N/A,4,dllname=Common&Mode=sleep&Delay=1000
+9,电池电量,%,50,100,2,GetBatteryPercentage
+0,-s,N/A,N/A,N/A,6,dllname=Common&延时=sleep&时间=200

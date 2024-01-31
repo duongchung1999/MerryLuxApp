@@ -1,0 +1,127 @@
+﻿0,-1S,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=1000
+1,检查 Headset Master Flag 4,N/A,4,11,2,ReadHeadsetMasterFlag
+2,检查耳机右耳 SN,N/A,N/A,N/A,3,Headset_Check_Master_SN
+3,Master Read LED Calibration,N/A,N/A,N/A,3,MasterReadLEDCalibration
+4,Slave Read LED Calibration,N/A,N/A,N/A,3,SlaveReadLEDCalibration
+0,-Switch R G B Mode,N/A,N/A,N/A,6,dllname=HanOpticSens_V1&RGB 红绿蓝单色灯=SwictTargetSingleRGB&串口=COM11&Channle=1
+5,Headset 红色 LED,N/A,N/A,N/A,3,HeadsetREDLEDOpen
+0,-1S,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=1000
+6,R Red1 LUX COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&亮度=lux&串口=COM11&Channle=1
+7,L Red1 LUX COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&亮度=lux&串口=COM11&Channle=7
+8,R Red2 LUX COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&亮度=lux&串口=COM11&Channle=2
+9,L Red2 LUX COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&亮度=lux&串口=COM11&Channle=8
+10,R Red3 LUX COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&亮度=lux&串口=COM11&Channle=3
+11,L Red3 LUX COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&亮度=lux&串口=COM11&Channle=9
+12,R Red4 LUX COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&亮度=lux&串口=COM11&Channle=4
+13,L Red4 LUX COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&亮度=lux&串口=COM11&Channle=10
+14,R Red5 LUX COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&亮度=lux&串口=COM11&Channle=5
+15,L Red5 LUX COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&亮度=lux&串口=COM11&Channle=11
+16,R Red6 LUX COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&亮度=lux&串口=COM11&Channle=6
+17,L Red6 LUX COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&亮度=lux&串口=COM11&Channle=12
+18,R Red1 wave COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&wave=dowave&串口=COM11&Channle=1
+19,L Red1 wave COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&wave=dowave&串口=COM11&Channle=7
+20,R Red2 wave COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&wave=dowave&串口=COM11&Channle=2
+21,L Red2 wave COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&wave=dowave&串口=COM11&Channle=8
+22,R Red3 wave COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&wave=dowave&串口=COM11&Channle=3
+23,L Red3 wave COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&wave=dowave&串口=COM11&Channle=9
+24,R Red4 wave COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&wave=dowave&串口=COM11&Channle=4
+25,L Red4 wave COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&wave=dowave&串口=COM11&Channle=10
+26,R Red5 wave COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&wave=dowave&串口=COM11&Channle=5
+27,L Red5 wave COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&wave=dowave&串口=COM11&Channle=11
+28,R Red6 wave COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&wave=dowave&串口=COM11&Channle=6
+29,L Red6 wave COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&wave=dowave&串口=COM11&Channle=12
+30,Headset 绿色 LED,N/A,N/A,N/A,3,HeadsetGreenLEDOpen
+0,-1S,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=1000
+0,-1S,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=1000
+31,R Green1 LUX COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&亮度=lux&串口=COM11&Channle=1
+32,L Green1 LUX COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&亮度=lux&串口=COM11&Channle=7
+33,R Green2 LUX COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&亮度=lux&串口=COM11&Channle=2
+34,L Green2 LUX COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&亮度=lux&串口=COM11&Channle=8
+35,R Green3 LUX COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&亮度=lux&串口=COM11&Channle=3
+36,L Green3 LUX COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&亮度=lux&串口=COM11&Channle=9
+37,R Green4 LUX COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&亮度=lux&串口=COM11&Channle=4
+38,L Green4 LUX COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&亮度=lux&串口=COM11&Channle=10
+39,R Green5 LUX COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&亮度=lux&串口=COM11&Channle=5
+40,L Green5 LUX COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&亮度=lux&串口=COM11&Channle=11
+41,R Green6 LUX COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&亮度=lux&串口=COM11&Channle=6
+42,L Green6 LUX COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&亮度=lux&串口=COM11&Channle=12
+43,R Green1 wave COMPENS_PERCENT,N/A,200,1000,5,dllname=HanOpticSens_V1&wave=dowave&串口=COM11&Channle=1
+44,L Green1 wave COMPENS_PERCENT,N/A,200,1000,5,dllname=HanOpticSens_V1&wave=dowave&串口=COM11&Channle=7
+45,R Green2 wave COMPENS_PERCENT,N/A,200,1000,5,dllname=HanOpticSens_V1&wave=dowave&串口=COM11&Channle=2
+46,L Green2 wave COMPENS_PERCENT,N/A,200,1000,5,dllname=HanOpticSens_V1&wave=dowave&串口=COM11&Channle=8
+47,R Green3 wave COMPENS_PERCENT,N/A,200,1000,5,dllname=HanOpticSens_V1&wave=dowave&串口=COM11&Channle=3
+48,L Green3 wave COMPENS_PERCENT,N/A,200,1000,5,dllname=HanOpticSens_V1&wave=dowave&串口=COM11&Channle=9
+49,R Green4 wave COMPENS_PERCENT,N/A,200,1000,5,dllname=HanOpticSens_V1&wave=dowave&串口=COM11&Channle=4
+50,L Green4 wave COMPENS_PERCENT,N/A,200,1000,5,dllname=HanOpticSens_V1&wave=dowave&串口=COM11&Channle=10
+51,R Green5 wave COMPENS_PERCENT,N/A,200,1000,5,dllname=HanOpticSens_V1&wave=dowave&串口=COM11&Channle=5
+52,L Green5 wave COMPENS_PERCENT,N/A,200,1000,5,dllname=HanOpticSens_V1&wave=dowave&串口=COM11&Channle=11
+53,R Green6 wave COMPENS_PERCENT,N/A,200,1000,5,dllname=HanOpticSens_V1&wave=dowave&串口=COM11&Channle=6
+54,L Green6 wave COMPENS_PERCENT,N/A,200,1000,5,dllname=HanOpticSens_V1&wave=dowave&串口=COM11&Channle=12
+55,Headset 蓝色 LED,N/A,N/A,N/A,3,HeadsetBlueLEDOpen
+0,-1S,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=1000
+56,R blue1 LUX COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&亮度=lux&串口=COM11&Channle=1
+57,L blue1 LUX COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&亮度=lux&串口=COM11&Channle=7
+58,R blue2 LUX COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&亮度=lux&串口=COM11&Channle=2
+59,L blue2 LUX COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&亮度=lux&串口=COM11&Channle=8
+60,R blue3 LUX COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&亮度=lux&串口=COM11&Channle=3
+61,L blue3 LUX COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&亮度=lux&串口=COM11&Channle=9
+62,R blue4 LUX COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&亮度=lux&串口=COM11&Channle=4
+63,L blue4 LUX COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&亮度=lux&串口=COM11&Channle=10
+64,R blue5 LUX COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&亮度=lux&串口=COM11&Channle=5
+65,L blue5 LUX COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&亮度=lux&串口=COM11&Channle=11
+66,R blue6 LUX COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&亮度=lux&串口=COM11&Channle=6
+67,L blue6 LUX COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&亮度=lux&串口=COM11&Channle=12
+68,R blue1 wave COMPENS_PERCENT,N/A,200,1000,5,dllname=HanOpticSens_V1&wave=dowave&串口=COM11&Channle=1
+69,L blue1 wave COMPENS_PERCENT,N/A,200,1000,5,dllname=HanOpticSens_V1&wave=dowave&串口=COM11&Channle=7
+70,R blue2 wave COMPENS_PERCENT,N/A,200,1000,5,dllname=HanOpticSens_V1&wave=dowave&串口=COM11&Channle=2
+71,L blue2 wave COMPENS_PERCENT,N/A,200,1000,5,dllname=HanOpticSens_V1&wave=dowave&串口=COM11&Channle=8
+72,R blue3 wave COMPENS_PERCENT,N/A,200,1000,5,dllname=HanOpticSens_V1&wave=dowave&串口=COM11&Channle=3
+73,L blue3 wave COMPENS_PERCENT,N/A,200,1000,5,dllname=HanOpticSens_V1&wave=dowave&串口=COM11&Channle=9
+74,R blue4 wave COMPENS_PERCENT,N/A,200,1000,5,dllname=HanOpticSens_V1&wave=dowave&串口=COM11&Channle=4
+75,L blue4 wave COMPENS_PERCENT,N/A,200,1000,5,dllname=HanOpticSens_V1&wave=dowave&串口=COM11&Channle=10
+76,R blue5 wave COMPENS_PERCENT,N/A,200,1000,5,dllname=HanOpticSens_V1&wave=dowave&串口=COM11&Channle=5
+77,L blue5 wave COMPENS_PERCENT,N/A,200,1000,5,dllname=HanOpticSens_V1&wave=dowave&串口=COM11&Channle=11
+78,R blue6 wave COMPENS_PERCENT,N/A,200,1000,5,dllname=HanOpticSens_V1&wave=dowave&串口=COM11&Channle=6
+79,L blue6 wave COMPENS_PERCENT,N/A,200,1000,5,dllname=HanOpticSens_V1&wave=dowave&串口=COM11&Channle=12
+80,Headset 白色LED,N/A,N/A,N/A,3,HeadsetWhiteLEDOpen
+0,-CCT Mode,N/A,N/A,N/A,6,dllname=HanOpticSens_V1&method=SwictTargetWhiteCCT&Port=COM11
+81,White Balance,N/A,N/A,N/A,6,dllname=HanOpticSens_V1&白平衡模式=SwictTargetWhite&串口=COM11&Channle=1
+0,-1S,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=1000
+82,R white1 LUX COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&亮度=lux&串口=COM11&Channle=1
+83,L white1 LUX COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&亮度=lux&串口=COM11&Channle=7
+84,R white2 LUX COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&亮度=lux&串口=COM11&Channle=2
+85,L white2 LUX COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&亮度=lux&串口=COM11&Channle=8
+86,R white3 LUX COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&亮度=lux&串口=COM11&Channle=3
+87,L white3 LUX COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&亮度=lux&串口=COM11&Channle=9
+88,R white4 LUX COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&亮度=lux&串口=COM11&Channle=4
+89,L white4 LUX COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&亮度=lux&串口=COM11&Channle=10
+90,R white5 LUX COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&亮度=lux&串口=COM11&Channle=5
+91,L white5 LUX COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&亮度=lux&串口=COM11&Channle=11
+92,R white6 LUX COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&亮度=lux&串口=COM11&Channle=6
+93,L white6 LUX COMPENS_PERCENT,N/A,0,1000,5,dllname=HanOpticSens_V1&亮度=lux&串口=COM11&Channle=12
+94,R White 1 CCT,N/A,5500,8500,5,dllname=HanOpticSens_V1&method=r_chromaCCT&Port=COM11&Channel=1
+0,-存储测试值,N/A,N/A,N/A,3,ColorDifference
+95,L White 1 CCT,N/A,5500,8500,5,dllname=HanOpticSens_V1&method=r_chromaCCT&Port=COM11&Channel=7
+96,ColorDifferenceTest W1,,-1650,1650,3,ColorDifferenceTest-1-7-1850
+97,R White 2 CCT,N/A,5500,8500,5,dllname=HanOpticSens_V1&method=r_chromaCCT&Port=COM11&Channel=2
+0,-存储测试值,N/A,N/A,N/A,3,ColorDifference
+98,L White 2 CCT,N/A,5500,8500,5,dllname=HanOpticSens_V1&method=r_chromaCCT&Port=COM11&Channel=8
+99,ColorDifferenceTest W2,N/A,-1650,1650,3,ColorDifferenceTest-2-8-1850
+100,R White 3 CCT,N/A,5500,8500,5,dllname=HanOpticSens_V1&method=r_chromaCCT&Port=COM11&Channel=3
+0,-存储测试值,N/A,N/A,N/A,3,ColorDifference
+101,L White 3 CCT,N/A,5500,8500,5,dllname=HanOpticSens_V1&method=r_chromaCCT&Port=COM11&Channel=9
+102,ColorDifferenceTest W3,N/A,-1650,1650,3,ColorDifferenceTest-3-9-1850
+103,R White 4 CCT,N/A,5500,8500,5,dllname=HanOpticSens_V1&method=r_chromaCCT&Port=COM11&Channel=4
+0,-存储测试值,N/A,N/A,N/A,3,ColorDifference
+104,L White 4 CCT,N/A,5500,8500,5,dllname=HanOpticSens_V1&method=r_chromaCCT&Port=COM11&Channel=10
+105,ColorDifferenceTest W4,N/A,-1650,1650,3,ColorDifferenceTest-4-10-1850
+106,R White 5 CCT,N/A,5500,8500,5,dllname=HanOpticSens_V1&method=r_chromaCCT&Port=COM11&Channel=5
+0,-存储测试值,N/A,N/A,N/A,3,ColorDifference
+107,L White 5 CCT,N/A,5500,8500,5,dllname=HanOpticSens_V1&method=r_chromaCCT&Port=COM11&Channel=11
+108,ColorDifferenceTest W5,N/A,-1650,1650,3,ColorDifferenceTest-5-11-1850
+109,R White 6 CCT,N/A,5500,8500,5,dllname=HanOpticSens_V1&method=r_chromaCCT&Port=COM11&Channel=6
+0,-存储测试值,N/A,N/A,N/A,3,ColorDifference
+110,L White 6 CCT,N/A,5500,8500,5,dllname=HanOpticSens_V1&method=r_chromaCCT&Port=COM11&Channel=12
+111,ColorDifferenceTest W6,N/A,-1650,1650,3,ColorDifferenceTest-6-12-1850
+112,写 Headset Master Flag 5,N/A,N/A,N/A,3,WriteHeadsetMasterFlag-5
+113,检查 Headset Master Flag 5,N/A,3,11,2,ReadHeadsetMasterFlag

@@ -1,0 +1,35 @@
+2024-01-30 16:45:37-checkEmpNo==>>Execute Start
+2024-01-30 16:45:37-checkEmpNo==>>Param【EMP】【91201975】
+2024-01-30 16:45:37-checkEmpNo==>>Param【STATION】【T1.31】
+2024-01-30 16:45:37-checkEmpNo==>>Result【OK;】 - Exectue Total【23】ms 
+2024-01-30 16:45:37-GetPart==>>Execute Start
+2024-01-30 16:45:37-GetPart==>>Param【WO】【001100442375】
+2024-01-30 16:45:37-GetPart==>>Result【85X627019000】 - Exectue Total【9】ms 
+2024-01-30 16:50:26-checkEmpNo==>>Execute Start
+2024-01-30 16:50:26-checkEmpNo==>>Param【EMP】【91201975】
+2024-01-30 16:50:26-checkEmpNo==>>Param【STATION】【T1.31】
+2024-01-30 16:50:26-checkEmpNo==>>Result【OK;】 - Exectue Total【19】ms 
+2024-01-30 16:50:26-GetPart==>>Execute Start
+2024-01-30 16:50:26-GetPart==>>Param【WO】【001100442375】
+2024-01-30 16:50:26-GetPart==>>Result【85X627019000】 - Exectue Total【10】ms 
+2024-01-30 16:54:01-checkEmpNo==>>Execute Start
+2024-01-30 16:54:01-checkEmpNo==>>Param【EMP】【91201975】
+2024-01-30 16:54:01-checkEmpNo==>>Param【STATION】【T1.31】
+2024-01-30 16:54:01-checkEmpNo==>>Result【OK;】 - Exectue Total【23】ms 
+2024-01-30 16:54:01-GetPart==>>Execute Start
+2024-01-30 16:54:01-GetPart==>>Param【WO】【001100039696】
+2024-01-30 16:54:01-GetPart==>>Result【NG:工单错误未找到料号】 - Exectue Total【14】ms 
+2024-01-30 16:56:11-checkEmpNo==>>Execute Start
+2024-01-30 16:56:11-checkEmpNo==>>Param【EMP】【91201975】
+2024-01-30 16:56:11-checkEmpNo==>>Param【STATION】【T1.31】
+2024-01-30 16:56:11-checkEmpNo==>>Result【OK;】 - Exectue Total【22】ms 
+2024-01-30 16:56:11-GetPart==>>Execute Start
+2024-01-30 16:56:11-GetPart==>>Param【WO】【002100039696】
+2024-01-30 16:56:11-GetPart==>>Result【52TX6272000SZ】 - Exectue Total【8】ms 
+2024-01-30 17:18:37-checkEmpNo==>>Execute Start
+2024-01-30 17:18:37-checkEmpNo==>>Param【EMP】【91201975】
+2024-01-30 17:18:37-checkEmpNo==>>Param【STATION】【T1.31】
+2024-01-30 17:18:37-checkEmpNo==>>Result【OK;】 - Exectue Total【59】ms 
+2024-01-30 17:18:37-GetPart==>>Execute Start
+2024-01-30 17:18:37-GetPart==>>Param【WO】【002100039696】
+2024-01-30 17:18:37-GetPart==>>Result【52TX6272000SZ】 - Exectue Total【9】ms 

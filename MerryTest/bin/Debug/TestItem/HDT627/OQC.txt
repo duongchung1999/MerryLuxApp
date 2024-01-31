@@ -1,0 +1,25 @@
+﻿1,PlayTest,N/A,N/A,N/A,6,dllname=Audio&指令选择=PlayTest&装置名称=G733&选择音频=0&显示内容信息=播放音乐测试/Kiểm tra phát nhạc
+2,AudioTest,N/A,N/A,N/A,6,dllname=Audio&method=Sidetone&显示内容信息=Nói vào mic 123; đồng thời nghe được 123 bình thường; sau đó nhấn nút mute, nói lại vào mic 123 thì không nghe thấy gì; nếu đúng thì chọn Yes, sai thì chọn No
+3,GetVoltageByDongle,V,3.75,3.95,2,GetVoltageByDongle
+4,ConnectTypec,N/A,N/A,N/A,4,dllname=Common&method=Forms&显示信息=Vui lòng cắm cáp sạc tai nghe、请插入耳机充电线
+5,getFwByHeadset,N/A,V2.0.6,V2.0.6,1,getFwByHeadset
+6,getFwByDongle,N/A,V2.0.6,V2.0.6,1,getFwByDongle
+7,ChargingCurrentCheckHeadsetAssemblage,mA,100,500,5,dllname=_8342_V1&method=A_DC&NewRange=0.5&Count=1
+8,ColorZone2RedByHeadset,N/A,N/A,N/A,3,SetLEDColorZone2RedByHeadset
+9,CheckLEDIsRedOrNot,N/A,N/A,N/A,4,dllname=Common&method=Forms&显示信息=Vui lòng kiểm tra đèn Led tai nghe có phải màu đỏ không、请检查耳机LED是否红色
+10,ColorZone2GreenByHeadset,N/A,N/A,N/A,3,SetLEDColorZone2GreenByHeadset
+11,CheckLEDIsGreenOrNot,N/A,N/A,N/A,4,dllname=Common&method=Forms&显示信息=Vui lòng kiểm tra đèn Led tai nghe có phải màu xanh lá cây không、请检查耳机LED是否绿色
+12,ColorZone2BlueByHeadset,N/A,N/A,N/A,3,SetLEDColorZone2BlueByHeadset
+13,CheckLEDIsBlueOrNot,N/A,N/A,N/A,4,dllname=Common&method=Forms&显示信息=Vui lòng kiểm tra đèn Led tai nghe có phải màu xanh da trời không、请检查耳机LED是否蓝色
+0,+-OpenHSUSB,N/A,N/A,N/A,1,OpenHSUSB
+14,GetColorIdByHeadSet,N/A,N/A,N/A,3,GetColorIdByHeadSet
+0,-2S,N/A,N/A,N/A,6,dllname=Common&method=Sleep&时间=2000
+15,FactoryResetByHeadset,N/A,N/A,N/A,3,FactoryResetByHeadset
+0,-2S,N/A,N/A,N/A,6,dllname=Common&method=Sleep&时间=2000
+0,-1S,N/A,N/A,N/A,6,dllname=Common&method=Sleep&时间=1000
+0,+-CloseHSUSB,N/A,N/A,N/A,1,CloseHSUSB
+16,+OpenDongleUSB,N/A,N/A,N/A,1,OpenDongleUSB
+17,GetColorIdByDongle,N/A,N/A,N/A,3,GetColorIdByDongle
+18,FactoryResetByDongle,N/A,N/A,N/A,3,FactoryResetByDongle
+0,-2S,N/A,N/A,N/A,6,dllname=Common&method=Sleep&时间=2000
+19,+CloseDongleUSB,N/A,N/A,N/A,1,CloseDongleUSB

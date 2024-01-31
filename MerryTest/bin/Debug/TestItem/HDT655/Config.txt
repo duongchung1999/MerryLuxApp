@@ -1,0 +1,14 @@
+﻿DongleComPort=
+HeadsetComPort=
+Rx2402s=0
+Rx2440s=0
+Rx2480s=0
+Tx2402s=0
+Tx2440s=0
+Tx2480s=0
+WaitConnectedTimeout=15
+WaitGetDBTimeout=8
+BasePath=.\TestItem\HDT655\Gemini G8.1SDK+FW0.3.2\bin\windows
+CompareBatteryVersionFromWay=
+FixturnCOM=
+DefaultBD=

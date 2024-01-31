@@ -1,0 +1,8 @@
+Test_number = 1	Dongle RGB:255 180 201	HanopticSens RGB: 215 188 255
+Test_number = 2	Dongle RGB:255 177 201	HanopticSens RGB: 220 188 255
+Test_number = 3	Dongle RGB:255 174 201	HanopticSens RGB: 215 184 255
+Test_number = 4	Dongle RGB:255 171 201	HanopticSens RGB: 220 188 255
+Test_number = 5	Dongle RGB:255 168 201	HanopticSens RGB: 220 185 255
+Test_number = 6	Dongle RGB:255 165 201	HanopticSens RGB: 220 177 255
+Test_number = 7	Dongle RGB:255 162 201	HanopticSens RGB: 220 177 255
+Test_number = 8	Dongle RGB:255 159 201	HanopticSens RGB: 220 174 255

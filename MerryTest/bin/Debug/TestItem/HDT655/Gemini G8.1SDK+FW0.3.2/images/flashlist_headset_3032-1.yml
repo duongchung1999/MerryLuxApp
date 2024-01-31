@@ -1,0 +1,29 @@
+binaries:
+    - name: ssb
+      files:
+          - images/application_binaries/ssb_headset_1.bin
+      address: 0x0
+    - name: kl_app
+      files:
+          - images/application_binaries/headset_3032-1.bin.eep
+      offset_index: 0
+      partition: { name: "app", type: firmware }
+      headroom: -1
+    - name: nxh_app
+      files:
+          - images/nxh3670_binaries/arm/phGamingRx.ihex.eep
+      offset_index: 1
+      partition: { name: "app", type: firmware }
+      headroom: 4096
+    - name: rfmac
+      files:
+          - images/nxh3670_binaries/rfmac/rfmac.eep
+      offset_index: 2
+      partition: { name: "app", type: firmware }
+      headroom: 2048
+    - name: cf
+      files:
+          - images/nxh3670_binaries/cf/phStereoInterleavedAsrcRx.eep
+      offset_index: 3
+      partition: { name: "app", type: firmware }
+      headroom: 2048

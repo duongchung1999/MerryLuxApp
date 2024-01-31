@@ -18,7 +18,7 @@
         </member>
         <member name="M:MerryDllFramework.MerryDll.DUT_Test(System.Int32,System.Int32)">
             <summary isPublicTestItem="true">
-            DUT 连接及测试
+            DUT 连接及测试 DUT_Test
             </summary>
             <param name="ConnectSleepTime">连接成功延时测试 常规 1 </param>
             <param name="TimeOut">DUT测试超时 常规 16 </param>
@@ -26,79 +26,79 @@
         </member>
         <member name="M:MerryDllFramework.MerryDll.DUT_Out_Put_Power_Low">
             <summary isPublicTestItem="true">
-            DUT 读取测试低功率值 2402
+            DUT 读取测试低功率值 DUT_Out_Put_Power_Low 2402
             </summary>
             <returns></returns>
         </member>
         <member name="M:MerryDllFramework.MerryDll.DUT_Out_Put_Power_Middle">
             <summary isPublicTestItem="true">
-            DUT 读取测试中功率值 2442
+            DUT 读取测试中功率值 DUT_Out_Put_Power_Middle 2442
             </summary>
             <returns></returns>
         </member>
         <member name="M:MerryDllFramework.MerryDll.DUT_Out_Put_Power_High">
             <summary isPublicTestItem="true">
-            DUT 读取测试高功率值 2480
+            DUT 读取测试高功率值 DUT_Out_Put_Power_High 2480
             </summary>
             <returns></returns>
         </member>
         <member name="M:MerryDllFramework.MerryDll.DUT_Carrier_Drift_Low">
             <summary isPublicTestItem="true">
-            DUT 读取载波偏移低 2402
+            DUT 读取载波偏移低 DUT_Carrier_Drift_Low 2402
             </summary>
             <returns></returns>
         </member>
         <member name="M:MerryDllFramework.MerryDll.DUT_Carrier_Drift_Middle">
             <summary isPublicTestItem="true">
-            DUT 读取载波偏移中 2442
+            DUT 读取载波偏移中 DUT_Carrier_Drift_Middle 2442
             </summary>
             <returns></returns>
         </member>
         <member name="M:MerryDllFramework.MerryDll.DUT_Carrier_Drift_High">
             <summary isPublicTestItem="true">
-            DUT 读取载波偏移高 2480
+            DUT 读取载波偏移高 DUT_Carrier_Drift_High 2480
             </summary>
             <returns></returns>
         </member>
         <member name="M:MerryDllFramework.MerryDll.DUT_Sensitivity_Low">
             <summary isPublicTestItem="true">
-            DUT 读取灵敏度低 2402
+            DUT 读取灵敏度低 DUT_Sensitivity_Low 2402
             </summary>
             <returns></returns>
         </member>
         <member name="M:MerryDllFramework.MerryDll.DUT_Sensitivity_Middle">
             <summary isPublicTestItem="true">
-            DUT 读取灵敏度中 2442
+            DUT 读取灵敏度中 DUT_Sensitivity_Middle 2442
             </summary>
             <returns></returns>
         </member>
         <member name="M:MerryDllFramework.MerryDll.DUT_Sensitivity_High">
             <summary isPublicTestItem="true">
-            DUT 读取灵敏度高 2480
+            DUT 读取灵敏度高 DUT_Sensitivity_High 2480
             </summary>
             <returns></returns>
         </member>
         <member name="M:MerryDllFramework.MerryDll.DUT_Modulation_Index_Low">
             <summary isPublicTestItem="true">
-            DUT 常规 特调指数低 2402
+            DUT 常规 特调指数低 DUT_Modulation_Index_Low 2402
             </summary>
             <returns></returns>
         </member>
         <member name="M:MerryDllFramework.MerryDll.DUT_Modulation_Index_Middle">
             <summary isPublicTestItem="true">
-            DUT 常规 特调指数中 2442
+            DUT 常规 特调指数中 DUT_Modulation_Index_Middle 2442
             </summary>
             <returns></returns>
         </member>
         <member name="M:MerryDllFramework.MerryDll.DUT_Modulation_Index_High">
             <summary isPublicTestItem="true">
-            DUT 常规 特调指数高 2480
+            DUT 常规 特调指数高 DUT_Modulation_Index_High 2480
             </summary>
             <returns></returns>
         </member>
         <member name="M:MerryDllFramework.MerryDll.DUT_Optional_Modulation_Index_Low(System.String,System.String)">
             <summary isPublicTestItem="true">
-            DUT _可选 特调指数低 2402 
+            DUT _可选 特调指数低 DUT_Optional_Modulation_Index_Low 2402 
             </summary>
             <param name="index" options="F1_Max,F1_Average,F2_Max,F2_Average,F2_Avg/Flavg,F2_Max_Failed,F2_Max_Count_(Total),Failed,Tested">取哪个值</param>
             <param name="units" options="default,/1000_Khz">值的单位 Khz会将值÷1000</param>
@@ -106,7 +106,7 @@
         </member>
         <member name="M:MerryDllFramework.MerryDll.DUT_Optional_Modulation_Index_Middle(System.String,System.String)">
             <summary isPublicTestItem="true">
-            DUT _可选 特调指数低 2442
+            DUT _可选 特调指数低 DUT_Optional_Modulation_Index_Middle 2442
             </summary>
             <param name="index" options="F1_Max,F1_Average,F2_Max,F2_Average,F2_Avg/Flavg,F2_Max_Failed,F2_Max_Count_(Total),Failed,Tested">取哪个值</param>
             <param name="units" options="default,/1000_Khz">值的单位 Khz会将值÷1000</param>
@@ -114,7 +114,7 @@
         </member>
         <member name="M:MerryDllFramework.MerryDll.DUT_Optional_Modulation_Index_High(System.String,System.String)">
             <summary isPublicTestItem="true">
-            DUT _可选 特调指数低 2480
+            DUT _可选 特调指数低 DUT_Optional_Modulation_Index_High 2480
             </summary>
             <param name="index" options="F1_Max,F1_Average,F2_Max,F2_Average,F2_Avg/Flavg,F2_Max_Failed,F2_Max_Count_(Total),Failed,Tested">取哪个值</param>
             <param name="units" options="default,/1000_Khz">值的单位 Khz会将值÷1000</param>
@@ -130,40 +130,40 @@
         </member>
         <member name="M:MerryDllFramework.MerryDll.BLE_TX_LowPowerTest(System.Boolean)">
             <summary isPublicTestItem="true">
-            BLE低频2402测试功率
+            BLE低频2402测试功率 BLE_TX_LowPowerTest
             </summary>
             <param name="Init" options="True,False">是否初始化仪器 一般使用BLE的第一项初始化即可</param>
             <returns>True或信息</returns>
         </member>
         <member name="M:MerryDllFramework.MerryDll.BLE_TX_MiddlePowerTest(System.Boolean)">
             <summary isPublicTestItem="true">
-            BLE中频2440测试功率
+            BLE中频2440测试功率 BLE_TX_MiddlePowerTest
             </summary>
             <param name="Init" options="True,False">是否初始化仪器 一般使用BLE的第一项初始化即可</param>
             <returns>True或信息</returns>
         </member>
         <member name="M:MerryDllFramework.MerryDll.BLE_TX_HighPowerTest(System.Boolean)">
             <summary isPublicTestItem="true">
-            BLE高频2480测试功率
+            BLE高频2480测试功率 BLE_TX_HighPowerTest
             </summary>
             <param name="Init" options="True,False">是否初始化仪器 一般使用BLE的第一项初始化即可</param>
             <returns>True或信息</returns>
         </member>
         <member name="M:MerryDllFramework.MerryDll.BLE_TX_CarrierOffset">
             <summary isPublicTestItem="true">
-            CarrierOffset 返回数值 需要先测试功率才能测试频偏
+            CarrierOffset 返回数值 需要先测试功率才能测试频偏 BLE_TX_CarrierOffset
             </summary>
             <returns>数值 Khz</returns>
         </member>
         <member name="M:MerryDllFramework.MerryDll.BLE_TX_Modulation">
             <summary isPublicTestItem="true">
-            Modulation 返回数值  需要先测试功率才能测试调制特性测试
+            Modulation 返回数值  需要先测试功率才能测试调制特性测试 BLE_TX_Modulation
             </summary>
             <returns>数值 Khz</returns>
         </member>
         <member name="M:MerryDllFramework.MerryDll.BLE_RX_Sensitivity">
             <summary isPublicTestItem="true">
-            RX灵敏度发射包
+            RX灵敏度发射包 BLE_RX_Sensitivity
             </summary>
             <returns>True Or False</returns>
         </member>

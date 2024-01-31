@@ -1,0 +1,132 @@
+﻿10/21 14:39:32.728 0.013 I tool_version: 2.9.0/V2.9.0_20220114_081940/v2.9.2_2021_12_28_16_45_51/geneva-dev-maindev
+10/21 14:39:32.716 0.001 I SetLogLevel: 2
+10/21 14:39:32.716 0.001 D set log_level=2
+10/21 14:39:32.716 0.001 D [task_time][ToolLogLevel] spend 0.000
+10/21 14:39:32.716 0.001 V [task_end][ToolLogLevel] ------------------------------------------
+10/21 14:39:32.717 0.002 V arg[airoha_task]=airoha_cmd
+10/21 14:39:32.717 0.002 V [task] airoha_cmd, class: AirohaCommandTask
+10/21 14:39:32.717 0.002 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/21 14:39:32.717 0.002 V arg[device_name]=DUT_HEADSET
+10/21 14:39:32.717 0.002 E [dev_mgr] device not found: DUT_HEADSET
+10/21 14:39:32.717 0.002 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/21 14:39:32.717 0.002 E [task] Fail to execute RunTask() of airoha_cmd object
+10/21 14:39:32.717 0.002 D [task_time][airoha_cmd] spend 0.000
+10/21 14:39:32.717 0.002 V [task_end][airoha_cmd] ------------------------------------------
+10/21 14:39:32.725 0.010 V arg[airoha_task]=airoha_cmd
+10/21 14:39:32.725 0.010 V [task] airoha_cmd, class: AirohaCommandTask
+10/21 14:39:32.725 0.010 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/21 14:39:32.725 0.010 V arg[device_name]=DUT_HEADSET
+10/21 14:39:32.725 0.010 E [dev_mgr] device not found: DUT_HEADSET
+10/21 14:39:32.725 0.010 E [exception] airoha_command.cc:93(-1): [airoha_cmd] device not found: DUT_HEADSET
+10/21 14:39:32.725 0.010 E [task] Fail to execute RunTask() of airoha_cmd object
+10/21 14:39:32.725 0.010 D [task_time][airoha_cmd] spend 0.000
+10/21 14:39:32.725 0.010 V [task_end][airoha_cmd] ------------------------------------------
+10/21 14:39:32.736 0.021 V arg[airoha_task]=DisconnectDUTByUsbHid
+10/21 14:39:32.736 0.021 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+10/21 14:39:32.736 0.021 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+10/21 14:39:32.736 0.021 V arg[device_name]=DUT_DONGLE
+10/21 14:39:32.736 0.021 V arg[device_type]=USB_HID
+10/21 14:39:32.736 0.021 V arg[action]=disconnect
+10/21 14:39:32.736 0.021 V arg[port]=
+10/21 14:39:32.736 0.021 D [UartDevice] Disconnect
+10/21 14:39:32.736 0.021 D [DisconnectDUTByUsbHid] disconnect: DUT_DONGLE(USB_HID)
+10/21 14:39:32.736 0.021 D [task_time][DisconnectDUTByUsbHid] spend 0.000
+10/21 14:39:32.736 0.021 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+10/21 14:39:32.736 0.021 V [transact] result="pass"
+10/21 14:39:33.853 1.138 V arg[airoha_task]=DisconnectDUTByUsbHid
+10/21 14:39:33.853 1.138 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+10/21 14:39:33.853 1.138 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+10/21 14:39:33.853 1.138 V arg[device_name]=DUT_HEADSET
+10/21 14:39:33.853 1.138 V arg[device_type]=USB_HID
+10/21 14:39:33.853 1.138 V arg[action]=disconnect
+10/21 14:39:33.853 1.138 V arg[port]=
+10/21 14:39:33.853 1.138 D [UartDevice] Disconnect
+10/21 14:39:33.853 1.138 D [DisconnectDUTByUsbHid] disconnect: DUT_HEADSET(USB_HID)
+10/21 14:39:33.853 1.138 D [task_time][DisconnectDUTByUsbHid] spend 0.000
+10/21 14:39:33.853 1.138 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+10/21 14:39:33.853 1.138 V [transact] result="pass"
+10/21 14:39:34.730 2.015 V [log_file_sync]
+10/21 14:39:43.355 10.640 V arg[airoha_task]=airoha_cmd
+10/21 14:39:43.355 10.640 V [task] airoha_cmd, class: AirohaCommandTask
+10/21 14:39:43.355 10.640 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/21 14:39:43.355 10.640 V arg[device_name]=DUT_HEADSET
+10/21 14:39:43.355 10.640 V arg[command_xml]=command_627.xml
+10/21 14:39:43.355 10.640 V arg[airoha_cmd]=RACE_SET_COLOR_BLACK
+10/21 14:39:43.355 10.640 I [airoha_cmd] RACE_SET_COLOR_BLACK
+10/21 14:39:43.356 10.641 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): RACE_SET_COLOR_BLACK
+10/21 14:39:43.356 10.641 E [task] Fail to execute RunTask() of airoha_cmd object
+10/21 14:39:43.356 10.641 D [task_time][airoha_cmd] spend 0.001
+10/21 14:39:43.356 10.641 V [task_end][airoha_cmd] ------------------------------------------
+10/21 14:39:43.361 10.646 V [log_file_sync]
+10/21 14:39:45.930 13.215 V arg[airoha_task]=airoha_cmd
+10/21 14:39:45.930 13.215 V [task] airoha_cmd, class: AirohaCommandTask
+10/21 14:39:45.930 13.215 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/21 14:39:45.930 13.215 V arg[device_name]=DUT_DONGLE
+10/21 14:39:45.930 13.215 V arg[command_xml]=command_627.xml
+10/21 14:39:45.930 13.215 V arg[airoha_cmd]=RACE_SN
+10/21 14:39:45.930 13.215 I [airoha_cmd] RACE_SN
+10/21 14:39:45.930 13.215 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): RACE_SN
+10/21 14:39:45.930 13.215 E [task] Fail to execute RunTask() of airoha_cmd object
+10/21 14:39:45.930 13.215 D [task_time][airoha_cmd] spend 0.000
+10/21 14:39:45.930 13.215 V [task_end][airoha_cmd] ------------------------------------------
+10/21 14:39:45.933 13.218 V [log_file_sync]
+10/21 14:42:12.796 160.081 V arg[airoha_task]=airoha_cmd
+10/21 14:42:12.796 160.081 V [task] airoha_cmd, class: AirohaCommandTask
+10/21 14:42:12.796 160.081 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/21 14:42:12.796 160.081 V arg[device_name]=DUT_HEADSET
+10/21 14:42:12.796 160.081 V arg[command_xml]=command_627.xml
+10/21 14:42:12.796 160.081 V arg[airoha_cmd]=RACE_ENTER_BUTTON_MODEL
+10/21 14:42:12.796 160.081 I [airoha_cmd] RACE_ENTER_BUTTON_MODEL
+10/21 14:42:12.796 160.081 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): RACE_ENTER_BUTTON_MODEL
+10/21 14:42:12.796 160.081 E [task] Fail to execute RunTask() of airoha_cmd object
+10/21 14:42:12.796 160.081 D [task_time][airoha_cmd] spend 0.000
+10/21 14:42:12.796 160.081 V [task_end][airoha_cmd] ------------------------------------------
+10/21 14:42:12.800 160.085 V [log_file_sync]
+10/21 14:42:12.820 160.105 V arg[airoha_task]=airoha_cmd
+10/21 14:42:12.820 160.105 V [task] airoha_cmd, class: AirohaCommandTask
+10/21 14:42:12.820 160.105 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/21 14:42:12.820 160.105 V arg[device_name]=DUT_HEADSET
+10/21 14:42:12.820 160.105 V arg[command_xml]=command_627.xml
+10/21 14:42:12.820 160.105 V arg[airoha_cmd]=RACE_DISABLE_BUTTON_MODEL
+10/21 14:42:12.820 160.105 I [airoha_cmd] RACE_DISABLE_BUTTON_MODEL
+10/21 14:42:12.820 160.105 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): RACE_DISABLE_BUTTON_MODEL
+10/21 14:42:12.820 160.105 E [task] Fail to execute RunTask() of airoha_cmd object
+10/21 14:42:12.820 160.105 D [task_time][airoha_cmd] spend 0.000
+10/21 14:42:12.820 160.105 V [task_end][airoha_cmd] ------------------------------------------
+10/21 14:42:12.850 160.135 V arg[airoha_task]=DisconnectDUTByUsbHid
+10/21 14:42:12.850 160.135 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+10/21 14:42:12.850 160.135 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+10/21 14:42:12.850 160.135 V arg[device_name]=DUT_DONGLE
+10/21 14:42:12.850 160.135 V arg[device_type]=USB_HID
+10/21 14:42:12.850 160.135 V arg[action]=disconnect
+10/21 14:42:12.850 160.135 V arg[port]=
+10/21 14:42:12.850 160.135 D [UartDevice] Disconnect
+10/21 14:42:12.850 160.135 D [DisconnectDUTByUsbHid] disconnect: DUT_DONGLE(USB_HID)
+10/21 14:42:12.850 160.135 D [task_time][DisconnectDUTByUsbHid] spend 0.000
+10/21 14:42:12.850 160.135 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+10/21 14:42:12.850 160.135 V [transact] result="pass"
+10/21 14:42:13.981 161.266 V arg[airoha_task]=DisconnectDUTByUsbHid
+10/21 14:42:13.981 161.266 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+10/21 14:42:13.981 161.266 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+10/21 14:42:13.981 161.266 V arg[device_name]=DUT_HEADSET
+10/21 14:42:13.981 161.266 V arg[device_type]=USB_HID
+10/21 14:42:13.981 161.266 V arg[action]=disconnect
+10/21 14:42:13.981 161.266 V arg[port]=
+10/21 14:42:13.981 161.266 D [UartDevice] Disconnect
+10/21 14:42:13.981 161.266 D [DisconnectDUTByUsbHid] disconnect: DUT_HEADSET(USB_HID)
+10/21 14:42:13.981 161.266 D [task_time][DisconnectDUTByUsbHid] spend 0.000
+10/21 14:42:13.981 161.266 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+10/21 14:42:13.981 161.266 V [transact] result="pass"
+10/21 14:42:14.805 162.090 V [log_file_sync]
+10/21 14:44:06.666 273.951 V arg[airoha_task]=airoha_cmd
+10/21 14:44:06.666 273.951 V [task] airoha_cmd, class: AirohaCommandTask
+10/21 14:44:06.666 273.951 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/21 14:44:06.666 273.951 V arg[device_name]=DUT_HEADSET
+10/21 14:44:06.666 273.951 V arg[command_xml]=command_627.xml
+10/21 14:44:06.666 273.951 V arg[airoha_cmd]=RACE_ENTER_BUTTON_MODEL
+10/21 14:44:06.666 273.951 I [airoha_cmd] RACE_ENTER_BUTTON_MODEL
+10/21 14:44:06.666 273.951 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): RACE_ENTER_BUTTON_MODEL
+10/21 14:44:06.666 273.951 E [task] Fail to execute RunTask() of airoha_cmd object
+10/21 14:44:06.666 273.951 D [task_time][airoha_cmd] spend 0.000
+10/21 14:44:06.666 273.951 V [task_end][airoha_cmd] ------------------------------------------
+10/21 14:44:06.667 273.952 V [log_file_sync]

@@ -1,0 +1,5 @@
+﻿1/26/2024 8:19:38 AM
+System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Config_ini.Class.HttpPostAPI.HttpPost(String url, String Writedata, String Method, String Path, String& Error)
+

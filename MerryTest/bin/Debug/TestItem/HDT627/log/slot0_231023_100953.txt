@@ -1,0 +1,2623 @@
+﻿10/23 10:09:53.557 0.029 I tool_version: 2.9.0/V2.9.0_20220114_081940/v2.9.2_2021_12_28_16_45_51/geneva-dev-maindev
+10/23 10:09:53.529 0.001 I SetLogLevel: 2
+10/23 10:09:53.529 0.001 D set log_level=2
+10/23 10:09:53.529 0.001 D [task_time][ToolLogLevel] spend 0.000
+10/23 10:09:53.529 0.001 V [task_end][ToolLogLevel] ------------------------------------------
+10/23 10:09:53.531 0.003 V arg[airoha_task]=ConnectDutByUsbHid
+10/23 10:09:53.531 0.003 V [task] ConnectDutByUsbHid, class: ConnectDevice
+10/23 10:09:53.531 0.003 V [task_start][ConnectDutByUsbHid] +++++++++++++++++++++++
+10/23 10:09:53.531 0.003 V arg[device_name]=DUT_HEADSET
+10/23 10:09:53.531 0.003 V arg[device_type]=USB_HID
+10/23 10:09:53.531 0.003 V arg[action]=connect
+10/23 10:09:53.531 0.003 V arg[connected_by_usb]=
+10/23 10:09:53.531 0.003 V arg[port]=
+10/23 10:09:53.531 0.003 D [SerialHost] phy_name:USB_HID
+10/23 10:09:53.531 0.003 D phy_type:5
+10/23 10:09:53.531 0.003 D [SerialHost] trans_name:USB_HID
+10/23 10:09:53.531 0.003 D [tp_fty] trans_type:9
+10/23 10:09:53.531 0.003 D [UsbHidPhy] transport : USB_HID 
+10/23 10:09:53.531 0.003 D [SerialHost] phy_open
+10/23 10:09:53.531 0.003 D [UsbHidPhy] transport : USB_HID 
+10/23 10:09:53.531 0.003 I [UsbHidPhy] open [046D:0AFF] usb[]
+10/23 10:09:53.634 0.106 I [UsbHidPhy] get [046D:0AFF] usb[] serial[0000000000000000]
+10/23 10:09:53.634 0.106 D [UsbHidPhy] open: 046d:0aff
+10/23 10:09:53.634 0.106 D [UartDevice] Connect: 0
+10/23 10:09:53.634 0.106 D [ConnectDutByUsbHid] connect: DUT_HEADSET(USB_HID)
+10/23 10:09:53.634 0.106 D [task_time][ConnectDutByUsbHid] spend 0.103
+10/23 10:09:53.634 0.106 V [task_end][ConnectDutByUsbHid] ------------------------------------------
+10/23 10:09:53.635 0.107 W [UsbHidPhy] drop invalid hid data: 1024 070004055B1000000A0C00508950484848697750525150000000000000000000000000000000000000000000000000000000000000000000000000000000000050
+10/23 10:09:53.635 0.107 V [transact] result="pass"
+10/23 10:09:53.635 0.107 W [UsbHidPhy] drop invalid hid data: 1024 070004055B1000000A0C00508950484848697750525150000000000000000000000000000000000000000000000000000000000000000000000000000000000050
+10/23 10:09:53.639 0.111 W [UsbHidPhy] drop invalid hid data: 1024 070004055B1000000A0C00508950484848697750525150000000000000000000000000000000000000000000000000000000000000000000000000000000000050
+10/23 10:09:53.644 0.116 W [UsbHidPhy] drop invalid hid data: 1024 070004055B1000000A0C00508950484848697750525150000000000000000000000000000000000000000000000000000000000000000000000000000000000050
+10/23 10:09:53.649 0.121 W [UsbHidPhy] drop invalid hid data: 1024 070004055B1000000A0C00508950484848697750525150000000000000000000000000000000000000000000000000000000000000000000000000000000000050
+10/23 10:09:53.652 0.124 V arg[airoha_task]=ConnectDutByUsbHid
+10/23 10:09:53.652 0.124 V [task] ConnectDutByUsbHid, class: ConnectDevice
+10/23 10:09:53.652 0.124 V [task_start][ConnectDutByUsbHid] +++++++++++++++++++++++
+10/23 10:09:53.652 0.124 V arg[device_name]=DUT_DONGLE
+10/23 10:09:53.652 0.124 V arg[device_type]=USB_HID
+10/23 10:09:53.652 0.124 V arg[action]=connect
+10/23 10:09:53.652 0.124 V arg[connected_by_usb]=
+10/23 10:09:53.652 0.124 V arg[port]=
+10/23 10:09:53.652 0.124 D [SerialHost] phy_name:USB_HID
+10/23 10:09:53.652 0.124 D phy_type:5
+10/23 10:09:53.652 0.124 D [SerialHost] trans_name:USB_HID
+10/23 10:09:53.652 0.124 D [tp_fty] trans_type:9
+10/23 10:09:53.652 0.124 D [UsbHidPhy] transport : USB_HID 
+10/23 10:09:53.652 0.124 D [SerialHost] phy_open
+10/23 10:09:53.652 0.124 D [UsbHidPhy] transport : USB_HID 
+10/23 10:09:53.652 0.124 I [UsbHidPhy] open [046D:0AFE] usb[]
+10/23 10:09:53.756 0.228 I [UsbHidPhy] get [046D:0AFE] usb[] serial[0000000000000000]
+10/23 10:09:53.756 0.228 D [UsbHidPhy] open: 046d:0afe
+10/23 10:09:53.756 0.228 D [UartDevice] Connect: 0
+10/23 10:09:53.756 0.228 D [ConnectDutByUsbHid] connect: DUT_DONGLE(USB_HID)
+10/23 10:09:53.756 0.228 D [task_time][ConnectDutByUsbHid] spend 0.104
+10/23 10:09:53.756 0.228 V [task_end][ConnectDutByUsbHid] ------------------------------------------
+10/23 10:09:53.756 0.228 V [transact] result="pass"
+10/23 10:09:53.757 0.229 W [UsbHidPhy] drop invalid hid data: 1024 070004055B1000000A0C00508950484848697750525150000000000000000000000000000000000000000000000000000000000000000000000000000000000050
+10/23 10:09:53.757 0.229 W [UsbHidPhy] drop invalid hid data: 1024 070004055B1000000A0C00508950484848697750525150000000000000000000000000000000000000000000000000000000000000000000000000000000000050
+10/23 10:09:53.761 0.233 W [UsbHidPhy] drop invalid hid data: 1024 070004055B1000000A0C00508950484848697750525150000000000000000000000000000000000000000000000000000000000000000000000000000000000050
+10/23 10:09:53.765 0.237 W [UsbHidPhy] drop invalid hid data: 1024 070004055B1000000A0C00508950484848697750525150000000000000000000000000000000000000000000000000000000000000000000000000000000000050
+10/23 10:09:53.770 0.242 W [UsbHidPhy] drop invalid hid data: 1024 070004055B1000000A0C00508950484848697750525150000000000000000000000000000000000000000000000000000000000000000000000000000000000050
+10/23 10:09:53.774 0.246 W [UsbHidPhy] drop invalid hid data: 1024 070004055B1000000A0C00508950484848697750525150000000000000000000000000000000000000000000000000000000000000000000000000000000000050
+10/23 10:09:53.779 0.250 W [UsbHidPhy] drop invalid hid data: 1024 070004055B1000000A0C00508950484848697750525150000000000000000000000000000000000000000000000000000000000000000000000000000000000050
+10/23 10:09:53.783 0.255 W [UsbHidPhy] drop invalid hid data: 1024 070004055B1000000A0C00508950484848697750525150000000000000000000000000000000000000000000000000000000000000000000000000000000000050
+10/23 10:09:53.787 0.259 W [UsbHidPhy] drop invalid hid data: 1024 070004055B1000000A0C00508950484848697750525150000000000000000000000000000000000000000000000000000000000000000000000000000000000050
+10/23 10:09:53.792 0.264 W [UsbHidPhy] drop invalid hid data: 1024 070004055B1000000A0C00508950484848697750525150000000000000000000000000000000000000000000000000000000000000000000000000000000000050
+10/23 10:09:53.796 0.268 W [UsbHidPhy] drop invalid hid data: 1024 070004055B1000000A0C00508950484848697750525150000000000000000000000000000000000000000000000000000000000000000000000000000000000050
+10/23 10:09:53.799 0.271 V arg[airoha_task]=airoha_cmd
+10/23 10:09:53.799 0.271 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:09:53.799 0.271 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:09:53.799 0.271 V arg[device_name]=DUT_DONGLE
+10/23 10:09:53.799 0.271 V arg[command_xml]=command_627.xml
+10/23 10:09:53.799 0.271 V arg[airoha_cmd]=RACE_PCBA_SN
+10/23 10:09:53.799 0.271 I [airoha_cmd] RACE_PCBA_SN
+10/23 10:09:53.800 0.272 D [046d:0afe] Write(10)
+10/23 10:09:53.802 0.273 D [046d:0afe] chunk: 62(10) (10/10) 060A00
+10/23 10:09:53.802 0.273 V [046d:0afe] Write: 62(10) (10/10) 060A00055A0600000A0BF80C0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+10/23 10:09:53.803 0.275 V [UsbHidPhy] device is writing, skip.
+10/23 10:09:53.803 0.275 D [046d:0afe][write 10 RACE_PCBA_SN] 055A0600000A0BF80C00
+10/23 10:09:53.803 0.275 W [UsbHidPhy] drop invalid hid data: 1024 070004055B1000000A0C00508950484848697750525150000000000000000000000000000000000000000000000000000000000000000000000000000000000050
+10/23 10:09:53.807 0.279 D [046d:0afe] Read(20)
+10/23 10:09:53.807 0.279 V [046d:0afe][read 23] 071400055B1000000A0C00505181764948727756515150
+10/23 10:09:53.807 0.279 I [RxP 20] 055B1000000A0C00505181764948727756515150
+10/23 10:09:53.808 0.280 V [Match 20 RACE_PCBA_SN] 055B1000000A0C00505181764948727756515150
+10/23 10:09:53.808 0.280 W [CmdR] resp not found: status
+10/23 10:09:53.808 0.280 D [task_time][airoha_cmd] spend 0.009
+10/23 10:09:53.808 0.280 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:09:53.808 0.280 V [transact] payload="505151567772484976815150"
+10/23 10:09:53.808 0.280 W [UsbHidPhy] drop invalid hid data: 1024 070004055B1000000A0C00508950484848697750525150000000000000000000000000000000000000000000000000000000000000000000000000000000000050
+10/23 10:09:53.813 0.284 W [UsbHidPhy] drop invalid hid data: 1024 070004055B1000000A0C00508950484848697750525150000000000000000000000000000000000000000000000000000000000000000000000000000000000050
+10/23 10:09:53.818 0.289 W [UsbHidPhy] drop invalid hid data: 1024 070004055B1000000A0C00508950484848697750525150000000000000000000000000000000000000000000000000000000000000000000000000000000000050
+10/23 10:09:53.823 0.294 W [UsbHidPhy] drop invalid hid data: 1024 070004055B1000000A0C00508950484848697750525150000000000000000000000000000000000000000000000000000000000000000000000000000000000050
+10/23 10:09:53.828 0.299 W [UsbHidPhy] drop invalid hid data: 1024 070004055B1000000A0C00508950484848697750525150000000000000000000000000000000000000000000000000000000000000000000000000000000000050
+10/23 10:09:53.832 0.304 W [UsbHidPhy] drop invalid hid data: 1024 070004055B1000000A0C00508950484848697750525150000000000000000000000000000000000000000000000000000000000000000000000000000000000050
+10/23 10:09:53.837 0.309 W [UsbHidPhy] drop invalid hid data: 1024 070004055B1000000A0C00508950484848697750525150000000000000000000000000000000000000000000000000000000000000000000000000000000000050
+10/23 10:09:53.842 0.314 W [UsbHidPhy] drop invalid hid data: 1024 070004055B1000000A0C00508950484848697750525150000000000000000000000000000000000000000000000000000000000000000000000000000000000050
+10/23 10:09:53.847 0.319 W [UsbHidPhy] drop invalid hid data: 1024 070004055B1000000A0C00508950484848697750525150000000000000000000000000000000000000000000000000000000000000000000000000000000000050
+10/23 10:09:53.852 0.324 W [UsbHidPhy] drop invalid hid data: 1024 070004055B1000000A0C00508950484848697750525150000000000000000000000000000000000000000000000000000000000000000000000000000000000050
+10/23 10:09:53.852 0.324 V arg[airoha_task]=airoha_cmd
+10/23 10:09:53.852 0.324 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:09:53.852 0.324 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:09:53.852 0.324 V arg[device_name]=DUT_DONGLE
+10/23 10:09:53.852 0.324 V arg[command_xml]=command_627.xml
+10/23 10:09:53.852 0.324 V arg[airoha_cmd]=RACE_SN
+10/23 10:09:53.852 0.324 I [airoha_cmd] RACE_SN
+10/23 10:09:53.852 0.324 D [046d:0afe] Write(10)
+10/23 10:09:53.853 0.325 D [046d:0afe] chunk: 62(10) (10/10) 060A00
+10/23 10:09:53.853 0.325 V [046d:0afe] Write: 62(10) (10/10) 060A00055A0600000A02F80C0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+10/23 10:09:53.855 0.327 D [046d:0afe][write 10 RACE_SN] 055A0600000A02F80C00
+10/23 10:09:53.856 0.328 D [046d:0afe] Read(20)
+10/23 10:09:53.856 0.328 V [046d:0afe][read 23] 071400055B1000000A0C00504853494848515050508884
+10/23 10:09:53.856 0.328 I [RxP 20] 055B1000000A0C00504853494848515050508884
+10/23 10:09:53.856 0.328 V [Match 20 RACE_SN] 055B1000000A0C00504853494848515050508884
+10/23 10:09:53.857 0.329 W [CmdR] resp not found: status
+10/23 10:09:53.857 0.329 D [task_time][airoha_cmd] spend 0.005
+10/23 10:09:53.857 0.329 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:09:53.857 0.329 V [transact] payload="848850505051484849534850"
+10/23 10:09:53.857 0.329 W [UsbHidPhy] drop invalid hid data: 1024 070004055B1000000A0C00508950484848697750525150000000000000000000000000000000000000000000000000000000000000000000000000000000000050
+10/23 10:09:53.862 0.334 W [UsbHidPhy] drop invalid hid data: 1024 070004055B1000000A0C00508950484848697750525150000000000000000000000000000000000000000000000000000000000000000000000000000000000050
+10/23 10:09:53.867 0.339 W [UsbHidPhy] drop invalid hid data: 1024 070004055B1000000A0C00508950484848697750525150000000000000000000000000000000000000000000000000000000000000000000000000000000000050
+10/23 10:09:53.872 0.344 W [UsbHidPhy] drop invalid hid data: 1024 070004055B1000000A0C00508950484848697750525150000000000000000000000000000000000000000000000000000000000000000000000000000000000050
+10/23 10:09:53.877 0.349 W [UsbHidPhy] drop invalid hid data: 1024 070004055B1000000A0C00508950484848697750525150000000000000000000000000000000000000000000000000000000000000000000000000000000000050
+10/23 10:09:53.882 0.354 W [UsbHidPhy] drop invalid hid data: 1024 070004055B1000000A0C00508950484848697750525150000000000000000000000000000000000000000000000000000000000000000000000000000000000050
+10/23 10:09:53.886 0.358 W [UsbHidPhy] drop invalid hid data: 1024 070004055B1000000A0C00508950484848697750525150000000000000000000000000000000000000000000000000000000000000000000000000000000000050
+10/23 10:09:53.891 0.363 W [UsbHidPhy] drop invalid hid data: 1024 070004055B1000000A0C00508950484848697750525150000000000000000000000000000000000000000000000000000000000000000000000000000000000050
+10/23 10:09:53.896 0.368 W [UsbHidPhy] drop invalid hid data: 1024 070004055B1000000A0C00508950484848697750525150000000000000000000000000000000000000000000000000000000000000000000000000000000000050
+10/23 10:09:53.901 0.373 W [UsbHidPhy] drop invalid hid data: 1024 070004055B1000000A0C00508950484848697750525150000000000000000000000000000000000000000000000000000000000000000000000000000000000050
+10/23 10:09:53.906 0.378 W [UsbHidPhy] drop invalid hid data: 1024 070004055B1000000A0C00508950484848697750525150000000000000000000000000000000000000000000000000000000000000000000000000000000000050
+10/23 10:09:53.911 0.383 W [UsbHidPhy] drop invalid hid data: 1024 070004055B1000000A0C00508950484848697750525150000000000000000000000000000000000000000000000000000000000000000000000000000000000050
+10/23 10:09:53.915 0.387 W [UsbHidPhy] drop invalid hid data: 1024 070004055B1000000A0C00508950484848697750525150000000000000000000000000000000000000000000000000000000000000000000000000000000000050
+10/23 10:09:53.920 0.392 W [UsbHidPhy] drop invalid hid data: 1024 070004055B1000000A0C00508950484848697750525150000000000000000000000000000000000000000000000000000000000000000000000000000000000050
+10/23 10:09:53.925 0.397 W [UsbHidPhy] drop invalid hid data: 1024 070004055B1000000A0C00508950484848697750525150000000000000000000000000000000000000000000000000000000000000000000000000000000000050
+10/23 10:09:53.930 0.402 W [UsbHidPhy] drop invalid hid data: 1024 070004055B1000000A0C00508950484848697750525150000000000000000000000000000000000000000000000000000000000000000000000000000000000050
+10/23 10:09:53.935 0.407 W [UsbHidPhy] drop invalid hid data: 1024 070004055B1000000A0C00508950484848697750525150000000000000000000000000000000000000000000000000000000000000000000000000000000000050
+10/23 10:09:53.937 0.409 V arg[airoha_task]=airoha_cmd
+10/23 10:09:53.937 0.409 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:09:53.937 0.409 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:09:53.937 0.409 V arg[device_name]=DUT_HEADSET
+10/23 10:09:53.937 0.409 V arg[command_xml]=command_627.xml
+10/23 10:09:53.937 0.409 V arg[airoha_cmd]=RACE_GET_COLOR_ID
+10/23 10:09:53.937 0.409 I [airoha_cmd] RACE_GET_COLOR_ID
+10/23 10:09:53.937 0.409 D [046d:0aff] Write(10)
+10/23 10:09:53.939 0.411 D [046d:0aff] chunk: 62(10) (10/10) 060A00
+10/23 10:09:53.939 0.411 V [046d:0aff] Write: 62(10) (10/10) 060A00055A0600000A04F8010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+10/23 10:09:53.941 0.413 V [UsbHidPhy] device is writing, skip.
+10/23 10:09:53.941 0.413 D [046d:0aff][write 10 RACE_GET_COLOR_ID] 055A0600000A04F80100
+10/23 10:09:53.946 0.418 D [046d:0aff] Read(9)
+10/23 10:09:53.946 0.418 V [046d:0aff][read 12] 070900055B0500000A010000
+10/23 10:09:53.946 0.418 I [RxP 9] 055B0500000A010000
+10/23 10:09:53.946 0.418 V [Match 9 RACE_GET_COLOR_ID] 055B0500000A010000
+10/23 10:09:53.946 0.418 W [CmdR] resp not found: status
+10/23 10:09:53.946 0.418 D [task_time][airoha_cmd] spend 0.009
+10/23 10:09:53.946 0.418 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:09:53.946 0.418 V [transact] payload="00"
+10/23 10:09:54.022 0.494 V arg[airoha_task]=airoha_cmd
+10/23 10:09:54.022 0.494 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:09:54.022 0.494 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:09:54.022 0.494 V arg[device_name]=DUT_DONGLE
+10/23 10:09:54.022 0.494 V arg[command_xml]=command_627.xml
+10/23 10:09:54.022 0.494 V arg[airoha_cmd]=RACE_GET_COLOR_ID
+10/23 10:09:54.022 0.494 I [airoha_cmd] RACE_GET_COLOR_ID
+10/23 10:09:54.022 0.494 D [046d:0afe] Write(10)
+10/23 10:09:54.023 0.495 D [046d:0afe] chunk: 62(10) (10/10) 060A00
+10/23 10:09:54.023 0.495 V [046d:0afe] Write: 62(10) (10/10) 060A00055A0600000A04F8010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+10/23 10:09:54.024 0.496 D [046d:0afe][write 10 RACE_GET_COLOR_ID] 055A0600000A04F80100
+10/23 10:09:54.027 0.499 D [046d:0afe] Read(9)
+10/23 10:09:54.027 0.499 V [046d:0afe][read 12] 070900055B0500000A010002
+10/23 10:09:54.027 0.499 I [RxP 9] 055B0500000A010002
+10/23 10:09:54.027 0.499 V [Match 9 RACE_GET_COLOR_ID] 055B0500000A010002
+10/23 10:09:54.027 0.499 W [CmdR] resp not found: status
+10/23 10:09:54.027 0.499 D [task_time][airoha_cmd] spend 0.005
+10/23 10:09:54.027 0.499 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:09:54.027 0.499 V [transact] payload="02"
+10/23 10:09:54.060 0.532 V arg[airoha_task]=airoha_cmd
+10/23 10:09:54.060 0.532 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:09:54.060 0.532 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:09:54.060 0.532 V arg[device_name]=DUT_HEADSET
+10/23 10:09:54.060 0.532 V arg[command_xml]=command_627.xml
+10/23 10:09:54.060 0.532 V arg[airoha_cmd]=RACE_HEADSET_POWER_ON
+10/23 10:09:54.060 0.532 I [airoha_cmd] RACE_HEADSET_POWER_ON
+10/23 10:09:54.060 0.532 D [046d:0aff] Write(8)
+10/23 10:09:54.062 0.534 V [UsbHidPhy] device is writing, skip.
+10/23 10:09:54.062 0.534 D [046d:0aff] chunk: 62(8) (8/8) 060800
+10/23 10:09:54.062 0.534 V [046d:0aff] Write: 62(8) (8/8) 060800055A040001111700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+10/23 10:09:54.064 0.536 D [046d:0aff][write 8 RACE_HEADSET_POWER_ON] 055A040001111700
+10/23 10:09:54.066 0.538 D [046d:0aff] Read(7)
+10/23 10:09:54.066 0.538 V [046d:0aff][read 10] 070700055B0300011100
+10/23 10:09:54.067 0.539 I [RxP 7] 055B0300011100
+10/23 10:09:54.067 0.539 V [Match 7 RACE_HEADSET_POWER_ON] 055B0300011100
+10/23 10:09:54.067 0.539 W [CmdR] resp not found: status
+10/23 10:09:54.067 0.539 D [task_time][airoha_cmd] spend 0.007
+10/23 10:09:54.067 0.539 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:09:54.067 0.539 V [transact] payload="00"
+10/23 10:09:54.077 0.549 V arg[airoha_task]=airoha_cmd
+10/23 10:09:54.077 0.549 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:09:54.077 0.549 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:09:54.077 0.549 V arg[device_name]=DUT_HEADSET
+10/23 10:09:54.077 0.549 V arg[command_xml]=command_627.xml
+10/23 10:09:54.077 0.549 V arg[airoha_cmd]=RACE_ENTER_BUTTON_MODEL
+10/23 10:09:54.077 0.549 I [airoha_cmd] RACE_ENTER_BUTTON_MODEL
+10/23 10:09:54.077 0.549 D [046d:0aff] Write(7)
+10/23 10:09:54.079 0.551 D [046d:0aff] chunk: 62(7) (7/7) 060700
+10/23 10:09:54.079 0.551 V [046d:0aff] Write: 62(7) (7/7) 060700055A03000B000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+10/23 10:09:54.081 0.553 D [046d:0aff][write 7 RACE_ENTER_BUTTON_MODEL] 055A03000B0001
+10/23 10:09:54.082 0.554 D [046d:0aff] Read(7)
+10/23 10:09:54.082 0.554 V [046d:0aff][read 10] 070700055B03000B0001
+10/23 10:09:54.083 0.555 I [RxP 7] 055B03000B0001
+10/23 10:09:54.083 0.555 V [Match 7 RACE_ENTER_BUTTON_MODEL] 055B03000B0001
+10/23 10:09:54.083 0.555 W [CmdR] resp not found: status
+10/23 10:09:54.083 0.555 D [task_time][airoha_cmd] spend 0.006
+10/23 10:09:54.083 0.555 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:09:54.083 0.555 V [transact] Enable="01"
+10/23 10:09:54.140 0.612 V arg[airoha_task]=airoha_cmd
+10/23 10:09:54.140 0.612 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:09:54.140 0.612 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:09:54.140 0.612 V arg[device_name]=DUT_HEADSET
+10/23 10:09:54.140 0.612 V arg[command_xml]=command_627.xml
+10/23 10:09:54.140 0.612 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:09:54.140 0.612 I [airoha_cmd] Check_Button_VR
+10/23 10:09:55.141 1.613 D [host] Match timeout 1000 ms(0)
+10/23 10:09:55.211 1.683 E [exception] airoha_command.cc:144(-1): [airoha_cmd] run command fail(-1): Check_Button_VR
+10/23 10:09:55.211 1.683 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:09:55.211 1.683 D [task_time][airoha_cmd] spend 1.071
+10/23 10:09:55.211 1.683 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:09:55.313 1.785 V arg[airoha_task]=airoha_cmd
+10/23 10:09:55.313 1.785 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:09:55.313 1.785 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:09:55.313 1.785 V arg[device_name]=DUT_HEADSET
+10/23 10:09:55.313 1.785 V arg[command_xml]=command_627.xml
+10/23 10:09:55.313 1.785 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:09:55.313 1.785 I [airoha_cmd] Check_Button_VR
+10/23 10:09:55.560 2.032 V [log_file_sync]
+10/23 10:09:56.313 2.785 D [host] Match timeout 1000 ms(0)
+10/23 10:09:56.313 2.785 E [exception] airoha_command.cc:144(-1): [airoha_cmd] run command fail(-1): Check_Button_VR
+10/23 10:09:56.313 2.785 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:09:56.313 2.785 D [task_time][airoha_cmd] spend 1.000
+10/23 10:09:56.313 2.785 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:09:56.414 2.886 V arg[airoha_task]=airoha_cmd
+10/23 10:09:56.414 2.886 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:09:56.414 2.886 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:09:56.414 2.886 V arg[device_name]=DUT_HEADSET
+10/23 10:09:56.414 2.886 V arg[command_xml]=command_627.xml
+10/23 10:09:56.414 2.886 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:09:56.414 2.886 I [airoha_cmd] Check_Button_VR
+10/23 10:09:57.414 3.886 D [host] Match timeout 1000 ms(0)
+10/23 10:09:57.414 3.886 E [exception] airoha_command.cc:144(-1): [airoha_cmd] run command fail(-1): Check_Button_VR
+10/23 10:09:57.414 3.886 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:09:57.414 3.886 D [task_time][airoha_cmd] spend 1.000
+10/23 10:09:57.414 3.886 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:09:57.515 3.987 V arg[airoha_task]=airoha_cmd
+10/23 10:09:57.515 3.987 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:09:57.515 3.987 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:09:57.515 3.987 V arg[device_name]=DUT_HEADSET
+10/23 10:09:57.515 3.987 V arg[command_xml]=command_627.xml
+10/23 10:09:57.515 3.987 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:09:57.515 3.987 I [airoha_cmd] Check_Button_VR
+10/23 10:09:57.563 4.035 V [log_file_sync]
+10/23 10:09:58.516 4.988 D [host] Match timeout 1000 ms(0)
+10/23 10:09:58.516 4.988 E [exception] airoha_command.cc:144(-1): [airoha_cmd] run command fail(-1): Check_Button_VR
+10/23 10:09:58.516 4.988 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:09:58.516 4.988 D [task_time][airoha_cmd] spend 1.001
+10/23 10:09:58.516 4.988 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:09:58.617 5.089 V arg[airoha_task]=airoha_cmd
+10/23 10:09:58.617 5.089 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:09:58.617 5.089 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:09:58.617 5.089 V arg[device_name]=DUT_HEADSET
+10/23 10:09:58.617 5.089 V arg[command_xml]=command_627.xml
+10/23 10:09:58.617 5.089 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:09:58.617 5.089 I [airoha_cmd] Check_Button_VR
+10/23 10:09:59.568 6.040 V [log_file_sync]
+10/23 10:09:59.617 6.089 D [host] Match timeout 1000 ms(0)
+10/23 10:09:59.617 6.089 E [exception] airoha_command.cc:144(-1): [airoha_cmd] run command fail(-1): Check_Button_VR
+10/23 10:09:59.617 6.089 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:09:59.617 6.089 D [task_time][airoha_cmd] spend 1.000
+10/23 10:09:59.617 6.089 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:09:59.717 6.189 V arg[airoha_task]=airoha_cmd
+10/23 10:09:59.717 6.189 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:09:59.717 6.189 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:09:59.717 6.189 V arg[device_name]=DUT_HEADSET
+10/23 10:09:59.717 6.189 V arg[command_xml]=command_627.xml
+10/23 10:09:59.717 6.189 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:09:59.717 6.189 I [airoha_cmd] Check_Button_VR
+10/23 10:10:00.105 6.577 D [046d:0aff] Read(8)
+10/23 10:10:00.105 6.577 V [046d:0aff][read 11] 070800055D04000B000001
+10/23 10:10:00.105 6.577 I [RxP 8] 055D04000B000001
+10/23 10:10:00.105 6.577 V [Match 8 Check_Button_VR] 055D04000B000001
+10/23 10:10:00.106 6.578 W [CmdR] resp not found: status
+10/23 10:10:00.106 6.578 D [task_time][airoha_cmd] spend 0.388
+10/23 10:10:00.106 6.578 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:10:00.106 6.578 V [transact] res="01"
+10/23 10:10:00.207 6.678 V arg[airoha_task]=airoha_cmd
+10/23 10:10:00.207 6.678 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:10:00.207 6.678 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:10:00.207 6.678 V arg[device_name]=DUT_HEADSET
+10/23 10:10:00.207 6.678 V arg[command_xml]=command_627.xml
+10/23 10:10:00.207 6.678 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:10:00.207 6.678 I [airoha_cmd] Check_Button_VR
+10/23 10:10:01.207 7.679 D [host] Match timeout 1000 ms(0)
+10/23 10:10:01.207 7.679 E [exception] airoha_command.cc:144(-1): [airoha_cmd] run command fail(-1): Check_Button_VR
+10/23 10:10:01.207 7.679 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:10:01.207 7.679 D [task_time][airoha_cmd] spend 1.000
+10/23 10:10:01.207 7.679 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:10:01.307 7.779 V arg[airoha_task]=airoha_cmd
+10/23 10:10:01.307 7.779 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:10:01.307 7.779 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:10:01.307 7.779 V arg[device_name]=DUT_HEADSET
+10/23 10:10:01.307 7.779 V arg[command_xml]=command_627.xml
+10/23 10:10:01.307 7.779 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:10:01.307 7.779 I [airoha_cmd] Check_Button_VR
+10/23 10:10:01.406 7.878 D [046d:0aff] Read(8)
+10/23 10:10:01.406 7.878 V [046d:0aff][read 11] 070800055D04000B000000
+10/23 10:10:01.407 7.879 I [RxP 8] 055D04000B000000
+10/23 10:10:01.407 7.879 V [Match 8 Check_Button_VR] 055D04000B000000
+10/23 10:10:01.407 7.879 W [CmdR] resp not found: status
+10/23 10:10:01.407 7.879 D [task_time][airoha_cmd] spend 0.100
+10/23 10:10:01.407 7.879 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:10:01.407 7.879 V [transact] res="00"
+10/23 10:10:01.541 8.013 V arg[airoha_task]=airoha_cmd
+10/23 10:10:01.541 8.013 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:10:01.541 8.013 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:10:01.541 8.013 V arg[device_name]=DUT_HEADSET
+10/23 10:10:01.541 8.013 V arg[command_xml]=command_627.xml
+10/23 10:10:01.541 8.013 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:10:01.541 8.013 I [airoha_cmd] Check_Button_VR
+10/23 10:10:01.571 8.042 V [log_file_sync]
+10/23 10:10:01.586 8.057 D [046d:0aff] Read(8)
+10/23 10:10:01.586 8.057 V [046d:0aff][read 11] 070800055D04000B000000
+10/23 10:10:01.587 8.058 I [RxP 8] 055D04000B000000
+10/23 10:10:01.587 8.058 V [Match 8 Check_Button_VR] 055D04000B000000
+10/23 10:10:01.587 8.058 W [CmdR] resp not found: status
+10/23 10:10:01.587 8.058 D [task_time][airoha_cmd] spend 0.046
+10/23 10:10:01.587 8.058 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:10:01.587 8.058 V [transact] res="00"
+10/23 10:10:01.687 8.159 V arg[airoha_task]=airoha_cmd
+10/23 10:10:01.687 8.159 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:10:01.687 8.159 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:10:01.687 8.159 V arg[device_name]=DUT_HEADSET
+10/23 10:10:01.687 8.159 V arg[command_xml]=command_627.xml
+10/23 10:10:01.687 8.159 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:10:01.687 8.159 I [airoha_cmd] Check_Button_VR
+10/23 10:10:02.578 9.050 D [046d:0aff] Read(8)
+10/23 10:10:02.578 9.050 V [046d:0aff][read 11] 070800055D04000B000001
+10/23 10:10:02.579 9.050 I [RxP 8] 055D04000B000001
+10/23 10:10:02.579 9.050 V [Match 8 Check_Button_VR] 055D04000B000001
+10/23 10:10:02.579 9.050 W [CmdR] resp not found: status
+10/23 10:10:02.579 9.050 D [task_time][airoha_cmd] spend 0.891
+10/23 10:10:02.579 9.050 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:10:02.579 9.050 V [transact] res="01"
+10/23 10:10:02.615 9.087 D [046d:0aff] Read(8)
+10/23 10:10:02.615 9.087 V [046d:0aff][read 11] 070800055D04000B000001
+10/23 10:10:02.616 9.088 I [RxP 8] 055D04000B000001
+10/23 10:10:02.673 9.145 V arg[airoha_task]=airoha_cmd
+10/23 10:10:02.673 9.145 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:10:02.673 9.145 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:10:02.673 9.145 V arg[device_name]=DUT_HEADSET
+10/23 10:10:02.673 9.145 V arg[command_xml]=command_627.xml
+10/23 10:10:02.673 9.145 V arg[airoha_cmd]=RACE_GET_MUTE
+10/23 10:10:02.673 9.145 I [airoha_cmd] RACE_GET_MUTE
+10/23 10:10:02.673 9.145 D [046d:0aff] Write(6)
+10/23 10:10:02.675 9.147 D [046d:0aff] chunk: 62(6) (6/6) 060600
+10/23 10:10:02.675 9.147 V [046d:0aff] Write: 62(6) (6/6) 060600055A020005000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+10/23 10:10:02.677 9.149 D [046d:0aff][write 6 RACE_GET_MUTE] 055A02000500
+10/23 10:10:02.677 9.149 D [046d:0aff] Read(9)
+10/23 10:10:02.677 9.149 V [046d:0aff][read 12] 070900055B05000500000100
+10/23 10:10:02.677 9.149 I [RxP 9] 055B05000500000100
+10/23 10:10:02.677 9.149 V [Match 9 RACE_GET_MUTE] 055B05000500000100
+10/23 10:10:02.677 9.149 W [CmdR] resp not found: status
+10/23 10:10:02.677 9.149 D [task_time][airoha_cmd] spend 0.004
+10/23 10:10:02.677 9.149 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:10:02.677 9.149 V [transact] payload="000100"
+10/23 10:10:02.768 9.240 V arg[airoha_task]=airoha_cmd
+10/23 10:10:02.768 9.240 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:10:02.768 9.240 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:10:02.768 9.240 V arg[device_name]=DUT_HEADSET
+10/23 10:10:02.768 9.240 V arg[command_xml]=command_627.xml
+10/23 10:10:02.768 9.240 V arg[airoha_cmd]=Check_Button_MUTE
+10/23 10:10:02.768 9.240 I [airoha_cmd] Check_Button_MUTE
+10/23 10:10:02.770 9.241 D [046d:0aff] Read(8)
+10/23 10:10:02.770 9.241 V [046d:0aff][read 11] 070800055D04000B000001
+10/23 10:10:02.770 9.241 I [RxP 8] 055D04000B000001
+10/23 10:10:03.573 10.045 V [log_file_sync]
+10/23 10:10:03.769 10.241 D [host] Match timeout 1001 ms(0)
+10/23 10:10:03.769 10.241 E [exception] airoha_command.cc:144(-1): [airoha_cmd] run command fail(-1): Check_Button_MUTE
+10/23 10:10:03.769 10.241 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:10:03.769 10.241 D [task_time][airoha_cmd] spend 1.001
+10/23 10:10:03.769 10.241 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:10:03.870 10.342 V arg[airoha_task]=airoha_cmd
+10/23 10:10:03.870 10.342 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:10:03.870 10.342 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:10:03.870 10.342 V arg[device_name]=DUT_HEADSET
+10/23 10:10:03.870 10.342 V arg[command_xml]=command_627.xml
+10/23 10:10:03.870 10.342 V arg[airoha_cmd]=Check_Button_MUTE
+10/23 10:10:03.870 10.342 I [airoha_cmd] Check_Button_MUTE
+10/23 10:10:04.871 11.343 D [host] Match timeout 1000 ms(0)
+10/23 10:10:04.871 11.343 E [exception] airoha_command.cc:144(-1): [airoha_cmd] run command fail(-1): Check_Button_MUTE
+10/23 10:10:04.871 11.343 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:10:04.871 11.343 D [task_time][airoha_cmd] spend 1.001
+10/23 10:10:04.871 11.343 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:10:04.971 11.443 V arg[airoha_task]=airoha_cmd
+10/23 10:10:04.971 11.443 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:10:04.971 11.443 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:10:04.971 11.443 V arg[device_name]=DUT_HEADSET
+10/23 10:10:04.971 11.443 V arg[command_xml]=command_627.xml
+10/23 10:10:04.971 11.443 V arg[airoha_cmd]=Check_Button_MUTE
+10/23 10:10:04.971 11.443 I [airoha_cmd] Check_Button_MUTE
+10/23 10:10:05.578 12.050 V [log_file_sync]
+10/23 10:10:05.972 12.444 D [host] Match timeout 1000 ms(0)
+10/23 10:10:05.972 12.444 E [exception] airoha_command.cc:144(-1): [airoha_cmd] run command fail(-1): Check_Button_MUTE
+10/23 10:10:05.972 12.444 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:10:05.972 12.444 D [task_time][airoha_cmd] spend 1.001
+10/23 10:10:05.972 12.444 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:10:06.072 12.544 V arg[airoha_task]=airoha_cmd
+10/23 10:10:06.072 12.544 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:10:06.072 12.544 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:10:06.072 12.544 V arg[device_name]=DUT_HEADSET
+10/23 10:10:06.072 12.544 V arg[command_xml]=command_627.xml
+10/23 10:10:06.072 12.544 V arg[airoha_cmd]=Check_Button_MUTE
+10/23 10:10:06.072 12.544 I [airoha_cmd] Check_Button_MUTE
+10/23 10:10:07.073 13.545 D [host] Match timeout 1000 ms(0)
+10/23 10:10:07.073 13.545 E [exception] airoha_command.cc:144(-1): [airoha_cmd] run command fail(-1): Check_Button_MUTE
+10/23 10:10:07.073 13.545 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:10:07.073 13.545 D [task_time][airoha_cmd] spend 1.000
+10/23 10:10:07.073 13.545 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:10:07.173 13.645 V arg[airoha_task]=airoha_cmd
+10/23 10:10:07.173 13.645 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:10:07.173 13.645 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:10:07.173 13.645 V arg[device_name]=DUT_HEADSET
+10/23 10:10:07.173 13.645 V arg[command_xml]=command_627.xml
+10/23 10:10:07.173 13.645 V arg[airoha_cmd]=Check_Button_MUTE
+10/23 10:10:07.173 13.645 I [airoha_cmd] Check_Button_MUTE
+10/23 10:10:07.580 14.051 V [log_file_sync]
+10/23 10:10:08.173 14.645 D [host] Match timeout 1000 ms(0)
+10/23 10:10:08.173 14.645 E [exception] airoha_command.cc:144(-1): [airoha_cmd] run command fail(-1): Check_Button_MUTE
+10/23 10:10:08.173 14.645 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:10:08.173 14.645 D [task_time][airoha_cmd] spend 1.000
+10/23 10:10:08.173 14.645 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:10:08.273 14.745 V arg[airoha_task]=airoha_cmd
+10/23 10:10:08.273 14.745 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:10:08.273 14.745 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:10:08.273 14.745 V arg[device_name]=DUT_HEADSET
+10/23 10:10:08.273 14.745 V arg[command_xml]=command_627.xml
+10/23 10:10:08.273 14.745 V arg[airoha_cmd]=Check_Button_MUTE
+10/23 10:10:08.273 14.745 I [airoha_cmd] Check_Button_MUTE
+10/23 10:10:09.034 15.506 D [046d:0aff] Read(8)
+10/23 10:10:09.034 15.506 V [046d:0aff][read 11] 070800055D04000B000001
+10/23 10:10:09.035 15.507 I [RxP 8] 055D04000B000001
+10/23 10:10:09.275 15.747 D [host] Match timeout 1001 ms(0)
+10/23 10:10:09.275 15.747 E [exception] airoha_command.cc:144(-1): [airoha_cmd] run command fail(-1): Check_Button_MUTE
+10/23 10:10:09.275 15.747 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:10:09.275 15.747 D [task_time][airoha_cmd] spend 1.002
+10/23 10:10:09.275 15.747 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:10:09.376 15.848 V arg[airoha_task]=airoha_cmd
+10/23 10:10:09.376 15.848 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:10:09.376 15.848 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:10:09.376 15.848 V arg[device_name]=DUT_HEADSET
+10/23 10:10:09.376 15.848 V arg[command_xml]=command_627.xml
+10/23 10:10:09.376 15.848 V arg[airoha_cmd]=Check_Button_MUTE
+10/23 10:10:09.376 15.848 I [airoha_cmd] Check_Button_MUTE
+10/23 10:10:09.581 16.053 V [log_file_sync]
+10/23 10:10:10.377 16.849 D [host] Match timeout 1000 ms(0)
+10/23 10:10:10.377 16.849 E [exception] airoha_command.cc:144(-1): [airoha_cmd] run command fail(-1): Check_Button_MUTE
+10/23 10:10:10.377 16.849 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:10:10.377 16.849 D [task_time][airoha_cmd] spend 1.001
+10/23 10:10:10.377 16.849 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:10:10.477 16.949 V arg[airoha_task]=airoha_cmd
+10/23 10:10:10.477 16.949 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:10:10.477 16.949 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:10:10.477 16.949 V arg[device_name]=DUT_HEADSET
+10/23 10:10:10.477 16.949 V arg[command_xml]=command_627.xml
+10/23 10:10:10.477 16.949 V arg[airoha_cmd]=Check_Button_MUTE
+10/23 10:10:10.477 16.949 I [airoha_cmd] Check_Button_MUTE
+10/23 10:10:11.457 17.929 V arg[airoha_task]=airoha_cmd
+10/23 10:10:11.457 17.929 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:10:11.457 17.929 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:10:11.457 17.929 V arg[device_name]=DUT_HEADSET
+10/23 10:10:11.457 17.929 V arg[command_xml]=command_627.xml
+10/23 10:10:11.457 17.929 V arg[airoha_cmd]=RACE_DISABLE_BUTTON_MODEL
+10/23 10:10:11.457 17.929 I [airoha_cmd] RACE_DISABLE_BUTTON_MODEL
+10/23 10:10:11.457 17.929 D [046d:0aff] Write(7)
+10/23 10:10:11.459 17.931 D [046d:0aff] chunk: 62(7) (7/7) 060700
+10/23 10:10:11.459 17.931 V [046d:0aff] Write: 62(7) (7/7) 060700055A03000B000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+10/23 10:10:11.461 17.933 D [046d:0aff][write 7 RACE_DISABLE_BUTTON_MODEL] 055A03000B0000
+10/23 10:10:11.462 17.934 D [046d:0aff] Read(7)
+10/23 10:10:11.462 17.934 V [046d:0aff][read 10] 070700055B03000B0000
+10/23 10:10:11.463 17.935 I [RxP 7] 055B03000B0000
+10/23 10:10:11.463 17.935 V [Match 7 RACE_DISABLE_BUTTON_MODEL] 055B03000B0000
+10/23 10:10:11.463 17.935 W [CmdR] resp not found: status
+10/23 10:10:11.463 17.935 D [task_time][airoha_cmd] spend 0.006
+10/23 10:10:11.463 17.935 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:10:11.463 17.935 V [transact] Disable="00"
+10/23 10:10:11.470 17.942 V arg[airoha_task]=DisconnectDUTByUsbHid
+10/23 10:10:11.470 17.942 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+10/23 10:10:11.470 17.942 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+10/23 10:10:11.470 17.942 V arg[device_name]=DUT_DONGLE
+10/23 10:10:11.470 17.942 V arg[device_type]=USB_HID
+10/23 10:10:11.470 17.942 V arg[action]=disconnect
+10/23 10:10:11.470 17.942 V arg[port]=
+10/23 10:10:11.470 17.942 D [UsbHidPhy] Close Success.
+10/23 10:10:11.470 17.942 D [host] Clear buffer and queue.
+10/23 10:10:11.470 17.942 V [tp_fty] delete trans
+10/23 10:10:11.470 17.942 V delete phy
+10/23 10:10:11.470 17.942 D [host] Clear buffer and queue.
+10/23 10:10:11.470 17.942 D [UartDevice] Disconnect
+10/23 10:10:11.470 17.942 D [DisconnectDUTByUsbHid] disconnect: DUT_DONGLE(USB_HID)
+10/23 10:10:11.470 17.942 D [task_time][DisconnectDUTByUsbHid] spend 0.000
+10/23 10:10:11.470 17.942 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+10/23 10:10:11.470 17.942 V [transact] result="pass"
+10/23 10:10:11.477 17.949 D [host] Match timeout 1000 ms(0)
+10/23 10:10:11.477 17.949 E [exception] airoha_command.cc:144(-1): [airoha_cmd] run command fail(-1): Check_Button_MUTE
+10/23 10:10:11.477 17.949 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:10:11.477 17.949 D [task_time][airoha_cmd] spend 1.000
+10/23 10:10:11.477 17.949 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:10:11.583 18.054 V [log_file_sync]
+10/23 10:10:12.582 19.054 V arg[airoha_task]=DisconnectDUTByUsbHid
+10/23 10:10:12.582 19.054 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+10/23 10:10:12.582 19.054 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+10/23 10:10:12.582 19.054 V arg[device_name]=DUT_HEADSET
+10/23 10:10:12.582 19.054 V arg[device_type]=USB_HID
+10/23 10:10:12.582 19.054 V arg[action]=disconnect
+10/23 10:10:12.582 19.054 V arg[port]=
+10/23 10:10:12.582 19.054 D [UsbHidPhy] Close Success.
+10/23 10:10:12.582 19.054 D [host] Clear buffer and queue.
+10/23 10:10:12.582 19.054 V [tp_fty] delete trans
+10/23 10:10:12.582 19.054 V delete phy
+10/23 10:10:12.582 19.054 D [host] Clear buffer and queue.
+10/23 10:10:12.582 19.054 D [UartDevice] Disconnect
+10/23 10:10:12.582 19.054 D [DisconnectDUTByUsbHid] disconnect: DUT_HEADSET(USB_HID)
+10/23 10:10:12.582 19.054 D [task_time][DisconnectDUTByUsbHid] spend 0.000
+10/23 10:10:12.582 19.054 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+10/23 10:10:12.582 19.054 V [transact] result="pass"
+10/23 10:10:13.586 20.058 V [log_file_sync]
+10/23 10:10:18.770 25.242 V arg[airoha_task]=TaskUsbHidDongleHeadsetUartPairing
+10/23 10:10:18.770 25.242 V [task] TaskUsbHidDongleHeadsetUartPairing, class: UsbHidDongleHeadsetUartPairingTask
+10/23 10:10:18.770 25.242 V [task_start][TaskUsbHidDongleHeadsetUartPairing] +++++++++++++++++++++++
+10/23 10:10:18.774 25.246 V [log_file_sync]
+10/23 10:10:18.788 25.260 V arg[minimum_battery_level]=30
+10/23 10:10:18.788 25.260 V arg[delay_for_boot]=2000
+10/23 10:10:18.788 25.260 V arg[is_check_boot_event]=true
+10/23 10:10:18.802 25.273 V arg[device_name_d]=DUT_DONGLE
+10/23 10:10:18.802 25.273 V arg[device_name_h]=DUT_HEADSET
+10/23 10:10:18.873 25.345 E [exception] race_part.cc:562(-101): command fail(-101): RACE_GET_BDADDRESS
+10/23 10:10:18.873 25.345 E [task] Fail to execute RunTask() of TaskUsbHidDongleHeadsetUartPairing object
+10/23 10:10:18.873 25.345 D [task_time][TaskUsbHidDongleHeadsetUartPairing] spend 0.092
+10/23 10:10:18.873 25.345 V [task_end][TaskUsbHidDongleHeadsetUartPairing] ------------------------------------------
+10/23 10:10:18.873 25.345 V [transact] result="fail"
+10/23 10:10:20.778 27.250 V [log_file_sync]
+10/23 10:10:21.614 28.086 V arg[airoha_task]=airoha_cmd
+10/23 10:10:21.614 28.086 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:10:21.614 28.086 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:10:21.614 28.086 V arg[device_name]=DUT_HEADSET
+10/23 10:10:21.614 28.086 V arg[command_xml]=command_627.xml
+10/23 10:10:21.614 28.086 V arg[airoha_cmd]=RACE_DISABLE_BUTTON_MODEL
+10/23 10:10:21.614 28.086 I [airoha_cmd] RACE_DISABLE_BUTTON_MODEL
+10/23 10:10:21.614 28.086 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): RACE_DISABLE_BUTTON_MODEL
+10/23 10:10:21.614 28.086 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:10:21.614 28.086 D [task_time][airoha_cmd] spend 0.000
+10/23 10:10:21.614 28.086 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:10:22.784 29.256 V [log_file_sync]
+10/23 10:10:24.079 30.551 V arg[airoha_task]=airoha_cmd
+10/23 10:10:24.079 30.551 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:10:24.079 30.551 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:10:24.079 30.551 V arg[device_name]=DUT_HEADSET
+10/23 10:10:24.079 30.551 V arg[command_xml]=command_627.xml
+10/23 10:10:24.079 30.551 V arg[airoha_cmd]=RACE_PCBA_SN
+10/23 10:10:24.079 30.551 I [airoha_cmd] RACE_PCBA_SN
+10/23 10:10:24.079 30.551 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): RACE_PCBA_SN
+10/23 10:10:24.079 30.551 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:10:24.079 30.551 D [task_time][airoha_cmd] spend 0.000
+10/23 10:10:24.079 30.551 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:10:24.787 31.259 V [log_file_sync]
+10/23 10:10:29.141 35.613 V arg[airoha_task]=airoha_cmd
+10/23 10:10:29.141 35.613 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:10:29.141 35.613 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:10:29.141 35.613 V arg[device_name]=DUT_HEADSET
+10/23 10:10:29.141 35.613 V arg[command_xml]=command_627.xml
+10/23 10:10:29.141 35.613 V arg[airoha_cmd]=RACE_GET_COLOR_ID
+10/23 10:10:29.141 35.613 I [airoha_cmd] RACE_GET_COLOR_ID
+10/23 10:10:29.141 35.613 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): RACE_GET_COLOR_ID
+10/23 10:10:29.141 35.613 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:10:29.141 35.613 D [task_time][airoha_cmd] spend 0.000
+10/23 10:10:29.141 35.613 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:10:29.143 35.615 V [log_file_sync]
+10/23 10:10:34.587 41.059 V arg[airoha_task]=airoha_cmd
+10/23 10:10:34.587 41.059 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:10:34.587 41.059 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:10:34.587 41.059 V arg[device_name]=DUT_HEADSET
+10/23 10:10:34.587 41.059 V arg[command_xml]=command_627.xml
+10/23 10:10:34.587 41.059 V arg[airoha_cmd]=RACE_GET_COLOR_ID
+10/23 10:10:34.587 41.059 I [airoha_cmd] RACE_GET_COLOR_ID
+10/23 10:10:34.587 41.059 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): RACE_GET_COLOR_ID
+10/23 10:10:34.587 41.059 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:10:34.587 41.059 D [task_time][airoha_cmd] spend 0.000
+10/23 10:10:34.587 41.059 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:10:34.592 41.064 V [log_file_sync]
+10/23 10:10:34.819 41.291 V arg[airoha_task]=airoha_cmd
+10/23 10:10:34.819 41.291 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:10:34.819 41.291 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:10:34.819 41.291 V arg[device_name]=DUT_HEADSET
+10/23 10:10:34.819 41.291 V arg[command_xml]=command_627.xml
+10/23 10:10:34.819 41.291 V arg[airoha_cmd]=RACE_GET_COLOR_ID
+10/23 10:10:34.819 41.291 I [airoha_cmd] RACE_GET_COLOR_ID
+10/23 10:10:34.819 41.291 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): RACE_GET_COLOR_ID
+10/23 10:10:34.819 41.291 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:10:34.819 41.291 D [task_time][airoha_cmd] spend 0.000
+10/23 10:10:34.819 41.291 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:10:36.595 43.067 V [log_file_sync]
+10/23 10:10:38.782 45.254 V arg[airoha_task]=airoha_cmd
+10/23 10:10:38.782 45.254 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:10:38.782 45.254 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:10:38.782 45.254 V arg[device_name]=DUT_DONGLE
+10/23 10:10:38.782 45.254 V arg[command_xml]=command_627.xml
+10/23 10:10:38.782 45.254 V arg[airoha_cmd]=RACE_GET_COLOR_ID
+10/23 10:10:38.782 45.254 I [airoha_cmd] RACE_GET_COLOR_ID
+10/23 10:10:38.782 45.254 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): RACE_GET_COLOR_ID
+10/23 10:10:38.782 45.254 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:10:38.782 45.254 D [task_time][airoha_cmd] spend 0.000
+10/23 10:10:38.782 45.254 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:10:38.784 45.256 V [log_file_sync]
+10/23 10:10:41.748 48.220 V arg[airoha_task]=airoha_cmd
+10/23 10:10:41.748 48.220 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:10:41.748 48.220 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:10:41.748 48.220 V arg[device_name]=DUT_HEADSET
+10/23 10:10:41.748 48.220 V arg[command_xml]=command_627.xml
+10/23 10:10:41.748 48.220 V arg[airoha_cmd]=RACE_HEADSET_POWER_ON
+10/23 10:10:41.748 48.220 I [airoha_cmd] RACE_HEADSET_POWER_ON
+10/23 10:10:41.748 48.220 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): RACE_HEADSET_POWER_ON
+10/23 10:10:41.748 48.220 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:10:41.748 48.220 D [task_time][airoha_cmd] spend 0.000
+10/23 10:10:41.748 48.220 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:10:41.749 48.221 V [log_file_sync]
+10/23 10:11:06.516 72.988 V arg[airoha_task]=airoha_cmd
+10/23 10:11:06.516 72.988 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:06.516 72.988 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:06.516 72.988 V arg[device_name]=DUT_HEADSET
+10/23 10:11:06.516 72.988 V arg[command_xml]=command_627.xml
+10/23 10:11:06.516 72.988 V arg[airoha_cmd]=RACE_HEADSET_POWER_ON
+10/23 10:11:06.516 72.988 I [airoha_cmd] RACE_HEADSET_POWER_ON
+10/23 10:11:06.516 72.988 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): RACE_HEADSET_POWER_ON
+10/23 10:11:06.516 72.988 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:06.516 72.988 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:06.516 72.988 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:06.518 72.990 V [log_file_sync]
+10/23 10:11:09.337 75.809 V arg[airoha_task]=airoha_cmd
+10/23 10:11:09.337 75.809 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:09.337 75.809 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:09.337 75.809 V arg[device_name]=DUT_HEADSET
+10/23 10:11:09.337 75.809 V arg[command_xml]=command_627.xml
+10/23 10:11:09.337 75.809 V arg[airoha_cmd]=RACE_ENTER_BUTTON_MODEL
+10/23 10:11:09.337 75.809 I [airoha_cmd] RACE_ENTER_BUTTON_MODEL
+10/23 10:11:09.337 75.809 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): RACE_ENTER_BUTTON_MODEL
+10/23 10:11:09.337 75.809 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:09.337 75.809 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:09.337 75.809 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:09.340 75.812 V [log_file_sync]
+10/23 10:11:12.164 78.636 V arg[airoha_task]=airoha_cmd
+10/23 10:11:12.164 78.636 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:12.164 78.636 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:12.164 78.636 V arg[device_name]=DUT_HEADSET
+10/23 10:11:12.164 78.636 V arg[command_xml]=command_627.xml
+10/23 10:11:12.164 78.636 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:12.164 78.636 I [airoha_cmd] Check_Button_VR
+10/23 10:11:12.164 78.636 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:12.164 78.636 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:12.164 78.636 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:12.164 78.636 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:12.169 78.641 V [log_file_sync]
+10/23 10:11:12.265 78.736 V arg[airoha_task]=airoha_cmd
+10/23 10:11:12.265 78.736 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:12.265 78.736 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:12.265 78.736 V arg[device_name]=DUT_HEADSET
+10/23 10:11:12.265 78.736 V arg[command_xml]=command_627.xml
+10/23 10:11:12.265 78.736 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:12.265 78.736 I [airoha_cmd] Check_Button_VR
+10/23 10:11:12.265 78.736 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:12.265 78.736 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:12.265 78.736 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:12.265 78.736 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:12.365 78.837 V arg[airoha_task]=airoha_cmd
+10/23 10:11:12.365 78.837 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:12.365 78.837 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:12.365 78.837 V arg[device_name]=DUT_HEADSET
+10/23 10:11:12.365 78.837 V arg[command_xml]=command_627.xml
+10/23 10:11:12.365 78.837 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:12.365 78.837 I [airoha_cmd] Check_Button_VR
+10/23 10:11:12.365 78.837 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:12.365 78.837 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:12.365 78.837 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:12.365 78.837 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:12.466 78.938 V arg[airoha_task]=airoha_cmd
+10/23 10:11:12.466 78.938 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:12.466 78.938 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:12.466 78.938 V arg[device_name]=DUT_HEADSET
+10/23 10:11:12.466 78.938 V arg[command_xml]=command_627.xml
+10/23 10:11:12.466 78.938 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:12.466 78.938 I [airoha_cmd] Check_Button_VR
+10/23 10:11:12.466 78.938 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:12.466 78.938 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:12.466 78.938 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:12.466 78.938 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:12.566 79.038 V arg[airoha_task]=airoha_cmd
+10/23 10:11:12.566 79.038 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:12.566 79.038 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:12.566 79.038 V arg[device_name]=DUT_HEADSET
+10/23 10:11:12.566 79.038 V arg[command_xml]=command_627.xml
+10/23 10:11:12.566 79.038 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:12.566 79.038 I [airoha_cmd] Check_Button_VR
+10/23 10:11:12.566 79.038 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:12.566 79.038 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:12.566 79.038 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:12.566 79.038 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:12.667 79.139 V arg[airoha_task]=airoha_cmd
+10/23 10:11:12.667 79.139 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:12.667 79.139 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:12.667 79.139 V arg[device_name]=DUT_HEADSET
+10/23 10:11:12.667 79.139 V arg[command_xml]=command_627.xml
+10/23 10:11:12.667 79.139 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:12.667 79.139 I [airoha_cmd] Check_Button_VR
+10/23 10:11:12.667 79.139 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:12.667 79.139 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:12.667 79.139 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:12.667 79.139 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:12.767 79.239 V arg[airoha_task]=airoha_cmd
+10/23 10:11:12.767 79.239 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:12.767 79.239 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:12.767 79.239 V arg[device_name]=DUT_HEADSET
+10/23 10:11:12.767 79.239 V arg[command_xml]=command_627.xml
+10/23 10:11:12.767 79.239 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:12.767 79.239 I [airoha_cmd] Check_Button_VR
+10/23 10:11:12.767 79.239 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:12.767 79.239 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:12.767 79.239 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:12.767 79.239 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:12.868 79.340 V arg[airoha_task]=airoha_cmd
+10/23 10:11:12.868 79.340 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:12.868 79.340 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:12.868 79.340 V arg[device_name]=DUT_HEADSET
+10/23 10:11:12.868 79.340 V arg[command_xml]=command_627.xml
+10/23 10:11:12.868 79.340 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:12.868 79.340 I [airoha_cmd] Check_Button_VR
+10/23 10:11:12.868 79.340 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:12.868 79.340 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:12.868 79.340 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:12.868 79.340 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:12.968 79.440 V arg[airoha_task]=airoha_cmd
+10/23 10:11:12.968 79.440 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:12.968 79.440 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:12.968 79.440 V arg[device_name]=DUT_HEADSET
+10/23 10:11:12.968 79.440 V arg[command_xml]=command_627.xml
+10/23 10:11:12.968 79.440 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:12.968 79.440 I [airoha_cmd] Check_Button_VR
+10/23 10:11:12.968 79.440 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:12.968 79.440 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:12.968 79.440 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:12.968 79.440 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:13.069 79.541 V arg[airoha_task]=airoha_cmd
+10/23 10:11:13.069 79.541 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:13.069 79.541 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:13.069 79.541 V arg[device_name]=DUT_HEADSET
+10/23 10:11:13.069 79.541 V arg[command_xml]=command_627.xml
+10/23 10:11:13.069 79.541 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:13.069 79.541 I [airoha_cmd] Check_Button_VR
+10/23 10:11:13.069 79.541 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:13.069 79.541 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:13.069 79.541 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:13.069 79.541 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:13.170 79.642 V arg[airoha_task]=airoha_cmd
+10/23 10:11:13.170 79.642 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:13.170 79.642 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:13.170 79.642 V arg[device_name]=DUT_HEADSET
+10/23 10:11:13.170 79.642 V arg[command_xml]=command_627.xml
+10/23 10:11:13.170 79.642 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:13.170 79.642 I [airoha_cmd] Check_Button_VR
+10/23 10:11:13.170 79.642 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:13.170 79.642 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:13.170 79.642 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:13.170 79.642 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:13.271 79.743 V arg[airoha_task]=airoha_cmd
+10/23 10:11:13.271 79.743 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:13.271 79.743 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:13.271 79.743 V arg[device_name]=DUT_HEADSET
+10/23 10:11:13.271 79.743 V arg[command_xml]=command_627.xml
+10/23 10:11:13.271 79.743 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:13.271 79.743 I [airoha_cmd] Check_Button_VR
+10/23 10:11:13.271 79.743 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:13.271 79.743 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:13.271 79.743 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:13.271 79.743 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:13.371 79.843 V arg[airoha_task]=airoha_cmd
+10/23 10:11:13.371 79.843 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:13.371 79.843 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:13.371 79.843 V arg[device_name]=DUT_HEADSET
+10/23 10:11:13.371 79.843 V arg[command_xml]=command_627.xml
+10/23 10:11:13.371 79.843 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:13.371 79.843 I [airoha_cmd] Check_Button_VR
+10/23 10:11:13.371 79.843 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:13.371 79.843 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:13.371 79.843 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:13.371 79.843 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:13.472 79.944 V arg[airoha_task]=airoha_cmd
+10/23 10:11:13.472 79.944 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:13.472 79.944 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:13.472 79.944 V arg[device_name]=DUT_HEADSET
+10/23 10:11:13.472 79.944 V arg[command_xml]=command_627.xml
+10/23 10:11:13.472 79.944 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:13.472 79.944 I [airoha_cmd] Check_Button_VR
+10/23 10:11:13.472 79.944 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:13.472 79.944 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:13.472 79.944 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:13.472 79.944 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:13.572 80.044 V arg[airoha_task]=airoha_cmd
+10/23 10:11:13.572 80.044 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:13.572 80.044 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:13.572 80.044 V arg[device_name]=DUT_HEADSET
+10/23 10:11:13.572 80.044 V arg[command_xml]=command_627.xml
+10/23 10:11:13.572 80.044 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:13.572 80.044 I [airoha_cmd] Check_Button_VR
+10/23 10:11:13.572 80.044 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:13.572 80.044 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:13.572 80.044 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:13.572 80.044 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:13.673 80.145 V arg[airoha_task]=airoha_cmd
+10/23 10:11:13.673 80.145 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:13.673 80.145 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:13.673 80.145 V arg[device_name]=DUT_HEADSET
+10/23 10:11:13.673 80.145 V arg[command_xml]=command_627.xml
+10/23 10:11:13.673 80.145 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:13.673 80.145 I [airoha_cmd] Check_Button_VR
+10/23 10:11:13.673 80.145 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:13.673 80.145 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:13.673 80.145 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:13.673 80.145 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:13.774 80.246 V arg[airoha_task]=airoha_cmd
+10/23 10:11:13.774 80.246 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:13.774 80.246 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:13.774 80.246 V arg[device_name]=DUT_HEADSET
+10/23 10:11:13.774 80.246 V arg[command_xml]=command_627.xml
+10/23 10:11:13.774 80.246 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:13.774 80.246 I [airoha_cmd] Check_Button_VR
+10/23 10:11:13.774 80.246 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:13.774 80.246 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:13.774 80.246 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:13.774 80.246 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:13.874 80.346 V arg[airoha_task]=airoha_cmd
+10/23 10:11:13.874 80.346 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:13.874 80.346 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:13.874 80.346 V arg[device_name]=DUT_HEADSET
+10/23 10:11:13.874 80.346 V arg[command_xml]=command_627.xml
+10/23 10:11:13.874 80.346 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:13.874 80.346 I [airoha_cmd] Check_Button_VR
+10/23 10:11:13.874 80.346 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:13.874 80.346 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:13.874 80.346 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:13.874 80.346 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:13.975 80.447 V arg[airoha_task]=airoha_cmd
+10/23 10:11:13.975 80.447 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:13.975 80.447 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:13.975 80.447 V arg[device_name]=DUT_HEADSET
+10/23 10:11:13.975 80.447 V arg[command_xml]=command_627.xml
+10/23 10:11:13.975 80.447 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:13.975 80.447 I [airoha_cmd] Check_Button_VR
+10/23 10:11:13.975 80.447 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:13.975 80.447 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:13.975 80.447 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:13.975 80.447 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:14.076 80.548 V arg[airoha_task]=airoha_cmd
+10/23 10:11:14.076 80.548 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:14.076 80.548 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:14.076 80.548 V arg[device_name]=DUT_HEADSET
+10/23 10:11:14.076 80.548 V arg[command_xml]=command_627.xml
+10/23 10:11:14.076 80.548 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:14.076 80.548 I [airoha_cmd] Check_Button_VR
+10/23 10:11:14.076 80.548 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:14.076 80.548 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:14.076 80.548 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:14.076 80.548 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:14.174 80.646 V [log_file_sync]
+10/23 10:11:14.176 80.648 V arg[airoha_task]=airoha_cmd
+10/23 10:11:14.176 80.648 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:14.176 80.648 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:14.176 80.648 V arg[device_name]=DUT_HEADSET
+10/23 10:11:14.176 80.648 V arg[command_xml]=command_627.xml
+10/23 10:11:14.176 80.648 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:14.176 80.648 I [airoha_cmd] Check_Button_VR
+10/23 10:11:14.176 80.648 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:14.176 80.648 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:14.176 80.648 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:14.176 80.648 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:14.277 80.749 V arg[airoha_task]=airoha_cmd
+10/23 10:11:14.277 80.749 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:14.277 80.749 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:14.277 80.749 V arg[device_name]=DUT_HEADSET
+10/23 10:11:14.277 80.749 V arg[command_xml]=command_627.xml
+10/23 10:11:14.277 80.749 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:14.277 80.749 I [airoha_cmd] Check_Button_VR
+10/23 10:11:14.277 80.749 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:14.277 80.749 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:14.277 80.749 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:14.277 80.749 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:14.378 80.850 V arg[airoha_task]=airoha_cmd
+10/23 10:11:14.378 80.850 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:14.378 80.850 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:14.378 80.850 V arg[device_name]=DUT_HEADSET
+10/23 10:11:14.378 80.850 V arg[command_xml]=command_627.xml
+10/23 10:11:14.378 80.850 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:14.378 80.850 I [airoha_cmd] Check_Button_VR
+10/23 10:11:14.378 80.850 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:14.378 80.850 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:14.378 80.850 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:14.378 80.850 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:14.480 80.951 V arg[airoha_task]=airoha_cmd
+10/23 10:11:14.480 80.951 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:14.480 80.951 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:14.480 80.951 V arg[device_name]=DUT_HEADSET
+10/23 10:11:14.480 80.951 V arg[command_xml]=command_627.xml
+10/23 10:11:14.480 80.951 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:14.480 80.951 I [airoha_cmd] Check_Button_VR
+10/23 10:11:14.480 80.951 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:14.480 80.951 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:14.480 80.951 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:14.480 80.951 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:14.580 81.052 V arg[airoha_task]=airoha_cmd
+10/23 10:11:14.580 81.052 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:14.580 81.052 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:14.580 81.052 V arg[device_name]=DUT_HEADSET
+10/23 10:11:14.580 81.052 V arg[command_xml]=command_627.xml
+10/23 10:11:14.580 81.052 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:14.580 81.052 I [airoha_cmd] Check_Button_VR
+10/23 10:11:14.580 81.052 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:14.580 81.052 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:14.580 81.052 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:14.580 81.052 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:14.681 81.152 V arg[airoha_task]=airoha_cmd
+10/23 10:11:14.681 81.152 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:14.681 81.152 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:14.681 81.152 V arg[device_name]=DUT_HEADSET
+10/23 10:11:14.681 81.152 V arg[command_xml]=command_627.xml
+10/23 10:11:14.681 81.152 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:14.681 81.152 I [airoha_cmd] Check_Button_VR
+10/23 10:11:14.681 81.152 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:14.681 81.152 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:14.681 81.152 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:14.681 81.152 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:14.782 81.254 V arg[airoha_task]=airoha_cmd
+10/23 10:11:14.782 81.254 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:14.782 81.254 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:14.782 81.254 V arg[device_name]=DUT_HEADSET
+10/23 10:11:14.782 81.254 V arg[command_xml]=command_627.xml
+10/23 10:11:14.782 81.254 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:14.782 81.254 I [airoha_cmd] Check_Button_VR
+10/23 10:11:14.782 81.254 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:14.782 81.254 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:14.782 81.254 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:14.782 81.254 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:14.882 81.354 V arg[airoha_task]=airoha_cmd
+10/23 10:11:14.882 81.354 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:14.882 81.354 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:14.882 81.354 V arg[device_name]=DUT_HEADSET
+10/23 10:11:14.882 81.354 V arg[command_xml]=command_627.xml
+10/23 10:11:14.882 81.354 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:14.882 81.354 I [airoha_cmd] Check_Button_VR
+10/23 10:11:14.882 81.354 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:14.882 81.354 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:14.882 81.354 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:14.882 81.354 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:14.983 81.455 V arg[airoha_task]=airoha_cmd
+10/23 10:11:14.983 81.455 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:14.983 81.455 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:14.983 81.455 V arg[device_name]=DUT_HEADSET
+10/23 10:11:14.983 81.455 V arg[command_xml]=command_627.xml
+10/23 10:11:14.983 81.455 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:14.983 81.455 I [airoha_cmd] Check_Button_VR
+10/23 10:11:14.983 81.455 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:14.983 81.455 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:14.983 81.455 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:14.983 81.455 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:15.083 81.555 V arg[airoha_task]=airoha_cmd
+10/23 10:11:15.083 81.555 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:15.083 81.555 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:15.083 81.555 V arg[device_name]=DUT_HEADSET
+10/23 10:11:15.083 81.555 V arg[command_xml]=command_627.xml
+10/23 10:11:15.083 81.555 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:15.083 81.555 I [airoha_cmd] Check_Button_VR
+10/23 10:11:15.083 81.555 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:15.083 81.555 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:15.083 81.555 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:15.083 81.555 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:15.184 81.656 V arg[airoha_task]=airoha_cmd
+10/23 10:11:15.184 81.656 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:15.184 81.656 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:15.184 81.656 V arg[device_name]=DUT_HEADSET
+10/23 10:11:15.184 81.656 V arg[command_xml]=command_627.xml
+10/23 10:11:15.184 81.656 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:15.184 81.656 I [airoha_cmd] Check_Button_VR
+10/23 10:11:15.184 81.656 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:15.184 81.656 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:15.184 81.656 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:15.184 81.656 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:15.284 81.756 V arg[airoha_task]=airoha_cmd
+10/23 10:11:15.284 81.756 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:15.284 81.756 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:15.284 81.756 V arg[device_name]=DUT_HEADSET
+10/23 10:11:15.284 81.756 V arg[command_xml]=command_627.xml
+10/23 10:11:15.284 81.756 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:15.284 81.756 I [airoha_cmd] Check_Button_VR
+10/23 10:11:15.284 81.756 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:15.284 81.756 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:15.284 81.756 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:15.284 81.756 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:15.385 81.857 V arg[airoha_task]=airoha_cmd
+10/23 10:11:15.385 81.857 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:15.385 81.857 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:15.385 81.857 V arg[device_name]=DUT_HEADSET
+10/23 10:11:15.385 81.857 V arg[command_xml]=command_627.xml
+10/23 10:11:15.385 81.857 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:15.385 81.857 I [airoha_cmd] Check_Button_VR
+10/23 10:11:15.385 81.857 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:15.385 81.857 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:15.385 81.857 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:15.385 81.857 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:15.486 81.958 V arg[airoha_task]=airoha_cmd
+10/23 10:11:15.486 81.958 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:15.486 81.958 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:15.486 81.958 V arg[device_name]=DUT_HEADSET
+10/23 10:11:15.486 81.958 V arg[command_xml]=command_627.xml
+10/23 10:11:15.486 81.958 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:15.486 81.958 I [airoha_cmd] Check_Button_VR
+10/23 10:11:15.486 81.958 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:15.486 81.958 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:15.486 81.958 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:15.486 81.958 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:15.587 82.059 V arg[airoha_task]=airoha_cmd
+10/23 10:11:15.587 82.059 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:15.587 82.059 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:15.587 82.059 V arg[device_name]=DUT_HEADSET
+10/23 10:11:15.587 82.059 V arg[command_xml]=command_627.xml
+10/23 10:11:15.587 82.059 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:15.587 82.059 I [airoha_cmd] Check_Button_VR
+10/23 10:11:15.587 82.059 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:15.587 82.059 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:15.587 82.059 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:15.587 82.059 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:15.688 82.160 V arg[airoha_task]=airoha_cmd
+10/23 10:11:15.688 82.160 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:15.688 82.160 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:15.688 82.160 V arg[device_name]=DUT_HEADSET
+10/23 10:11:15.688 82.160 V arg[command_xml]=command_627.xml
+10/23 10:11:15.688 82.160 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:15.688 82.160 I [airoha_cmd] Check_Button_VR
+10/23 10:11:15.688 82.160 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:15.688 82.160 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:15.688 82.160 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:15.688 82.160 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:15.788 82.260 V arg[airoha_task]=airoha_cmd
+10/23 10:11:15.788 82.260 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:15.788 82.260 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:15.788 82.260 V arg[device_name]=DUT_HEADSET
+10/23 10:11:15.788 82.260 V arg[command_xml]=command_627.xml
+10/23 10:11:15.788 82.260 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:15.788 82.260 I [airoha_cmd] Check_Button_VR
+10/23 10:11:15.788 82.260 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:15.788 82.260 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:15.788 82.260 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:15.788 82.260 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:15.889 82.361 V arg[airoha_task]=airoha_cmd
+10/23 10:11:15.889 82.361 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:15.889 82.361 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:15.889 82.361 V arg[device_name]=DUT_HEADSET
+10/23 10:11:15.889 82.361 V arg[command_xml]=command_627.xml
+10/23 10:11:15.889 82.361 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:15.889 82.361 I [airoha_cmd] Check_Button_VR
+10/23 10:11:15.889 82.361 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:15.889 82.361 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:15.889 82.361 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:15.889 82.361 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:15.989 82.461 V arg[airoha_task]=airoha_cmd
+10/23 10:11:15.989 82.461 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:15.989 82.461 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:15.989 82.461 V arg[device_name]=DUT_HEADSET
+10/23 10:11:15.989 82.461 V arg[command_xml]=command_627.xml
+10/23 10:11:15.989 82.461 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:15.989 82.461 I [airoha_cmd] Check_Button_VR
+10/23 10:11:15.989 82.461 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:15.989 82.461 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:15.989 82.461 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:15.989 82.461 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:16.090 82.562 V arg[airoha_task]=airoha_cmd
+10/23 10:11:16.090 82.562 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:16.090 82.562 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:16.090 82.562 V arg[device_name]=DUT_HEADSET
+10/23 10:11:16.090 82.562 V arg[command_xml]=command_627.xml
+10/23 10:11:16.090 82.562 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:16.090 82.562 I [airoha_cmd] Check_Button_VR
+10/23 10:11:16.090 82.562 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:16.090 82.562 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:16.090 82.562 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:16.090 82.562 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:16.179 82.651 V [log_file_sync]
+10/23 10:11:16.191 82.663 V arg[airoha_task]=airoha_cmd
+10/23 10:11:16.191 82.663 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:16.191 82.663 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:16.191 82.663 V arg[device_name]=DUT_HEADSET
+10/23 10:11:16.191 82.663 V arg[command_xml]=command_627.xml
+10/23 10:11:16.191 82.663 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:16.191 82.663 I [airoha_cmd] Check_Button_VR
+10/23 10:11:16.191 82.663 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:16.191 82.663 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:16.191 82.663 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:16.191 82.663 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:16.291 82.763 V arg[airoha_task]=airoha_cmd
+10/23 10:11:16.291 82.763 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:16.291 82.763 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:16.291 82.763 V arg[device_name]=DUT_HEADSET
+10/23 10:11:16.291 82.763 V arg[command_xml]=command_627.xml
+10/23 10:11:16.291 82.763 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:16.291 82.763 I [airoha_cmd] Check_Button_VR
+10/23 10:11:16.291 82.763 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:16.291 82.763 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:16.291 82.763 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:16.291 82.763 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:16.392 82.863 V arg[airoha_task]=airoha_cmd
+10/23 10:11:16.392 82.863 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:16.392 82.863 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:16.392 82.863 V arg[device_name]=DUT_HEADSET
+10/23 10:11:16.392 82.863 V arg[command_xml]=command_627.xml
+10/23 10:11:16.392 82.863 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:16.392 82.863 I [airoha_cmd] Check_Button_VR
+10/23 10:11:16.392 82.863 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:16.392 82.863 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:16.392 82.863 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:16.392 82.863 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:16.492 82.964 V arg[airoha_task]=airoha_cmd
+10/23 10:11:16.492 82.964 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:16.492 82.964 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:16.492 82.964 V arg[device_name]=DUT_HEADSET
+10/23 10:11:16.492 82.964 V arg[command_xml]=command_627.xml
+10/23 10:11:16.492 82.964 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:16.492 82.964 I [airoha_cmd] Check_Button_VR
+10/23 10:11:16.492 82.964 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:16.492 82.964 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:16.492 82.964 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:16.492 82.964 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:16.593 83.065 V arg[airoha_task]=airoha_cmd
+10/23 10:11:16.593 83.065 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:16.593 83.065 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:16.593 83.065 V arg[device_name]=DUT_HEADSET
+10/23 10:11:16.593 83.065 V arg[command_xml]=command_627.xml
+10/23 10:11:16.593 83.065 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:16.593 83.065 I [airoha_cmd] Check_Button_VR
+10/23 10:11:16.593 83.065 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:16.593 83.065 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:16.593 83.065 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:16.593 83.065 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:16.694 83.166 V arg[airoha_task]=airoha_cmd
+10/23 10:11:16.694 83.166 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:16.694 83.166 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:16.694 83.166 V arg[device_name]=DUT_HEADSET
+10/23 10:11:16.694 83.166 V arg[command_xml]=command_627.xml
+10/23 10:11:16.694 83.166 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:16.694 83.166 I [airoha_cmd] Check_Button_VR
+10/23 10:11:16.694 83.166 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:16.694 83.166 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:16.694 83.166 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:16.694 83.166 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:16.795 83.267 V arg[airoha_task]=airoha_cmd
+10/23 10:11:16.795 83.267 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:16.795 83.267 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:16.795 83.267 V arg[device_name]=DUT_HEADSET
+10/23 10:11:16.795 83.267 V arg[command_xml]=command_627.xml
+10/23 10:11:16.795 83.267 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:16.795 83.267 I [airoha_cmd] Check_Button_VR
+10/23 10:11:16.795 83.267 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:16.795 83.267 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:16.795 83.267 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:16.795 83.267 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:16.896 83.368 V arg[airoha_task]=airoha_cmd
+10/23 10:11:16.896 83.368 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:16.896 83.368 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:16.896 83.368 V arg[device_name]=DUT_HEADSET
+10/23 10:11:16.896 83.368 V arg[command_xml]=command_627.xml
+10/23 10:11:16.896 83.368 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:16.896 83.368 I [airoha_cmd] Check_Button_VR
+10/23 10:11:16.896 83.368 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:16.896 83.368 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:16.896 83.368 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:16.896 83.368 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:16.997 83.468 V arg[airoha_task]=airoha_cmd
+10/23 10:11:16.997 83.468 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:16.997 83.468 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:16.997 83.468 V arg[device_name]=DUT_HEADSET
+10/23 10:11:16.997 83.468 V arg[command_xml]=command_627.xml
+10/23 10:11:16.997 83.468 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:16.997 83.468 I [airoha_cmd] Check_Button_VR
+10/23 10:11:16.997 83.468 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:16.997 83.468 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:16.997 83.468 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:16.997 83.468 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:17.098 83.570 V arg[airoha_task]=airoha_cmd
+10/23 10:11:17.098 83.570 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:17.098 83.570 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:17.098 83.570 V arg[device_name]=DUT_HEADSET
+10/23 10:11:17.098 83.570 V arg[command_xml]=command_627.xml
+10/23 10:11:17.098 83.570 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:17.098 83.570 I [airoha_cmd] Check_Button_VR
+10/23 10:11:17.098 83.570 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:17.098 83.570 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:17.098 83.570 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:17.098 83.570 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:17.199 83.670 V arg[airoha_task]=airoha_cmd
+10/23 10:11:17.199 83.670 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:17.199 83.670 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:17.199 83.670 V arg[device_name]=DUT_HEADSET
+10/23 10:11:17.199 83.670 V arg[command_xml]=command_627.xml
+10/23 10:11:17.199 83.670 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:17.199 83.670 I [airoha_cmd] Check_Button_VR
+10/23 10:11:17.199 83.670 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:17.199 83.670 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:17.199 83.670 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:17.199 83.670 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:17.299 83.771 V arg[airoha_task]=airoha_cmd
+10/23 10:11:17.299 83.771 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:17.299 83.771 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:17.299 83.771 V arg[device_name]=DUT_HEADSET
+10/23 10:11:17.299 83.771 V arg[command_xml]=command_627.xml
+10/23 10:11:17.299 83.771 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:17.299 83.771 I [airoha_cmd] Check_Button_VR
+10/23 10:11:17.299 83.771 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:17.299 83.771 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:17.299 83.771 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:17.299 83.771 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:17.400 83.871 V arg[airoha_task]=airoha_cmd
+10/23 10:11:17.400 83.871 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:17.400 83.871 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:17.400 83.871 V arg[device_name]=DUT_HEADSET
+10/23 10:11:17.400 83.871 V arg[command_xml]=command_627.xml
+10/23 10:11:17.400 83.871 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:17.400 83.871 I [airoha_cmd] Check_Button_VR
+10/23 10:11:17.400 83.871 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:17.400 83.871 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:17.400 83.871 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:17.400 83.871 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:17.500 83.972 V arg[airoha_task]=airoha_cmd
+10/23 10:11:17.500 83.972 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:17.500 83.972 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:17.500 83.972 V arg[device_name]=DUT_HEADSET
+10/23 10:11:17.500 83.972 V arg[command_xml]=command_627.xml
+10/23 10:11:17.500 83.972 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:17.500 83.972 I [airoha_cmd] Check_Button_VR
+10/23 10:11:17.500 83.972 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:17.500 83.972 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:17.500 83.972 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:17.500 83.972 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:17.601 84.073 V arg[airoha_task]=airoha_cmd
+10/23 10:11:17.601 84.073 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:17.601 84.073 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:17.601 84.073 V arg[device_name]=DUT_HEADSET
+10/23 10:11:17.601 84.073 V arg[command_xml]=command_627.xml
+10/23 10:11:17.601 84.073 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:17.601 84.073 I [airoha_cmd] Check_Button_VR
+10/23 10:11:17.601 84.073 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:17.601 84.073 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:17.601 84.073 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:17.601 84.073 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:17.702 84.174 V arg[airoha_task]=airoha_cmd
+10/23 10:11:17.702 84.174 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:17.702 84.174 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:17.702 84.174 V arg[device_name]=DUT_HEADSET
+10/23 10:11:17.702 84.174 V arg[command_xml]=command_627.xml
+10/23 10:11:17.702 84.174 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:17.702 84.174 I [airoha_cmd] Check_Button_VR
+10/23 10:11:17.702 84.174 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:17.702 84.174 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:17.702 84.174 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:17.702 84.174 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:17.803 84.275 V arg[airoha_task]=airoha_cmd
+10/23 10:11:17.803 84.275 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:17.803 84.275 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:17.803 84.275 V arg[device_name]=DUT_HEADSET
+10/23 10:11:17.803 84.275 V arg[command_xml]=command_627.xml
+10/23 10:11:17.803 84.275 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:17.803 84.275 I [airoha_cmd] Check_Button_VR
+10/23 10:11:17.803 84.275 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:17.803 84.275 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:17.803 84.275 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:17.803 84.275 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:17.903 84.375 V arg[airoha_task]=airoha_cmd
+10/23 10:11:17.903 84.375 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:17.903 84.375 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:17.903 84.375 V arg[device_name]=DUT_HEADSET
+10/23 10:11:17.903 84.375 V arg[command_xml]=command_627.xml
+10/23 10:11:17.903 84.375 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:17.903 84.375 I [airoha_cmd] Check_Button_VR
+10/23 10:11:17.903 84.375 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:17.903 84.375 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:17.903 84.375 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:17.903 84.375 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:18.004 84.476 V arg[airoha_task]=airoha_cmd
+10/23 10:11:18.004 84.476 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:18.004 84.476 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:18.004 84.476 V arg[device_name]=DUT_HEADSET
+10/23 10:11:18.004 84.476 V arg[command_xml]=command_627.xml
+10/23 10:11:18.004 84.476 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:18.004 84.476 I [airoha_cmd] Check_Button_VR
+10/23 10:11:18.004 84.476 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:18.004 84.476 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:18.004 84.476 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:18.004 84.476 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:18.105 84.577 V arg[airoha_task]=airoha_cmd
+10/23 10:11:18.105 84.577 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:18.105 84.577 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:18.105 84.577 V arg[device_name]=DUT_HEADSET
+10/23 10:11:18.105 84.577 V arg[command_xml]=command_627.xml
+10/23 10:11:18.105 84.577 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:18.105 84.577 I [airoha_cmd] Check_Button_VR
+10/23 10:11:18.105 84.577 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:18.105 84.577 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:18.105 84.577 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:18.105 84.577 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:18.181 84.653 V [log_file_sync]
+10/23 10:11:18.206 84.678 V arg[airoha_task]=airoha_cmd
+10/23 10:11:18.206 84.678 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:18.206 84.678 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:18.206 84.678 V arg[device_name]=DUT_HEADSET
+10/23 10:11:18.206 84.678 V arg[command_xml]=command_627.xml
+10/23 10:11:18.206 84.678 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:18.206 84.678 I [airoha_cmd] Check_Button_VR
+10/23 10:11:18.206 84.678 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:18.206 84.678 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:18.206 84.678 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:18.206 84.678 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:18.306 84.778 V arg[airoha_task]=airoha_cmd
+10/23 10:11:18.306 84.778 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:18.306 84.778 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:18.306 84.778 V arg[device_name]=DUT_HEADSET
+10/23 10:11:18.306 84.778 V arg[command_xml]=command_627.xml
+10/23 10:11:18.306 84.778 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:18.306 84.778 I [airoha_cmd] Check_Button_VR
+10/23 10:11:18.306 84.778 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:18.306 84.778 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:18.306 84.778 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:18.306 84.778 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:18.407 84.879 V arg[airoha_task]=airoha_cmd
+10/23 10:11:18.407 84.879 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:18.407 84.879 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:18.407 84.879 V arg[device_name]=DUT_HEADSET
+10/23 10:11:18.407 84.879 V arg[command_xml]=command_627.xml
+10/23 10:11:18.407 84.879 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:18.407 84.879 I [airoha_cmd] Check_Button_VR
+10/23 10:11:18.407 84.879 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:18.407 84.879 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:18.407 84.879 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:18.407 84.879 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:18.507 84.979 V arg[airoha_task]=airoha_cmd
+10/23 10:11:18.507 84.979 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:18.507 84.979 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:18.507 84.979 V arg[device_name]=DUT_HEADSET
+10/23 10:11:18.507 84.979 V arg[command_xml]=command_627.xml
+10/23 10:11:18.507 84.979 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:18.507 84.979 I [airoha_cmd] Check_Button_VR
+10/23 10:11:18.507 84.979 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:18.507 84.979 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:18.507 84.979 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:18.507 84.979 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:18.608 85.079 V arg[airoha_task]=airoha_cmd
+10/23 10:11:18.608 85.079 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:18.608 85.079 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:18.608 85.079 V arg[device_name]=DUT_HEADSET
+10/23 10:11:18.608 85.079 V arg[command_xml]=command_627.xml
+10/23 10:11:18.608 85.079 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:18.608 85.079 I [airoha_cmd] Check_Button_VR
+10/23 10:11:18.608 85.079 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:18.608 85.079 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:18.608 85.079 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:18.608 85.079 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:18.708 85.180 V arg[airoha_task]=airoha_cmd
+10/23 10:11:18.708 85.180 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:18.708 85.180 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:18.708 85.180 V arg[device_name]=DUT_HEADSET
+10/23 10:11:18.708 85.180 V arg[command_xml]=command_627.xml
+10/23 10:11:18.708 85.180 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:18.708 85.180 I [airoha_cmd] Check_Button_VR
+10/23 10:11:18.708 85.180 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:18.708 85.180 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:18.708 85.180 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:18.708 85.180 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:18.809 85.281 V arg[airoha_task]=airoha_cmd
+10/23 10:11:18.809 85.281 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:18.809 85.281 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:18.809 85.281 V arg[device_name]=DUT_HEADSET
+10/23 10:11:18.809 85.281 V arg[command_xml]=command_627.xml
+10/23 10:11:18.809 85.281 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:18.809 85.281 I [airoha_cmd] Check_Button_VR
+10/23 10:11:18.809 85.281 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:18.809 85.281 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:18.809 85.281 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:18.809 85.281 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:18.910 85.381 V arg[airoha_task]=airoha_cmd
+10/23 10:11:18.910 85.381 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:18.910 85.381 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:18.910 85.381 V arg[device_name]=DUT_HEADSET
+10/23 10:11:18.910 85.381 V arg[command_xml]=command_627.xml
+10/23 10:11:18.910 85.381 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:18.910 85.381 I [airoha_cmd] Check_Button_VR
+10/23 10:11:18.910 85.381 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:18.910 85.381 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:18.910 85.381 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:18.910 85.381 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:19.010 85.482 V arg[airoha_task]=airoha_cmd
+10/23 10:11:19.010 85.482 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:19.010 85.482 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:19.010 85.482 V arg[device_name]=DUT_HEADSET
+10/23 10:11:19.010 85.482 V arg[command_xml]=command_627.xml
+10/23 10:11:19.010 85.482 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:19.010 85.482 I [airoha_cmd] Check_Button_VR
+10/23 10:11:19.010 85.482 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:19.010 85.482 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:19.010 85.482 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:19.010 85.482 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:19.111 85.583 V arg[airoha_task]=airoha_cmd
+10/23 10:11:19.111 85.583 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:19.111 85.583 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:19.111 85.583 V arg[device_name]=DUT_HEADSET
+10/23 10:11:19.111 85.583 V arg[command_xml]=command_627.xml
+10/23 10:11:19.111 85.583 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:19.111 85.583 I [airoha_cmd] Check_Button_VR
+10/23 10:11:19.111 85.583 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:19.111 85.583 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:19.111 85.583 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:19.111 85.583 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:19.212 85.684 V arg[airoha_task]=airoha_cmd
+10/23 10:11:19.212 85.684 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:19.212 85.684 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:19.212 85.684 V arg[device_name]=DUT_HEADSET
+10/23 10:11:19.212 85.684 V arg[command_xml]=command_627.xml
+10/23 10:11:19.212 85.684 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:19.212 85.684 I [airoha_cmd] Check_Button_VR
+10/23 10:11:19.212 85.684 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:19.212 85.684 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:19.212 85.684 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:19.212 85.684 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:19.313 85.785 V arg[airoha_task]=airoha_cmd
+10/23 10:11:19.313 85.785 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:19.313 85.785 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:19.313 85.785 V arg[device_name]=DUT_HEADSET
+10/23 10:11:19.313 85.785 V arg[command_xml]=command_627.xml
+10/23 10:11:19.313 85.785 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:19.313 85.785 I [airoha_cmd] Check_Button_VR
+10/23 10:11:19.313 85.785 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:19.313 85.785 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:19.313 85.785 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:19.313 85.785 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:19.413 85.885 V arg[airoha_task]=airoha_cmd
+10/23 10:11:19.413 85.885 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:19.413 85.885 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:19.413 85.885 V arg[device_name]=DUT_HEADSET
+10/23 10:11:19.413 85.885 V arg[command_xml]=command_627.xml
+10/23 10:11:19.413 85.885 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:19.413 85.885 I [airoha_cmd] Check_Button_VR
+10/23 10:11:19.413 85.885 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:19.413 85.885 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:19.413 85.885 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:19.413 85.885 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:19.514 85.986 V arg[airoha_task]=airoha_cmd
+10/23 10:11:19.514 85.986 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:19.514 85.986 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:19.514 85.986 V arg[device_name]=DUT_HEADSET
+10/23 10:11:19.514 85.986 V arg[command_xml]=command_627.xml
+10/23 10:11:19.514 85.986 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:19.514 85.986 I [airoha_cmd] Check_Button_VR
+10/23 10:11:19.514 85.986 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:19.514 85.986 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:19.514 85.986 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:19.514 85.986 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:19.614 86.086 V arg[airoha_task]=airoha_cmd
+10/23 10:11:19.614 86.086 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:19.614 86.086 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:19.614 86.086 V arg[device_name]=DUT_HEADSET
+10/23 10:11:19.614 86.086 V arg[command_xml]=command_627.xml
+10/23 10:11:19.614 86.086 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:19.614 86.086 I [airoha_cmd] Check_Button_VR
+10/23 10:11:19.614 86.086 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:19.614 86.086 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:19.614 86.086 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:19.614 86.086 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:19.715 86.186 V arg[airoha_task]=airoha_cmd
+10/23 10:11:19.715 86.186 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:19.715 86.186 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:19.715 86.186 V arg[device_name]=DUT_HEADSET
+10/23 10:11:19.715 86.186 V arg[command_xml]=command_627.xml
+10/23 10:11:19.715 86.186 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:19.715 86.186 I [airoha_cmd] Check_Button_VR
+10/23 10:11:19.715 86.186 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:19.715 86.186 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:19.715 86.186 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:19.715 86.186 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:19.816 86.287 V arg[airoha_task]=airoha_cmd
+10/23 10:11:19.816 86.287 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:19.816 86.287 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:19.816 86.287 V arg[device_name]=DUT_HEADSET
+10/23 10:11:19.816 86.287 V arg[command_xml]=command_627.xml
+10/23 10:11:19.816 86.287 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:19.816 86.287 I [airoha_cmd] Check_Button_VR
+10/23 10:11:19.816 86.287 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:19.816 86.287 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:19.816 86.287 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:19.816 86.287 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:19.916 86.388 V arg[airoha_task]=airoha_cmd
+10/23 10:11:19.916 86.388 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:19.916 86.388 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:19.916 86.388 V arg[device_name]=DUT_HEADSET
+10/23 10:11:19.916 86.388 V arg[command_xml]=command_627.xml
+10/23 10:11:19.916 86.388 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:19.916 86.388 I [airoha_cmd] Check_Button_VR
+10/23 10:11:19.916 86.388 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:19.916 86.388 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:19.916 86.388 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:19.916 86.388 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:20.016 86.488 V arg[airoha_task]=airoha_cmd
+10/23 10:11:20.016 86.488 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:20.016 86.488 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:20.016 86.488 V arg[device_name]=DUT_HEADSET
+10/23 10:11:20.016 86.488 V arg[command_xml]=command_627.xml
+10/23 10:11:20.016 86.488 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:20.016 86.488 I [airoha_cmd] Check_Button_VR
+10/23 10:11:20.016 86.488 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:20.016 86.488 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:20.016 86.488 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:20.016 86.488 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:20.118 86.589 V arg[airoha_task]=airoha_cmd
+10/23 10:11:20.118 86.589 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:20.118 86.589 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:20.118 86.589 V arg[device_name]=DUT_HEADSET
+10/23 10:11:20.118 86.589 V arg[command_xml]=command_627.xml
+10/23 10:11:20.118 86.589 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:20.118 86.589 I [airoha_cmd] Check_Button_VR
+10/23 10:11:20.118 86.589 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:20.118 86.589 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:20.118 86.589 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:20.118 86.589 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:20.183 86.654 V [log_file_sync]
+10/23 10:11:20.218 86.690 V arg[airoha_task]=airoha_cmd
+10/23 10:11:20.218 86.690 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:20.218 86.690 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:20.218 86.690 V arg[device_name]=DUT_HEADSET
+10/23 10:11:20.218 86.690 V arg[command_xml]=command_627.xml
+10/23 10:11:20.218 86.690 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:20.218 86.690 I [airoha_cmd] Check_Button_VR
+10/23 10:11:20.218 86.690 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:20.218 86.690 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:20.218 86.690 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:20.218 86.690 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:20.319 86.791 V arg[airoha_task]=airoha_cmd
+10/23 10:11:20.319 86.791 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:20.319 86.791 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:20.319 86.791 V arg[device_name]=DUT_HEADSET
+10/23 10:11:20.319 86.791 V arg[command_xml]=command_627.xml
+10/23 10:11:20.319 86.791 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:20.319 86.791 I [airoha_cmd] Check_Button_VR
+10/23 10:11:20.319 86.791 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:20.319 86.791 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:20.319 86.791 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:20.319 86.791 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:20.420 86.892 V arg[airoha_task]=airoha_cmd
+10/23 10:11:20.420 86.892 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:20.420 86.892 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:20.420 86.892 V arg[device_name]=DUT_HEADSET
+10/23 10:11:20.420 86.892 V arg[command_xml]=command_627.xml
+10/23 10:11:20.420 86.892 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:20.420 86.892 I [airoha_cmd] Check_Button_VR
+10/23 10:11:20.420 86.892 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:20.420 86.892 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:20.420 86.892 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:20.420 86.892 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:20.521 86.993 V arg[airoha_task]=airoha_cmd
+10/23 10:11:20.521 86.993 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:20.521 86.993 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:20.521 86.993 V arg[device_name]=DUT_HEADSET
+10/23 10:11:20.521 86.993 V arg[command_xml]=command_627.xml
+10/23 10:11:20.521 86.993 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:20.521 86.993 I [airoha_cmd] Check_Button_VR
+10/23 10:11:20.521 86.993 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:20.521 86.993 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:20.521 86.993 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:20.521 86.993 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:20.622 87.094 V arg[airoha_task]=airoha_cmd
+10/23 10:11:20.622 87.094 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:20.622 87.094 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:20.622 87.094 V arg[device_name]=DUT_HEADSET
+10/23 10:11:20.622 87.094 V arg[command_xml]=command_627.xml
+10/23 10:11:20.622 87.094 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:20.622 87.094 I [airoha_cmd] Check_Button_VR
+10/23 10:11:20.622 87.094 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:20.622 87.094 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:20.622 87.094 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:20.622 87.094 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:20.723 87.195 V arg[airoha_task]=airoha_cmd
+10/23 10:11:20.723 87.195 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:20.723 87.195 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:20.723 87.195 V arg[device_name]=DUT_HEADSET
+10/23 10:11:20.723 87.195 V arg[command_xml]=command_627.xml
+10/23 10:11:20.723 87.195 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:20.723 87.195 I [airoha_cmd] Check_Button_VR
+10/23 10:11:20.723 87.195 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:20.723 87.195 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:20.723 87.195 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:20.723 87.195 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:20.823 87.295 V arg[airoha_task]=airoha_cmd
+10/23 10:11:20.823 87.295 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:20.823 87.295 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:20.823 87.295 V arg[device_name]=DUT_HEADSET
+10/23 10:11:20.823 87.295 V arg[command_xml]=command_627.xml
+10/23 10:11:20.823 87.295 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:20.823 87.295 I [airoha_cmd] Check_Button_VR
+10/23 10:11:20.823 87.295 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:20.823 87.295 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:20.823 87.295 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:20.823 87.295 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:20.924 87.396 V arg[airoha_task]=airoha_cmd
+10/23 10:11:20.924 87.396 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:20.924 87.396 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:20.924 87.396 V arg[device_name]=DUT_HEADSET
+10/23 10:11:20.924 87.396 V arg[command_xml]=command_627.xml
+10/23 10:11:20.924 87.396 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:20.924 87.396 I [airoha_cmd] Check_Button_VR
+10/23 10:11:20.924 87.396 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:20.924 87.396 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:20.924 87.396 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:20.924 87.396 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:21.025 87.497 V arg[airoha_task]=airoha_cmd
+10/23 10:11:21.025 87.497 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:21.025 87.497 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:21.025 87.497 V arg[device_name]=DUT_HEADSET
+10/23 10:11:21.025 87.497 V arg[command_xml]=command_627.xml
+10/23 10:11:21.025 87.497 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:21.025 87.497 I [airoha_cmd] Check_Button_VR
+10/23 10:11:21.025 87.497 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:21.025 87.497 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:21.025 87.497 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:21.025 87.497 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:21.125 87.597 V arg[airoha_task]=airoha_cmd
+10/23 10:11:21.125 87.597 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:21.125 87.597 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:21.125 87.597 V arg[device_name]=DUT_HEADSET
+10/23 10:11:21.125 87.597 V arg[command_xml]=command_627.xml
+10/23 10:11:21.125 87.597 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:21.125 87.597 I [airoha_cmd] Check_Button_VR
+10/23 10:11:21.125 87.597 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:21.125 87.597 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:21.125 87.597 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:21.125 87.597 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:21.226 87.697 V arg[airoha_task]=airoha_cmd
+10/23 10:11:21.226 87.697 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:21.226 87.697 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:21.226 87.697 V arg[device_name]=DUT_HEADSET
+10/23 10:11:21.226 87.697 V arg[command_xml]=command_627.xml
+10/23 10:11:21.226 87.697 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:21.226 87.697 I [airoha_cmd] Check_Button_VR
+10/23 10:11:21.226 87.697 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:21.226 87.697 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:21.226 87.697 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:21.226 87.697 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:21.326 87.798 V arg[airoha_task]=airoha_cmd
+10/23 10:11:21.326 87.798 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:21.326 87.798 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:21.326 87.798 V arg[device_name]=DUT_HEADSET
+10/23 10:11:21.326 87.798 V arg[command_xml]=command_627.xml
+10/23 10:11:21.326 87.798 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:21.326 87.798 I [airoha_cmd] Check_Button_VR
+10/23 10:11:21.326 87.798 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:21.326 87.798 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:21.326 87.798 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:21.326 87.798 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:21.427 87.899 V arg[airoha_task]=airoha_cmd
+10/23 10:11:21.427 87.899 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:21.427 87.899 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:21.427 87.899 V arg[device_name]=DUT_HEADSET
+10/23 10:11:21.427 87.899 V arg[command_xml]=command_627.xml
+10/23 10:11:21.427 87.899 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:21.427 87.899 I [airoha_cmd] Check_Button_VR
+10/23 10:11:21.427 87.899 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:21.427 87.899 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:21.427 87.899 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:21.427 87.899 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:21.527 87.999 V arg[airoha_task]=airoha_cmd
+10/23 10:11:21.527 87.999 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:21.527 87.999 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:21.527 87.999 V arg[device_name]=DUT_HEADSET
+10/23 10:11:21.527 87.999 V arg[command_xml]=command_627.xml
+10/23 10:11:21.527 87.999 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:21.527 87.999 I [airoha_cmd] Check_Button_VR
+10/23 10:11:21.527 87.999 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:21.527 87.999 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:21.527 87.999 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:21.527 87.999 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:21.628 88.100 V arg[airoha_task]=airoha_cmd
+10/23 10:11:21.628 88.100 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:21.628 88.100 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:21.628 88.100 V arg[device_name]=DUT_HEADSET
+10/23 10:11:21.628 88.100 V arg[command_xml]=command_627.xml
+10/23 10:11:21.628 88.100 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:21.628 88.100 I [airoha_cmd] Check_Button_VR
+10/23 10:11:21.628 88.100 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:21.628 88.100 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:21.628 88.100 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:21.628 88.100 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:21.729 88.200 V arg[airoha_task]=airoha_cmd
+10/23 10:11:21.729 88.200 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:21.729 88.200 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:21.729 88.200 V arg[device_name]=DUT_HEADSET
+10/23 10:11:21.729 88.200 V arg[command_xml]=command_627.xml
+10/23 10:11:21.729 88.200 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:21.729 88.200 I [airoha_cmd] Check_Button_VR
+10/23 10:11:21.729 88.200 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:21.729 88.200 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:21.729 88.200 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:21.729 88.200 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:21.829 88.301 V arg[airoha_task]=airoha_cmd
+10/23 10:11:21.829 88.301 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:21.829 88.301 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:21.829 88.301 V arg[device_name]=DUT_HEADSET
+10/23 10:11:21.829 88.301 V arg[command_xml]=command_627.xml
+10/23 10:11:21.829 88.301 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:21.829 88.301 I [airoha_cmd] Check_Button_VR
+10/23 10:11:21.829 88.301 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:21.829 88.301 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:21.829 88.301 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:21.829 88.301 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:21.930 88.401 V arg[airoha_task]=airoha_cmd
+10/23 10:11:21.930 88.401 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:21.930 88.401 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:21.930 88.401 V arg[device_name]=DUT_HEADSET
+10/23 10:11:21.930 88.401 V arg[command_xml]=command_627.xml
+10/23 10:11:21.930 88.401 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:21.930 88.401 I [airoha_cmd] Check_Button_VR
+10/23 10:11:21.930 88.401 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:21.930 88.401 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:21.930 88.401 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:21.930 88.401 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:22.031 88.502 V arg[airoha_task]=airoha_cmd
+10/23 10:11:22.031 88.502 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:22.031 88.502 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:22.031 88.502 V arg[device_name]=DUT_HEADSET
+10/23 10:11:22.031 88.502 V arg[command_xml]=command_627.xml
+10/23 10:11:22.031 88.502 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:22.031 88.502 I [airoha_cmd] Check_Button_VR
+10/23 10:11:22.031 88.502 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:22.031 88.502 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:22.031 88.502 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:22.031 88.502 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:22.132 88.603 V arg[airoha_task]=airoha_cmd
+10/23 10:11:22.132 88.603 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:22.132 88.603 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:22.132 88.603 V arg[device_name]=DUT_HEADSET
+10/23 10:11:22.132 88.603 V arg[command_xml]=command_627.xml
+10/23 10:11:22.132 88.603 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:22.132 88.603 I [airoha_cmd] Check_Button_VR
+10/23 10:11:22.132 88.603 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:22.132 88.603 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:22.132 88.603 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:22.132 88.603 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:22.187 88.658 V [log_file_sync]
+10/23 10:11:38.097 104.569 V arg[airoha_task]=airoha_cmd
+10/23 10:11:38.097 104.569 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:38.097 104.569 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:38.097 104.569 V arg[device_name]=DUT_HEADSET
+10/23 10:11:38.097 104.569 V arg[command_xml]=command_627.xml
+10/23 10:11:38.097 104.569 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:38.097 104.569 I [airoha_cmd] Check_Button_VR
+10/23 10:11:38.097 104.569 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:38.097 104.569 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:38.097 104.569 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:38.097 104.569 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:38.099 104.571 V [log_file_sync]
+10/23 10:11:38.197 104.669 V arg[airoha_task]=airoha_cmd
+10/23 10:11:38.197 104.669 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:38.197 104.669 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:38.197 104.669 V arg[device_name]=DUT_HEADSET
+10/23 10:11:38.197 104.669 V arg[command_xml]=command_627.xml
+10/23 10:11:38.197 104.669 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:38.197 104.669 I [airoha_cmd] Check_Button_VR
+10/23 10:11:38.197 104.669 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:38.197 104.669 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:38.197 104.669 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:38.197 104.669 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:38.298 104.770 V arg[airoha_task]=airoha_cmd
+10/23 10:11:38.298 104.770 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:38.298 104.770 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:38.298 104.770 V arg[device_name]=DUT_HEADSET
+10/23 10:11:38.298 104.770 V arg[command_xml]=command_627.xml
+10/23 10:11:38.298 104.770 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:38.298 104.770 I [airoha_cmd] Check_Button_VR
+10/23 10:11:38.298 104.770 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:38.298 104.770 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:38.298 104.770 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:38.298 104.770 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:38.399 104.871 V arg[airoha_task]=airoha_cmd
+10/23 10:11:38.399 104.871 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:38.399 104.871 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:38.399 104.871 V arg[device_name]=DUT_HEADSET
+10/23 10:11:38.399 104.871 V arg[command_xml]=command_627.xml
+10/23 10:11:38.399 104.871 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:38.399 104.871 I [airoha_cmd] Check_Button_VR
+10/23 10:11:38.399 104.871 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:38.399 104.871 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:38.399 104.871 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:38.399 104.871 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:38.500 104.971 V arg[airoha_task]=airoha_cmd
+10/23 10:11:38.500 104.971 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:38.500 104.971 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:38.500 104.971 V arg[device_name]=DUT_HEADSET
+10/23 10:11:38.500 104.971 V arg[command_xml]=command_627.xml
+10/23 10:11:38.500 104.971 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:38.500 104.971 I [airoha_cmd] Check_Button_VR
+10/23 10:11:38.500 104.971 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:38.500 104.971 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:38.500 104.971 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:38.500 104.971 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:38.600 105.072 V arg[airoha_task]=airoha_cmd
+10/23 10:11:38.600 105.072 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:38.600 105.072 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:38.600 105.072 V arg[device_name]=DUT_HEADSET
+10/23 10:11:38.600 105.072 V arg[command_xml]=command_627.xml
+10/23 10:11:38.600 105.072 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:38.600 105.072 I [airoha_cmd] Check_Button_VR
+10/23 10:11:38.600 105.072 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:38.600 105.072 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:38.600 105.072 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:38.600 105.072 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:38.701 105.172 V arg[airoha_task]=airoha_cmd
+10/23 10:11:38.701 105.172 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:38.701 105.172 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:38.701 105.172 V arg[device_name]=DUT_HEADSET
+10/23 10:11:38.701 105.172 V arg[command_xml]=command_627.xml
+10/23 10:11:38.701 105.172 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:38.701 105.172 I [airoha_cmd] Check_Button_VR
+10/23 10:11:38.701 105.172 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:38.701 105.172 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:38.701 105.172 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:38.701 105.172 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:38.801 105.273 V arg[airoha_task]=airoha_cmd
+10/23 10:11:38.801 105.273 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:38.801 105.273 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:38.801 105.273 V arg[device_name]=DUT_HEADSET
+10/23 10:11:38.801 105.273 V arg[command_xml]=command_627.xml
+10/23 10:11:38.801 105.273 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:38.801 105.273 I [airoha_cmd] Check_Button_VR
+10/23 10:11:38.801 105.273 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:38.801 105.273 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:38.801 105.273 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:38.801 105.273 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:38.901 105.373 V arg[airoha_task]=airoha_cmd
+10/23 10:11:38.901 105.373 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:38.901 105.373 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:38.901 105.373 V arg[device_name]=DUT_HEADSET
+10/23 10:11:38.901 105.373 V arg[command_xml]=command_627.xml
+10/23 10:11:38.901 105.373 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:38.901 105.373 I [airoha_cmd] Check_Button_VR
+10/23 10:11:38.901 105.373 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:38.901 105.373 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:38.901 105.373 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:38.901 105.373 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:39.002 105.473 V arg[airoha_task]=airoha_cmd
+10/23 10:11:39.002 105.473 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:39.002 105.473 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:39.002 105.473 V arg[device_name]=DUT_HEADSET
+10/23 10:11:39.002 105.473 V arg[command_xml]=command_627.xml
+10/23 10:11:39.002 105.473 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:39.002 105.473 I [airoha_cmd] Check_Button_VR
+10/23 10:11:39.002 105.473 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:39.002 105.473 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:39.002 105.473 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:39.002 105.473 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:39.102 105.574 V arg[airoha_task]=airoha_cmd
+10/23 10:11:39.102 105.574 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:39.102 105.574 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:39.102 105.574 V arg[device_name]=DUT_HEADSET
+10/23 10:11:39.102 105.574 V arg[command_xml]=command_627.xml
+10/23 10:11:39.102 105.574 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:39.102 105.574 I [airoha_cmd] Check_Button_VR
+10/23 10:11:39.102 105.574 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:39.102 105.574 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:39.102 105.574 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:39.102 105.574 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:39.203 105.674 V arg[airoha_task]=airoha_cmd
+10/23 10:11:39.203 105.674 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:39.203 105.674 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:39.203 105.674 V arg[device_name]=DUT_HEADSET
+10/23 10:11:39.203 105.674 V arg[command_xml]=command_627.xml
+10/23 10:11:39.203 105.674 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:39.203 105.674 I [airoha_cmd] Check_Button_VR
+10/23 10:11:39.203 105.674 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:39.203 105.674 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:39.203 105.674 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:39.203 105.674 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:39.303 105.775 V arg[airoha_task]=airoha_cmd
+10/23 10:11:39.303 105.775 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:39.303 105.775 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:39.303 105.775 V arg[device_name]=DUT_HEADSET
+10/23 10:11:39.303 105.775 V arg[command_xml]=command_627.xml
+10/23 10:11:39.303 105.775 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:39.303 105.775 I [airoha_cmd] Check_Button_VR
+10/23 10:11:39.303 105.775 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:39.303 105.775 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:39.303 105.775 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:39.303 105.775 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:39.404 105.876 V arg[airoha_task]=airoha_cmd
+10/23 10:11:39.404 105.876 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:39.404 105.876 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:39.404 105.876 V arg[device_name]=DUT_HEADSET
+10/23 10:11:39.404 105.876 V arg[command_xml]=command_627.xml
+10/23 10:11:39.404 105.876 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:39.404 105.876 I [airoha_cmd] Check_Button_VR
+10/23 10:11:39.404 105.876 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:39.404 105.876 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:39.404 105.876 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:39.404 105.876 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:39.504 105.976 V arg[airoha_task]=airoha_cmd
+10/23 10:11:39.504 105.976 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:39.504 105.976 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:39.504 105.976 V arg[device_name]=DUT_HEADSET
+10/23 10:11:39.504 105.976 V arg[command_xml]=command_627.xml
+10/23 10:11:39.504 105.976 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:39.504 105.976 I [airoha_cmd] Check_Button_VR
+10/23 10:11:39.504 105.976 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:39.504 105.976 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:39.504 105.976 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:39.504 105.976 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:39.604 106.076 V arg[airoha_task]=airoha_cmd
+10/23 10:11:39.604 106.076 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:39.604 106.076 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:39.604 106.076 V arg[device_name]=DUT_HEADSET
+10/23 10:11:39.604 106.076 V arg[command_xml]=command_627.xml
+10/23 10:11:39.604 106.076 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:39.604 106.076 I [airoha_cmd] Check_Button_VR
+10/23 10:11:39.604 106.076 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:39.604 106.076 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:39.604 106.076 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:39.604 106.076 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:39.705 106.177 V arg[airoha_task]=airoha_cmd
+10/23 10:11:39.705 106.177 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:39.705 106.177 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:39.705 106.177 V arg[device_name]=DUT_HEADSET
+10/23 10:11:39.705 106.177 V arg[command_xml]=command_627.xml
+10/23 10:11:39.705 106.177 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:39.705 106.177 I [airoha_cmd] Check_Button_VR
+10/23 10:11:39.705 106.177 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:39.705 106.177 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:39.705 106.177 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:39.705 106.177 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:39.806 106.278 V arg[airoha_task]=airoha_cmd
+10/23 10:11:39.806 106.278 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:39.806 106.278 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:39.806 106.278 V arg[device_name]=DUT_HEADSET
+10/23 10:11:39.806 106.278 V arg[command_xml]=command_627.xml
+10/23 10:11:39.806 106.278 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:39.806 106.278 I [airoha_cmd] Check_Button_VR
+10/23 10:11:39.806 106.278 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:39.806 106.278 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:39.806 106.278 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:39.806 106.278 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:39.906 106.378 V arg[airoha_task]=airoha_cmd
+10/23 10:11:39.906 106.378 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:39.906 106.378 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:39.906 106.378 V arg[device_name]=DUT_HEADSET
+10/23 10:11:39.906 106.378 V arg[command_xml]=command_627.xml
+10/23 10:11:39.906 106.378 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:39.906 106.378 I [airoha_cmd] Check_Button_VR
+10/23 10:11:39.906 106.378 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:39.906 106.378 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:39.906 106.378 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:39.906 106.378 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:40.007 106.479 V arg[airoha_task]=airoha_cmd
+10/23 10:11:40.007 106.479 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:40.007 106.479 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:40.007 106.479 V arg[device_name]=DUT_HEADSET
+10/23 10:11:40.007 106.479 V arg[command_xml]=command_627.xml
+10/23 10:11:40.007 106.479 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:40.007 106.479 I [airoha_cmd] Check_Button_VR
+10/23 10:11:40.007 106.479 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:40.007 106.479 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:40.007 106.479 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:40.007 106.479 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:40.104 106.576 V [log_file_sync]
+10/23 10:11:40.108 106.580 V arg[airoha_task]=airoha_cmd
+10/23 10:11:40.108 106.580 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:40.108 106.580 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:40.108 106.580 V arg[device_name]=DUT_HEADSET
+10/23 10:11:40.108 106.580 V arg[command_xml]=command_627.xml
+10/23 10:11:40.108 106.580 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:40.108 106.580 I [airoha_cmd] Check_Button_VR
+10/23 10:11:40.108 106.580 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:40.108 106.580 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:40.108 106.580 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:40.108 106.580 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:40.209 106.681 V arg[airoha_task]=airoha_cmd
+10/23 10:11:40.209 106.681 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:40.209 106.681 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:40.209 106.681 V arg[device_name]=DUT_HEADSET
+10/23 10:11:40.209 106.681 V arg[command_xml]=command_627.xml
+10/23 10:11:40.209 106.681 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:40.209 106.681 I [airoha_cmd] Check_Button_VR
+10/23 10:11:40.209 106.681 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:40.209 106.681 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:40.209 106.681 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:40.209 106.681 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:40.310 106.782 V arg[airoha_task]=airoha_cmd
+10/23 10:11:40.310 106.782 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:40.310 106.782 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:40.310 106.782 V arg[device_name]=DUT_HEADSET
+10/23 10:11:40.310 106.782 V arg[command_xml]=command_627.xml
+10/23 10:11:40.310 106.782 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:40.310 106.782 I [airoha_cmd] Check_Button_VR
+10/23 10:11:40.310 106.782 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:40.310 106.782 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:40.310 106.782 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:40.310 106.782 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:40.411 106.883 V arg[airoha_task]=airoha_cmd
+10/23 10:11:40.411 106.883 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:40.411 106.883 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:40.411 106.883 V arg[device_name]=DUT_HEADSET
+10/23 10:11:40.411 106.883 V arg[command_xml]=command_627.xml
+10/23 10:11:40.411 106.883 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:40.411 106.883 I [airoha_cmd] Check_Button_VR
+10/23 10:11:40.411 106.883 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:40.411 106.883 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:40.411 106.883 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:40.411 106.883 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:40.512 106.984 V arg[airoha_task]=airoha_cmd
+10/23 10:11:40.512 106.984 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:40.512 106.984 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:40.512 106.984 V arg[device_name]=DUT_HEADSET
+10/23 10:11:40.512 106.984 V arg[command_xml]=command_627.xml
+10/23 10:11:40.512 106.984 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:40.512 106.984 I [airoha_cmd] Check_Button_VR
+10/23 10:11:40.512 106.984 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:40.512 106.984 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:40.512 106.984 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:40.512 106.984 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:40.612 107.084 V arg[airoha_task]=airoha_cmd
+10/23 10:11:40.612 107.084 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:40.612 107.084 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:40.612 107.084 V arg[device_name]=DUT_HEADSET
+10/23 10:11:40.612 107.084 V arg[command_xml]=command_627.xml
+10/23 10:11:40.612 107.084 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:40.612 107.084 I [airoha_cmd] Check_Button_VR
+10/23 10:11:40.612 107.084 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:40.612 107.084 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:40.612 107.084 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:40.612 107.084 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:40.713 107.185 V arg[airoha_task]=airoha_cmd
+10/23 10:11:40.713 107.185 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:40.713 107.185 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:40.713 107.185 V arg[device_name]=DUT_HEADSET
+10/23 10:11:40.713 107.185 V arg[command_xml]=command_627.xml
+10/23 10:11:40.713 107.185 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:40.713 107.185 I [airoha_cmd] Check_Button_VR
+10/23 10:11:40.713 107.185 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:40.713 107.185 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:40.713 107.185 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:40.713 107.185 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:40.814 107.286 V arg[airoha_task]=airoha_cmd
+10/23 10:11:40.814 107.286 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:40.814 107.286 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:40.814 107.286 V arg[device_name]=DUT_HEADSET
+10/23 10:11:40.814 107.286 V arg[command_xml]=command_627.xml
+10/23 10:11:40.814 107.286 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:40.814 107.286 I [airoha_cmd] Check_Button_VR
+10/23 10:11:40.814 107.286 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:40.814 107.286 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:40.814 107.286 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:40.814 107.286 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:40.915 107.387 V arg[airoha_task]=airoha_cmd
+10/23 10:11:40.915 107.387 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:40.915 107.387 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:40.915 107.387 V arg[device_name]=DUT_HEADSET
+10/23 10:11:40.915 107.387 V arg[command_xml]=command_627.xml
+10/23 10:11:40.915 107.387 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:40.915 107.387 I [airoha_cmd] Check_Button_VR
+10/23 10:11:40.915 107.387 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:40.915 107.387 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:40.915 107.387 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:40.915 107.387 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:41.016 107.488 V arg[airoha_task]=airoha_cmd
+10/23 10:11:41.016 107.488 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:41.016 107.488 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:41.016 107.488 V arg[device_name]=DUT_HEADSET
+10/23 10:11:41.016 107.488 V arg[command_xml]=command_627.xml
+10/23 10:11:41.016 107.488 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:41.016 107.488 I [airoha_cmd] Check_Button_VR
+10/23 10:11:41.016 107.488 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:41.016 107.488 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:41.016 107.488 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:41.016 107.488 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:41.117 107.588 V arg[airoha_task]=airoha_cmd
+10/23 10:11:41.117 107.588 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:41.117 107.588 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:41.117 107.588 V arg[device_name]=DUT_HEADSET
+10/23 10:11:41.117 107.588 V arg[command_xml]=command_627.xml
+10/23 10:11:41.117 107.588 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:41.117 107.588 I [airoha_cmd] Check_Button_VR
+10/23 10:11:41.117 107.588 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:41.117 107.588 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:41.117 107.588 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:41.117 107.588 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:41.218 107.689 V arg[airoha_task]=airoha_cmd
+10/23 10:11:41.218 107.689 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:41.218 107.689 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:41.218 107.689 V arg[device_name]=DUT_HEADSET
+10/23 10:11:41.218 107.689 V arg[command_xml]=command_627.xml
+10/23 10:11:41.218 107.689 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:41.218 107.689 I [airoha_cmd] Check_Button_VR
+10/23 10:11:41.218 107.689 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:41.218 107.689 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:41.218 107.689 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:41.218 107.689 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:41.318 107.790 V arg[airoha_task]=airoha_cmd
+10/23 10:11:41.318 107.790 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:41.318 107.790 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:41.318 107.790 V arg[device_name]=DUT_HEADSET
+10/23 10:11:41.318 107.790 V arg[command_xml]=command_627.xml
+10/23 10:11:41.318 107.790 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:41.318 107.790 I [airoha_cmd] Check_Button_VR
+10/23 10:11:41.318 107.790 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:41.318 107.790 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:41.318 107.790 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:41.318 107.790 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:41.419 107.891 V arg[airoha_task]=airoha_cmd
+10/23 10:11:41.419 107.891 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:41.419 107.891 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:41.419 107.891 V arg[device_name]=DUT_HEADSET
+10/23 10:11:41.419 107.891 V arg[command_xml]=command_627.xml
+10/23 10:11:41.419 107.891 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:41.419 107.891 I [airoha_cmd] Check_Button_VR
+10/23 10:11:41.419 107.891 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:41.419 107.891 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:41.419 107.891 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:41.419 107.891 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:41.519 107.991 V arg[airoha_task]=airoha_cmd
+10/23 10:11:41.519 107.991 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:41.519 107.991 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:41.519 107.991 V arg[device_name]=DUT_HEADSET
+10/23 10:11:41.519 107.991 V arg[command_xml]=command_627.xml
+10/23 10:11:41.519 107.991 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:41.519 107.991 I [airoha_cmd] Check_Button_VR
+10/23 10:11:41.519 107.991 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:41.519 107.991 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:41.519 107.991 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:41.519 107.991 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:41.620 108.092 V arg[airoha_task]=airoha_cmd
+10/23 10:11:41.620 108.092 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:41.620 108.092 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:41.620 108.092 V arg[device_name]=DUT_HEADSET
+10/23 10:11:41.620 108.092 V arg[command_xml]=command_627.xml
+10/23 10:11:41.620 108.092 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:41.620 108.092 I [airoha_cmd] Check_Button_VR
+10/23 10:11:41.620 108.092 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:41.620 108.092 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:41.620 108.092 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:41.620 108.092 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:41.721 108.193 V arg[airoha_task]=airoha_cmd
+10/23 10:11:41.721 108.193 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:41.721 108.193 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:41.721 108.193 V arg[device_name]=DUT_HEADSET
+10/23 10:11:41.721 108.193 V arg[command_xml]=command_627.xml
+10/23 10:11:41.721 108.193 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:41.721 108.193 I [airoha_cmd] Check_Button_VR
+10/23 10:11:41.721 108.193 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:41.721 108.193 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:41.721 108.193 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:41.721 108.193 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:41.821 108.293 V arg[airoha_task]=airoha_cmd
+10/23 10:11:41.821 108.293 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:41.821 108.293 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:41.821 108.293 V arg[device_name]=DUT_HEADSET
+10/23 10:11:41.821 108.293 V arg[command_xml]=command_627.xml
+10/23 10:11:41.821 108.293 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:41.821 108.293 I [airoha_cmd] Check_Button_VR
+10/23 10:11:41.821 108.293 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:41.821 108.293 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:41.821 108.293 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:41.821 108.293 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:41.922 108.394 V arg[airoha_task]=airoha_cmd
+10/23 10:11:41.922 108.394 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:41.922 108.394 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:41.922 108.394 V arg[device_name]=DUT_HEADSET
+10/23 10:11:41.922 108.394 V arg[command_xml]=command_627.xml
+10/23 10:11:41.922 108.394 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:41.922 108.394 I [airoha_cmd] Check_Button_VR
+10/23 10:11:41.922 108.394 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:41.922 108.394 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:41.922 108.394 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:41.922 108.394 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:42.022 108.494 V arg[airoha_task]=airoha_cmd
+10/23 10:11:42.022 108.494 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:42.022 108.494 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:42.022 108.494 V arg[device_name]=DUT_HEADSET
+10/23 10:11:42.022 108.494 V arg[command_xml]=command_627.xml
+10/23 10:11:42.022 108.494 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:42.022 108.494 I [airoha_cmd] Check_Button_VR
+10/23 10:11:42.022 108.494 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:42.022 108.494 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:42.022 108.494 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:42.022 108.494 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:42.108 108.580 V [log_file_sync]
+10/23 10:11:42.123 108.595 V arg[airoha_task]=airoha_cmd
+10/23 10:11:42.123 108.595 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:42.123 108.595 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:42.123 108.595 V arg[device_name]=DUT_HEADSET
+10/23 10:11:42.123 108.595 V arg[command_xml]=command_627.xml
+10/23 10:11:42.123 108.595 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:42.123 108.595 I [airoha_cmd] Check_Button_VR
+10/23 10:11:42.123 108.595 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:42.123 108.595 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:42.123 108.595 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:42.123 108.595 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:42.223 108.695 V arg[airoha_task]=airoha_cmd
+10/23 10:11:42.223 108.695 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:42.223 108.695 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:42.223 108.695 V arg[device_name]=DUT_HEADSET
+10/23 10:11:42.223 108.695 V arg[command_xml]=command_627.xml
+10/23 10:11:42.223 108.695 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:42.223 108.695 I [airoha_cmd] Check_Button_VR
+10/23 10:11:42.223 108.695 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:42.223 108.695 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:42.223 108.695 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:42.223 108.695 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:42.323 108.795 V arg[airoha_task]=airoha_cmd
+10/23 10:11:42.323 108.795 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:42.323 108.795 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:42.323 108.795 V arg[device_name]=DUT_HEADSET
+10/23 10:11:42.323 108.795 V arg[command_xml]=command_627.xml
+10/23 10:11:42.323 108.795 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:42.323 108.795 I [airoha_cmd] Check_Button_VR
+10/23 10:11:42.323 108.795 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:42.323 108.795 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:42.323 108.795 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:42.323 108.795 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:42.424 108.896 V arg[airoha_task]=airoha_cmd
+10/23 10:11:42.424 108.896 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:42.424 108.896 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:42.424 108.896 V arg[device_name]=DUT_HEADSET
+10/23 10:11:42.424 108.896 V arg[command_xml]=command_627.xml
+10/23 10:11:42.424 108.896 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:42.424 108.896 I [airoha_cmd] Check_Button_VR
+10/23 10:11:42.424 108.896 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:42.424 108.896 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:42.424 108.896 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:42.424 108.896 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:42.525 108.997 V arg[airoha_task]=airoha_cmd
+10/23 10:11:42.525 108.997 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:42.525 108.997 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:42.525 108.997 V arg[device_name]=DUT_HEADSET
+10/23 10:11:42.525 108.997 V arg[command_xml]=command_627.xml
+10/23 10:11:42.525 108.997 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:42.525 108.997 I [airoha_cmd] Check_Button_VR
+10/23 10:11:42.525 108.997 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:42.525 108.997 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:42.525 108.997 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:42.525 108.997 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:42.625 109.097 V arg[airoha_task]=airoha_cmd
+10/23 10:11:42.625 109.097 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:42.625 109.097 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:42.625 109.097 V arg[device_name]=DUT_HEADSET
+10/23 10:11:42.625 109.097 V arg[command_xml]=command_627.xml
+10/23 10:11:42.625 109.097 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:42.625 109.097 I [airoha_cmd] Check_Button_VR
+10/23 10:11:42.625 109.097 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:42.625 109.097 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:42.625 109.097 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:42.625 109.097 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:42.726 109.198 V arg[airoha_task]=airoha_cmd
+10/23 10:11:42.726 109.198 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:42.726 109.198 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:42.726 109.198 V arg[device_name]=DUT_HEADSET
+10/23 10:11:42.726 109.198 V arg[command_xml]=command_627.xml
+10/23 10:11:42.726 109.198 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:42.726 109.198 I [airoha_cmd] Check_Button_VR
+10/23 10:11:42.726 109.198 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:42.726 109.198 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:42.726 109.198 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:42.726 109.198 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:42.827 109.299 V arg[airoha_task]=airoha_cmd
+10/23 10:11:42.827 109.299 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:42.827 109.299 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:42.827 109.299 V arg[device_name]=DUT_HEADSET
+10/23 10:11:42.827 109.299 V arg[command_xml]=command_627.xml
+10/23 10:11:42.827 109.299 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:42.827 109.299 I [airoha_cmd] Check_Button_VR
+10/23 10:11:42.827 109.299 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:42.827 109.299 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:42.827 109.299 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:42.827 109.299 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:42.928 109.400 V arg[airoha_task]=airoha_cmd
+10/23 10:11:42.928 109.400 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:42.928 109.400 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:42.928 109.400 V arg[device_name]=DUT_HEADSET
+10/23 10:11:42.928 109.400 V arg[command_xml]=command_627.xml
+10/23 10:11:42.928 109.400 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:42.928 109.400 I [airoha_cmd] Check_Button_VR
+10/23 10:11:42.928 109.400 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:42.928 109.400 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:42.928 109.400 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:42.928 109.400 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:43.029 109.501 V arg[airoha_task]=airoha_cmd
+10/23 10:11:43.029 109.501 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:43.029 109.501 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:43.029 109.501 V arg[device_name]=DUT_HEADSET
+10/23 10:11:43.029 109.501 V arg[command_xml]=command_627.xml
+10/23 10:11:43.029 109.501 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:43.029 109.501 I [airoha_cmd] Check_Button_VR
+10/23 10:11:43.029 109.501 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:43.029 109.501 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:43.029 109.501 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:43.029 109.501 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:43.129 109.601 V arg[airoha_task]=airoha_cmd
+10/23 10:11:43.129 109.601 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:43.129 109.601 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:43.129 109.601 V arg[device_name]=DUT_HEADSET
+10/23 10:11:43.129 109.601 V arg[command_xml]=command_627.xml
+10/23 10:11:43.129 109.601 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:43.129 109.601 I [airoha_cmd] Check_Button_VR
+10/23 10:11:43.129 109.601 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:43.129 109.601 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:43.129 109.601 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:43.129 109.601 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:43.230 109.702 V arg[airoha_task]=airoha_cmd
+10/23 10:11:43.230 109.702 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:43.230 109.702 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:43.230 109.702 V arg[device_name]=DUT_HEADSET
+10/23 10:11:43.230 109.702 V arg[command_xml]=command_627.xml
+10/23 10:11:43.230 109.702 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:43.230 109.702 I [airoha_cmd] Check_Button_VR
+10/23 10:11:43.230 109.702 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:43.230 109.702 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:43.230 109.702 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:43.230 109.702 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:43.331 109.803 V arg[airoha_task]=airoha_cmd
+10/23 10:11:43.331 109.803 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:43.331 109.803 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:43.331 109.803 V arg[device_name]=DUT_HEADSET
+10/23 10:11:43.331 109.803 V arg[command_xml]=command_627.xml
+10/23 10:11:43.331 109.803 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:43.331 109.803 I [airoha_cmd] Check_Button_VR
+10/23 10:11:43.331 109.803 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:43.331 109.803 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:43.331 109.803 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:43.331 109.803 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:43.432 109.904 V arg[airoha_task]=airoha_cmd
+10/23 10:11:43.432 109.904 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:43.432 109.904 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:43.432 109.904 V arg[device_name]=DUT_HEADSET
+10/23 10:11:43.432 109.904 V arg[command_xml]=command_627.xml
+10/23 10:11:43.432 109.904 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:43.432 109.904 I [airoha_cmd] Check_Button_VR
+10/23 10:11:43.432 109.904 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:43.432 109.904 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:43.432 109.904 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:43.432 109.904 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:43.532 110.004 V arg[airoha_task]=airoha_cmd
+10/23 10:11:43.532 110.004 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:43.532 110.004 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:43.532 110.004 V arg[device_name]=DUT_HEADSET
+10/23 10:11:43.532 110.004 V arg[command_xml]=command_627.xml
+10/23 10:11:43.532 110.004 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:43.532 110.004 I [airoha_cmd] Check_Button_VR
+10/23 10:11:43.532 110.004 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:43.532 110.004 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:43.532 110.004 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:43.532 110.004 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:43.633 110.104 V arg[airoha_task]=airoha_cmd
+10/23 10:11:43.633 110.104 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:43.633 110.104 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:43.633 110.104 V arg[device_name]=DUT_HEADSET
+10/23 10:11:43.633 110.104 V arg[command_xml]=command_627.xml
+10/23 10:11:43.633 110.104 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:43.633 110.104 I [airoha_cmd] Check_Button_VR
+10/23 10:11:43.633 110.104 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:43.633 110.104 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:43.633 110.104 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:43.633 110.104 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:43.733 110.205 V arg[airoha_task]=airoha_cmd
+10/23 10:11:43.733 110.205 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:43.733 110.205 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:43.733 110.205 V arg[device_name]=DUT_HEADSET
+10/23 10:11:43.733 110.205 V arg[command_xml]=command_627.xml
+10/23 10:11:43.733 110.205 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:43.733 110.205 I [airoha_cmd] Check_Button_VR
+10/23 10:11:43.733 110.205 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:43.733 110.205 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:43.733 110.205 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:43.733 110.205 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:43.833 110.305 V arg[airoha_task]=airoha_cmd
+10/23 10:11:43.833 110.305 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:43.833 110.305 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:43.833 110.305 V arg[device_name]=DUT_HEADSET
+10/23 10:11:43.833 110.305 V arg[command_xml]=command_627.xml
+10/23 10:11:43.833 110.305 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:43.833 110.305 I [airoha_cmd] Check_Button_VR
+10/23 10:11:43.833 110.305 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:43.833 110.305 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:43.833 110.305 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:43.833 110.305 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:43.934 110.406 V arg[airoha_task]=airoha_cmd
+10/23 10:11:43.934 110.406 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:43.934 110.406 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:43.934 110.406 V arg[device_name]=DUT_HEADSET
+10/23 10:11:43.934 110.406 V arg[command_xml]=command_627.xml
+10/23 10:11:43.934 110.406 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:43.934 110.406 I [airoha_cmd] Check_Button_VR
+10/23 10:11:43.934 110.406 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:43.934 110.406 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:43.934 110.406 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:43.934 110.406 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:44.034 110.506 V arg[airoha_task]=airoha_cmd
+10/23 10:11:44.034 110.506 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:44.034 110.506 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:44.034 110.506 V arg[device_name]=DUT_HEADSET
+10/23 10:11:44.034 110.506 V arg[command_xml]=command_627.xml
+10/23 10:11:44.034 110.506 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:44.034 110.506 I [airoha_cmd] Check_Button_VR
+10/23 10:11:44.034 110.506 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:44.034 110.506 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:44.034 110.506 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:44.034 110.506 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:44.112 110.584 V [log_file_sync]
+10/23 10:11:44.134 110.606 V arg[airoha_task]=airoha_cmd
+10/23 10:11:44.134 110.606 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:44.134 110.606 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:44.134 110.606 V arg[device_name]=DUT_HEADSET
+10/23 10:11:44.134 110.606 V arg[command_xml]=command_627.xml
+10/23 10:11:44.134 110.606 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:44.134 110.606 I [airoha_cmd] Check_Button_VR
+10/23 10:11:44.134 110.606 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:44.134 110.606 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:44.134 110.606 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:44.134 110.606 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:44.234 110.706 V arg[airoha_task]=airoha_cmd
+10/23 10:11:44.234 110.706 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:44.234 110.706 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:44.234 110.706 V arg[device_name]=DUT_HEADSET
+10/23 10:11:44.234 110.706 V arg[command_xml]=command_627.xml
+10/23 10:11:44.234 110.706 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:44.234 110.706 I [airoha_cmd] Check_Button_VR
+10/23 10:11:44.234 110.706 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:44.234 110.706 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:44.234 110.706 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:44.234 110.706 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:44.335 110.807 V arg[airoha_task]=airoha_cmd
+10/23 10:11:44.335 110.807 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:44.335 110.807 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:44.335 110.807 V arg[device_name]=DUT_HEADSET
+10/23 10:11:44.335 110.807 V arg[command_xml]=command_627.xml
+10/23 10:11:44.335 110.807 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:44.335 110.807 I [airoha_cmd] Check_Button_VR
+10/23 10:11:44.335 110.807 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:44.335 110.807 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:44.335 110.807 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:44.335 110.807 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:44.436 110.908 V arg[airoha_task]=airoha_cmd
+10/23 10:11:44.436 110.908 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:44.436 110.908 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:44.436 110.908 V arg[device_name]=DUT_HEADSET
+10/23 10:11:44.436 110.908 V arg[command_xml]=command_627.xml
+10/23 10:11:44.436 110.908 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:44.436 110.908 I [airoha_cmd] Check_Button_VR
+10/23 10:11:44.436 110.908 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:44.436 110.908 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:44.436 110.908 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:44.436 110.908 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:44.536 111.008 V arg[airoha_task]=airoha_cmd
+10/23 10:11:44.536 111.008 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:44.536 111.008 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:44.536 111.008 V arg[device_name]=DUT_HEADSET
+10/23 10:11:44.536 111.008 V arg[command_xml]=command_627.xml
+10/23 10:11:44.536 111.008 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:44.536 111.008 I [airoha_cmd] Check_Button_VR
+10/23 10:11:44.536 111.008 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:44.536 111.008 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:44.536 111.008 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:44.536 111.008 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:44.636 111.108 V arg[airoha_task]=airoha_cmd
+10/23 10:11:44.636 111.108 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:44.636 111.108 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:44.636 111.108 V arg[device_name]=DUT_HEADSET
+10/23 10:11:44.636 111.108 V arg[command_xml]=command_627.xml
+10/23 10:11:44.636 111.108 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:44.636 111.108 I [airoha_cmd] Check_Button_VR
+10/23 10:11:44.636 111.108 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:44.636 111.108 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:44.636 111.108 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:44.636 111.108 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:44.737 111.209 V arg[airoha_task]=airoha_cmd
+10/23 10:11:44.737 111.209 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:44.737 111.209 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:44.737 111.209 V arg[device_name]=DUT_HEADSET
+10/23 10:11:44.737 111.209 V arg[command_xml]=command_627.xml
+10/23 10:11:44.737 111.209 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:44.737 111.209 I [airoha_cmd] Check_Button_VR
+10/23 10:11:44.737 111.209 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:44.737 111.209 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:44.737 111.209 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:44.737 111.209 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:44.837 111.309 V arg[airoha_task]=airoha_cmd
+10/23 10:11:44.837 111.309 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:44.837 111.309 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:44.837 111.309 V arg[device_name]=DUT_HEADSET
+10/23 10:11:44.837 111.309 V arg[command_xml]=command_627.xml
+10/23 10:11:44.837 111.309 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:44.837 111.309 I [airoha_cmd] Check_Button_VR
+10/23 10:11:44.837 111.309 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:44.837 111.309 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:44.837 111.309 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:44.837 111.309 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:44.938 111.409 V arg[airoha_task]=airoha_cmd
+10/23 10:11:44.938 111.409 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:44.938 111.409 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:44.938 111.409 V arg[device_name]=DUT_HEADSET
+10/23 10:11:44.938 111.409 V arg[command_xml]=command_627.xml
+10/23 10:11:44.938 111.409 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:44.938 111.409 I [airoha_cmd] Check_Button_VR
+10/23 10:11:44.938 111.409 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:44.938 111.409 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:44.938 111.409 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:44.938 111.409 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:45.039 111.510 V arg[airoha_task]=airoha_cmd
+10/23 10:11:45.039 111.510 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:45.039 111.510 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:45.039 111.510 V arg[device_name]=DUT_HEADSET
+10/23 10:11:45.039 111.510 V arg[command_xml]=command_627.xml
+10/23 10:11:45.039 111.510 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:45.039 111.510 I [airoha_cmd] Check_Button_VR
+10/23 10:11:45.039 111.510 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:45.039 111.510 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:45.039 111.510 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:45.039 111.510 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:45.140 111.612 V arg[airoha_task]=airoha_cmd
+10/23 10:11:45.140 111.612 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:45.140 111.612 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:45.140 111.612 V arg[device_name]=DUT_HEADSET
+10/23 10:11:45.140 111.612 V arg[command_xml]=command_627.xml
+10/23 10:11:45.140 111.612 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:45.140 111.612 I [airoha_cmd] Check_Button_VR
+10/23 10:11:45.140 111.612 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:45.140 111.612 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:45.140 111.612 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:45.140 111.612 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:45.240 111.712 V arg[airoha_task]=airoha_cmd
+10/23 10:11:45.240 111.712 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:45.240 111.712 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:45.240 111.712 V arg[device_name]=DUT_HEADSET
+10/23 10:11:45.240 111.712 V arg[command_xml]=command_627.xml
+10/23 10:11:45.240 111.712 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:45.240 111.712 I [airoha_cmd] Check_Button_VR
+10/23 10:11:45.240 111.712 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:45.240 111.712 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:45.240 111.712 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:45.240 111.712 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:45.341 111.813 V arg[airoha_task]=airoha_cmd
+10/23 10:11:45.341 111.813 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:45.341 111.813 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:45.341 111.813 V arg[device_name]=DUT_HEADSET
+10/23 10:11:45.341 111.813 V arg[command_xml]=command_627.xml
+10/23 10:11:45.341 111.813 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:45.341 111.813 I [airoha_cmd] Check_Button_VR
+10/23 10:11:45.341 111.813 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:45.341 111.813 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:45.341 111.813 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:45.341 111.813 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:45.441 111.913 V arg[airoha_task]=airoha_cmd
+10/23 10:11:45.441 111.913 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:45.441 111.913 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:45.441 111.913 V arg[device_name]=DUT_HEADSET
+10/23 10:11:45.441 111.913 V arg[command_xml]=command_627.xml
+10/23 10:11:45.441 111.913 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:45.441 111.913 I [airoha_cmd] Check_Button_VR
+10/23 10:11:45.441 111.913 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:45.441 111.913 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:45.441 111.913 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:45.441 111.913 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:45.542 112.014 V arg[airoha_task]=airoha_cmd
+10/23 10:11:45.542 112.014 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:45.542 112.014 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:45.542 112.014 V arg[device_name]=DUT_HEADSET
+10/23 10:11:45.542 112.014 V arg[command_xml]=command_627.xml
+10/23 10:11:45.542 112.014 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:45.542 112.014 I [airoha_cmd] Check_Button_VR
+10/23 10:11:45.542 112.014 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:45.542 112.014 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:45.542 112.014 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:45.542 112.014 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:45.642 112.114 V arg[airoha_task]=airoha_cmd
+10/23 10:11:45.642 112.114 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:45.642 112.114 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:45.642 112.114 V arg[device_name]=DUT_HEADSET
+10/23 10:11:45.642 112.114 V arg[command_xml]=command_627.xml
+10/23 10:11:45.642 112.114 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:45.642 112.114 I [airoha_cmd] Check_Button_VR
+10/23 10:11:45.642 112.114 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:45.642 112.114 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:45.642 112.114 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:45.642 112.114 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:45.743 112.215 V arg[airoha_task]=airoha_cmd
+10/23 10:11:45.743 112.215 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:45.743 112.215 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:45.743 112.215 V arg[device_name]=DUT_HEADSET
+10/23 10:11:45.743 112.215 V arg[command_xml]=command_627.xml
+10/23 10:11:45.743 112.215 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:45.743 112.215 I [airoha_cmd] Check_Button_VR
+10/23 10:11:45.743 112.215 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:45.743 112.215 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:45.743 112.215 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:45.743 112.215 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:45.844 112.316 V arg[airoha_task]=airoha_cmd
+10/23 10:11:45.844 112.316 V [task] airoha_cmd, class: AirohaCommandTask
+10/23 10:11:45.844 112.316 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/23 10:11:45.844 112.316 V arg[device_name]=DUT_HEADSET
+10/23 10:11:45.844 112.316 V arg[command_xml]=command_627.xml
+10/23 10:11:45.844 112.316 V arg[airoha_cmd]=Check_Button_VR
+10/23 10:11:45.844 112.316 I [airoha_cmd] Check_Button_VR
+10/23 10:11:45.844 112.316 E [exception] airoha_command.cc:144(-101): [airoha_cmd] run command fail(-101): Check_Button_VR
+10/23 10:11:45.844 112.316 E [task] Fail to execute RunTask() of airoha_cmd object
+10/23 10:11:45.844 112.316 D [task_time][airoha_cmd] spend 0.000
+10/23 10:11:45.844 112.316 V [task_end][airoha_cmd] ------------------------------------------
+10/23 10:11:46.117 112.588 V [log_file_sync]

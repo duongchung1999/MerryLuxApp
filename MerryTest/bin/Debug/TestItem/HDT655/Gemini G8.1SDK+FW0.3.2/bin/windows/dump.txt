@@ -1,0 +1,1 @@
+Error: UsbHidPeripheral() cannot open USB HID device (vid=0x0951, pid=0x1751, sn=).

@@ -1,0 +1,54 @@
+﻿10/27 18:11:01.490 0.014 I tool_version: 2.9.0/V2.9.0_20220114_081940/v2.9.2_2021_12_28_16_45_51/geneva-dev-maindev
+10/27 18:11:01.476 0.000 I SetLogLevel: 2
+10/27 18:11:01.476 0.000 D set log_level=2
+10/27 18:11:01.476 0.000 D [task_time][ToolLogLevel] spend 0.000
+10/27 18:11:01.476 0.000 V [task_end][ToolLogLevel] ------------------------------------------
+10/27 18:11:01.477 0.001 V arg[airoha_task]=DisconnectDUTByUsbHid
+10/27 18:11:01.477 0.001 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+10/27 18:11:01.477 0.001 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+10/27 18:11:01.477 0.001 V arg[device_name]=DUT_HEADSET
+10/27 18:11:01.477 0.001 V arg[device_type]=USB_HID
+10/27 18:11:01.477 0.001 V arg[action]=disconnect
+10/27 18:11:01.477 0.001 V arg[port]=
+10/27 18:11:01.477 0.001 D [UartDevice] Disconnect
+10/27 18:11:01.477 0.001 D [DisconnectDUTByUsbHid] disconnect: DUT_HEADSET(USB_HID)
+10/27 18:11:01.477 0.001 D [task_time][DisconnectDUTByUsbHid] spend 0.000
+10/27 18:11:01.477 0.001 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+10/27 18:11:01.478 0.002 V [transact] result="pass"
+10/27 18:11:01.498 0.022 V arg[airoha_task]=DisconnectDUTByUsbHid
+10/27 18:11:01.498 0.022 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+10/27 18:11:01.498 0.022 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+10/27 18:11:01.498 0.022 V arg[device_name]=DUT_DONGLE
+10/27 18:11:01.498 0.022 V arg[device_type]=USB_HID
+10/27 18:11:01.498 0.022 V arg[action]=disconnect
+10/27 18:11:01.498 0.022 V arg[port]=
+10/27 18:11:01.498 0.022 D [UartDevice] Disconnect
+10/27 18:11:01.498 0.022 D [DisconnectDUTByUsbHid] disconnect: DUT_DONGLE(USB_HID)
+10/27 18:11:01.498 0.022 D [task_time][DisconnectDUTByUsbHid] spend 0.000
+10/27 18:11:01.498 0.022 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+10/27 18:11:01.498 0.022 V [transact] result="pass"
+10/27 18:11:01.508 0.032 V arg[airoha_task]=DisconnectDUTByUsbHid
+10/27 18:11:01.508 0.032 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+10/27 18:11:01.508 0.032 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+10/27 18:11:01.508 0.032 V arg[device_name]=DUT_DONGLE
+10/27 18:11:01.508 0.032 V arg[device_type]=USB_HID
+10/27 18:11:01.508 0.032 V arg[action]=disconnect
+10/27 18:11:01.508 0.032 V arg[port]=
+10/27 18:11:01.508 0.032 D [UartDevice] Disconnect
+10/27 18:11:01.508 0.032 D [DisconnectDUTByUsbHid] disconnect: DUT_DONGLE(USB_HID)
+10/27 18:11:01.508 0.032 D [task_time][DisconnectDUTByUsbHid] spend 0.000
+10/27 18:11:01.508 0.032 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+10/27 18:11:01.508 0.032 V [transact] result="pass"
+10/27 18:11:01.535 0.059 V arg[airoha_task]=DisconnectDUTByUsbHid
+10/27 18:11:01.535 0.059 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+10/27 18:11:01.535 0.059 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+10/27 18:11:01.535 0.059 V arg[device_name]=DUT_HEADSET
+10/27 18:11:01.535 0.059 V arg[device_type]=USB_HID
+10/27 18:11:01.535 0.059 V arg[action]=disconnect
+10/27 18:11:01.535 0.059 V arg[port]=
+10/27 18:11:01.535 0.059 D [UartDevice] Disconnect
+10/27 18:11:01.535 0.059 D [DisconnectDUTByUsbHid] disconnect: DUT_HEADSET(USB_HID)
+10/27 18:11:01.535 0.059 D [task_time][DisconnectDUTByUsbHid] spend 0.000
+10/27 18:11:01.535 0.059 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+10/27 18:11:01.535 0.059 V [transact] result="pass"
+10/27 18:11:03.495 2.019 V [log_file_sync]

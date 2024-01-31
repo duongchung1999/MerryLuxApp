@@ -1,6 +1,6 @@
 ﻿1,UID,N/A,N/A,N/A,6,dllname=MES&method=UID_Master&IsSMT=false&PN_Name=PCB ASS’Y HDT627N007_L-M V2.0.6 MEVN
 2,ScanDongleSN,N/A,N/A,N/A,6,dllname=MES&GetBD=BarCodeWindow&条码长度=12
-0,-Check Binding,N/A,N/A,N/A,4,dllname=MES&method=CheckBinding
+0,-Check Binding,N/A,N/A,N/A,6,dllname=MES&method=CheckBinding
 0,-2S,N/A,N/A,N/A,6,dllname=Common&method=Sleep&时间=2000
 0,-UID_DONGLE,N/A,N/A,N/A,6,dllname=MES&method=UID_Slave&IsSMT=false&PN_Name=FOR PCBA ASS’Y HDT627_TX V2.0.6 20221206
 3,PlayTest,N/A,N/A,N/A,6,dllname=Audio&指令选择=PlayTest&装置名称=G733&选择音频=0&显示内容信息=播放音乐测试/Kiểm tra phát nhạc

@@ -1,0 +1,2949 @@
+2024 01 23 08 10 33	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 08 10 33	Writedata:{
+  "model": "VCS001",
+  "station": "T3.03",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 08 10 35	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 08 10 35	1、False
+2024 01 23 08 12 37	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 08 12 37	Writedata:{
+  "model": "VCS001",
+  "station": "T2.3-1",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 08 12 39	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 08 12 39	1、False
+2024 01 23 08 14 39	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 08 14 39	Writedata:{
+  "model": "VCS001",
+  "station": "T2.3-1",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 08 14 41	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 08 14 41	2、False
+2024 01 23 08 16 41	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 08 16 41	Writedata:{
+  "model": "VCS001",
+  "station": "T2.3-1",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 08 16 43	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 08 16 43	3、False
+2024 01 23 08 18 43	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 08 18 43	Writedata:{
+  "model": "VCS001",
+  "station": "T2.3-1",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 08 18 45	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 08 18 45	4、False
+2024 01 23 08 20 45	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 08 20 45	Writedata:{
+  "model": "VCS001",
+  "station": "T2.3-1",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 08 20 47	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 08 20 47	5、False
+2024 01 23 08 21 32	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 08 21 32	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 08 21 35	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 08 21 35	1、False
+2024 01 23 08 22 47	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 08 22 47	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 08 22 49	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 08 22 49	6、False
+2024 01 23 08 23 35	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 08 23 35	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 08 23 37	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 08 23 37	2、False
+2024 01 23 08 24 49	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 08 24 49	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 08 24 51	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 08 24 51	7、False
+2024 01 23 08 25 37	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 08 25 37	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 08 25 39	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 08 25 39	3、False
+2024 01 23 08 26 51	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 08 26 51	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 08 26 53	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 08 26 53	8、False
+2024 01 23 08 27 39	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 08 27 39	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 08 27 41	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 08 27 41	4、False
+2024 01 23 08 28 53	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 08 28 53	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 08 28 55	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 08 28 55	9、False
+2024 01 23 08 29 41	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 08 29 41	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 08 29 43	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 08 29 43	5、False
+2024 01 23 08 30 55	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 08 30 55	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 08 30 58	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 08 30 58	10、False
+2024 01 23 08 31 43	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 08 31 43	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 08 31 45	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 08 31 45	6、False
+2024 01 23 08 32 58	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 08 32 58	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 08 33 00	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 08 33 00	11、False
+2024 01 23 08 33 45	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 08 33 45	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 08 33 47	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 08 33 47	7、False
+2024 01 23 08 35 00	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 08 35 00	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 08 35 02	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 08 35 02	12、False
+2024 01 23 08 35 47	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 08 35 47	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 08 35 49	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 08 35 49	8、False
+2024 01 23 08 37 02	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 08 37 02	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 08 37 04	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 08 37 04	13、False
+2024 01 23 08 37 49	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 08 37 49	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 08 37 51	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 08 37 51	9、False
+2024 01 23 08 39 04	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 08 39 04	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 08 39 08	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 08 39 08	14、False
+2024 01 23 08 39 51	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 08 39 51	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 08 39 55	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 08 39 55	10、False
+2024 01 23 08 41 08	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 08 41 08	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 08 41 12	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 08 41 12	15、False
+2024 01 23 08 41 55	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 08 41 55	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 08 41 59	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 08 41 59	11、False
+2024 01 23 08 43 12	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 08 43 12	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 08 43 16	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 08 43 16	16、False
+2024 01 23 08 43 59	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 08 43 59	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 08 44 03	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 08 44 03	12、False
+2024 01 23 08 45 16	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 08 45 16	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 08 45 20	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 08 45 20	17、False
+2024 01 23 08 46 03	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 08 46 03	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 08 46 07	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 08 46 07	13、False
+2024 01 23 08 47 20	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 08 47 20	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 08 47 24	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 08 47 24	18、False
+2024 01 23 08 48 07	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 08 48 07	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 08 48 11	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 08 48 11	14、False
+2024 01 23 08 49 24	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 08 49 24	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 08 49 28	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 08 49 28	19、False
+2024 01 23 08 50 11	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 08 50 11	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 08 50 15	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 08 50 15	15、False
+2024 01 23 08 51 28	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 08 51 28	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 08 51 32	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 08 51 32	20、False
+2024 01 23 08 52 15	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 08 52 15	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 08 52 19	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 08 52 19	16、False
+2024 01 23 08 53 32	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 08 53 32	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 08 53 36	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 08 53 36	21、False
+2024 01 23 08 54 19	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 08 54 19	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 08 54 23	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 08 54 23	17、False
+2024 01 23 08 55 36	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 08 55 36	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 08 55 40	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 08 55 40	22、False
+2024 01 23 08 56 23	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 08 56 23	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 08 56 27	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 08 56 27	18、False
+2024 01 23 08 57 40	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 08 57 40	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 08 57 44	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 08 57 44	23、False
+2024 01 23 08 58 27	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 08 58 27	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 08 58 31	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 08 58 31	19、False
+2024 01 23 08 59 44	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 08 59 44	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 08 59 48	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 08 59 48	24、False
+2024 01 23 09 00 31	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 09 00 31	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 09 00 35	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 09 00 35	20、False
+2024 01 23 09 01 48	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 09 01 48	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 09 01 52	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 09 01 52	25、False
+2024 01 23 09 02 35	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 09 02 35	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 09 02 39	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 09 02 39	21、False
+2024 01 23 09 03 52	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 09 03 52	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 09 03 56	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 09 03 56	26、False
+2024 01 23 09 04 39	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 09 04 39	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 09 04 43	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 09 04 43	22、False
+2024 01 23 09 05 56	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 09 05 56	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 09 06 00	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 09 06 00	27、False
+2024 01 23 09 06 43	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 09 06 43	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 09 06 47	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 09 06 47	23、False
+2024 01 23 09 08 00	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 09 08 00	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 09 08 04	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 09 08 04	28、False
+2024 01 23 09 08 47	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 09 08 47	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 09 08 51	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 09 08 51	24、False
+2024 01 23 09 10 04	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 09 10 04	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 09 10 08	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 09 10 08	29、False
+2024 01 23 09 10 51	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 09 10 51	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 09 10 55	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 09 10 55	25、False
+2024 01 23 09 12 08	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 09 12 08	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 09 12 12	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 09 12 12	30、False
+2024 01 23 09 12 55	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 09 12 55	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 09 12 59	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 09 12 59	26、False
+2024 01 23 09 14 12	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 09 14 12	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 09 14 16	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 09 14 16	31、False
+2024 01 23 09 14 59	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 09 14 59	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 09 15 03	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 09 15 03	27、False
+2024 01 23 09 16 16	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 09 16 16	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 09 16 20	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 09 16 20	32、False
+2024 01 23 09 17 03	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 09 17 03	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 09 17 07	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 09 17 07	28、False
+2024 01 23 09 18 20	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 09 18 20	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 09 18 24	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 09 18 24	33、False
+2024 01 23 09 19 07	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 09 19 07	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 09 19 11	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 09 19 11	29、False
+2024 01 23 09 20 24	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 09 20 24	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 09 20 28	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 09 20 28	34、False
+2024 01 23 09 34 34	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 09 34 34	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 09 34 38	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 09 34 38	30、False
+2024 01 23 09 35 51	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 09 35 51	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 09 35 55	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 09 35 55	35、False
+2024 01 23 09 36 38	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 09 36 38	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 09 36 42	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 09 36 42	31、False
+2024 01 23 09 37 55	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 09 37 55	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 09 37 59	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 09 37 59	36、False
+2024 01 23 09 38 42	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 09 38 42	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 09 38 46	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 09 38 46	32、False
+2024 01 23 09 39 59	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 09 39 59	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 09 40 03	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 09 40 03	37、False
+2024 01 23 09 40 46	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 09 40 46	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 09 40 50	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 09 40 50	33、False
+2024 01 23 09 42 03	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 09 42 03	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 09 42 07	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 09 42 07	38、False
+2024 01 23 09 42 50	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 09 42 50	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 09 42 54	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 09 42 54	34、False
+2024 01 23 09 44 07	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 09 44 07	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 09 44 11	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 09 44 11	39、False
+2024 01 23 09 44 54	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 09 44 54	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 09 44 58	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 09 44 58	35、False
+2024 01 23 09 46 11	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 09 46 11	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 09 46 15	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 09 46 15	40、False
+2024 01 23 09 46 58	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 09 46 58	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 09 47 02	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 09 47 02	36、False
+2024 01 23 09 48 15	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 09 48 15	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 09 48 19	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 09 48 19	41、False
+2024 01 23 09 49 02	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 09 49 02	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 09 49 06	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 09 49 06	37、False
+2024 01 23 09 50 19	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 09 50 19	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 09 50 23	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 09 50 23	42、False
+2024 01 23 09 51 06	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 09 51 06	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 09 51 10	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 09 51 10	38、False
+2024 01 23 09 52 23	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 09 52 23	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 09 52 27	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 09 52 27	43、False
+2024 01 23 09 53 10	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 09 53 10	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 09 53 14	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 09 53 14	39、False
+2024 01 23 09 54 27	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 09 54 27	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 09 54 31	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 09 54 31	44、False
+2024 01 23 09 55 14	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 09 55 14	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 09 55 18	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 09 55 18	40、False
+2024 01 23 09 56 31	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 09 56 31	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 09 56 35	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 09 56 35	45、False
+2024 01 23 09 57 18	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 09 57 18	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 09 57 22	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 09 57 22	41、False
+2024 01 23 09 58 35	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 09 58 35	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 09 58 39	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 09 58 39	46、False
+2024 01 23 09 59 22	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 09 59 22	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 09 59 26	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 09 59 26	42、False
+2024 01 23 10 00 39	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 00 39	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 00 43	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 00 43	47、False
+2024 01 23 10 01 26	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 01 26	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 01 30	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 01 30	43、False
+2024 01 23 10 02 43	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 02 43	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 02 47	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 02 47	48、False
+2024 01 23 10 03 30	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 03 30	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 03 34	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 03 34	44、False
+2024 01 23 10 04 47	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 04 47	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 04 51	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 04 51	49、False
+2024 01 23 10 05 34	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 05 34	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 05 38	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 05 38	45、False
+2024 01 23 10 06 51	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 06 51	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 06 55	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 06 55	50、False
+2024 01 23 10 07 38	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 07 38	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 07 42	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 07 42	46、False
+2024 01 23 10 08 55	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 08 55	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 08 59	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 08 59	51、False
+2024 01 23 10 09 42	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 09 42	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 09 46	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 09 46	47、False
+2024 01 23 10 10 59	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 10 59	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 11 03	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 11 03	52、False
+2024 01 23 10 11 46	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 11 46	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 11 50	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 11 50	48、False
+2024 01 23 10 13 03	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 13 03	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 13 07	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 13 07	53、False
+2024 01 23 10 13 50	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 13 50	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 13 54	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 13 54	49、False
+2024 01 23 10 15 07	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 15 07	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 15 11	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 15 11	54、False
+2024 01 23 10 15 54	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 15 54	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 15 58	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 15 59	50、False
+2024 01 23 10 17 11	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 17 11	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 17 15	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 17 15	55、False
+2024 01 23 10 17 59	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 17 59	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 18 03	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 18 03	51、False
+2024 01 23 10 19 15	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 19 15	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 19 19	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 19 19	56、False
+2024 01 23 10 20 03	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 20 03	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 20 07	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 20 07	52、False
+2024 01 23 10 21 19	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 21 19	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 21 23	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 21 23	57、False
+2024 01 23 10 22 07	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 22 07	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 22 11	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 22 11	53、False
+2024 01 23 10 23 23	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 23 23	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 23 27	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 23 27	58、False
+2024 01 23 10 24 11	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 24 11	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 24 15	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 24 15	54、False
+2024 01 23 10 25 27	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 25 28	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 25 32	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 25 32	59、False
+2024 01 23 10 26 15	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 26 15	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 26 19	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 26 19	55、False
+2024 01 23 10 27 32	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 27 32	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 27 36	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 27 36	60、False
+2024 01 23 10 28 19	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 28 19	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 28 23	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 28 23	56、False
+2024 01 23 10 29 36	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 29 36	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 29 40	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 29 40	61、False
+2024 01 23 10 30 23	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 30 23	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 30 27	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 30 27	57、False
+2024 01 23 10 31 40	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 31 40	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 31 44	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 31 44	62、False
+2024 01 23 10 32 27	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 32 27	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 32 31	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 32 31	58、False
+2024 01 23 10 33 44	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 33 44	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 33 48	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 33 48	63、False
+2024 01 23 10 34 31	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 34 31	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 34 35	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 34 35	59、False
+2024 01 23 10 35 48	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 35 48	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 35 52	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 35 52	64、False
+2024 01 23 10 36 35	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 36 35	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 36 39	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 36 39	60、False
+2024 01 23 10 37 52	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 37 52	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 37 54	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 37 54	65、False
+2024 01 23 10 38 39	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 38 39	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 38 41	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 38 41	61、False
+2024 01 23 10 39 54	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 39 54	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 39 56	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 39 56	66、False
+2024 01 23 10 40 41	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 40 41	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 40 43	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 40 43	62、False
+2024 01 23 10 41 56	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 41 56	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 41 58	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 41 58	67、False
+2024 01 23 10 42 43	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 42 43	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 42 45	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 42 45	63、False
+2024 01 23 10 43 58	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 43 58	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 44 00	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 44 00	68、False
+2024 01 23 10 44 45	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 44 45	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 44 47	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 44 47	64、False
+2024 01 23 10 46 00	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 46 00	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 46 02	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 46 02	69、False
+2024 01 23 10 46 47	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 46 47	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 46 49	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 46 49	65、False
+2024 01 23 10 48 02	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 48 02	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 48 04	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 48 04	70、False
+2024 01 23 10 48 49	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 48 49	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 48 51	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 48 51	66、False
+2024 01 23 10 50 04	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 50 04	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 50 08	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 50 08	71、False
+2024 01 23 10 50 51	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 50 51	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 50 55	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 50 55	67、False
+2024 01 23 10 52 08	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 52 08	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 52 12	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 52 12	72、False
+2024 01 23 10 52 55	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 52 55	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 52 59	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 52 59	68、False
+2024 01 23 10 54 12	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 54 12	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 54 16	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 54 16	73、False
+2024 01 23 10 54 59	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 54 59	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 55 03	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 55 03	69、False
+2024 01 23 10 56 16	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 56 16	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 56 20	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 56 20	74、False
+2024 01 23 10 57 03	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 57 03	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 57 07	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 57 07	70、False
+2024 01 23 10 58 20	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 58 20	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 58 24	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 58 24	75、False
+2024 01 23 10 59 07	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 10 59 07	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 10 59 11	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 10 59 11	71、False
+2024 01 23 11 00 24	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 00 24	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 00 28	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 00 28	76、False
+2024 01 23 11 01 11	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 01 11	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 01 15	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 01 15	72、False
+2024 01 23 11 02 28	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 02 28	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 02 32	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 02 32	77、False
+2024 01 23 11 03 15	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 03 15	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 03 19	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 03 19	73、False
+2024 01 23 11 04 32	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 04 32	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 04 36	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 04 36	78、False
+2024 01 23 11 05 19	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 05 19	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 05 21	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 05 21	74、False
+2024 01 23 11 06 36	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 06 36	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 06 38	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 06 38	79、False
+2024 01 23 11 07 21	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 07 21	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 07 24	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 07 24	75、False
+2024 01 23 11 08 38	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 08 38	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 08 40	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 08 40	80、False
+2024 01 23 11 09 24	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 09 24	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 09 26	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 09 26	76、False
+2024 01 23 11 10 40	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 10 40	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 10 42	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 10 42	81、False
+2024 01 23 11 11 26	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 11 26	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 11 28	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 11 28	77、False
+2024 01 23 11 12 42	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 12 42	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 12 45	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 12 45	82、False
+2024 01 23 11 13 28	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 13 28	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 13 30	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 13 30	78、False
+2024 01 23 11 14 45	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 14 45	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 14 47	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 14 47	83、False
+2024 01 23 11 15 30	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 15 30	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 15 32	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 15 32	79、False
+2024 01 23 11 16 47	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 16 47	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 16 49	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 16 49	84、False
+2024 01 23 11 17 32	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 17 32	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 17 34	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 17 34	80、False
+2024 01 23 11 18 49	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 18 49	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 18 51	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 18 51	85、False
+2024 01 23 11 19 34	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 19 34	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 19 36	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 19 36	81、False
+2024 01 23 11 20 51	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 20 51	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 20 53	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 20 53	86、False
+2024 01 23 11 21 36	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 21 36	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 21 38	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 21 38	82、False
+2024 01 23 11 22 53	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 22 53	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 22 55	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 22 55	87、False
+2024 01 23 11 23 38	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 23 38	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 23 40	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 23 40	83、False
+2024 01 23 11 24 55	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 24 55	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 24 57	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 24 57	88、False
+2024 01 23 11 25 40	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 25 40	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 25 42	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 25 42	84、False
+2024 01 23 11 26 57	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 26 57	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 26 59	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 26 59	89、False
+2024 01 23 11 27 42	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 27 42	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 27 44	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 27 44	85、False
+2024 01 23 11 28 59	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 28 59	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 29 01	System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 10.175.5.59:8090
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 29 01	90、False
+2024 01 23 11 29 44	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 29 44	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 29 48	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 29 48	86、False
+2024 01 23 11 31 01	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 31 01	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 31 05	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 31 05	91、False
+2024 01 23 11 31 48	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 31 48	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 31 52	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 31 52	87、False
+2024 01 23 11 33 05	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 33 05	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 33 09	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 33 09	92、False
+2024 01 23 11 33 52	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 33 52	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 33 56	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 33 56	88、False
+2024 01 23 11 35 09	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 35 09	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 35 13	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 35 13	93、False
+2024 01 23 11 35 56	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 35 56	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 36 00	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 36 00	89、False
+2024 01 23 11 37 13	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 37 13	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 37 17	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 37 17	94、False
+2024 01 23 11 38 00	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 38 00	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 38 04	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 38 04	90、False
+2024 01 23 11 39 17	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 39 17	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 39 21	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 39 21	95、False
+2024 01 23 11 40 04	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 40 04	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 40 08	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 40 08	91、False
+2024 01 23 11 41 21	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 41 21	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 41 25	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 41 25	96、False
+2024 01 23 11 42 08	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 42 08	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 42 12	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 42 12	92、False
+2024 01 23 11 43 25	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 43 25	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 43 29	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 43 29	97、False
+2024 01 23 11 44 12	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 44 12	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 44 16	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 44 16	93、False
+2024 01 23 11 45 29	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 45 29	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 45 33	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 45 33	98、False
+2024 01 23 11 46 16	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 46 16	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 46 20	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 46 20	94、False
+2024 01 23 11 47 33	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 47 33	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 47 37	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 47 37	99、False
+2024 01 23 11 48 20	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 48 20	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 48 24	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 48 24	95、False
+2024 01 23 11 49 37	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 49 37	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 49 41	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 49 41	100、False
+2024 01 23 11 50 24	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 50 24	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 50 28	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 50 28	96、False
+2024 01 23 11 51 41	URL:http://10.175.5.59:8090/api/ComputerStatusUpload/ComputerTestOnlineUpload
+2024 01 23 11 51 41	Writedata:{
+  "model": "VCS001",
+  "station": "T3.4",
+  "machineName": "VNML04OF-000406",
+  "mesFlag": "2",
+  "computerConfigurationInfo": "True",
+  "version": "V00001"
+}
+2024 01 23 11 51 45	System.Net.WebException: The operation has timed out
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ConnectToserver.HttpPost(String url, String Writedata, String Method, String& error)
+2024 01 23 11 51 45	101、False

@@ -1,0 +1,21 @@
+2024-01-23 08:10:30-checkEmpNo==>>Execute Start
+2024-01-23 08:10:30-checkEmpNo==>>Param【EMP】【91201975】
+2024-01-23 08:10:30-checkEmpNo==>>Param【STATION】【HDT565_T3.03】
+2024-01-23 08:10:30-checkEmpNo==>>Result【OK;】 - Exectue Total【104】ms 
+2024-01-23 08:10:30-GetPart==>>Execute Start
+2024-01-23 08:10:30-GetPart==>>Param【WO】【009900112233】
+2024-01-23 08:10:30-GetPart==>>Result【74V001002000】 - Exectue Total【13】ms 
+2024-01-23 08:12:34-checkEmpNo==>>Execute Start
+2024-01-23 08:12:34-checkEmpNo==>>Param【EMP】【91201975】
+2024-01-23 08:12:34-checkEmpNo==>>Param【STATION】【VCS001_T2.3-1】
+2024-01-23 08:12:34-checkEmpNo==>>Result【OK;】 - Exectue Total【19】ms 
+2024-01-23 08:12:34-GetPart==>>Execute Start
+2024-01-23 08:12:34-GetPart==>>Param【WO】【009900112233】
+2024-01-23 08:12:34-GetPart==>>Result【74V001002000】 - Exectue Total【8】ms 
+2024-01-23 08:21:30-checkEmpNo==>>Execute Start
+2024-01-23 08:21:30-checkEmpNo==>>Param【EMP】【91201975】
+2024-01-23 08:21:30-checkEmpNo==>>Param【STATION】【VCS001_T3.4】
+2024-01-23 08:21:30-checkEmpNo==>>Result【OK;】 - Exectue Total【12】ms 
+2024-01-23 08:21:30-GetPart==>>Execute Start
+2024-01-23 08:21:30-GetPart==>>Param【WO】【009900112233】
+2024-01-23 08:21:30-GetPart==>>Result【74V001002000】 - Exectue Total【8】ms 

@@ -1,0 +1,26 @@
+binaries:
+    - name: ssb
+      files:
+          - images/application_binaries/ssb_dongle.bin
+      address: 0x0
+    - name: kl_app
+      files:
+          - images/application_binaries/dongle_4032.bin.eep
+      offset_index: 0
+      partition: { name: "app", type: firmware }
+      headroom: -1
+    - name: nxh_app
+      files:
+          - images/nxh3670_binaries/arm/phGamingTx.ihex.eep
+      offset_index: 1
+      partition: { name: "app", type: firmware }
+    - name: rfmac
+      files:
+          - images/nxh3670_binaries/rfmac/rfmac.eep
+      offset_index: 2
+      partition: { name: "app", type: firmware }
+    - name: cf
+      files:
+          - images/nxh3670_binaries/cf/phStereoInterleavedAsrcTx.eep
+      offset_index: 3
+      partition: { name: "app", type: firmware }

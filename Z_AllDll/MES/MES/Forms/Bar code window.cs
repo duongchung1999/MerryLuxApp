@@ -3,6 +3,7 @@ using System.Runtime.InteropServices;
 using System.Windows.Forms;
 using System.Drawing;
 using System.Threading;
+using System.Threading.Tasks;
 
 namespace MerryTest
 {
@@ -80,12 +81,17 @@ namespace MerryTest
             Control.CheckForIllegalCrossThreadCalls = false;
 
         }
-        private void messageBox_Load(object sender, EventArgs e)
+        [DllImport("user32.dll", EntryPoint = "SetForegroundWindow")]
+        public static extern bool SetForegroundWindow(IntPtr hWnd);//设置此窗体为活动窗体
+        private async void messageBox_Load(object sender, EventArgs e)
         {
+            await Task.Run(() => Thread.Sleep(200));
+            SetForegroundWindow(Handle);
             Text = names;
             Message_label.Text = message;
             TopLevel = true;
             TopMost = true;
+            BarCode_textBox.Focus();
 
         }
         private void button1_Click(object sender, EventArgs e)

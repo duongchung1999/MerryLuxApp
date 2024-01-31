@@ -1,0 +1,20 @@
+﻿1,开机,N/A,N/A,N/A,1,PowerOn
+2,DonglePIDVID,N/A,0x098D&0x03F0,0x098D&0x03F0,1,GetDonglePV
+3,HeadsetPIDVID,N/A,N/A,N/A,3,GetHeadsetPV
+4,Dongle FW,N/A,V4.1.0.8.0,V4.1.0.8.0,1,GetDongleFW
+5,Headset FW,N/A,V3.1.0.8.0,V3.1.0.8.0,1,GetHeadsetFW
+6,充电电流,mA,54,580,5,	dllname=_8342&电流直流电=A_DC&量程=0.5
+7,QueryBD,N/A,N/A,N/A,6,dllname=MES&method=QueryBDNoBySN0
+8,Check Headset BD with MESBD,N/A,N/A,N/A,3,HasHeadsetWrittenMESBD1
+9,扫Dongle条码,N/A,N/A,N/A,6,dllname=MES&method=BarCodeWindow&条码长度=12
+0,-获取DongleSN对应的BD,N/A,N/A,N/A,6,dllname=MES&method=QueryBDNoBySN
+10,Check Dongle BD with MESBD,N/A,N/A,N/A,3,HasDongleWrittenMESBD1
+11,读取耳机BD,N/A,N/A,N/A,3,GetHeadsetID
+12,读DongleBD,N/A,N/A,N/A,3,GetDongleID
+13,电池类型,N/A,N/A,N/A,3,GetBatteryConfig
+14,配对,N/A,N/A,N/A,3,ManualPair
+15,+clearKL,N/A,N/A,N/A,1,clearKL
+16,等待配对成功,N/A,N/A,N/A,3,WaitingConnected
+0,-UnPlug TypeC,N/A,N/A,N/A,6,dllname=Common&弹窗判断=forms&显示信息=请拔线/Vui lòng rút dây TypeC
+17,PowerOff(ByDongle),N/A,N/A,N/A,1,PowerOffByDongle
+18,BindingSN,N/A,N/A,N/A,6,	 dllname=MES&获取BD和=BindingSN

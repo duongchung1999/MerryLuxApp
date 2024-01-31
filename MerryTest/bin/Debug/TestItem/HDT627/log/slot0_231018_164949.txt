@@ -1,0 +1,88 @@
+﻿10/18 16:49:49.636 0.017 I tool_version: 2.9.0/V2.9.0_20220114_081940/v2.9.2_2021_12_28_16_45_51/geneva-dev-maindev
+10/18 16:49:49.620 0.001 I SetLogLevel: 2
+10/18 16:49:49.620 0.001 D set log_level=2
+10/18 16:49:49.620 0.001 D [task_time][ToolLogLevel] spend 0.000
+10/18 16:49:49.620 0.001 V [task_end][ToolLogLevel] ------------------------------------------
+10/18 16:49:49.621 0.002 V arg[airoha_task]=ConnectDutByUsbHid
+10/18 16:49:49.621 0.002 V [task] ConnectDutByUsbHid, class: ConnectDevice
+10/18 16:49:49.621 0.002 V [task_start][ConnectDutByUsbHid] +++++++++++++++++++++++
+10/18 16:49:49.621 0.002 V arg[device_name]=DUT_HEADSET
+10/18 16:49:49.621 0.002 V arg[device_type]=USB_HID
+10/18 16:49:49.621 0.002 V arg[action]=connect
+10/18 16:49:49.621 0.002 V arg[connected_by_usb]=
+10/18 16:49:49.621 0.002 V arg[port]=
+10/18 16:49:49.621 0.002 D [SerialHost] phy_name:USB_HID
+10/18 16:49:49.621 0.002 D phy_type:5
+10/18 16:49:49.621 0.002 D [SerialHost] trans_name:USB_HID
+10/18 16:49:49.621 0.002 D [tp_fty] trans_type:9
+10/18 16:49:49.621 0.002 D [UsbHidPhy] transport : USB_HID 
+10/18 16:49:49.621 0.002 D [SerialHost] phy_open
+10/18 16:49:49.621 0.002 D [UsbHidPhy] transport : USB_HID 
+10/18 16:49:49.621 0.002 I [UsbHidPhy] open [046D:0AFF] usb[]
+10/18 16:49:49.724 0.105 I [UsbHidPhy] get [046D:0AFF] usb[] serial[0000000000000000]
+10/18 16:49:49.724 0.105 D [UsbHidPhy] open: 046d:0aff
+10/18 16:49:49.724 0.105 D [UartDevice] Connect: 0
+10/18 16:49:49.724 0.105 D [ConnectDutByUsbHid] connect: DUT_HEADSET(USB_HID)
+10/18 16:49:49.724 0.105 D [task_time][ConnectDutByUsbHid] spend 0.103
+10/18 16:49:49.724 0.105 V [task_end][ConnectDutByUsbHid] ------------------------------------------
+10/18 16:49:49.724 0.105 V [transact] result="pass"
+10/18 16:49:49.724 0.105 W [UsbHidPhy] drop invalid hid data: 512 070002055B1000000A0C003132333435363744454647450000000000000000000000000000000000000000000000000000000000000000000000000000000000E2
+10/18 16:49:49.725 0.106 W [UsbHidPhy] drop invalid hid data: 512 070002055B1000000A0C003132333435363744454647450000000000000000000000000000000000000000000000000000000000000000000000000000000000E2
+10/18 16:49:49.730 0.110 W [UsbHidPhy] drop invalid hid data: 512 070002055B1000000A0C003132333435363744454647450000000000000000000000000000000000000000000000000000000000000000000000000000000000E2
+10/18 16:49:49.730 0.110 V arg[airoha_task]=airoha_cmd
+10/18 16:49:49.730 0.110 V [task] airoha_cmd, class: AirohaCommandTask
+10/18 16:49:49.730 0.110 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/18 16:49:49.730 0.110 V arg[device_name]=DUT_HEADSET
+10/18 16:49:49.730 0.110 V arg[command_xml]=command_627.xml
+10/18 16:49:49.730 0.110 V arg[airoha_cmd]=RACE_PCBA_SN
+10/18 16:49:49.730 0.110 I [airoha_cmd] RACE_PCBA_SN
+10/18 16:49:49.731 0.112 D [046d:0aff] Write(10)
+10/18 16:49:49.733 0.114 D [046d:0aff] chunk: 62(10) (10/10) 060A00
+10/18 16:49:49.733 0.114 V [046d:0aff] Write: 62(10) (10/10) 060A00055A0600000A0BF80C0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+10/18 16:49:49.734 0.115 D [046d:0aff][write 10 RACE_PCBA_SN] 055A0600000A0BF80C00
+10/18 16:49:49.739 0.119 D [046d:0aff] Read(20)
+10/18 16:49:49.739 0.119 V [046d:0aff][read 23] 071400055B1000000A0C00504853494848515050508882
+10/18 16:49:49.739 0.119 I [RxP 20] 055B1000000A0C00504853494848515050508882
+10/18 16:49:49.739 0.119 V [Match 20 RACE_PCBA_SN] 055B1000000A0C00504853494848515050508882
+10/18 16:49:49.739 0.119 W [CmdR] resp not found: status
+10/18 16:49:49.739 0.119 D [task_time][airoha_cmd] spend 0.009
+10/18 16:49:49.739 0.119 V [task_end][airoha_cmd] ------------------------------------------
+10/18 16:49:49.739 0.119 V [transact] payload="828850505051484849534850"
+10/18 16:49:49.787 0.167 V arg[airoha_task]=airoha_cmd
+10/18 16:49:49.787 0.167 V [task] airoha_cmd, class: AirohaCommandTask
+10/18 16:49:49.787 0.167 V [task_start][airoha_cmd] +++++++++++++++++++++++
+10/18 16:49:49.787 0.167 V arg[device_name]=DUT_HEADSET
+10/18 16:49:49.787 0.167 V arg[command_xml]=command_627.xml
+10/18 16:49:49.787 0.167 V arg[airoha_cmd]=RACE_SN
+10/18 16:49:49.787 0.167 I [airoha_cmd] RACE_SN
+10/18 16:49:49.787 0.167 D [046d:0aff] Write(10)
+10/18 16:49:49.788 0.168 D [046d:0aff] chunk: 62(10) (10/10) 060A00
+10/18 16:49:49.788 0.168 V [046d:0aff] Write: 62(10) (10/10) 060A00055A0600000A02F80C0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+10/18 16:49:49.790 0.170 D [046d:0aff][write 10 RACE_SN] 055A0600000A02F80C00
+10/18 16:49:49.791 0.171 V [UsbHidPhy] device is writing, skip.
+10/18 16:49:49.795 0.175 D [046d:0aff] Read(20)
+10/18 16:49:49.795 0.175 V [046d:0aff][read 23] 071400055B1000000A0C00313233343536374445464745
+10/18 16:49:49.795 0.175 I [RxP 20] 055B1000000A0C00313233343536374445464745
+10/18 16:49:49.795 0.175 V [Match 20 RACE_SN] 055B1000000A0C00313233343536374445464745
+10/18 16:49:49.795 0.175 W [CmdR] resp not found: status
+10/18 16:49:49.795 0.175 D [task_time][airoha_cmd] spend 0.008
+10/18 16:49:49.795 0.175 V [task_end][airoha_cmd] ------------------------------------------
+10/18 16:49:49.795 0.175 V [transact] payload="454746454437363534333231"
+10/18 16:49:49.873 0.253 V arg[airoha_task]=DisconnectDUTByUsbHid
+10/18 16:49:49.873 0.253 V [task] DisconnectDUTByUsbHid, class: ConnectDevice
+10/18 16:49:49.873 0.253 V [task_start][DisconnectDUTByUsbHid] +++++++++++++++++++++++
+10/18 16:49:49.873 0.253 V arg[device_name]=DUT_HEADSET
+10/18 16:49:49.873 0.253 V arg[device_type]=USB_HID
+10/18 16:49:49.873 0.253 V arg[action]=disconnect
+10/18 16:49:49.873 0.253 V arg[port]=
+10/18 16:49:49.873 0.253 D [UsbHidPhy] Close Success.
+10/18 16:49:49.873 0.253 D [host] Clear buffer and queue.
+10/18 16:49:49.873 0.253 V [tp_fty] delete trans
+10/18 16:49:49.873 0.253 V delete phy
+10/18 16:49:49.873 0.253 D [host] Clear buffer and queue.
+10/18 16:49:49.873 0.253 D [UartDevice] Disconnect
+10/18 16:49:49.873 0.253 D [DisconnectDUTByUsbHid] disconnect: DUT_HEADSET(USB_HID)
+10/18 16:49:49.873 0.253 D [task_time][DisconnectDUTByUsbHid] spend 0.000
+10/18 16:49:49.873 0.253 V [task_end][DisconnectDUTByUsbHid] ------------------------------------------
+10/18 16:49:49.873 0.253 V [transact] result="pass"
+10/18 16:49:51.641 2.021 V [log_file_sync]

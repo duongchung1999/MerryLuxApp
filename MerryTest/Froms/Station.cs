@@ -574,5 +574,15 @@ namespace MerryTest.Froms
             }
             this.Close();
         }
+
+        private void lb_testliem_DoubleClick(object sender, EventArgs e)
+        {
+            btn_insetlist_Click_1(null,null);
+        }
+
+        private void listView1_DoubleClick(object sender, EventArgs e)
+        {
+            btn_diletelist_Click(null,null);
+        }
     }
 }

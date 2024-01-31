@@ -1,0 +1,28 @@
+﻿0,-请插入MIC和Dongle,N/A,N/A,N/A,4,dllname=Common_V1&method=MessageBox&Message=请插入MIC和Dongle/Vui lòng cắm MIC、Dongle
+1,Check_Xbox_Security_Status_IC,N/A,N/A,N/A,3,CheckXboxSecurityStatusIC
+2,获取 Dongle 配对状态,N/A,N/A,N/A,3,GetDonglePairStatus
+0,-1S,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=1000
+3,检查 Headset Master Flag From Dongle 9,N/A,9,11,2,ReadHeadsetMasterFlagFromDongle
+0,-1S,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=1000
+4,检查 Dongle SN,N/A,N/A,N/A,3,Dongle_Check_SN
+5,检查耳机右耳 SN From Dongle,N/A,N/A,N/A,3,Headset_Check_Master_SN_From_Dongle
+6,检查Dongle FW 版本,N/A,0.12.62,0.12.62,1,GetDongleFW
+7,检查 Headset Slave FW From Dongle,N/A,0.20.161,0.20.161,1,DonglReadSlaveFW
+8,检查Headset Master FW From Dongle,N/A,0.20.161,0.20.161,1,DonglReadMasterFW
+9,Get MES BD,N/A,N/A,N/A,6,dllname=MES&method=GetBDFromMES
+10,检查 Headset Slave BD From Dongle,N/A,N/A,N/A,3,Headset_Slave_Check_BD_From_Dongle
+11,读Headset Master PCBA SN From Dongle,N/A,N/A,N/A,3,Headset_Read_Master_PCBSN_From_Dongle
+12,读Headset Slave PCBA SN From Dongle,N/A,N/A,N/A,3,Headset_Read_Slave_PCBSN_From_Dongle
+13,检查 Headset 电压 From Dongle,V,3.7,4.2,2,DongleGetBatteryVoltage
+14,播放音乐,N/A,N/A,N/A,6,dllname=Audio_V1&method=PlayTest&DeviceName=VIRTUOSO&MuticName=加州音馆&Message=Xác nhận âm thanh đang phát/请确认音乐播放是否正常
+0,-Audio Open HFP,N/A,N/A,N/A,6,dllname=Audio_V1&method=HFP
+0,-1S,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=1000
+0,-2s,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=2000
+15,录音测试,N/A,N/A,N/A,6,dllname=Audio_V1&method=RecordTestWin10&DeviceName=VIRTUOSO&Message=Kiểm tra Ghi âm/录音测试
+0,-+Audio Close HFP,N/A,N/A,N/A,6,dllname=Audio_V1&method=CloseRundll32
+16,清除蓝牙配对信息 From Dongle,N/A,N/A,N/A,3,ClearBTPairInfoFromDongle
+17,写 Headset Master Flag 10 From Dongle,N/A,N/A,N/A,3,WriteHeadsetMasterFlagFromDongle-10
+18,检查 Headset Master Flag 10 From Dongle,N/A,10,11,2,ReadHeadsetMasterFlagFromDongle
+19,Headset Master Factory Reset From Dongle,N/A,N/A,N/A,3,HeadsetMasterFactoryResetFromDongle
+20,Dongle Factory Reset,N/A,N/A,N/A,3,DongleFactoryReset
+0,-1S,N/A,N/A,N/A,6,dllname=Common_V1&method=Sleep&millisecond=1000

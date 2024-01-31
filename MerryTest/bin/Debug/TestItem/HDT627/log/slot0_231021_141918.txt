@@ -1,0 +1,29 @@
+﻿10/21 14:19:18.875 0.013 I tool_version: 2.9.0/V2.9.0_20220114_081940/v2.9.2_2021_12_28_16_45_51/geneva-dev-maindev
+10/21 14:19:18.863 0.001 I SetLogLevel: 2
+10/21 14:19:18.863 0.001 D set log_level=2
+10/21 14:19:18.863 0.001 D [task_time][ToolLogLevel] spend 0.000
+10/21 14:19:18.863 0.001 V [task_end][ToolLogLevel] ------------------------------------------
+10/21 14:19:18.865 0.003 V arg[airoha_task]=ConnectDutByUsbHid
+10/21 14:19:18.865 0.003 V [task] ConnectDutByUsbHid, class: ConnectDevice
+10/21 14:19:18.865 0.003 V [task_start][ConnectDutByUsbHid] +++++++++++++++++++++++
+10/21 14:19:18.865 0.003 V arg[device_name]=DUT_HEADSET
+10/21 14:19:18.865 0.003 V arg[device_type]=USB_HID
+10/21 14:19:18.865 0.003 V arg[action]=connect
+10/21 14:19:18.865 0.003 V arg[connected_by_usb]=
+10/21 14:19:18.865 0.003 V arg[port]=
+10/21 14:19:18.865 0.003 D [SerialHost] phy_name:USB_HID
+10/21 14:19:18.865 0.003 D phy_type:5
+10/21 14:19:18.865 0.003 D [SerialHost] trans_name:USB_HID
+10/21 14:19:18.865 0.003 D [tp_fty] trans_type:9
+10/21 14:19:18.865 0.003 D [UsbHidPhy] transport : USB_HID 
+10/21 14:19:18.865 0.003 D [SerialHost] phy_open
+10/21 14:19:18.865 0.003 D [UsbHidPhy] transport : USB_HID 
+10/21 14:19:18.865 0.003 I [UsbHidPhy] open [046D:0AFF] usb[]
+10/21 14:19:19.041 0.179 I [UsbHidPhy] get [046D:0AFF] usb[] serial[0000000000000000]
+10/21 14:19:19.041 0.179 D [UsbHidPhy] open: 046d:0aff
+10/21 14:19:19.041 0.179 D [UartDevice] Connect: 0
+10/21 14:19:19.041 0.179 D [ConnectDutByUsbHid] connect: DUT_HEADSET(USB_HID)
+10/21 14:19:19.041 0.179 D [task_time][ConnectDutByUsbHid] spend 0.176
+10/21 14:19:19.041 0.179 V [task_end][ConnectDutByUsbHid] ------------------------------------------
+10/21 14:19:19.041 0.179 V [transact] result="pass"
+10/21 14:19:20.879 2.017 V [log_file_sync]

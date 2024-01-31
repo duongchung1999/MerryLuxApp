@@ -28,8 +28,8 @@ namespace MerryTest
         {
             string dllname = $"程序名称       ：{Text}";
             string dllfunction = "程序功能说明 ：MECH测试平台";
-            string dllHistoryVersion = "历史程序版本：MEVN V23.10.23.0";
-            string dllVersion = "当前程序版本：MEVN V23.12.1.0";
+            string dllHistoryVersion = "历史程序版本：MEVN V23.12.1.0";
+            string dllVersion = "当前程序版本：MEVN V24.1.26.0";
             string dllChangeInfo = "程序改动信息： ";
             string dllChangeInfo1 = "V22.1.8.1：优化启动速度，及版本管理";
             string dllChangeInfo2 = "V22.7.13.0：修复刷新功能";
@@ -45,6 +45,7 @@ namespace MerryTest
             string dllChangeInfo12 = "MEVN V23.7.06.1：autotest方法修改，增加获取Config[PID,VID]";
             string dllChangeInfo13 = "MEVN V23.8.14.1：修改模板的Logo";
             string dllChangeInfo14 = "MEVN V23.10.23.0：增加管控补偿值的Limit";
+            string dllChangeInfo15 = "MEVN V23.12.1.0：调试界面增加双击选择运行项目的功能";
 
             string[] info = { dllname,
                 dllfunction,
@@ -52,7 +53,7 @@ namespace MerryTest
                 dllVersion,
                 dllChangeInfo
                 ,dllChangeInfo1,dllChangeInfo2,dllChangeInfo3,dllChangeInfo4,dllChangeInfo5,dllChangeInfo6,dllChangeInfo7,dllChangeInfo8,dllChangeInfo9,
-                dllChangeInfo10,dllChangeInfo11,dllChangeInfo12,dllChangeInfo13,dllChangeInfo14
+                dllChangeInfo10,dllChangeInfo11,dllChangeInfo12,dllChangeInfo13,dllChangeInfo14,dllChangeInfo15
             };
             return info;
         }

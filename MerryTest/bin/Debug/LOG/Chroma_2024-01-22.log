@@ -1,0 +1,14 @@
+2024-01-22 15:51:36-checkEmpNo==>>Execute Start
+2024-01-22 15:51:36-checkEmpNo==>>Param【EMP】【91201975】
+2024-01-22 15:51:36-checkEmpNo==>>Param【STATION】【HDT565_T2.01】
+2024-01-22 15:51:36-checkEmpNo==>>Result【OK;】 - Exectue Total【23】ms 
+2024-01-22 15:51:36-GetPart==>>Execute Start
+2024-01-22 15:51:36-GetPart==>>Param【WO】【002100039359】
+2024-01-22 15:51:36-GetPart==>>Result【53TX56517001Z】 - Exectue Total【18】ms 
+2024-01-22 15:52:27-checkEmpNo==>>Execute Start
+2024-01-22 15:52:27-checkEmpNo==>>Param【EMP】【91201975】
+2024-01-22 15:52:27-checkEmpNo==>>Param【STATION】【HDT565_T3.03】
+2024-01-22 15:52:27-checkEmpNo==>>Result【OK;】 - Exectue Total【10】ms 
+2024-01-22 15:52:27-GetPart==>>Execute Start
+2024-01-22 15:52:27-GetPart==>>Param【WO】【002100039359】
+2024-01-22 15:52:27-GetPart==>>Result【53TX56517001Z】 - Exectue Total【11】ms 

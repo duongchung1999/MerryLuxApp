@@ -2,31 +2,34 @@
 2,ScanDongleSN,N/A,N/A,N/A,6,dllname=MES&GetBD=BarCodeWindow&条码长度=12
 3,QueryBDNoBySN0,N/A,N/A,N/A,6,dllname=MES&method=QueryBDNoBySN0
 0,-UID_DONGLE,N/A,N/A,N/A,6,dllname=MES&method=UID_Slave&IsSMT=false&PN_Name=FOR PCBA ASS’Y HDT627_TX V2.0.6 20221206
-4,getFwByHeadset,N/A,V2.0.6,V2.0.6,1,getFwByHeadset
-5,ColorZone2RedByHeadset,N/A,N/A,N/A,3,SetLEDColorZone2RedByHeadset
-6,CheckLEDIsRedOrNot,N/A,N/A,N/A,4,dllname=Common&method=Forms&显示信息=Vui lòng kiểm tra đèn Led tai nghe có phải màu đỏ không、请检查耳机LED是否红色
-7,ColorZone2GreenByHeadset,N/A,N/A,N/A,3,SetLEDColorZone2GreenByHeadset
-8,CheckLEDIsGreenOrNot,N/A,N/A,N/A,4,dllname=Common&method=Forms&显示信息=Vui lòng kiểm tra đèn Led tai nghe có phải màu xanh lá cây không、请检查耳机LED是否绿色
-9,ColorZone2BlueByHeadset,N/A,N/A,N/A,3,SetLEDColorZone2BlueByHeadset
-10,CheckLEDIsBlueOrNot,N/A,N/A,N/A,4,dllname=Common&method=Forms&显示信息=Vui lòng kiểm tra đèn Led tai nghe có phải màu xanh da trời không、请检查耳机LED是否蓝色
+4,ChargingCurrentCheckHeadsetAssemblage|1500,mA,100,500,5,dllname=_8342_V1&method=A_DC&NewRange=0.5&Count=1
+5,getFwByHeadset,N/A,V2.0.6,V2.0.6,1,getFwByHeadset
+6,ColorZone2RedByHeadset,N/A,N/A,N/A,3,SetLEDColorZone2RedByHeadset
+7,CheckLEDIsRedOrNot,N/A,N/A,N/A,4,dllname=Common&method=Forms&显示信息=Vui lòng kiểm tra đèn Led tai nghe có phải màu đỏ không、请检查耳机LED是否红色
+8,ColorZone2GreenByHeadset,N/A,N/A,N/A,3,SetLEDColorZone2GreenByHeadset
+9,CheckLEDIsGreenOrNot,N/A,N/A,N/A,4,dllname=Common&method=Forms&显示信息=Vui lòng kiểm tra đèn Led tai nghe có phải màu xanh lá cây không、请检查耳机LED是否绿色
+10,ColorZone2BlueByHeadset,N/A,N/A,N/A,3,SetLEDColorZone2BlueByHeadset
+11,CheckLEDIsBlueOrNot,N/A,N/A,N/A,4,dllname=Common&method=Forms&显示信息=Vui lòng kiểm tra đèn Led tai nghe có phải màu xanh da trời không、请检查耳机LED是否蓝色
 0,-OpenHSUSB|2,N/A,N/A,N/A,3,OpenHSUSB
-11,OpenDongleUSB|2,N/A,N/A,N/A,3,OpenDongleUSB
-12,CheckPCBASNByDongle,N/A,N/A,N/A,3,CheckPCBASNByDongle
-13,GetSNByDongle,N/A,N/A,N/A,3,GetSNByDongle
-14,SetColorIdByHeadSet,N/A,N/A,N/A,3,SetColorIdByHeadSet
-15,GetColorIdByHeadSet,N/A,N/A,N/A,3,GetColorIdByHeadSet
-16,SetColorIdByDongle,N/A,N/A,N/A,3,SetColorIdByDongle
-17,GetColorIdByDongle,N/A,N/A,N/A,3,GetColorIdByDongle
+12,OpenDongleUSB|2,N/A,N/A,N/A,3,OpenDongleUSB
+13,CheckPCBASNByDongle,N/A,N/A,N/A,3,CheckPCBASNByDongle
+14,GetSNByDongle,N/A,N/A,N/A,3,GetSNByDongle
+15,GetBDAFromHeadSet,N/A,N/A,N/A,3,GetBitAddressByHeadSet
+16,SetColorIdByHeadSet,N/A,N/A,N/A,3,SetColorIdByHeadSet
+17,GetColorIdByHeadSet,N/A,N/A,N/A,3,GetColorIdByHeadSet
+18,SetColorIdByDongle,N/A,N/A,N/A,3,SetColorIdByDongle
+0,-2S,N/A,N/A,N/A,6,dllname=Common&method=Sleep&时间=2000
+19,GetColorIdByDongle,N/A,N/A,N/A,3,GetColorIdByDongle
 0,-HeadsetPowerOn,N/A,N/A,N/A,3,HeadsetPowerOn
 0,+-EnableButtonMode,N/A,N/A,N/A,3,EnterButtonMode
-18,VolumeUp,N/A,N/A,N/A,3,VolumeUp
-19,VolumeDown,N/A,N/A,N/A,3,VolumeDown
-20,GetMicMuteStatus,N/A,N/A,N/A,3,GetMicMuteStatus
-21,muteButton,N/A,N/A,N/A,3,muteButton
+20,VolumeUp,N/A,N/A,N/A,3,VolumeUp
+21,VolumeDown,N/A,N/A,N/A,3,VolumeDown
+22,GetMicMuteStatus,N/A,N/A,N/A,3,GetMicMuteStatus
+23,muteButton,N/A,N/A,N/A,3,muteButton
 0,+-DisableButtonMode,N/A,N/A,N/A,3,DisableButtonMode
-22,GetPCBASNByHeadSet,N/A,N/A,N/A,3,GetPCBASNByHeadSet
-23,pair,N/A,N/A,N/A,3,pair
-24,ReadLEDBinCode,N/A,N/A,N/A,3,ReadLEDBinCode
-25,+CloseDongleUSB,N/A,N/A,N/A,1,CloseDongleUSB
+24,GetPCBASNByHeadSet,N/A,N/A,N/A,3,GetPCBASNByHeadSet
+25,pair,N/A,N/A,N/A,3,pair
+26,ReadLEDBinCode,N/A,N/A,N/A,3,ReadLEDBinCode
+27,+CloseDongleUSB,N/A,N/A,N/A,1,CloseDongleUSB
 0,+-CloseHSUSB|1100,N/A,N/A,N/A,3,CloseHSUSB
-26,Binding,N/A,N/A,N/A,6,dllname=MES&method=BindingSN
+28,Binding,N/A,N/A,N/A,6,dllname=MES&method=BindingSN

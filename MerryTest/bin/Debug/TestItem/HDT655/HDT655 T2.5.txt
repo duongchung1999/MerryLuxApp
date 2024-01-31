@@ -1,0 +1,11 @@
+1,开机,N/A,N/A,N/A,1,PowerOn
+2,RXRF准备动作(9320B),N/A,N/A,N/A,1,RXRFSetpu
+3,CH1 ANT1 RF_POWER,N/A,-4,4,2,RX2402ByN9320B
+4,CH20 ANT1 RF_POWER,N/A,-4,4,2,RX2440ByN9320B
+5,CH38 ANT1  RF_POWER,N/A,-4,4,2,RX2480ByN9320B
+6,(MES)获取BD号,N/A,N/A,N/A,6,dllname=MES&获取BD和=GetBDFromMES
+7,写耳机BD,N/A,N/A,N/A,3,WriteHeadsetBD
+8,+clearKL,N/A,N/A,N/A,1,clearKL
+0,-1s,N/A,N/A,N/A,4,dllname=Common&Mode=sleep&Delay=1000
+9,PowerOff,N/A,N/A,N/A,1,PowerOff
+0,-+COM200 open,N/A,N/A,N/A,6,dllname=Common&串口调试=send_read&串口=COM200&写入字符串=open

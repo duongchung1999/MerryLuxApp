@@ -1,0 +1,19 @@
+﻿1,AEC耳机PIDVID,N/A,0x0B8D&0x03F0,0x0B8D&0x03F0,1,GetHeadsetPV
+2,Dongle FW,N/A,V4.1.0.8.0,V4.1.0.8.0,1,GetDongleFW
+3,Headset FW,N/A,V3.1.0.8.0,V3.1.0.8.0,1,GetHeadsetFW
+4,重置设备,N/A,N/A,N/A,1,ResetDevic
+0,-等待连接(OnlyDongle),N/A,N/A,N/A,3,WaitingDongleConnected
+5,弹窗_请拔线,N/A,N/A,N/A,4,dllname=Common&弹窗判断=forms&显示信息=请拔线/Vui lòng rút dây
+6,播放客户音乐,N/A,N/A,N/A,4,dllname=Audio&指令选择=PlayTest&装置名称=HyperX&选择音频=1&显示内容信息=播放敲门声音/Phát âm thanh gõ cửa
+7,播放宽频音乐,N/A,N/A,N/A,4,dllname=Audio&指令选择=PlayTest&装置名称=HyperX&选择音频=2&显示内容信息=播放宽频音乐/Phát âm thanh quét tần số
+8,播放音乐,N/A,N/A,N/A,4,dllname=Audio&指令选择=PlayTest&装置名称=HyperX&选择音频=0&显示内容信息=播放音乐测试/Kiểm tra phát nhạc
+9,录音,N/A,N/A,N/A,4,dllname=Audio&录音测试=RecordTest&装置名称=HyperX&显示内容信息=录音测试/Kiểm tra ghi âm&显示内容信息=播放录音/Phát âm thanh ghi âm
+10,电池版本AEC(ByDongle),N/A,N/A,N/A,3,GetBatteryConfigByDongle
+0,-延时1000,N/A,N/A,N/A,6,dllname=Common&延时=sleep&时间=1000
+11,电池电压,v,3.8,4.2,2,GetBatteryVoltage
+0,-RefreshPercentage,N/A,N/A,N/A,3,RefreshPercentage
+0,-延时1000,N/A,N/A,N/A,6,dllname=Common&延时=sleep&时间=1000
+12,电池电量,%,50,100,2,GetBatteryPercentage
+13,PowerOff（ByDongle）,N/A,N/A,N/A,1,PowerOffByDongle
+0,-延时1000,N/A,N/A,N/A,6,dllname=Common&延时=sleep&时间=1000
+0,-延时1000,N/A,N/A,N/A,6,dllname=Common&延时=sleep&时间=1000
