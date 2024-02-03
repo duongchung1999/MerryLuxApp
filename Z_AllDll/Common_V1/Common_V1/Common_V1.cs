@@ -26,18 +26,17 @@ namespace MerryDllFramework
         #region 接口方法
         public static KeyboardHook k_hook = new KeyboardHook();
         Graphics currentGraphics = Graphics.FromHwnd(new WindowInteropHelper(new System.Windows.Window()).Handle);
-
+        MessageBoxColor MessageBoxColor;
         Dictionary<string, object> OnceConfig = new Dictionary<string, object>();
         Dictionary<string, object> Config;
         _image img = new _image();
         ButtonTest buttonTest;
         public object Interface(Dictionary<string, object> Config) => this.Config = img.Config = Config;
-
         public string[] GetDllInfo()
         {
             string dllname = "DLL 名称       ：Common_V1";
             string dllfunction = "Dll功能说明 ：弹出窗体，串口调试";
-            string dllVersion = "当前Dll版本：23.12.11.0";
+            string dllVersion = "当前Dll版本：24.02.01.0";
             string dllChangeInfo = "Dll改动信息：";
             string dllChangeInfo1 = "22.11.24：增加启用和禁用USB设备，增加处理电脑字符集不一样导致抓取返回值失败";
             string dllChangeInfo2 = "23.3.24：增加获取虚拟SN入口";
@@ -51,7 +50,6 @@ namespace MerryDllFramework
             return info;
         }
         #endregion
-
         public string Run(object[] Command)
         {
             SplitCMD(Command, out string[] cmd);
@@ -60,6 +58,7 @@ namespace MerryDllFramework
             {
                 case "MessageBox": return MessageBox(cmd[2]).ToString();
                 case "Sleep": return Sleep(cmd[2]);
+                case "MessageBox_Color": return MessageBox_Color(cmd[2], cmd[3]).ToString();
                 case "Close_Box": return Close_Box(cmd[2]);
                 case "LockSleep": return LockSleep(cmd[2]);
                 case "WriteTextSerialPort":
@@ -775,10 +774,21 @@ WHERE a1.model_id=a2.id AND a2.`name`='{Config["Name"]}'
             }
 
         }
-
-
-
-
+        /// <summary isPublicTestItem="true">
+        /// MessageBox_Color
+        /// </summary>
+        /// <param name="Message">Message information</param>
+        /// <param name="value" options="BLACK,WHITE,BLUE,GREEN,ORANGE" >Color</param>
+        /// <returns>info</returns>
+        public bool MessageBox_Color(string Message,string value)
+        {
+            MessageBoxColor = new MessageBoxColor(Message, value);
+            MessageBoxColor.Show();
+            int iValue = MessageBoxColor.IValue;
+            MessageBoxColor.Close();
+            if (iValue == 1)return true;
+            return false;
+        }
         /// <summary isPublicTestItem="true">
         /// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ USB设备区 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         /// </summary>

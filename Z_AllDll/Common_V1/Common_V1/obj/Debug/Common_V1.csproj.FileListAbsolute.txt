@@ -57,7 +57,49 @@ D:\Fuzhang\DU AN\COMMON_V1\Common_V1\Common_V1\obj\Debug\Common_V1.MessageBoxs.r
 D:\Fuzhang\DU AN\COMMON_V1\Common_V1\Common_V1\obj\Debug\Common_V1.ProgressBars.resources
 D:\Fuzhang\DU AN\COMMON_V1\Common_V1\Common_V1\obj\Debug\Common_V1.csproj.GenerateResource.cache
 D:\Fuzhang\DU AN\COMMON_V1\Common_V1\Common_V1\obj\Debug\Common_V1.csproj.CoreCompileInputs.cache
-D:\Fuzhang\DU AN\COMMON_V1\Common_V1\Common_V1\obj\Debug\Common_V1.csproj.CopyComplete
 D:\Fuzhang\DU AN\COMMON_V1\Common_V1\Common_V1\obj\Debug\Common_V1.dll
 D:\Fuzhang\DU AN\COMMON_V1\Common_V1\Common_V1\obj\Debug\Common_V1.pdb
 D:\Fuzhang\DU AN\COMMON_V1\Common_V1\Common_V1\obj\Debug\MerryTestFramework.testitem.Forms.ProgressBars1.resources
+C:\Users\Administrator\Desktop\Common_V1\Common_V1\bin\Debug\Common_V1.xml
+C:\Users\Administrator\Desktop\Common_V1\Common_V1\bin\Debug\Common_V1.dll
+C:\Users\Administrator\Desktop\Common_V1\Common_V1\bin\Debug\Common_V1.pdb
+C:\Users\Administrator\Desktop\Common_V1\Common_V1\obj\Debug\Common_V1.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\Common_V1\Common_V1\obj\Debug\Common_V1.Box.resources
+C:\Users\Administrator\Desktop\Common_V1\Common_V1\obj\Debug\Common_V1.MessageBoxs.resources
+C:\Users\Administrator\Desktop\Common_V1\Common_V1\obj\Debug\Common_V1.ProgressBars.resources
+C:\Users\Administrator\Desktop\Common_V1\Common_V1\obj\Debug\Common_V1.MessageBoxColor.resources
+C:\Users\Administrator\Desktop\Common_V1\Common_V1\obj\Debug\MerryTestFramework.testitem.Forms.ProgressBars1.resources
+C:\Users\Administrator\Desktop\Common_V1\Common_V1\obj\Debug\Common_V1.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\Common_V1\Common_V1\obj\Debug\Common_V1.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Common_V1\Common_V1\obj\Debug\Common_V1.csproj.CopyComplete
+C:\Users\Administrator\Desktop\Common_V1\Common_V1\obj\Debug\Common_V1.dll
+C:\Users\Administrator\Desktop\Common_V1\Common_V1\obj\Debug\Common_V1.pdb
+C:\Users\Administrator\Desktop\New folder (2)\Common_V1\Common_V1\bin\Debug\Common_V1.xml
+C:\Users\Administrator\Desktop\New folder (2)\Common_V1\Common_V1\bin\Debug\Common_V1.dll
+C:\Users\Administrator\Desktop\New folder (2)\Common_V1\Common_V1\bin\Debug\Common_V1.pdb
+C:\Users\Administrator\Desktop\New folder (2)\Common_V1\Common_V1\obj\Debug\Common_V1.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\New folder (2)\Common_V1\Common_V1\obj\Debug\Common_V1.Box.resources
+C:\Users\Administrator\Desktop\New folder (2)\Common_V1\Common_V1\obj\Debug\Common_V1.MessageBoxs.resources
+C:\Users\Administrator\Desktop\New folder (2)\Common_V1\Common_V1\obj\Debug\Common_V1.ProgressBars.resources
+C:\Users\Administrator\Desktop\New folder (2)\Common_V1\Common_V1\obj\Debug\Common_V1.MessageBoxColor.resources
+C:\Users\Administrator\Desktop\New folder (2)\Common_V1\Common_V1\obj\Debug\MerryTestFramework.testitem.Forms.ProgressBars1.resources
+C:\Users\Administrator\Desktop\New folder (2)\Common_V1\Common_V1\obj\Debug\Common_V1.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\New folder (2)\Common_V1\Common_V1\obj\Debug\Common_V1.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\New folder (2)\Common_V1\Common_V1\obj\Debug\Common_V1.csproj.CopyComplete
+C:\Users\Administrator\Desktop\New folder (2)\Common_V1\Common_V1\obj\Debug\Common_V1.dll
+C:\Users\Administrator\Desktop\New folder (2)\Common_V1\Common_V1\obj\Debug\Common_V1.pdb
+D:\Fuzhang\DU AN\COMMON_V1\Common_V1\Common_V1\obj\Debug\Common_V1.MessageBoxColor.resources
+C:\Users\91204140\Desktop\Common_V1\Common_V1\bin\Debug\Common_V1.xml
+C:\Users\91204140\Desktop\Common_V1\Common_V1\bin\Debug\Common_V1.dll
+C:\Users\91204140\Desktop\Common_V1\Common_V1\bin\Debug\Common_V1.pdb
+C:\Users\91204140\Desktop\Common_V1\Common_V1\obj\Debug\Common_V1.csproj.AssemblyReference.cache
+C:\Users\91204140\Desktop\Common_V1\Common_V1\obj\Debug\Common_V1.Box.resources
+C:\Users\91204140\Desktop\Common_V1\Common_V1\obj\Debug\Common_V1.MessageBoxs.resources
+C:\Users\91204140\Desktop\Common_V1\Common_V1\obj\Debug\Common_V1.ProgressBars.resources
+C:\Users\91204140\Desktop\Common_V1\Common_V1\obj\Debug\Common_V1.MessageBoxColor.resources
+C:\Users\91204140\Desktop\Common_V1\Common_V1\obj\Debug\MerryTestFramework.testitem.Forms.ProgressBars1.resources
+C:\Users\91204140\Desktop\Common_V1\Common_V1\obj\Debug\Common_V1.csproj.GenerateResource.cache
+C:\Users\91204140\Desktop\Common_V1\Common_V1\obj\Debug\Common_V1.csproj.CoreCompileInputs.cache
+C:\Users\91204140\Desktop\Common_V1\Common_V1\obj\Debug\Common_V1.csproj.CopyComplete
+C:\Users\91204140\Desktop\Common_V1\Common_V1\obj\Debug\Common_V1.dll
+C:\Users\91204140\Desktop\Common_V1\Common_V1\obj\Debug\Common_V1.pdb

@@ -82,6 +82,12 @@
     <Compile Include="Class\IMerryAllDll.cs" />
     <Compile Include="Class\MySQL.cs" />
     <Compile Include="Class\HttpPostAPI.cs" />
+    <Compile Include="MessageBoxColor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MessageBoxColor.Designer.cs">
+      <DependentUpon>MessageBoxColor.cs</DependentUpon>
+    </Compile>
     <Compile Include="ProgressBars1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,12 +105,16 @@
     <EmbeddedResource Include="Class\ProgressBars.resx">
       <DependentUpon>ProgressBars.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MessageBoxColor.resx">
+      <DependentUpon>MessageBoxColor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ProgressBars1.resx">
       <DependentUpon>ProgressBars1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>copy "$(TargetDir)$(ProjectName).dll" "D:\Fuzhang\DU AN\COMMON_V1\DY_MerryTest\MerryTest\bin\Debug\AllDLL\$(ProjectName)\$(ProjectName).dll"</PostBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
   </PropertyGroup>
 </Project>

@@ -240,6 +240,23 @@
             <param name="stringDict">传入键值对</param>
             <returns></returns>
         </member>
+        <member name="F:Common_V1.MessageBoxColor.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Common_V1.MessageBoxColor.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Common_V1.MessageBoxColor.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
         <member name="M:Common_V1._image.CompressImage(System.Boolean)">
             <summary>
             压缩图片
@@ -505,6 +522,14 @@
             </summary>
             <param name="Message">显示在弹框的信息</param>
             <returns>True or False</returns>
+        </member>
+        <member name="M:MerryDllFramework.MerryDll.MessageBox_Color(System.String,System.String)">
+            <summary isPublicTestItem="true">
+            MessageBox_Color
+            </summary>
+            <param name="Message">Message information</param>
+            <param name="value" options="BLACK,WHITE,BLUE,GREEN,ORANGE" >Color</param>
+            <returns>info</returns>
         </member>
         <member name="M:MerryDllFramework.MerryDll.Cut_OffRule__">
             <summary isPublicTestItem="true">
